@@ -9,10 +9,7 @@ import java.net.URL;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -21,8 +18,31 @@ import static java.util.Arrays.asList;
 @Component
 public class Crawler {
     public Queue<String> urlQueue;
+    public List<String> urlsCrawled;
+
+    CrawlerService crawlerService;
+
     public Crawler(){
-        urlQueue= new LinkedList<>(asList("https://no.wikipedia.org/wiki/Yoga"));
+        this.urlQueue= new LinkedList<>(asList("https://no.wikipedia.org/wiki/Yoga"));
+        this.urlsCrawled= new ArrayList<>();
+        this.crawlerService=new CrawlerService();
+
+    }
+
+
+    public void crawl(){
+        Crawler crawler= new Crawler();
+        while(!this.urlQueue.isEmpty()){
+            if (this.urlQueue.size()==2000) {
+                break;
+            }
+            String requestUrl=this.urlQueue.remove();
+            this.readWebpage(requestUrl);
+
+
+        }
+        System.out.println("queue empty");
+
 
     }
 
@@ -50,27 +70,47 @@ public class Crawler {
     }
 
     public void findUrlsInHtml(String webpage){
-        Pattern pattern = Pattern.compile("(https?|ftp)://(-\\.)?([^\\s/?\\.#]+\\.?)+(/[^\\s]*)?[^>]");
-        Matcher contentToMatch = pattern.matcher(webpage);
-        while(contentToMatch.find()){
-            System.out.println(contentToMatch.group());
+
+        Crawler crawler= new Crawler();
+
+        Integer breakingPoint=crawler.breakingPoint(2);
+
+        //"<a\\s+[^>]*href\\s*=\\s*\"(https?://[^\\s/\"]+)\"[^>]*>|<a\\s+[^>]*href\\s*=\\s*'((https?://[^\\s/\']+))'[^>]*>"
+
+        String regexPattern = "<a\\s+[^>]*href\\s*=\\s*\"([^\"]*)\"[^>]*>|<a\\s+[^>]*href\\s*=\\s*'([^']*)'[^>]*>";
+
+        Pattern pattern = Pattern.compile(regexPattern);
+
+        Matcher matcher = pattern.matcher(webpage);
+
+        while (matcher.find()) {
+            String url = matcher.group(1) != null ? matcher.group(1) : matcher.group(2);
+
+            if(!this.urlsCrawled.contains(url)){
+
+                if(url.startsWith("http")){
+                    this.urlsCrawled.add(url);
+                    //System.out.println("Found URL: " + url);
+                    this.urlQueue.add(url);
+                }
+
+            }
+
         }
 
 
     }
 
-    public void crawl(){
-        Crawler crawler = new Crawler();
-        if(!crawler.urlQueue.isEmpty()){
-            String requestUrl=crawler.urlQueue.remove();
-            System.out.println("from crawler: "+requestUrl);
-            crawler.readWebpage(requestUrl);
-
-
+    private boolean checkIfStringStartsWithHttp(String url){
+        if(url.startsWith("http")){
+            return true;
         }else{
-            System.out.println("queue empty");
+            return false;
         }
+    }
 
+    private Integer breakingPoint(Integer breakingPoint){
+        return breakingPoint-1;
     }
 
     public static void main(String[] args){
