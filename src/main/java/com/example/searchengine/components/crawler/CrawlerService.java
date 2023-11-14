@@ -13,6 +13,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDateTime;
 
 @Service
 public class CrawlerService {
@@ -43,6 +44,11 @@ public class CrawlerService {
         }
         return false;
 
+    }
+
+    public void addUrlDataToJsonFile(String jsonFile, String url, LocalDateTime lastTimeCrawled, String content, Integer rating){
+        UrlDataJsonObject jsonObject = new UrlDataJsonObject(jsonFile, url, lastTimeCrawled, content, rating);
+        jsonObject.addUrlDataToJsonFile();
     }
 
     public static void main(String[] args){

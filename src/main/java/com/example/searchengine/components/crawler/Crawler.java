@@ -9,6 +9,7 @@ import java.net.URL;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.time.LocalDateTime;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -32,24 +33,23 @@ public class Crawler {
 
     public void crawl(){
         Crawler crawler= new Crawler();
-        boolean isUrlInFile=this.crawlerService.checkIfPageInJsonFile("https://no.wikipedia.org/wiki/Yoga","data.json");
-        System.out.println("isUrlInFile: "+isUrlInFile);
-/*        while(!this.urlQueue.isEmpty()){
+
+        while(!this.urlQueue.isEmpty()){
             if (this.urlQueue.size()==2000) {
                 break;
             }
             String requestUrl=this.urlQueue.remove();
 
-            this.readWebpage(requestUrl);
+            readWebpage(requestUrl);
 
 
         }
-        System.out.println("queue empty");*/
+        System.out.println("queue empty");
 
 
     }
 
-    private String readWebpage(String requestUrl){
+    private void readWebpage(String requestUrl){
         try{
 
             HttpClient client = HttpClient.newHttpClient();
@@ -67,13 +67,11 @@ public class Crawler {
 
         }catch(Exception e){
             e.printStackTrace();
-        }finally {
-            return "web page";
         }
+
     }
 
     public void findUrlsInHtml(String webpage){
-
         Crawler crawler= new Crawler();
 
         Integer breakingPoint=crawler.breakingPoint(2);
@@ -88,11 +86,13 @@ public class Crawler {
 
         while (matcher.find()) {
             String url = matcher.group(1) != null ? matcher.group(1) : matcher.group(2);
-            if(!this.urlsCrawled.contains(url)){
-
+            boolean isUrlInJsonFile=this.crawlerService.checkIfPageInJsonFile("https://no.wikipedia.org/wiki/Yoga","data.json");
+            if(!isUrlInJsonFile){
                 if(url.startsWith("http")){
-                    this.urlsCrawled.add(url);
-                    System.out.println("Found URL: " + url);
+                    this.crawlerService.addUrlDataToJsonFile("data.json", url, LocalDateTime.now(), "cats", 5);
+
+
+                    //System.out.println("Found URL: " + url);
                     this.urlQueue.add(url);
                 }
 
@@ -103,13 +103,7 @@ public class Crawler {
 
     }
 
-    private boolean checkIfStringStartsWithHttp(String url){
-        if(url.startsWith("http")){
-            return true;
-        }else{
-            return false;
-        }
-    }
+
 
     private Integer breakingPoint(Integer breakingPoint){
         return breakingPoint-1;
