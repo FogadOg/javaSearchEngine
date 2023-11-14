@@ -32,16 +32,19 @@ public class Crawler {
 
     public void crawl(){
         Crawler crawler= new Crawler();
-        while(!this.urlQueue.isEmpty()){
+        boolean isUrlInFile=this.crawlerService.checkIfPageInJsonFile("https://no.wikipedia.org/wiki/Yoga","data.json");
+        System.out.println("isUrlInFile: "+isUrlInFile);
+/*        while(!this.urlQueue.isEmpty()){
             if (this.urlQueue.size()==2000) {
                 break;
             }
             String requestUrl=this.urlQueue.remove();
+
             this.readWebpage(requestUrl);
 
 
         }
-        System.out.println("queue empty");
+        System.out.println("queue empty");*/
 
 
     }
@@ -85,12 +88,11 @@ public class Crawler {
 
         while (matcher.find()) {
             String url = matcher.group(1) != null ? matcher.group(1) : matcher.group(2);
-
             if(!this.urlsCrawled.contains(url)){
 
                 if(url.startsWith("http")){
                     this.urlsCrawled.add(url);
-                    //System.out.println("Found URL: " + url);
+                    System.out.println("Found URL: " + url);
                     this.urlQueue.add(url);
                 }
 
