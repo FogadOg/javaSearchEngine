@@ -14,11 +14,6 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Run My Custom Action
-        with:
-          path: ./.github/workflows/config.yml
-          oldString: push
-          oldStringWin: push
-          newString: --_
-          showFileContent: true
+        run: sed -i 's/push/colour/g' ./.github/workflows/config.yml
         # uses: ./.github/actions
 
