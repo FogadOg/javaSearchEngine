@@ -6,7 +6,7 @@ fs.readFile('myText.txt', 'utf8', (err, data) => {
     return;
   }
 
-  const modifiedData = data.replace(/color/g, 'colour');
+  const modifiedData = data.replace("color", 'colour');
 
   fs.writeFile('myText.txt', modifiedData, 'utf8', (err) => {
     if (err) {
