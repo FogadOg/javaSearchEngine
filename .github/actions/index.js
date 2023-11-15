@@ -6,7 +6,7 @@ fs.readFile('./.github/actions/myText.txt', 'utf8', (err, data) => {
     return;
   }
 
-  const modifiedData = data.replace("color", 'colour');
+  const modifiedData = data.replace(/color/g, 'colour');
 
   fs.writeFile('./.github/actions/myText.txt', modifiedData, 'utf8', (err) => {
     if (err) {
