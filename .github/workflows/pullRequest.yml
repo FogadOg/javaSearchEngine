@@ -1,7 +1,5 @@
-name: My Workflow
-
 on:
-  push:
+  pull_request:
     branches:
       - main
 
@@ -13,6 +11,5 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
       
-      - name: Run My Custom Action
-        uses: ./.github/actions/my-custom-action
-
+      - name: Run My Custom Action Pull
+        uses: ./.github/actions
