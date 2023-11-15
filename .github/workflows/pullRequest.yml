@@ -11,5 +11,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
       
-      - name: Run My Custom Action Pull
+      - name: running pull request script
         uses: ./.github/actions
+        with:
+          file: ./.github/pullRequest/pull.yml
+          matrix:
+            org: 
+              -org1
+              -org2
+              -org3
+
