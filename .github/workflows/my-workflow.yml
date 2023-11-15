@@ -13,5 +13,5 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
       
-      - name: Run Push Action
-        uses: ./.github/actions/push
+      - name: Run My Custom Action
+        uses: ./.github/actions/my-custom-action

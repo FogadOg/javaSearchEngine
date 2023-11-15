@@ -1,4 +1,4 @@
-name: 'Push Action'
+name: 'My Custom Action'
 description: 'An action that echoes a message'
 runs:
   using: 'node12'
