@@ -16,5 +16,6 @@ jobs:
       - name: Run My Custom Action
         run: |
           sed -i 's/push/colour/g' ./.github/workflows/config.yml
+          cat ./.github/workflows/config.yml
         # uses: ./.github/actions
 
