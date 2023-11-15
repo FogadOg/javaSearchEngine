@@ -21,7 +21,7 @@ function replaceTextInFile(filePath, oldText, newText) {
   });
 }
 
-module.exports = replaceTextInFile;
+// module.exports = replaceTextInFile;
 
 
 
@@ -29,7 +29,7 @@ module.exports = replaceTextInFile;
 
 
 
-const replaceTextInFile = require('./replaceText');
+// const replaceTextInFile = require('./replaceText');
 
 const filePath = './.github/actions/myText.txt'; // Replace this with your file path
 const oldText = 'color';
