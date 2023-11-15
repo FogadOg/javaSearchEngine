@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.readFile('myText.txt', 'utf8', (err, data) => {
+fs.readFile('./.github/actions/myText.txt', 'utf8', (err, data) => {
   if (err) {
     console.error(err);
     return;
@@ -8,7 +8,7 @@ fs.readFile('myText.txt', 'utf8', (err, data) => {
 
   const modifiedData = data.replace("color", 'colour');
 
-  fs.writeFile('myText.txt', modifiedData, 'utf8', (err) => {
+  fs.writeFile('./.github/actions/myText.txt', modifiedData, 'utf8', (err) => {
     if (err) {
       console.error(err);
       return;
