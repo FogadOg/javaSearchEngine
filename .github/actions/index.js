@@ -1,9 +1,18 @@
+const fs = require('fs');
 
-fetch(".github/myText.txt")
-.then((res) => res.text())
-.then((text) => {
-    text.replace("color", "colour");
-    
- })
-.catch((e) => console.error(e));
+fs.readFile('myText.txt', 'utf8', (err, data) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
 
+  const modifiedData = data.replace(/color/g, 'colour');
+
+  fs.writeFile('myText.txt', modifiedData, 'utf8', (err) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    console.log('File updated successfully.');
+  });
+});
