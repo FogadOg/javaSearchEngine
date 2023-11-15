@@ -1,0 +1,5 @@
+name: 'My Custom Action Pull'
+description: 'An action that echoes a message'
+runs:
+  using: 'node12'
+  main: 'app.js'
