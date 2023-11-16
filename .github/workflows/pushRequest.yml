@@ -1,18 +1,49 @@
-name: My Workflow
-on:
-  push:
-    branches:
-      - main
+on: [push, workflow_dispatch]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  test_replace:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - windows-latest
+          - ubuntu-latest
+    name: Test replace ${{ matrix.os }}
     steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: write file
+        run: echo "aaaaaabc123awabc123))ww" > ${{ github.workspace }}/a.test
       - name: replace
-        uses: Nambers/ReplaceStringInFile@v1
+        uses: ./
         with:
-          path: config.yml
-          oldString: repository
-          oldStringWin: repository
+          path: ${{ github.workspace }}/a.test
+          oldString: abc123))
+          oldStringWin: abc123\)\)
           newString: --_
+          showFileContent: true
+
+  test_replace2:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - windows-latest
+          - ubuntu-latest
+    name: Test replace ${{ matrix.os }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: write file
+        run: echo "aaaaaabc123awabc123))ww" > ${{ github.workspace }}/a.test
+      - name: replace
+        uses: ./
+        with:
+          path: ${{ github.workspace }}/a.test
+          oldString: abc123))
+          oldStringWin: abc123\)\)
+          escapeBackslash: true
+          newString: C:\Users\user\aaa
           showFileContent: true
