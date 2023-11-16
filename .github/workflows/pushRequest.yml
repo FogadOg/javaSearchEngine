@@ -3,7 +3,7 @@ name: Replace Word in File
 on:
   push:
     branches:
-      - main # Change this to your branch name
+      - main  # Change this to your branch name
 
 jobs:
   replace-word:
@@ -13,12 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Use Node.js
-        uses: actions/setup-node@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
         with:
-          node-version: '14'
+          python-version: '3.x'  # Specify your Python version here
 
       - name: Replace Word
         run: |
-          npm install # If you have dependencies
-          node index.js
+          python script.py
