@@ -5,17 +5,6 @@ on:
     branches:
       - main
 
-  workflow_dispatch: # <-- This is needed for manual triggering
-    inputs:
-      filename:
-        description: 'YAML file name'
-        required: true
-      word_to_replace:
-        description: 'Word to replace'
-        required: true
-      new_word:
-        description: 'New word'
-        required: true
 
 jobs:
   replace-words:
@@ -27,8 +16,6 @@ jobs:
 
       - name: Replace words in YAML
         run: |
-          FILENAME=$1
-          WORD_TO_REPLACE=$2
-          NEW_WORD=$3
+          
 
-          sed -i "s/${WORD_TO_REPLACE}/${NEW_WORD}/g" $FILENAME
+          sed -i "s/${main}/${NEW_WORD}/g" ././github/workflows/config.yml
