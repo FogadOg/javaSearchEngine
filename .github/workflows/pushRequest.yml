@@ -1,22 +1,14 @@
-name: Replace Words in YAML
-
-on:
-  push:
-    branches:
-      - main
-
-
+name: My Workflow
+on: [push, pull_request]
 jobs:
-  replace-words:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Replace words in YAML
-        run: |
-          sed -i "s/repository/newWord/g" config.yml
-
-      - name: Display File Contents After Replacement
-        run: cat config.yml
+      - uses: actions/checkout@v2
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "repository"
+          replace: "world"
+          include: "**config.yml"
+          regex: true
