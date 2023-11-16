@@ -7,16 +7,10 @@ on:
 
 
 jobs:
-  replace-words:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Replace words in YAML
+      - name: Replace Text in Workflow
         run: |
-          sed -i "s/repository/newWord/g" config.yml
-
-      - name: Display File Contents After Replacement
-        run: cat config.yml
+          sed -i 's/This is the line you want to change/This is the updated line/' your_workflow_file.yml
