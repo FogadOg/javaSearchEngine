@@ -16,6 +16,6 @@ jobs:
 
       - name: Replace words in YAML
         run: |
-          sed -i "s/main/newWord/g" config.yml
+          sed -i "s/Repository/newWord/g" config.yml
 
 
