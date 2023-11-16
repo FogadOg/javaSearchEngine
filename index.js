@@ -20,4 +20,4 @@ function replaceWord(filePath, oldWord, newWord) {
 }
 
 
-replaceWord('file.txt', 'oldWord', 'newWord');
+replaceWord('file.txt', 'changeThisWord', 'withThis');
