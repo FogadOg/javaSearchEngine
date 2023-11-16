@@ -18,4 +18,5 @@ jobs:
         run: |
           sed -i "s/repository/newWord/g" config.yml
 
-
+      - name: Display File Contents After Replacement
+        run: cat config.yml
