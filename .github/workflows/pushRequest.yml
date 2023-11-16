@@ -1,16 +1,13 @@
-name: Replace Words in YAML
-
-on:
-  push:
-    branches:
-      - main
-
-
+name: My Workflow
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Replace Text in config.yml
-        run: |
-          sed -i 's/This is the line you want to change/This is the updated line/' config.yml
+      - uses: actions/checkout@v2
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "javaSearchEngine"
+          replace: "world"
+          include: "**README.md" # Will match all README.md files in any nested directory
