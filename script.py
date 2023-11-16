@@ -7,6 +7,8 @@ with open(file_path, 'r') as file:
 
 updated_content = file_content.replace(old_word, new_word)
 
+print("updated_content : ",updated_content)
+
 with open(file_path, 'w') as file:
     file.write(updated_content)
 
