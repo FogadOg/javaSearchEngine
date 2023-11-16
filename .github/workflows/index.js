@@ -1,6 +1,7 @@
 const fs = require('fs');
 
 function replaceWord(filePath, oldWord, newWord) {
+    console.log("from replaceWord")
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
             console.error(err);
