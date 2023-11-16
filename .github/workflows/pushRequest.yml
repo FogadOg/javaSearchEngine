@@ -1,24 +1,22 @@
-name: Replace Word in YAML
+name: Replace Words in YAML
 
 on:
   push:
     branches:
       - main
 
+
 jobs:
-  replace-word:
+  replace-words:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Replace word in YAML
+      - name: Replace words in YAML
         run: |
-          sed -i 's/Repository/newword/g' config.yml
-          # Commit the changes
-          git config --global user.email "fogadm06@gmial.com"
-          git config --global user.name "fogadOg"
-          git add config.yml
-          git commit -m "Replace 'reposetory' with 'newword' in example.yml by GitHub Actions"
-          git push
+          sed -i "s/repository/newWord/g" config.yml
+
+      - name: Display File Contents After Replacement
+        run: cat config.yml
