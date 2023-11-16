@@ -21,4 +21,4 @@ jobs:
       - name: Replace Word
         run: |
           npm install # If you have dependencies
-          node .github/workflows/index.js
+          node index.js
