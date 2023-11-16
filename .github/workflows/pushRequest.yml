@@ -22,7 +22,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add .
-          git commit -m "Replace specific word in file.txt"
+          git commit -m "Replace specific word in config.yml"
           git push
 
 
