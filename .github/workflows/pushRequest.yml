@@ -1,14 +1,24 @@
-name: My Workflow
-on: [push, pull_request]
+name: Replace Word in YAML
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-  build:
+  replace-word:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Find and Replace
-        uses: jacobtomlinson/gha-find-replace@v3
-        with:
-          find: "repository"
-          replace: "world"
-          include: "**config.yml"
-          regex: true
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Replace word in YAML
+        run: |
+          sed -i 's/reposetory/newword/g' config.yml
+          # Commit the changes
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add path/to/example.yml
+          git commit -m "Replace 'reposetory' with 'newword' in example.yml by GitHub Actions"
+          git push
