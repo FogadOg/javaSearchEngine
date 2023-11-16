@@ -14,6 +14,7 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Run My Custom Action
+        uses: jacobtomlinson/gha-find-replace@v3
         with:
           find: "push"
           replace: "world"
