@@ -8,15 +8,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-      
-      - name: Run My Custom Action
+      - uses: actions/checkout@v2
+      - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
         with:
-          find: "request"
+          find: "hello"
           replace: "world"
-          include: "**config"
+          include: "**config" # Update to match the exact name of your file
+
+
 
