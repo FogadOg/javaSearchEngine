@@ -13,7 +13,7 @@ jobs:
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
         with:
-          find: "hello"
+          find: "name"
           replace: "world"
           include: "**config" # Update to match the exact name of your file
 
