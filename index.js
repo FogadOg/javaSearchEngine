@@ -14,7 +14,7 @@ function replaceWord(filePath, oldWord, newWord) {
                 console.error('Error writing to the file:', err);
                 return;
             }
-            console.log(`Word '${oldWord}' replaced with '${newWord}' in ${filePath}`);
+            console.log(`from replaceWord Word '${oldWord}' replaced with '${newWord}' in ${filePath}`);
         });
     });
 }
