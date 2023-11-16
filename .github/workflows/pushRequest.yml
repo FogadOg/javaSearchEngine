@@ -16,7 +16,7 @@ jobs:
       - name: Run My Custom Action
         uses: jacobtomlinson/gha-find-replace@v3
         with:
-          find: "push"
+          find: "request"
           replace: "world"
           include: "**config"
 
