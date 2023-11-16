@@ -13,4 +13,4 @@ jobs:
     steps:
       - name: Replace Text in Workflow
         run: |
-          sed -i 's/This is the line you want to change/This is the updated line/' your_workflow_file.yml
+          sed -i 's/This is the line you want to change/This is the updated line/' config.yml
