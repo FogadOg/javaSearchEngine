@@ -1,7 +1,15 @@
-name: 'push request script'
-description: 'An action that echoes a message'
+on:
+  pull_request:
+    branches:
+      - main
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-
-
+      #- name: running pull request script
+      #  uses: ./.github/actions
