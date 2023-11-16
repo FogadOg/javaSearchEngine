@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Replace Text in Workflow
+      - name: Replace Text in config.yml
         run: |
           sed -i 's/This is the line you want to change/This is the updated line/' config.yml
