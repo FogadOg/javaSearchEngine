@@ -7,14 +7,27 @@ on:
         description: 'file you want to change'
         required: true
         default: ''
+
       wordToReplace:
         description: 'what word do you want to replace'
         required: true
         default: ''
+
       newWord:
         description: 'what word do you what to put in'
         required: true
         default: ''
+
+      username:
+        description: "your github username"
+        required: true
+        default: ''
+
+      email:
+        description: 'your github email'
+        required: true
+        default: ''
+
 
   push:
     branches:
@@ -31,8 +44,8 @@ jobs:
       - name: Replace word in file
         run: |
           sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
-          git config --global user.email "fogadm06@gmiual.com"
-          git config --global user.name "FogadOg"
+          git config --global user.email ${{inputs.email}}
+          git config --global user.name ${{inputs.username}}
           git add .
           git commit -m "Replace 'oldword' with 'newword' in example.yml by GitHub Actions"
           git push
