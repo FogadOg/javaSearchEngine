@@ -1,42 +1,22 @@
-name: Replace Word in File
-
+name: Execute index.js on push
 on:
   push:
     branches:
-      - main
+      - main  # Change this to match your main branch name
 
 jobs:
-  replace-word:
-    runs-on: ubuntu-latest
-
-
-    strategy:
-      matrix:
-        wordsToReplace:  
-          - ${{ split(github.event.inputs.wordsToReplace, ',') }}
+  execute_index:
+    runs-on: ubuntu-latest  # You can change the operating system if needed
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          python-version: '3.12.0'
+          node-version: '14'  # Set the Node.js version you want to use
 
-      - name: Replace words in file
+      - name: Execute index.js
         run: |
-          for word in ${{ matrix.wordsToReplace }}; do
-            sed -i "s/$word/newWord/g" file.txt
-          done
-
-      - name: Configure Git
-        run: |
-          git config --local user.email "fogadm06@gmail.com"
-          git config --local user.name "FogadOg"
-
-      - name: Replace Words
-        run: |
-          git add file.txt
-          git commit -m "Replace specified words with 'newWord'"
-          git push https://FogadOg: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@github.com/FogadOg/javaSearchEngine.git HEAD:main
+          node index.js
