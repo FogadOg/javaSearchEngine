@@ -1,6 +1,5 @@
 name: Replace Word in File
 #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
-#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
 on:
   push:
     branches:
