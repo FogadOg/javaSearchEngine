@@ -18,6 +18,15 @@ on:
         required: true
         default: ''
 
+      username:
+        description: "your github username"
+        required: true
+        default: ''
+
+      email:
+        description: 'your github email'
+        required: true
+        default: ''
 
   push:
     branches:
@@ -31,12 +40,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }} by ${{ github.event.inputs.username }} | ${{ github.event.inputs.email }}
+      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
         run: |
-          sed -i "s/\<${{ inputs.wordToReplace }}\>/${{ inputs.newWord }}/g" ${{ inputs.file }}
-          git config --global user.email ${{ github.event.inputs.email }}
-          git config --global user.name ${{ github.event.inputs.username }}
-
-          git add .
-          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
-          git push
+          node index.js ${{ github.event.inputs.file }} ${{ github.event.inputs.wordToReplace }} ${{ github.event.inputs.newWord }} ${{ github.event.inputs.username }} ${{ github.event.inputs.email }}
+        
