@@ -3,8 +3,7 @@ name: Replace Word in File
 on:
   push:
     branches:
-      - master
-      - cicd-*
+      - main
   workflow_dispatch:
     inputs:
       file:
