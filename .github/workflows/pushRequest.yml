@@ -1,18 +1,14 @@
 name: Replace Word in File
-
+#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
+#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
 on:
-  workflow_dispatch:
-    inputs:
-      newWord:
-        description: 'New word to replace in the file'
-        required: true
+  push:
+    branches:
+      - main  # Change this to your branch name
 
 jobs:
   replace-word:
     runs-on: ubuntu-latest
-
-    env:
-      NEW_WORD: ${{ github.event.inputs.newWord }}
 
     steps:
       - name: Checkout code
@@ -21,11 +17,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.12.0'
+          python-version: '3.12.0'  # Specify your Python version here
 
       - name: Replace word in file
         run: |
-          sed -i 's/oldWord/'"$NEW_WORD"'/g' file.txt
+          sed -i 's/oldWord/newWord/g' file.txt
+
 
       - name: Configure Git
         run: |
@@ -35,5 +32,6 @@ jobs:
       - name: Replace Word
         run: |
           git add file.txt
-          git commit -m "Replace 'oldWord' with '$NEW_WORD'"
+          git commit -m "Replace 'old_word' with 'new_word'"
           git push https://FogadOg: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@github.com/FogadOg/javaSearchEngine.git HEAD:main
+
