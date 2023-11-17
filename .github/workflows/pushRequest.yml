@@ -8,17 +8,27 @@ on:
 
 jobs:
   replace-word:
+    runs-on: ubuntu-latest
+
     strategy:
       matrix:
         oldWord: [you, it, or]
-    runs-on: ubuntu-latest
     
 
   steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12.0'  # Specify your Python version here
 
     - name: Replace word in file
       run: |
-        sed -i 's/${{ matrix.oldWord }}/newWord/g' file.txt
+          for word in ${{ matrix.oldWord }}; do
+            sed -i "s/${word}/newWord/g" file.txt
+          done
 
 
     - name: Configure Git
