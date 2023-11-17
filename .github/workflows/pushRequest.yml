@@ -1,18 +1,18 @@
 name: Replace Word in File
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      newWord:
+        description: 'New word to replace in the file'
+        required: true
 
 jobs:
   replace-word:
     runs-on: ubuntu-latest
 
-    inputs:
-      newWord:
-        description: 'The word to replace in the file'
-        required: true
+    env:
+      NEW_WORD: ${{ github.event.inputs.newWord }}
 
     steps:
       - name: Checkout code
@@ -25,7 +25,7 @@ jobs:
 
       - name: Replace word in file
         run: |
-          sed -i 's/oldWord/${{ inputs.newWord }}/g' file.txt
+          sed -i 's/oldWord/'"$NEW_WORD"'/g' file.txt
 
       - name: Configure Git
         run: |
@@ -35,5 +35,5 @@ jobs:
       - name: Replace Word
         run: |
           git add file.txt
-          git commit -m "Replace 'oldWord' with '${{ inputs.newWord }}'"
+          git commit -m "Replace 'oldWord' with '$NEW_WORD'"
           git push https://FogadOg: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@github.com/FogadOg/javaSearchEngine.git HEAD:main
