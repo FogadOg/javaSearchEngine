@@ -40,13 +40,6 @@ jobs:
         uses: actions/checkout@v2
 
 
-      - name: config user
-        run: |
-          git config --global user.email ${{inputs.email}}
-          git config --global user.name ${{inputs.username}}
-          git add .
-          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
-          git push
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -56,4 +49,10 @@ jobs:
       - name: Run Python script
         run: python main.py ${{ inputs.wordToReplace }} ${{ inputs.newWord }}
         
-
+      - name: config user and push
+        run: |
+          git config --global user.email ${{inputs.email}}
+          git config --global user.name ${{inputs.username}}
+          git add .
+          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
+          git push
