@@ -8,9 +8,9 @@ on:
 
 jobs:
   replace-word:
-      strategy:
+    strategy:
       matrix:
-        oldWord: [newWord1, newWord2, newWord3]
+        oldWord: [you, it, or]
     runs-on: ubuntu-latest
     
 
