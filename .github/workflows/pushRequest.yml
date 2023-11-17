@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         wordsToReplace:
-          - this
+          - is
 
     steps:
       - name: Checkout code
