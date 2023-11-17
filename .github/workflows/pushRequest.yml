@@ -31,3 +31,8 @@ jobs:
       - name: Replace word in file
         run: |
           sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
+          git config --global user.email "fogadm06@gmiual.com"
+          git config --global user.name "FogadOg"
+          git add .
+          git commit -m "Replace 'oldword' with 'newword' in example.yml by GitHub Actions"
+          git push
