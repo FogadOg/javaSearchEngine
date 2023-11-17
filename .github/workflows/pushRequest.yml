@@ -23,7 +23,7 @@ jobs:
 
       - name: Replace word in file
         run: |
-          sed -i 's/oldWord/newWord/g' file.txt
+          sed -i 's/newWord/newWord1/g' file.txt
 
         # - name: Replace words in file
         # run: |
