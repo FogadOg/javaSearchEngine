@@ -28,7 +28,6 @@ on:
         required: true
         default: ''
 
-
   push:
     branches:
       - main
@@ -43,7 +42,7 @@ jobs:
 
       - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
         run: |
-          sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
+          sed -i "s/\<${{ inputs.wordToReplace }}\>/${{ inputs.newWord }}/g" ${{ inputs.file }}
           git config --global user.email ${{inputs.email}}
           git config --global user.name ${{inputs.username}}
           git add .
