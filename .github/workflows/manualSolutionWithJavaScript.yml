@@ -19,14 +19,19 @@ on:
         default: ''
 
       username:
-        description: "your GitHub username"
+        description: "your github username"
         required: true
         default: ''
 
       email:
-        description: 'your GitHub email'
+        description: 'your github email'
         required: true
         default: ''
+
+
+  push:
+    branches:
+      - main
 
 jobs:
   replace-word:
@@ -36,42 +41,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Replace word using Node.js
+      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
         run: |
-          const fs = require('fs');
-
-          const file = '${{ inputs.file }}';
-          const wordToReplace = '${{ inputs.wordToReplace }}';
-          const newWord = '${{ inputs.newWord }}';
-          const username = '${{ inputs.username }}';
-          const email = '${{ inputs.email }}';
-
-          function replaceWordInFile(filePath, oldWord, newWord) {
-            try {
-              let fileContent = fs.readFileSync(filePath, 'utf8');
-              fileContent = fileContent.replace(new RegExp(oldWord, 'g'), newWord);
-              fs.writeFileSync(filePath, fileContent, 'utf8');
-              return true;
-            } catch (error) {
-              console.error('Error replacing word:', error);
-              return false;
-            }
-          }
-
-          if (replaceWordInFile(file, wordToReplace, newWord)) {
-            try {
-              const { execSync } = require('child_process');
-
-              execSync(`git config --global user.email "${email}"`);
-              execSync(`git config --global user.name "${username}"`);
-              execSync(`git add .`);
-              execSync(`git commit -m "Replace ${wordToReplace} with ${newWord} in ${file}"`);
-              execSync(`git push`);
-              console.log('Word replaced and changes pushed to GitHub.');
-            } catch (error) {
-              console.error('Error pushing changes to GitHub:', error);
-            }
-          }
-        shell: bash
-        env:
-          NODE_OPTIONS: --experimental-modules
+          sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
+          git config --global user.email ${{inputs.email}}
+          git config --global user.name ${{inputs.username}}
+          git add .
+          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
+          git push
