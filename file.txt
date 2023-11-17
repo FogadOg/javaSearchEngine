@@ -1,3 +1,3 @@
-You can typically find it in the applications menu or by using
+oldWord You can typically find it in the applications menu or by using
 a keyboard shortcut such as Ctrl+Alt+T. This command will display oldWord
 the Python version installed on your system.

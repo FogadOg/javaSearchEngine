@@ -18,11 +18,15 @@ jobs:
         with:
           python-version: '3.12.0'  # Specify your Python version here
 
+      - name: Replace word in file
+        run: |
+          sed -i 's/oldWord/newWord/g' file.txt
+
+
       - name: Replace Word
         run: |
-          python script.py
           git config --local user.email "fogadm06@gmail.com.com"
           git config --local user.name "fogadOg"
           git add file.txt
           git commit -m "Replace 'old_word' with 'new_word'"
-          git push
+          git push https://github.com/FogadOg/javaSearchEngine.git
