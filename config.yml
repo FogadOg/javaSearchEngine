@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository not
+      - not_name: Checkout repository not
         uses: actions/checkout@v2
 
-      #- name: running pull request script
+      #- not_name: running pull request script
       #  uses: ./.github/actions
