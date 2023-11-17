@@ -1,9 +1,6 @@
 name: Replace Word in File
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
     inputs:
       file:
@@ -19,6 +16,10 @@ on:
         required: true
         default: ''
 
+  push:
+    branches:
+      - main
+
 jobs:
   replace-word:
     runs-on: ubuntu-latest
@@ -27,6 +28,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Replace word in file.txt
+      - name: Replace word in file
         run: |
           sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
