@@ -28,6 +28,9 @@ on:
         required: true
         default: ''
 
+  push:
+    branches:
+      - main
 jobs:
   replace-words:
     runs-on: ubuntu-latest
