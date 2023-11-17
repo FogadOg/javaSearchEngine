@@ -1,6 +1,5 @@
 name: Replace Word in File
-#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
-#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
+
 on:
   push:
     branches:
@@ -12,33 +11,30 @@ jobs:
 
     strategy:
       matrix:
-        oldWord: [you, it, or]
-    
+        newWords: ["newWord1", "newWord2", "newWord3"]  # Define your 'array' as a string separated by commas
 
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.12.0'  # Specify your Python version here
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.12.0'  # Specify your Python version here
 
-    - name: Replace word in file
-      run: |
-          for word in ${{ matrix.oldWord }}; do
-            sed -i "s/${word}/newWord/g" file.txt
+      - name: Replace word in file
+        run: |
+          for word in ${{ matrix.newWords }}; do
+            sed -i "s/oldWord/${word}/g" file.txt
           done
 
+      - name: Configure Git
+        run: |
+          git config --local user.email "fogadm06@gmail.com"
+          git config --local user.name "FogadOg"
 
-    - name: Configure Git
-      run: |
-        git config --local user.email "fogadm06@gmail.com"
-        git config --local user.name "FogadOg"
-
-    - name: Replace Word
-      run: |
-        git add file.txt
-        git commit -m "Replace 'old_word' with 'new_word'"
-        git push https://FogadOg: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@github.com/FogadOg/javaSearchEngine.git HEAD:main
-
+      - name: Replace Word
+        run: |
+          git add file.txt
+          git commit -m "Replace 'oldWord' with '${{ matrix.newWords }}'"
+          git push https://FogadOg:<your_personal_access_token>@github.com/FogadOg/javaSearchEngine.git HEAD:main
