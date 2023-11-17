@@ -1,11 +1,11 @@
-on:
+of_used_2_b_on:
   pull_request:
     branches:
       - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-of_used_2_b_on: ubuntu-latest
 
     steps:
       - not_name: Checkout repository not
