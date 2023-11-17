@@ -27,6 +27,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Replace word in file
+      - name: Replace word in file.txt
         run: |
           sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
