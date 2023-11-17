@@ -1,54 +1,50 @@
-name: Replace Word in File
+name: Replace Words in File
 
 on:
   workflow_dispatch:
     inputs:
       file:
-        description: 'file you want to change'
+        description: 'File you want to change'
         required: true
         default: ''
 
-      wordToReplace:
+      wordsToReplace:
         description: 'List of words you want to replace (comma-separated)'
         required: true
         default: ''
 
       newWord:
-        description: 'what word do you what to put in'
+        description: 'Word you want to put in'
         required: true
         default: ''
 
       username:
-        description: "your github username"
+        description: "Your GitHub username"
         required: true
         default: ''
 
       email:
-        description: 'your github email'
+        description: 'Your GitHub email'
         required: true
         default: ''
 
-  push:
-    branches:
-      - main
-
 jobs:
-  replace-word:
+  replace-words:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
+      - name: Replace words in ${{ inputs.file }}
         run: |
-           IFS=',' read -ra WORDS_TO_REPLACE <<< "${{ inputs.wordsToReplace }}"
-           for word in "${WORDS_TO_REPLACE[@]}"; do
-             sed -i "s/\<${word}\>/${{ inputs.newWord }}/g" "${{ inputs.file }}"
-           done
-          
+          IFS=',' read -ra WORDS_TO_REPLACE <<< "${{ inputs.wordsToReplace }}"
+          for word in "${WORDS_TO_REPLACE[@]}"; do
+            sed -i "s/\<${word}\>/${{ inputs.newWord }}/g" "${{ inputs.file }}"
+          done
+
           git config --global user.email ${{inputs.email}}
           git config --global user.name ${{inputs.username}}
           git add .
-          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
+          git commit -m "Replace words in ${{ inputs.file }}"
           git push
