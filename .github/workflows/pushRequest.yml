@@ -19,9 +19,16 @@ jobs:
         with:
           python-version: '3.12.0'  # Specify your Python version here
 
-      - name: Replace word in file
+      # - name: Replace word in file
+      #   run: |
+      #     sed -i 's/oldWord/newWord/g' file.txt
+
+
         run: |
-          sed -i 's/oldWord/newWord/g' file.txt
+          IFS=',' read -ra words <<< "you,it,or"
+          for word in "${words[@]}"; do
+            sed -i "s/$word/newWord/g" file.txt
+          done
 
 
       - name: Configure Git
