@@ -31,7 +31,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
+      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }} by ${{ github.event.inputs.username }} | ${{ github.event.inputs.email }}
         run: |
           sed -i "s/\<${{ inputs.wordToReplace }}\>/${{ inputs.newWord }}/g" ${{ inputs.file }}
           git config --global user.email ${{ github.event.inputs.email }}
