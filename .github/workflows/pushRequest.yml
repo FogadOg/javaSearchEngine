@@ -21,3 +21,5 @@ jobs:
       - name: Replace Word
         run: |
           python script.py
+          git commit -m "Replace 'old_word' with 'new_word'"
+          git push
