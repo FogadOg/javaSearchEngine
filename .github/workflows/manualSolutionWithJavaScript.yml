@@ -1,0 +1,77 @@
+name: Replace Word in File
+
+on:
+  workflow_dispatch:
+    inputs:
+      file:
+        description: 'file you want to change'
+        required: true
+        default: ''
+
+      wordToReplace:
+        description: 'what word do you want to replace'
+        required: true
+        default: ''
+
+      newWord:
+        description: 'what word do you what to put in'
+        required: true
+        default: ''
+
+      username:
+        description: "your GitHub username"
+        required: true
+        default: ''
+
+      email:
+        description: 'your GitHub email'
+        required: true
+        default: ''
+
+jobs:
+  replace-word:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Replace word using Node.js
+        run: |
+          const fs = require('fs');
+
+          const file = '${{ inputs.file }}';
+          const wordToReplace = '${{ inputs.wordToReplace }}';
+          const newWord = '${{ inputs.newWord }}';
+          const username = '${{ inputs.username }}';
+          const email = '${{ inputs.email }}';
+
+          function replaceWordInFile(filePath, oldWord, newWord) {
+            try {
+              let fileContent = fs.readFileSync(filePath, 'utf8');
+              fileContent = fileContent.replace(new RegExp(oldWord, 'g'), newWord);
+              fs.writeFileSync(filePath, fileContent, 'utf8');
+              return true;
+            } catch (error) {
+              console.error('Error replacing word:', error);
+              return false;
+            }
+          }
+
+          if (replaceWordInFile(file, wordToReplace, newWord)) {
+            try {
+              const { execSync } = require('child_process');
+
+              execSync(`git config --global user.email "${email}"`);
+              execSync(`git config --global user.name "${username}"`);
+              execSync(`git add .`);
+              execSync(`git commit -m "Replace ${wordToReplace} with ${newWord} in ${file}"`);
+              execSync(`git push`);
+              console.log('Word replaced and changes pushed to GitHub.');
+            } catch (error) {
+              console.error('Error pushing changes to GitHub:', error);
+            }
+          }
+        shell: bash
+        env:
+          NODE_OPTIONS: --experimental-modules
