@@ -12,9 +12,9 @@ jobs:
     strategy:
       matrix:
         wordsToReplace:  # Define your matrix of words here
-          - word1
-          - word2
-          - word3
+          - or
+          - it
+          - you
 
     steps:
       - name: Checkout code
