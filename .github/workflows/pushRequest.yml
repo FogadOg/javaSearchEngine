@@ -1,4 +1,4 @@
-name: CICD
+name: Replace Word in File
 
 on:
   push:
@@ -14,8 +14,20 @@ on:
       wordToReplace:
         description: 'what word do you want to replace'
         required: true
-        default: 'Pre-prod'
+        default: ''
       newWord:
         description: 'what word do you what to put in'
         required: true
         default: ''
+
+jobs:
+  replace-word:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Replace word in file
+        run: |
+          sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
