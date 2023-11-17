@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This modified workflow uses a matrix strategy where wordsToReplace is
 defined as a list of words (word1, word2, word3). The workflow will run once for each word in the matrix, 
 replacing each specified word (word1, word2, word3) with newWord in the file.txt file.
@@ -5,3 +6,8 @@ replacing each specified word (word1, word2, word3) with newWord in the file.txt
 You can adjust the wordsToReplace matrix to include the words you want to replace in your file. 
 This setup enables the workflow to iterate through each word in the matrix and perform 
 the replacement actions specified in the steps.
+=======
+newWnewWordd1 You can typically find it in the applications menu newWord by using
+a keyboard shnewWordtcut such as Ctrl+Alt+T. This command will display newWnewWordd1
+the Python version installed on your system.
+>>>>>>> 69e37fc711fc12cef26ebbae047441d63e01071c
