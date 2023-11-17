@@ -23,9 +23,9 @@ jobs:
       #   run: |
       #     sed -i 's/oldWord/newWord/g' file.txt
 
-
+      
         run: |
-          IFS=',' read -ra words <<< "you,it,or"
+          IFS=',' read -ra words <<< "${{ inputs.oldWords }}"
           for word in "${words[@]}"; do
             sed -i "s/$word/newWord/g" file.txt
           done
