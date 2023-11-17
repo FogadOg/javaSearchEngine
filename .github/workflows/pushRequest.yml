@@ -1,14 +1,18 @@
 name: Replace Word in File
-#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
-#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
+
 on:
   push:
     branches:
-      - main  # Change this to your branch name
+      - main
 
 jobs:
   replace-word:
     runs-on: ubuntu-latest
+
+    inputs:
+      newWord:
+        description: 'The word to replace in the file'
+        required: true
 
     steps:
       - name: Checkout code
@@ -17,21 +21,19 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.12.0'  # Specify your Python version here
+          python-version: '3.12.0'
 
       - name: Replace word in file
         run: |
-          sed -i 's/oldWord/newWord/g' file.txt
+          sed -i 's/oldWord/${{ inputs.newWord }}/g' file.txt
 
-
-      # - name: Configure Git
-      #   run: |
-      #     git config --local user.email "fogadm06@gmail.com"
-      #     git config --local user.name "FogadOg"
+      - name: Configure Git
+        run: |
+          git config --local user.email "fogadm06@gmail.com"
+          git config --local user.name "FogadOg"
 
       - name: Replace Word
         run: |
           git add file.txt
-          git commit -m "Replace 'old_word' with 'new_word'"
+          git commit -m "Replace 'oldWord' with '${{ inputs.newWord }}'"
           git push https://FogadOg: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@github.com/FogadOg/javaSearchEngine.git HEAD:main
-
