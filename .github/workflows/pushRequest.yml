@@ -3,7 +3,7 @@ name: Replace Word in File
 on:
   push:
     branches:
-      - main  # Change this to your branch name
+      - main
 
 jobs:
   replace-word:
@@ -11,7 +11,10 @@ jobs:
 
     strategy:
       matrix:
-        newWords: ["newWord1", "newWord2", "newWord3"]  # Define your 'array' as a string separated by commas
+        wordsToReplace:  # Define your matrix of words here
+          - word1
+          - word2
+          - word3
 
     steps:
       - name: Checkout code
@@ -20,12 +23,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.12.0'  # Specify your Python version here
+          python-version: '3.12.0'
 
-      - name: Replace word in file
+      - name: Replace words in file
         run: |
-          for word in ${{ matrix.newWords }}; do
-            sed -i "s/oldWord/${word}/g" file.txt
+          for word in ${{ matrix.wordsToReplace }}; do
+            sed -i "s/$word/newWord/g" file.txt
           done
 
       - name: Configure Git
@@ -33,8 +36,8 @@ jobs:
           git config --local user.email "fogadm06@gmail.com"
           git config --local user.name "FogadOg"
 
-      - name: Replace Word
+      - name: Replace Words
         run: |
           git add file.txt
-          git commit -m "Replace 'oldWord' with '${{ matrix.newWords }}'"
-          git push https://FogadOg:<your_personal_access_token>@github.com/FogadOg/javaSearchEngine.git HEAD:main
+          git commit -m "Replace specified words with 'newWord'"
+          git push https://FogadOg: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@github.com/FogadOg/javaSearchEngine.git HEAD:main
