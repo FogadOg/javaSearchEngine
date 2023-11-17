@@ -9,11 +9,8 @@ jobs:
   replace-word:
     runs-on: ubuntu-latest
 
-    inputs:
-      newWord:
-        description: 'The word to replace with'
-        required: true
-        default: 'defaultNewWord' # Set a default value if needed
+    env:
+      NEW_WORD: ${{ github.event.inputs.newWord }}
 
     strategy:
       matrix:
@@ -34,7 +31,7 @@ jobs:
       - name: Replace words in file
         run: |
           for word in ${{ matrix.wordsToReplace }}; do
-            sed -i "s/$word/${{ inputs.newWord }}/g" file.txt
+            sed -i "s/$word/${NEW_WORD}/g" file.txt
           done
 
       - name: Configure Git
@@ -45,5 +42,5 @@ jobs:
       - name: Replace Words
         run: |
           git add file.txt
-          git commit -m "Replace specified words with '${{ inputs.newWord }}'"
+          git commit -m "Replace specified words with '${NEW_WORD}'"
           git push https://FogadOg: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@github.com/FogadOg/javaSearchEngine.git HEAD:main
