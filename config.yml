@@ -1,11 +1,11 @@
-on:
+it_works:
   pull_request:
     branches:
       - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-it_works: ubuntu-latest
 
     steps:
       - not_name: Checkout repository not
