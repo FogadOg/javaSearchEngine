@@ -26,7 +26,7 @@ jobs:
       - name: Replace Word
         run: |
           git config --local user.email "fogadm06@gmail.com.com"
-          git config --local user.name "fogadOg"
+          git config --local user.name "FogadOg"
           git add file.txt
           git commit -m "Replace 'old_word' with 'new_word'"
           git push https://github.com/FogadOg/javaSearchEngine.git
