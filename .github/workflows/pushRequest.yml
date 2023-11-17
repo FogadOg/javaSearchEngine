@@ -14,21 +14,7 @@ jobs:
         description: 'The new word to put in the file'
         required: true
         
-      oldWord:
-        description: 'The old word to replace in the file'
-        required: true
-        
-      email:
-        description: 'your email'
-        required: true
-        
-      username:
-        description: 'your github username'
-        required: true
-        
-      file:
-        description: 'the path of the file to change'
-        required: true
+
 
     steps:
       - name: Checkout code
