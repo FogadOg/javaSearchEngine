@@ -1,25 +1,21 @@
-name: Replace Word in YAML
+name: CICD
 
 on:
   push:
     branches:
-      - main
-
-jobs:
-  replace-word:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Extract word from commit message
-        id: extract-word
-        run: |
-          # Get the commit message of the latest commit
-          commit_message=$(git log --format=%B -n 1 ${{ github.sha }})
-          
-          # Extract the word from the commit message (considering format: "Replace 'old_word' with 'new_word'")
-          user_word=$(echo "$commit_message" | grep -oP "(?<=with ')[^']+")
-          
-          # Use the extracted word in the sed command to replace
-          sed -i "s/old_word/$user_word/g" file.txt
+      - master
+      - cicd-*
+  workflow_dispatch:
+    inputs:
+      file:
+        description: 'file you want to change'
+        required: true
+        default: ''
+      wordToReplace:
+        description: 'what word do you want to replace'
+        required: true
+        default: 'Pre-prod'
+      newWord:
+        description: 'what word do you what to put in'
+        required: true
+        default: ''
