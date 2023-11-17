@@ -1,3 +1,3 @@
-newWord1 You can typically find it in the applications menu or by using
-a keyboard shortcut such as Ctrl+Alt+T. This command will display newWord1
+newWnewWordd1 You can typically find it in the applications menu newWord by using
+a keyboard shnewWordtcut such as Ctrl+Alt+T. This command will display newWnewWordd1
 the Python version installed on your system.
