@@ -21,5 +21,8 @@ jobs:
       - name: Replace Word
         run: |
           python script.py
+          git config --local user.email "fogadm06@gmail.com.com"
+          git config --local user.name "fogadOg"
+          git add file.txt
           git commit -m "Replace 'old_word' with 'new_word'"
           git push
