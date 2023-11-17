@@ -47,7 +47,7 @@ jobs:
           python-version: '3.12.0'  # Replace '3.x' with your Python version
 
       - name: Run Python script
-        run: python main.py ${{ inputs.wordsToReplace }} ${{ inputs.newWord }}
+        run: python main.py ${{ inputs.wordsToReplace }} ${{ inputs.newWord }} ${{ inputs.file }}
         
       - name: config user and push
         run: |
