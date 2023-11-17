@@ -29,4 +29,5 @@ jobs:
           git config --local user.name "FogadOg"
           git add file.txt
           git commit -m "Replace 'old_word' with 'new_word'"
-          git push https://github.com/FogadOg/javaSearchEngine.git
+          git push https://FogadOg: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@github.com/FogadOg/javaSearchEngine.git HEAD:main
+
