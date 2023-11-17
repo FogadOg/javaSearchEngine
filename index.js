@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // Get the word to replace and the replacement word from command line arguments
-const wordToReplace= "repository"
+const wordToReplace= "name"
 const replacementWord = "not"
 
 // Path to your YAML file
