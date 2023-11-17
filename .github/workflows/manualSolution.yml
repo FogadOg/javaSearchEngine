@@ -41,11 +41,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Replace word in file
+      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
         run: |
           sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
           git config --global user.email ${{inputs.email}}
           git config --global user.name ${{inputs.username}}
           git add .
-          git commit -m "Replace 'oldword' with 'newword' in example.yml by GitHub Actions"
+          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
           git push
