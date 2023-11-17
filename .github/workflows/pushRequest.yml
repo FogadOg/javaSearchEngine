@@ -1,22 +1,19 @@
-name: Execute index.js on push
+name: Replace Word in YAML
+
 on:
   push:
     branches:
-      - main  # Change this to match your main branch name
+      - main
 
 jobs:
-  execute_index:
-    runs-on: ubuntu-latest  # You can change the operating system if needed
-
+  replace-word:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '14'  # Set the Node.js version you want to use
-
-      - name: Execute index.js
+      - name: Run the script
         run: |
-          node index.js
+          echo "Enter the word you want to substitute:"
+          read user_word
+          sed -i "s/old_word/$user_word/g" path/to/your/file.yml

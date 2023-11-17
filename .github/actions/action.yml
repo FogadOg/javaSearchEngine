@@ -1,7 +1,19 @@
-name: 'push request script'
-description: 'An action that echoes a message'
-runs:
-  using: 'node12'
-  main: 'index.js'
+name: Replace Word in YAML
 
-  
+on:
+  workflow_dispatch:
+    inputs:
+      user_word:
+        description: 'Word to substitute'
+        required: true
+
+jobs:
+  replace-word:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run the script
+        run: |
+          sed -i "s/old_word/${{ github.event.inputs.user_word }}/g" config.yml

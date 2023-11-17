@@ -1,5 +1,0 @@
-name: 'pull request script'
-description: 'An action that echoes a message'
-runs:
-  using: 'node12'
-  main: 'app.js'
