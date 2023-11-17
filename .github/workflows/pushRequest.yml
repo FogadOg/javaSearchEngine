@@ -8,36 +8,34 @@ on:
 
 jobs:
   replace-word:
-    runs-on: ubuntu-latest
-
-    
-  build:
-    strategy:
+      strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        oldWord: [newWord1, newWord2, newWord3]
+    runs-on: ubuntu-latest
+    
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.12.0'  # Specify your Python version here
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12.0'  # Specify your Python version here
 
-      - name: Replace word in file | ${{ matrix.node }}
-        run: |
-          sed -i 's/newWord/newWord1/g' file.txt
+    - name: Replace word in file
+      run: |
+        sed -i 's/${{ matrix.oldWord }}/newWord/g' file.txt
 
 
-      - name: Configure Git
-        run: |
-          git config --local user.email "fogadm06@gmail.com"
-          git config --local user.name "FogadOg"
+    - name: Configure Git
+      run: |
+        git config --local user.email "fogadm06@gmail.com"
+        git config --local user.name "FogadOg"
 
-      - name: Replace Word
-        run: |
-          git add file.txt
-          git commit -m "Replace 'old_word' with 'new_word'"
-          git push https://FogadOg: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@github.com/FogadOg/javaSearchEngine.git HEAD:main
+    - name: Replace Word
+      run: |
+        git add file.txt
+        git commit -m "Replace 'old_word' with 'new_word'"
+        git push https://FogadOg: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@github.com/FogadOg/javaSearchEngine.git HEAD:main
 
