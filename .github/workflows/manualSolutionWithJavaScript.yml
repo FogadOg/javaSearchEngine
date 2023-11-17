@@ -54,5 +54,5 @@ jobs:
           git config --global user.email ${{inputs.email}}
           git config --global user.name ${{inputs.username}}
           git add .
-          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
+          git commit -m "Replace ${{ inputs.wordsToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
           git push

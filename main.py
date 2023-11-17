@@ -1,7 +1,7 @@
 import sys
 
 oldWord=sys.argv[1]
-newWord="sys.argv[2]"
+newWord=sys.argv[2]
 
 
 def overwriteFile(oldWords,newWord):
