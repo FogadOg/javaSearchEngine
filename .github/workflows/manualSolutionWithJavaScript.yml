@@ -37,9 +37,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Split newWords into an array
+        id: split_words
+        run: |
+          IFS=',' read -r -a WORDS_ARRAY <<< "${{ inputs.newWords }}"
+          echo "::set-output name=words::${WORDS_ARRAY[*]}"
+
+
       - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
         run: |
-          sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
+          for word in "${{ steps.split_words.outputs.words }}"; do
+            sed -i "s/${{ inputs.wordToReplace }}/$word/g" ${{ inputs.file }}
+          done
+          
           git config --global user.email ${{inputs.email}}
           git config --global user.name ${{inputs.username}}
           git add .
