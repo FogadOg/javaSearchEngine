@@ -56,16 +56,10 @@ jobs:
           if [[ "${{ steps.extract_info.outputs.replace }}" == "replace" ]]; then
           
           
+            sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
           
           
-            IFS=',' read -ra OLD_WORDS <<< "$OLD_WORDS"  # Split words by comma
-            for OLD_WORD in "${OLD_WORDS[@]}"; do
-              NEW_WORD="${{ steps.extract_info.outputs.new_word }}"  # Assuming you have extracted the new word similarly
-  
-              sed -i "s/$OLD_WORD/$NEW_WORD/g" "$FILE_PATH"
-            done
-    
-
+ 
           
             git config --global user.email "fogadm06@gmail.com"
             git config --global user.name "FogadOg"
