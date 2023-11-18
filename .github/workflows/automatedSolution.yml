@@ -56,7 +56,6 @@ jobs:
           if [[ "${{ steps.extract_info.outputs.replace }}" == "replace" ]]; then
           
           
-            #sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
           
           
             IFS=',' read -ra OLD_WORDS <<< "new_word"
