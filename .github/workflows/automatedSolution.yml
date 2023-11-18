@@ -57,61 +57,13 @@ jobs:
           
           
             #sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
-
-
-
-Sure, to incorporate a loop for replacing multiple words in a file based on the commit message format, you can modify the script. Here's an updated version using a loop:
-
-  yaml
-  Copy code
-name: Replace Word in File
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  replace-word:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Extract commit message
-        id: extract_message
-        run: |
-          COMMIT_MSG=$(git log --format=%B -n 1 ${{ github.sha }})
-          echo "::set-output name=message::${COMMIT_MSG}"
-
-      - name: Extract information from commit message
-        id: extract_info
-        run: |
-          MESSAGE="${{ steps.extract_message.outputs.message }}"
-          IFS=' ' read -ra MESSAGE_PARTS <<< "$MESSAGE"  # Split the message by spaces
-
-          FILE="${MESSAGE_PARTS[0]}"  # Get the file name
-          REPLACE="${MESSAGE_PARTS[1]}"  # Get the action (e.g., 'replace')
-          OLD_WORDS="${MESSAGE_PARTS[@]:2}"  # Get all words to be replaced
-
-          echo "::set-output name=file::$FILE"
-          echo "::set-output name=old_words::$OLD_WORDS"
-          echo "::set-output name=replace::$REPLACE"
-
-      - name: Replace words in file
-        if: ${{ steps.extract_info.outputs.replace == 'replace' }}
-        run: |
-          FILE_PATH="${{ steps.extract_info.outputs.file }}"
-          OLD_WORDS="${{ steps.extract_info.outputs.old_words }}"
-
-          IFS=',' read -ra OLD_WORDS <<< "$OLD_WORDS"  # Split words by comma
-
-          for OLD_WORD in "${OLD_WORDS[@]}"; do
-            NEW_WORD="${{ steps.extract_info.outputs.new_word }}"  # Assuming you have extracted the new word similarly
-
-            sed -i "s/$OLD_WORD/$NEW_WORD/g" ${{ steps.extract_info.outputs.file }}
-          done
+          
+          
+            for OLD_WORD in "${OLD_WORDS[@]}"; do
+              NEW_WORD="${{ steps.extract_info.outputs.new_word }}"  # Assuming you have extracted the new word similarly
+  
+              sed -i "s/$OLD_WORD/$NEW_WORD/g" ${{ steps.extract_info.outputs.file }}
+            done
           
             git config --global user.email "fogadm06@gmail.com"
             git config --global user.name "FogadOg"
