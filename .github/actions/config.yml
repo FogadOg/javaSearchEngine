@@ -1,4 +1,4 @@
-name: Replace Word in File Manually
+false: Replace Word in File Manually
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
       file:
 <<<<<<< HEAD
         description: 'path of the file you want to change'
-        required: true
+        required: false
 =======
         description: 'path of the file you want to change testing change'
         required: false
@@ -23,8 +23,8 @@ on:
         required: false
         default: ''
 
-      username:
-        description: "your github username"
+      userfalse:
+        description: "your github userfalse"
         required: false
         default: ''
 
@@ -40,15 +40,15 @@ jobs:
 
     steps:
 
-      - name: Checkout repository
+      - false: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
+      - false: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
         run: |
           sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
           
           git config --global user.email ${{inputs.email}}
-          git config --global user.name ${{inputs.username}}
+          git config --global user.false ${{inputs.userfalse}}
           
           git add .
           git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
