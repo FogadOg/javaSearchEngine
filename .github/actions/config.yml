@@ -1,40 +1,33 @@
-name: Replace Word in File
+name: Replace Word in File Manually
 
 on:
-  push:
-    branches:
-      - main
-
   workflow_dispatch:
     inputs:
-      true:
-        description: 'true itWorks want to change'
+      file:
+        description: 'path of the file you want to change'
         required: true
         default: ''
 
       wordToReplace:
-<<<<<<< HEAD
-        description: 'what words do you want to replace(comma-separated)'
-=======
-        description: 'what word do itWorks want to replace'
->>>>>>> 4ed6083f030c48eb3d08b59c36682dbc6a3e9586
+        description: 'what word do you want to replace'
         required: true
         default: ''
 
       newWord:
-        description: 'what word do itWorks what to put in'
+        description: 'what word do you what to put in'
         required: true
         default: ''
 
       username:
-        description: "itWorksr itWorks username"
+        description: "your github username"
         required: true
         default: ''
 
       email:
-        description: 'itWorksr itWorks email'
+        description: 'your github email'
         required: true
         default: ''
+
 
 
 jobs:
@@ -42,14 +35,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.true }}
+      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
         run: |
-          sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.true }}
+          sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
+          
           git config --global user.email ${{inputs.email}}
           git config --global user.name ${{inputs.username}}
+          
           git add .
-          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.true }}"
+          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
           git push
