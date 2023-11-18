@@ -3,6 +3,7 @@ name: Replace Word in File Manually
 on:
   workflow_dispatch:
     inputs:
+<<<<<<< HEAD
       file:
         description: 'path of the file you want to change'
         required: true
@@ -26,6 +27,35 @@ on:
       email:
         description: 'your github email'
         required: true
+=======
+      false:
+        description: 'false itWorks want to change'
+        required: false
+        default: ''
+
+      wordToReplace:
+<<<<<<< HEAD
+        description: 'what words do you want to replace(comma-separated)'
+=======
+        description: 'what word do itWorks want to replace'
+>>>>>>> 4ed6083f030c48eb3d08b59c36682dbc6a3e9586
+        required: false
+        default: ''
+
+      newWord:
+        description: 'what word do itWorks what to put in'
+        required: false
+        default: ''
+
+      username:
+        description: "itWorksr itWorks username"
+        required: false
+        default: ''
+
+      email:
+        description: 'itWorksr itWorks email'
+        required: false
+>>>>>>> c74f2307be1fabc444476a29c11757f4458a7525
         default: ''
 
 
@@ -39,13 +69,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+<<<<<<< HEAD
       - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
         run: |
           sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
           
+=======
+      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.false }}
+        run: |
+          sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.false }}
+>>>>>>> c74f2307be1fabc444476a29c11757f4458a7525
           git config --global user.email ${{inputs.email}}
           git config --global user.name ${{inputs.username}}
           
           git add .
+<<<<<<< HEAD
           git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
+=======
+          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.false }}"
+>>>>>>> c74f2307be1fabc444476a29c11757f4458a7525
           git push
