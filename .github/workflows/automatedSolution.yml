@@ -48,7 +48,7 @@ jobs:
           echo "::set-output name=file::$FILE"
           echo "::set-output name=old_word::$OLD_WORD"
           echo "::set-output name=new_word::$NEW_WORD"
-          echo "::set-output name=replace::REPLACE"
+          echo "::set-output name=replace::$REPLACE"
 
       - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
         run: |
