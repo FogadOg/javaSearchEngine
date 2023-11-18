@@ -70,7 +70,9 @@ jobs:
             sed -i "s/$OLD_WORD/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
             done
           
-            git config --global user.email ${{ steps.extract_info.outputs.email }} | grep -o '<[^>]*>' | awk -F'[<>]' '{print $2}'
+            EMAIL=${{ steps.extract_info.outputs.email }} | sed -n 's/.*<\(.*\)>/\1/p'
+          
+            git config --global user.email $EMAIL
           
             git config --global user.name ${{ github.actor }}
           
