@@ -58,7 +58,9 @@ jobs:
           
           PUSH_COMMIT=$(git log -1 ${{ github.sha }})
           AUTHOR_EMAIL=$(echo "$PUSH_COMMIT" | grep -oP '(?<=Author: ).*?<(.*?)>')
-          echo "::set-output name=email::$AUTHOR_EMAIL"
+          
+          EMAIL=$(echo "$AUTHOR_EMAIL" | sed -n 's/.*<\(.*\)>/\1/p')
+          echo "::set-output name=email::$EMAIL"
           
           
 
@@ -76,7 +78,7 @@ jobs:
           
             EMAIL=$(echo ${{ steps.extract_info.outputs.email }} | sed -n 's/.*<\(.*\)>/\1/p')
           
-            git config --global user.email "$EMAIL"
+            git config --global user.email ${{ steps.extract_info.outputs.email }}
           
             git config --global user.name ${{ github.actor }}
           
