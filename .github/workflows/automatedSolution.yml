@@ -51,7 +51,7 @@ jobs:
           FILE_PATH="${{ steps.extract_info.outputs.file }}"
           OLD_WORDS="${{ steps.extract_info.outputs.old_words }}"
 
-          IFS=',' read -ra OLD_WORDS <<< "$OLD_WORDS"  # Split words by comma
+          IFS=',' read -ra ${{ steps.extract_info.outputs.old_words }} <<< "$OLD_WORDS"  # Split words by comma
 
           for OLD_WORD in "${OLD_WORDS[@]}"; do
             NEW_WORD="${{ steps.extract_info.outputs.new_word }}"  # Assuming you have extracted the new word similarly
