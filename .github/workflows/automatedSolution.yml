@@ -7,10 +7,7 @@
 #
 
 
-#IFS=',' read -ra wordsToReplace <<< "${{ inputs.wordToReplace }}"
-#for word in "${{ steps.extract_info.outputs.old_word[@] }"; do
-#sed -i "s/$word/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
-#done
+
 
 
 name: Replace Word in File
