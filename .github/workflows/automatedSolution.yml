@@ -52,22 +52,26 @@ jobs:
           echo "::set-output name=new_word::$NEW_WORD"
           echo "::set-output name=replace::$REPLACE"
 
-      - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
+      - name: Replace words in file
+        if: ${{ steps.extract_info.outputs.replace == 'replace' }}
         run: |
+          FILE_PATH="${{ steps.extract_info.outputs.file }}"
+          OLD_WORDS="${{ steps.extract_info.outputs.old_words }}"
+
+          IFS=',' read -ra OLD_WORDS <<< "$OLD_WORDS"  # Split words by comma
+
+          for OLD_WORD in "${OLD_WORDS[@]}"; do
+            NEW_WORD="${{ steps.extract_info.outputs.new_word }}"  # Assuming you have extracted the new word similarly
+
+            sed -i "s/$OLD_WORD/${{ steps.extract_info.outputs.new_word }}/g" "$FILE_PATH"
+          done
+
+          git config --global user.email "fogadm06@gmail.com"
+          git config --global user.name "FogadOg"
           
-          if [[ "${{ steps.extract_info.outputs.replace }}" == "replace" ]]; then
-          
-          
-            sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
-          
-          
-          
-            git config --global user.email "fogadm06@gmail.com"
-            git config --global user.name "FogadOg"
-          
-            git add .
-            git commit -m "Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}"
-            git push
-          else
-            echo "Skipping the replacement"
-          fi
+          git add .
+          git commit -m "Replace words in $FILE_PATH"
+          git push
+
+        env:
+          FILE_PATH: ${{ steps.extract_info.outputs.file }}
