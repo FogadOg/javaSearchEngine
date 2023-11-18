@@ -43,17 +43,12 @@ jobs:
           OLD_WORD=$(echo "$MESSAGE" | awk '{print $3}')  # Assuming the old word is the second word
           NEW_WORD=$(echo "$MESSAGE" | awk '{print $4}')  # Assuming the new word is the third word
           
-          
-          GIT_USERNAME=$(git config user.name)
-          GIT_EMAIL=$(git config user.email)    
 
           echo "::set-output name=file::$FILE"
           echo "::set-output name=old_word::$OLD_WORD"
           echo "::set-output name=new_word::$NEW_WORD"
           echo "::set-output name=replace::$REPLACE"
           
-          echo "::set-output username=new_word::$GIT_USERNAME"
-          echo "::set-output email=replace::$GIT_EMAIL"
 
       - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
         if: ${{ steps.extract_info.outputs.replace == 'replace' }}
