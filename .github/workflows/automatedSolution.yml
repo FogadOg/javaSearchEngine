@@ -52,7 +52,7 @@ jobs:
       - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
         run: |
           
-          if [[ "${{ steps.extract_info.outputs.replace }}" == "replace" ]]; then
+          if [[ "${{ steps.extract_info.outputs.new_word }}" == "replace" ]]; then
             sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
             git add .
             git commit -m "Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}"
