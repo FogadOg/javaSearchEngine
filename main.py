@@ -20,4 +20,3 @@ def overwriteFile(oldWords,newWord,filePath):
     write.close()
 
 
-overwriteFile(oldWord,newWord,filePath)
