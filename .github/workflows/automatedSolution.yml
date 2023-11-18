@@ -17,7 +17,7 @@
 
 
 
-name: Replace Word in File
+name: Replace Word in File with Git Push
 
 on:
   push:

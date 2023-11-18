@@ -1,4 +1,4 @@
-name: Replace Word in File
+name: Replace Word in File Manualy
 
 on:
   workflow_dispatch:
