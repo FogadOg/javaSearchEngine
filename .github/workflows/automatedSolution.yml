@@ -1,9 +1,24 @@
+
+#if you what to call this github workflow script on a push request
+#you have to format your commit message according to this
+
+#git commit -m "[filename.yml] [the word you want to change] [the new word]"
+#example: git commit -m "congif.yml goodbye hello"
+#
+
+
+#IFS=',' read -ra wordsToReplace <<< "${{ inputs.wordToReplace }}"
+#for word in "${{ steps.extract_info.outputs.old_word[@] }"; do
+#sed -i "s/$word/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
+#done
+
+
 name: Replace Word in File
 
 on:
   push:
     branches:
-      - main  # Change this to your desired branch
+      - main
 
 jobs:
   replace-word:
@@ -28,6 +43,7 @@ jobs:
           FILE=$(echo "$MESSAGE" | awk '{print $1}')  # Assuming the file is the first word in the commit message
           OLD_WORD=$(echo "$MESSAGE" | awk '{print $2}')  # Assuming the old word is the second word
           NEW_WORD=$(echo "$MESSAGE" | awk '{print $3}')  # Assuming the new word is the third word
+          REPLACE=$(echo "$MESSAGE" | awk '{print $4}')  # Assuming the new word is the third word
 
           echo "::set-output name=file::$FILE"
           echo "::set-output name=old_word::$OLD_WORD"
@@ -35,10 +51,14 @@ jobs:
 
       - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
         run: |
-          sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
           
-          git config --global user.email "youremail@example.com"  # Replace with your email
-          git config --global user.name "Your Username"  # Replace with your username
-          git add .
-          git commit -m "Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}"
-          git push
+          if [[ "${{ steps.extract_info.outputs.replace }}" == "replace" ]]; then
+            sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
+            git config --global user.email "youremail@example.com"  # Replace with your email
+            git config --global user.name "Your Username"  # Replace with your username
+            git add .
+            git commit -m "Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}"
+            git push
+          else
+            echo "Skipping the replacement."
+          fi
