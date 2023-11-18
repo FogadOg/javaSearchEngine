@@ -5,27 +5,27 @@ on:
     inputs:
       file:
         description: 'path of the file you want to change testing change'
-        required: true
+        required: false
         default: ''
 
       wordToReplace:
         description: 'what word do you want to replace'
-        required: true
+        required: false
         default: ''
 
       newWord:
         description: 'what word do you what to put in'
-        required: true
+        required: false
         default: ''
 
       username:
         description: "your github username"
-        required: true
+        required: false
         default: ''
 
       email:
         description: 'your github email'
-        required: true
+        required: false
         default: ''
 
 
