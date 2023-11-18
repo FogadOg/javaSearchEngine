@@ -2,8 +2,8 @@
 #if you what to call this github workflow script on a push request
 #you have to format your commit message according to this
 
-#git commit -m "[filename.yml] [the word you want to change] [the new word]"
-#example: git commit -m "congif.yml goodbye hello"
+#git commit -m "[filename.yml] replace [the word you want to change] [the new word]"
+#example: git commit -m "congif.yml replace goodbye hello"
 #
 
 
@@ -41,9 +41,9 @@ jobs:
           # Add your custom logic to parse the commit message and extract information
           # For example:
           FILE=$(echo "$MESSAGE" | awk '{print $1}')  # Assuming the file is the first word in the commit message
-          OLD_WORD=$(echo "$MESSAGE" | awk '{print $2}')  # Assuming the old word is the second word
-          NEW_WORD=$(echo "$MESSAGE" | awk '{print $3}')  # Assuming the new word is the third word
-          REPLACE=$(echo "$MESSAGE" | awk '{print $4}')  # Assuming the new word is the third word
+          REPLACE=$(echo "$MESSAGE" | awk '{print $2}')  # Assuming the new word is the third word
+          OLD_WORD=$(echo "$MESSAGE" | awk '{print $3}')  # Assuming the old word is the second word
+          NEW_WORD=$(echo "$MESSAGE" | awk '{print $4}')  # Assuming the new word is the third word
 
           echo "::set-output name=file::$FILE"
           echo "::set-output name=old_word::$OLD_WORD"
