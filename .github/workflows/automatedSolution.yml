@@ -10,8 +10,7 @@
 #for OLD_WORD in "${OLD_WORDS[@]}"; do
 #NEW_WORD="${{ steps.extract_info.outputs.new_word }}"  # Assuming you have extracted the new word similarly
 
-#sed -i "s/$OLD_WORD/$NEW_WORD/g" ${{ steps.extract_info.outputs.file }}
-#
+
 
 
 
@@ -66,5 +65,4 @@ jobs:
             git commit -m "Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}"
             git push
    
-          
           
