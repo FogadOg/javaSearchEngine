@@ -7,6 +7,11 @@
 #
 
 
+#for OLD_WORD in "${OLD_WORDS[@]}"; do
+#NEW_WORD="${{ steps.extract_info.outputs.new_word }}"  # Assuming you have extracted the new word similarly
+
+#sed -i "s/$OLD_WORD/$NEW_WORD/g" ${{ steps.extract_info.outputs.file }}
+#
 
 
 
@@ -55,7 +60,7 @@ jobs:
           
             sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
           
-        
+          
           
             git config --global user.email "fogadm06@gmail.com"
             git config --global user.name "FogadOg"
