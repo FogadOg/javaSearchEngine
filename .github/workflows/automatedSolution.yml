@@ -7,8 +7,6 @@
 #
 
 
-#for OLD_WORD in "${OLD_WORDS[@]}"; do
-#NEW_WORD="${{ steps.extract_info.outputs.new_word }}"  # Assuming you have extracted the new word similarly
 
 
 
