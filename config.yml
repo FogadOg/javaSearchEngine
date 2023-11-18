@@ -7,9 +7,9 @@ on:
 
   workflow_dispatch:
     inputs:
-      true:
-        description: 'true itWorks want to change'
-        required: true
+      false:
+        description: 'false itWorks want to change'
+        required: false
         default: ''
 
       wordToReplace:
@@ -18,22 +18,22 @@ on:
 =======
         description: 'what word do itWorks want to replace'
 >>>>>>> 4ed6083f030c48eb3d08b59c36682dbc6a3e9586
-        required: true
+        required: false
         default: ''
 
       newWord:
         description: 'what word do itWorks what to put in'
-        required: true
+        required: false
         default: ''
 
       username:
         description: "itWorksr itWorks username"
-        required: true
+        required: false
         default: ''
 
       email:
         description: 'itWorksr itWorks email'
-        required: true
+        required: false
         default: ''
 
 
@@ -45,11 +45,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.true }}
+      - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.false }}
         run: |
-          sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.true }}
+          sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.false }}
           git config --global user.email ${{inputs.email}}
           git config --global user.name ${{inputs.username}}
           git add .
-          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.true }}"
+          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.false }}"
           git push
