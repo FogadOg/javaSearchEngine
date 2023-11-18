@@ -1,0 +1,44 @@
+name: Replace Word in File
+
+on:
+  push:
+    branches:
+      - main  # Change this to your desired branch
+
+jobs:
+  replace-word:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Extract commit message
+        id: extract_message
+        run: |
+          COMMIT_MSG=$(git log --format=%B -n 1 ${{ github.sha }})
+          echo "::set-output name=message::${COMMIT_MSG}"
+
+      - name: Extract information from commit message
+        id: extract_info
+        run: |
+          MESSAGE="${{ steps.extract_message.outputs.message }}"
+          # Add your custom logic to parse the commit message and extract information
+          # For example:
+          FILE=$(echo "$MESSAGE" | awk '{print $1}')  # Assuming the file is the first word in the commit message
+          OLD_WORD=$(echo "$MESSAGE" | awk '{print $2}')  # Assuming the old word is the second word
+          NEW_WORD=$(echo "$MESSAGE" | awk '{print $3}')  # Assuming the new word is the third word
+
+          echo "::set-output name=file::$FILE"
+          echo "::set-output name=old_word::$OLD_WORD"
+          echo "::set-output name=new_word::$NEW_WORD"
+
+      - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
+        run: |
+          sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
+          
+          git config --global user.email "youremail@example.com"  # Replace with your email
+          git config --global user.name "Your Username"  # Replace with your username
+          git add .
+          git commit -m "Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}"
+          git push
