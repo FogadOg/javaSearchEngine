@@ -63,7 +63,7 @@ jobs:
             sed -i "s/$OLD_WORD/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
             done
           
-            git config --global user.email ${{ github.event.sender.email }}
+            git config --global user.email ${{ github.event.pusher.email }}
           
             git config --global user.name ${{ github.actor }}
           
