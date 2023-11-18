@@ -61,8 +61,8 @@ jobs:
             IFS=',' read -ra OLD_WORDS <<< "new_word"
     
             for OLD_WORD in "${old_word[@]}"; do
-            # Perform the replacement
-            sed -i "s/$OLD_WORD/$NEW_WORD/g" ${{ steps.extract_info.outputs.file }}
+              # Perform the replacement
+              sed -i "s/$OLD_WORD/$NEW_WORD/g" ${{ steps.extract_info.outputs.file }}
             done
           
             git config --global user.email "fogadm06@gmail.com"
