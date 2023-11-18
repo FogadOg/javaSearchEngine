@@ -60,6 +60,3 @@ jobs:
           git add .
           git commit -m "Replace words in $FILE_PATH"
           git push
-
-        env:
-          FILE_PATH: ${{ steps.extract_info.outputs.file }}
