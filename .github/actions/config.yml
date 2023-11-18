@@ -4,28 +4,33 @@ on:
   workflow_dispatch:
     inputs:
       file:
+<<<<<<< HEAD
         description: 'path of the file you want to change'
         required: true
+=======
+        description: 'path of the file you want to change testing change'
+        required: false
+>>>>>>> 1b974574daf861f5d79f9a4719085d1d99655054
         default: ''
 
       wordToReplace:
         description: 'what word do you want to replace'
-        required: true
+        required: false
         default: ''
 
       newWord:
         description: 'what word do you what to put in'
-        required: true
+        required: false
         default: ''
 
       username:
         description: "your github username"
-        required: true
+        required: false
         default: ''
 
       email:
         description: 'your github email'
-        required: true
+        required: false
         default: ''
 
 
