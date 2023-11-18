@@ -1,4 +1,4 @@
-name: Replace Word in File
+name: Replace Word in File Manually
 
 on:
   workflow_dispatch:
@@ -35,17 +35,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-
-      - name: Extract user email
-        id: extract_info
-        run: |
-          PUSH_COMMIT=$(git log -1 ${{ github.sha }})
-          AUTHOR_EMAIL=$(echo "$PUSH_COMMIT" | grep -oP '(?<=Author: ).*?<(.*?)>')
-
-          EMAIL=$(echo "$AUTHOR_EMAIL" | sed -n 's/.*<\(.*\)>/\1/p')
-          echo "::set-output name=email::$EMAIL"
-          
 
       - name: Checkout repository
         uses: actions/checkout@v2
