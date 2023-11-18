@@ -1,6 +1,4 @@
 import sys
-import ruamel.yaml
-
 
 oldWord=sys.argv[1]
 newWord=sys.argv[2]
@@ -18,10 +16,7 @@ def overwriteFile(oldWords,newWord,filePath):
     read.close()
 
     write=open(filePath,"w")
-
-    writeToFile=yaml.dump(replaceAction)
-
-    write.write(writeToFile)
+    write.write(replaceAction)
     write.close()
 
 
