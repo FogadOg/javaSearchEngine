@@ -54,7 +54,6 @@ jobs:
       - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
         if: ${{ steps.extract_info.outputs.replace == 'replace' }}
         run: |
-            #sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
           
             IFS=',' read -ra OLD_WORDS <<< ${{ steps.extract_info.outputs.old_word }}  # Split words by comma
   
