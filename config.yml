@@ -9,7 +9,7 @@ on:
     inputs:
       file:
         description: 'file itWorks want to change'
-        required: true
+        required: false
         default: ''
 
       wordToReplace:
@@ -18,22 +18,22 @@ on:
 =======
         description: 'what word do itWorks want to replace'
 >>>>>>> 4ed6083f030c48eb3d08b59c36682dbc6a3e9586
-        required: true
+        required: false
         default: ''
 
       newWord:
         description: 'what word do itWorks what to put in'
-        required: true
+        required: false
         default: ''
 
       username:
         description: "itWorksr itWorks username"
-        required: true
+        required: false
         default: ''
 
       email:
         description: 'itWorksr itWorks email'
-        required: true
+        required: false
         default: ''
 
 
