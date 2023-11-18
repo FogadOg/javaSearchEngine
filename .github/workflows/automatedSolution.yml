@@ -65,9 +65,6 @@ jobs:
             sed -i "s/$OLD_WORD/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
             done
           
-            git config --global user.email ${{ github.event.pusher.email }}
-          
-            git config --global user.name ${{ github.actor }}
           
             git add .
             git commit -m "Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}"
