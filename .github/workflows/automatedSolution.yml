@@ -4,6 +4,15 @@
 
 #git commit -m "[path of the file you what to change] replace [the word you want to change] [the new word]"
 #example: git commit -m "./congif.yml replace goodbye hello"
+#
+
+
+#for OLD_WORD in "${OLD_WORDS[@]}"; do
+#NEW_WORD="${{ steps.extract_info.outputs.new_word }}"  # Assuming you have extracted the new word similarly
+
+#sed -i "s/$OLD_WORD/$NEW_WORD/g" ${{ steps.extract_info.outputs.file }}
+#
+
 
 
 name: Replace Word in File
@@ -43,19 +52,19 @@ jobs:
           echo "::set-output name=new_word::$NEW_WORD"
           echo "::set-output name=replace::$REPLACE"
 
-      - name: Replace words in file
+      - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
         if: ${{ steps.extract_info.outputs.replace == 'replace' }}
         run: |
-          FILE_PATH="${{ steps.extract_info.outputs.file }}"
-          OLD_WORD=${{ steps.extract_info.outputs.old_word }}
-          NEW_WORD=${{ steps.extract_info.outputs.new_word }}
-
-          sed -i "s/OLD_WORD/NEW_WORD/g" FILE_PATH
-
-
-          git config --global user.email "fogadm06@gmail.com"
-          git config --global user.name "FogadOg"
+            sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
           
-          git add .
-          git commit -m "Replace words in $FILE_PATH"
-          git push
+          
+          
+            git config --global user.email "fogadm06@gmail.com"
+            git config --global user.name "FogadOg"
+          
+            git add .
+            git commit -m "Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}"
+            git push
+   
+          
+          
