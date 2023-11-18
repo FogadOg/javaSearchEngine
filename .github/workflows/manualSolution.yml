@@ -29,9 +29,6 @@ on:
         default: ''
 
 
-  push:
-    branches:
-      - main
 
 jobs:
   replace-word:
