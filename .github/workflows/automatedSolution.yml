@@ -2,8 +2,8 @@
 #if you what to call this github workflow script on a push request
 #you have to format your commit message according to this
 
-#git commit -m "[filename.yml] replace [the word you want to change] [the new word]"
-#example: git commit -m "congif.yml replace goodbye hello"
+#git commit -m "[path of the file you what to change] replace [the word you want to change] [the new word]"
+#example: git commit -m "./congif.yml replace goodbye hello"
 #
 
 
