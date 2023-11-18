@@ -35,14 +35,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+
+      - name: Extract user email
+        id: extract_info
+        run: |
+          PUSH_COMMIT=$(git log -1 ${{ github.sha }})
+          AUTHOR_EMAIL=$(echo "$PUSH_COMMIT" | grep -oP '(?<=Author: ).*?<(.*?)>')
+
+          EMAIL=$(echo "$AUTHOR_EMAIL" | sed -n 's/.*<\(.*\)>/\1/p')
+          echo "::set-output name=email::$EMAIL"
+          
+
       - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
         run: |
           sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
-          git config --global user.email ${{inputs.email}}
-          git config --global user.name ${{inputs.username}}
+
+          git config --global user.email ${{ steps.extract_info.outputs.email }}          
+          git config --global user.name ${{ github.actor }}
+          
           git add .
           git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
           git push
