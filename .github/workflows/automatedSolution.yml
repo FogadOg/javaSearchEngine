@@ -6,7 +6,6 @@
 #example: git commit -m "./congif.yml replace goodbye hello"
 
 
-
 name: Replace Word in File
 
 on:
