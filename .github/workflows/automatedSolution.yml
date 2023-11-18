@@ -66,7 +66,7 @@ jobs:
             done
           
             git config --global user.email $(curl -s -H "Authorization: token $ACCESS_TOKEN" \
-                     "https://api.github.com/users${{ github.actor }}/emails" | \
+                     "https://api.github.com/users/${{ github.actor }}/emails" | \
                      jq -r '.[] | select(.primary == true) | .email')
           
             git config --global user.name ${{ github.actor }}
