@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       file:
-        description: 'file you want to change'
+        description: 'path of the file you want to change'
         required: true
         default: ''
 
