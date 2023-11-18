@@ -54,7 +54,12 @@ jobs:
         run: |
           
           if [[ "${{ steps.extract_info.outputs.replace }}" == "replace" ]]; then
-            sed -i "s/${{ steps.extract_info.outputs.old_word }}/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
+          
+          
+          IFS=',' read -ra wordsToReplace <<< "${{ inputs.wordToReplace }}"
+          for word in "${{ steps.extract_info.outputs.old_word[@] }"; do
+            sed -i "s/$word/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
+          done
           
             git config --global user.email "fogadm06@gmail.com"
             git config --global user.name "FogadOg"
