@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       file:
-        description: 'path of the file you want to change'
+        description: 'path of the file you want to change testing change'
         required: true
         default: ''
 
@@ -27,7 +27,6 @@ on:
         description: 'your github email'
         required: true
         default: ''
-
 
 
 jobs:
