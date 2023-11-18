@@ -40,15 +40,24 @@ jobs:
           MESSAGE="${{ steps.extract_message.outputs.message }}"
           # Add your custom logic to parse the commit message and extract information
           # For example:
+               
+          
           FILE=$(echo "$MESSAGE" | awk '{print $1}')  # Assuming the file is the first word in the commit message
           REPLACE=$(echo "$MESSAGE" | awk '{print $2}')  # Assuming the new word is the third word
           OLD_WORD=$(echo "$MESSAGE" | awk '{print $3}')  # Assuming the old word is the second word
           NEW_WORD=$(echo "$MESSAGE" | awk '{print $4}')  # Assuming the new word is the third word
+          
+          
+          GIT_USERNAME=$(git config user.name)
+          GIT_EMAIL=$(git config user.email)    
 
           echo "::set-output name=file::$FILE"
           echo "::set-output name=old_word::$OLD_WORD"
           echo "::set-output name=new_word::$NEW_WORD"
           echo "::set-output name=replace::$REPLACE"
+          
+          echo "::set-output username=new_word::$GIT_USERNAME"
+          echo "::set-output email=replace::$GIT_EMAIL"
 
       - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
         if: ${{ steps.extract_info.outputs.replace == 'replace' }}
@@ -62,8 +71,8 @@ jobs:
             sed -i "s/$OLD_WORD/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
             done
           
-            git config --global user.email "fogadm06@gmail.com"
-            git config --global user.name "FogadOg"
+            git config --global user.email ${{ steps.extract_info.outputs.email }}
+            git config --global user.name ${{ steps.extract_info.outputs.username }}
           
             git add .
             git commit -m "Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}"
