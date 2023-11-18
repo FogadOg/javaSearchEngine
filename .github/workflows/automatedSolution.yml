@@ -12,6 +12,8 @@
 
 
 
+
+
 name: Replace Word in File
 
 on:
@@ -50,6 +52,12 @@ jobs:
           echo "::set-output name=new_word::$NEW_WORD"
           echo "::set-output name=replace::$REPLACE"
           
+          
+          PUSH_COMMIT=$(git log -1 ${{ github.sha }})
+          AUTHOR_EMAIL=$(echo "$PUSH_COMMIT" | grep -oP '(?<=Author: ).*?<(.*?)>')
+          echo "::set-output name=email::$AUTHOR_EMAIL"
+          
+          
 
       - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
         if: ${{ steps.extract_info.outputs.replace == 'replace' }}
@@ -63,6 +71,9 @@ jobs:
             sed -i "s/$OLD_WORD/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
             done
           
+            git config --global user.email ${{ steps.extract_info.outputs.email }}
+          
+            git config --global user.name ${{ github.actor }}
           
             git add .
             git commit -m "Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}"
