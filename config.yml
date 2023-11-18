@@ -8,27 +8,31 @@ on:
   workflow_dispatch:
     inputs:
       file:
-        description: 'file you want to change'
+        description: 'file it_works want to change'
         required: true
         default: ''
 
       wordToReplace:
+<<<<<<< HEAD
         description: 'what words do you want to replace(comma-separated)'
+=======
+        description: 'what word do it_works want to replace'
+>>>>>>> 4ed6083f030c48eb3d08b59c36682dbc6a3e9586
         required: true
         default: ''
 
       newWord:
-        description: 'what word do you what to put in'
+        description: 'what word do it_works what to put in'
         required: true
         default: ''
 
       username:
-        description: "your github username"
+        description: "it_worksr it_works username"
         required: true
         default: ''
 
       email:
-        description: 'your github email'
+        description: 'it_worksr it_works email'
         required: true
         default: ''
 
