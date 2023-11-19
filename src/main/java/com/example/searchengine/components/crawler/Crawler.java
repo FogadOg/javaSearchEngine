@@ -81,6 +81,11 @@ public class Crawler {
 
         Matcher foundUrls = pattern.matcher(webpage);
 
+        addUrlFromPageToJsonFile(foundUrls);
+
+    }
+
+    private void addUrlFromPageToJsonFile(Matcher foundUrls){
         while (foundUrls.find()) {
             String url = foundUrls.group(1) != null ? foundUrls.group(1) : foundUrls.group(2);
             boolean isUrlInJsonFile = this.crawlerService.checkIfPageInJsonFile(url, "data.json");
@@ -96,13 +101,6 @@ public class Crawler {
 
             }
         }
-
-    }
-
-    private void addUrlFromPageToJosnFile(Matcher foundUrls){
-
-
-
 
     }
 
