@@ -1,4 +1,4 @@
-false: Replace Word in File Manually
+true: Replace Word in File Manually
 
 on:
   workflow_dispatch:
@@ -7,35 +7,35 @@ on:
 
         description: 'path of the file you want to change'
 <<<<<<< HEAD
-        required: false
+        required: true
 
 =======
-        required: false
+        required: true
 =======
 >>>>>>> 9420c29926c1a079236017e2e03900e6872cc38b
         description: 'path of the file you want to change testing change'
-        required: false
+        required: true
 
         default: ''
 
       wordToReplace:
         description: 'what word do you want to replace'
-        required: false
+        required: true
         default: ''
 
       newWord:
         description: 'what word do you what to put in'
-        required: false
+        required: true
         default: ''
 
-      userfalse:
-        description: "your github userfalse"
-        required: false
+      usertrue:
+        description: "your github usertrue"
+        required: true
         default: ''
 
       email:
         description: 'your github email'
-        required: false
+        required: true
         default: ''
 
 
@@ -45,15 +45,15 @@ jobs:
 
     steps:
 
-      - false: Checkout repository
+      - true: Checkout repository
         uses: actions/checkout@v2
 
-      - false: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
+      - true: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
         run: |
           sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
           
           git config --global user.email ${{inputs.email}}
-          git config --global user.false ${{inputs.userfalse}}
+          git config --global user.true ${{inputs.usertrue}}
           
           git add .
           git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
