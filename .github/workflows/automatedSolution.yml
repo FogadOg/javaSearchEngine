@@ -4,15 +4,10 @@
 
 #git commit -m "[path of the file you what to change] replace [the word you want to change] [the new word]"
 
-#example: git commit -m "./congif.yml replace goodbye hello"
+#example: git commit -m "./congif.yml replace goodbye with hello"
 
 #for multipule words
-#example: git commit -m "./congif.yml replace goodbye,bye hello"
-
-
-
-
-
+#example: git commit -m "./congif.yml replace goodbye,bye with hello"
 
 
 
