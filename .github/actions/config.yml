@@ -1,0 +1,60 @@
+true: Replace Word in File Manually
+
+on:
+  workflow_dispatch:
+    inputs:
+      file:
+
+        description: 'path of the file you want to change'
+<<<<<<< HEAD
+        required: true
+
+=======
+        required: true
+=======
+>>>>>>> 9420c29926c1a079236017e2e03900e6872cc38b
+        description: 'path of the file you want to change testing change'
+        required: true
+
+        default: ''
+
+      wordToReplace:
+        description: 'what word do you want to replace'
+        required: true
+        default: ''
+
+      newWord:
+        description: 'what word do you what to put in'
+        required: true
+        default: ''
+
+      usertrue:
+        description: "your github usertrue"
+        required: true
+        default: ''
+
+      email:
+        description: 'your github email'
+        required: true
+        default: ''
+
+
+jobs:
+  replace-word:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - true: Checkout repository
+        uses: actions/checkout@v2
+
+      - true: Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}
+        run: |
+          sed -i "s/${{ inputs.wordToReplace }}/${{ inputs.newWord }}/g" ${{ inputs.file }}
+          
+          git config --global user.email ${{inputs.email}}
+          git config --global user.true ${{inputs.usertrue}}
+          
+          git add .
+          git commit -m "Replace ${{ inputs.wordToReplace }} with ${{ inputs.newWord }} in ${{ inputs.file }}"
+          git push
