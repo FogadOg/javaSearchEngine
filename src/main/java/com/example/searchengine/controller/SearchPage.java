@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class SearchPage {
     @GetMapping("/")
     public String home(){
-        //Crawler crawler = new Crawler();
-        //crawler.crawl();
-        Search searchResults= new Search("test search term");
-        System.out.println(searchResults.getSearchResults());
+        Crawler crawler = new Crawler();
+        crawler.crawl();
+
         return "searchPage";
     }
 }

@@ -93,13 +93,9 @@ public class Crawler {
 
             if (!isUrlInJsonFile) {
                 if (url.startsWith("http")) {
-
                     UrlDataJsonObject urlDataJsonObject= new UrlDataJsonObject("data.json", url, LocalDateTime.now(), "cats", 5);
-
                     urlDataJsonObject.addUrlDataToJsonFile();
 
-
-                    System.out.println("Found URL: " + url);
                     this.urlQueue.add(url);
                 }
 
