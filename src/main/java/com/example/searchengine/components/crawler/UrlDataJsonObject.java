@@ -4,6 +4,8 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
+import com.gargoylesoftware.htmlunit.WebClient;
+
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -16,7 +18,11 @@ public class UrlDataJsonObject {
     public String content;
     public Integer rating;
 
-    public UrlDataJsonObject(String jsonFile, String url, LocalDateTime lastTimeCrawled, String content, Integer rating){
+    public UrlDataJsonObject(String jsonFile,
+                             String url,
+                             LocalDateTime lastTimeCrawled,
+                             String content,
+                             Integer rating){
 
         this.jsonFile=jsonFile;
         this.url=url;
@@ -32,6 +38,8 @@ public class UrlDataJsonObject {
             JSONArray jsonArray = new JSONArray(tokener);
 
             JSONObject newObject = new JSONObject();
+
+
             newObject.put("lastTimeCrawled", lastTimeCrawled);
             newObject.put("rating", rating);
             newObject.put("url", url);
@@ -47,6 +55,28 @@ public class UrlDataJsonObject {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+    }
+
+
+
+    public String FindPagesFavicon(){
+
+        HtmlPage page = getHtmlContent()
+
+        return "";
+    }
+
+    private HtmlPage getHtmlContent(){
+
+        WebClient client = new WebClient();
+        client.getOptions().setCssEnabled(false);
+        client.getOptions().setJavaScriptEnabled(false);
+
+        HtmlPage page = client.getPage(url)
+
+
+        return page;
 
     }
 
