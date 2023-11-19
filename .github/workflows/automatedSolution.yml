@@ -44,15 +44,17 @@ jobs:
           MESSAGE="${{ steps.extract_message.outputs.message }}"
               
           
-          FILE=$(echo "$MESSAGE" | awk '{print $1}')  # Assuming the file is the first word in the commit message
-          REPLACE=$(echo "$MESSAGE" | awk '{print $2}')  # Assuming the new word is the third word
-          OLD_WORD=$(echo "$MESSAGE" | awk '{print $3}')  # Assuming the old word is the second word
-          NEW_WORD=$(echo "$MESSAGE" | awk '{print $4}')  # Assuming the new word is the third word
+          FILE=$(echo "$MESSAGE" | awk '{print $1}')  
+          REPLACE=$(echo "$MESSAGE" | awk '{print $2}') 
+          OLD_WORD=$(echo "$MESSAGE" | awk '{print $3}') 
+          WITH=$(echo "$MESSAGE" | awk '{print $4}')
+          NEW_WORD=$(echo "$MESSAGE" | awk '{print $5}')
           
 
           echo "::set-output name=file::$FILE"
           echo "::set-output name=old_word::$OLD_WORD"
           echo "::set-output name=new_word::$NEW_WORD"
+          echo "::set-output name=with::$WITH"
           echo "::set-output name=replace::$REPLACE"
           
           
@@ -65,7 +67,7 @@ jobs:
           
 
       - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
-        if: ${{ steps.extract_info.outputs.replace == 'replace' }}
+        if: ${{ steps.extract_info.outputs.replace == 'replace' }} || ${{ steps.extract_info.outputs.with == 'with' }}
         run: |
           
             IFS=',' read -ra OLD_WORDS <<< ${{ steps.extract_info.outputs.old_word }}  # Split words by comma

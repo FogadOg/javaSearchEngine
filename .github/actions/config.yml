@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       file:
-<<<<<<< HEAD
+
         description: 'path of the file you want to change'
         required: true
-=======
+
         description: 'path of the file you want to change testing change'
         required: false
->>>>>>> 1b974574daf861f5d79f9a4719085d1d99655054
+
         default: ''
 
       wordToReplace:
