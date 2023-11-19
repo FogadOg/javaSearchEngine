@@ -48,11 +48,7 @@ public class CrawlerService {
         return false;
 
     }
-
-    public void addUrlDataToJsonFile(String jsonFile, String url, LocalDateTime lastTimeCrawled, String content, Integer rating){
-        UrlDataJsonObject jsonObject = new UrlDataJsonObject(jsonFile, url, lastTimeCrawled, content, rating);
-        jsonObject.addUrlDataToJsonFile();
-    }
+    
 
     public static void main(String[] args){
 

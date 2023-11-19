@@ -1,5 +1,6 @@
 package com.example.searchengine.components.crawler;
 
+import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;
 
 import java.io.BufferedReader;
@@ -23,13 +24,13 @@ public class Crawler {
 
     CrawlerService crawlerService;
 
+
     public Crawler(){
         this.urlQueue= new LinkedList<>(asList("https://no.wikipedia.org/wiki/Yoga"));
         this.urlsCrawled= new ArrayList<>();
         this.crawlerService=new CrawlerService();
 
     }
-
 
     public void crawl(){
         Crawler crawler= new Crawler();
@@ -85,14 +86,17 @@ public class Crawler {
 
     }
 
-    private void addUrlFromPageToJsonFile(Matcher foundUrls){
+    private void addUrlFromPageToJsonFile(@NonNull Matcher foundUrls){
         while (foundUrls.find()) {
             String url = foundUrls.group(1) != null ? foundUrls.group(1) : foundUrls.group(2);
             boolean isUrlInJsonFile = this.crawlerService.checkIfPageInJsonFile(url, "data.json");
 
             if (!isUrlInJsonFile) {
                 if (url.startsWith("http")) {
-                    this.crawlerService.addUrlDataToJsonFile("data.json", url, LocalDateTime.now(), "cats", 5);
+
+                    UrlDataJsonObject urlDataJsonObject= new UrlDataJsonObject("data.json", url, LocalDateTime.now(), "cats", 5);
+
+                    urlDataJsonObject.addUrlDataToJsonFile();
 
 
                     System.out.println("Found URL: " + url);
