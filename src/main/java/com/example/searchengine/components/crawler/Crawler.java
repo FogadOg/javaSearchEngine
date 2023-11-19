@@ -42,7 +42,6 @@ public class Crawler {
 
             readWebpage(requestUrl);
 
-
         }
         System.out.println("queue empty");
 
@@ -74,36 +73,38 @@ public class Crawler {
     public void findUrlsInHtml(String webpage){
         Crawler crawler= new Crawler();
 
-        Integer breakingPoint=crawler.breakingPoint(2);
-
         //"<a\\s+[^>]*href\\s*=\\s*\"(https?://[^\\s/\"]+)\"[^>]*>|<a\\s+[^>]*href\\s*=\\s*'((https?://[^\\s/\']+))'[^>]*>"
 
         String regexPattern = "<a\\s+[^>]*href\\s*=\\s*\"([^\"]*)\"[^>]*>|<a\\s+[^>]*href\\s*=\\s*'([^']*)'[^>]*>";
 
         Pattern pattern = Pattern.compile(regexPattern);
 
-        Matcher matcher = pattern.matcher(webpage);
+        Matcher foundUrls = pattern.matcher(webpage);
 
-        while (matcher.find()) {
-            String url = matcher.group(1) != null ? matcher.group(1) : matcher.group(2);
-            boolean isUrlInJsonFile=this.crawlerService.checkIfPageInJsonFile("https://no.wikipedia.org/wiki/Yoga","data.json");
-            if(!isUrlInJsonFile){
-                if(url.startsWith("http")){
+        while (foundUrls.find()) {
+            String url = foundUrls.group(1) != null ? foundUrls.group(1) : foundUrls.group(2);
+            boolean isUrlInJsonFile = this.crawlerService.checkIfPageInJsonFile(url, "data.json");
+
+            if (!isUrlInJsonFile) {
+                if (url.startsWith("http")) {
                     this.crawlerService.addUrlDataToJsonFile("data.json", url, LocalDateTime.now(), "cats", 5);
 
 
-                    //System.out.println("Found URL: " + url);
+                    System.out.println("Found URL: " + url);
                     this.urlQueue.add(url);
                 }
 
             }
-
         }
-
 
     }
 
+    private void addUrlFromPageToJosnFile(Matcher foundUrls){
 
+
+
+
+    }
 
     private Integer breakingPoint(Integer breakingPoint){
         return breakingPoint-1;

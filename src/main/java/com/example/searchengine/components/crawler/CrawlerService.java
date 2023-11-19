@@ -23,10 +23,13 @@ public class CrawlerService {
 
 
         try{
-            JSONArray jsonDataArray = (JSONArray) jsonParser.parse(new FileReader("data.json"));
+            JSONArray jsonDataArray = (JSONArray) jsonParser.parse(new FileReader(jsonFile));
 
             for(Object urlData:jsonDataArray){
                 JSONObject urlDataObject=(JSONObject) urlData;
+
+
+
 
                 if(urlDataObject.get("url").equals(url)){
                     return true;
