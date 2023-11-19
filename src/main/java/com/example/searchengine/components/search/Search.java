@@ -1,56 +1,50 @@
-package com.example.searchengine.components.crawler;
-
-
+package com.example.searchengine.components.search;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import org.springframework.stereotype.Service;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
-@Service
-public class CrawlerService {
+public class Search {
+    public String searchTerm;
+    public String dataFile="data.json";
 
-    public boolean checkIfPageInJsonFile(String url, String jsonFile){
+    public Search(String searchTrem){
+        this.searchTerm=searchTrem;
+    }
+
+    public List<String> getSearchResults(){
         JSONParser jsonParser = new JSONParser();
-
-
         try{
-            JSONArray jsonDataArray = (JSONArray) jsonParser.parse(new FileReader(jsonFile));
+            JSONArray jsonDataArray = (JSONArray) jsonParser.parse(new FileReader(dataFile));
 
             for(Object urlData:jsonDataArray){
                 JSONObject urlDataObject=(JSONObject) urlData;
 
 
+                System.out.println(urlDataObject.get("url"));
 
-
-                if(urlDataObject.get("url").equals(url)){
-                    return true;
-                }
             }
-            return false;
-
-
-
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
         }catch (ParseException | IOException e) {
             e.printStackTrace();
         }
-        return false;
 
+        return new ArrayList<String>();
     }
-
 
     public static void main(String[] args){
 
     }
+
+
+
 }

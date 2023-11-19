@@ -27,19 +27,19 @@ public class UrlDataJsonObject {
 
     public void addUrlDataToJsonFile(){
         try {
-            FileReader fileReader = new FileReader(this.jsonFile);
+            FileReader fileReader = new FileReader(jsonFile);
             JSONTokener tokener = new JSONTokener(fileReader);
             JSONArray jsonArray = new JSONArray(tokener);
 
             JSONObject newObject = new JSONObject();
-            newObject.put("lastTimeCrawled", this.lastTimeCrawled);
-            newObject.put("rating", this.rating);
-            newObject.put("url", this.url);
-            newObject.put("content", this.content);
+            newObject.put("lastTimeCrawled", lastTimeCrawled);
+            newObject.put("rating", rating);
+            newObject.put("url", url);
+            newObject.put("content", content);
 
             jsonArray.put(newObject);
 
-            FileWriter fileWriter = new FileWriter(this.jsonFile);
+            FileWriter fileWriter = new FileWriter(jsonFile);
             fileWriter.write(jsonArray.toString(4));
             fileWriter.flush();
             fileWriter.close();
