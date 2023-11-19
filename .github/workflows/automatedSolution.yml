@@ -9,8 +9,6 @@
 #for multipule words
 #example: git commit -m "./congif.yml replace goodbye,bye with hello"
 
-
-
 name: Replace Word in File with Git Push
 
 on:
