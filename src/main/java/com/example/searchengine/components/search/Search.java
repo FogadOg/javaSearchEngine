@@ -19,26 +19,9 @@ public class Search {
         this.searchTerm=searchTrem;
     }
 
-    public List<String> getSearchResults(){
-        JSONParser jsonParser = new JSONParser();
-        try{
-            JSONArray jsonDataArray = (JSONArray) jsonParser.parse(new FileReader(dataFile));
-
-            for(Object urlData:jsonDataArray){
-                JSONObject urlDataObject=(JSONObject) urlData;
+    public void getSearchResults(){
 
 
-                System.out.println(urlDataObject.get("url"));
-
-            }
-        }
-        catch (FileNotFoundException e){
-            e.printStackTrace();
-        }catch (ParseException | IOException e) {
-            e.printStackTrace();
-        }
-
-        return new ArrayList<String>();
     }
 
     public static void main(String[] args){
