@@ -1,2234 +1,450 @@
-[
+[[
     {
-        "lastTimeCrawled": "13.11.2023",
+        "lastTimeCrawled": "2023-11-19T18:42:46.281597900",
+        "favicon": "https://www.wikimedia.nohttps://www.wikimedia.no/wp-content/themes/wikimedianorge/favicon.ico",
         "rating": 5,
+        "page title": "Forside - Wikimedia Norge",
         "url": "https://www.wikimedia.no",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.161874700",
+        "lastTimeCrawled": "2023-11-19T18:42:47.317669700",
+        "favicon": "https://nn.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
-        "url": "https://www.wikimedia.no",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.166411200",
-        "rating": 5,
-        "url": "https://commons.wikimedia.org/wiki/Category:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.169432300",
-        "rating": 5,
+        "page title": "Yoga \u2013 Wikipedia",
         "url": "https://nn.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.170434700",
+        "lastTimeCrawled": "2023-11-19T18:42:47.469844300",
+        "favicon": "https://da.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipedia, den frie encyklopædi",
         "url": "https://da.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.170434700",
+        "lastTimeCrawled": "2023-11-19T18:42:47.623547400",
+        "favicon": "https://sv.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga \u2013 Wikipedia",
         "url": "https://sv.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.171440900",
+        "lastTimeCrawled": "2023-11-19T18:42:47.794011",
+        "favicon": "https://is.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Jóga - Wikipedia, frjálsa alfræðiritið",
         "url": "https://is.wikipedia.org/wiki/J%C3%B3ga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.171440900",
+        "lastTimeCrawled": "2023-11-19T18:42:47.942230800",
+        "favicon": "https://af.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Joga - Wikipedia",
         "url": "https://af.wikipedia.org/wiki/Joga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.172444200",
+        "lastTimeCrawled": "2023-11-19T18:42:48.087076500",
+        "favicon": "https://als.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Alemannische Wikipedia",
         "url": "https://als.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.172444200",
+        "lastTimeCrawled": "2023-11-19T18:42:48.241536300",
+        "favicon": "https://ar.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "يوجا - ويكيبيديا",
         "url": "https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D8%AC%D8%A7",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.173445900",
+        "lastTimeCrawled": "2023-11-19T18:42:48.452372600",
+        "favicon": "https://an.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Biquipedia, a enciclopedia libre",
         "url": "https://an.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.173950600",
+        "lastTimeCrawled": "2023-11-19T18:42:48.594809",
+        "favicon": "https://hyw.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Եոկա \u2014 Ուիքիփետիա",
         "url": "https://hyw.wikipedia.org/wiki/%D4%B5%D5%B8%D5%AF%D5%A1",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.174955700",
+        "lastTimeCrawled": "2023-11-19T18:42:48.739184900",
+        "favicon": "https://as.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "যোগাসন - অসমীয়া ৱিকিপিডিয়া",
         "url": "https://as.wikipedia.org/wiki/%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%B8%E0%A6%A8",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.174955700",
+        "lastTimeCrawled": "2023-11-19T18:42:48.888615900",
+        "favicon": "https://ast.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipedia",
         "url": "https://ast.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.175962600",
+        "lastTimeCrawled": "2023-11-19T18:42:49.048289",
+        "favicon": "https://awa.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "योग - विकिपीडिया",
         "url": "https://awa.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.176969200",
+        "lastTimeCrawled": "2023-11-19T18:42:49.201454200",
+        "favicon": "https://az.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoqa \u2014 Vikipediya",
         "url": "https://az.wikipedia.org/wiki/Yoqa",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.176969200",
+        "lastTimeCrawled": "2023-11-19T18:42:49.345175400",
+        "favicon": "https://azb.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "یوقا - ویکی\u200cپدیا",
         "url": "https://azb.wikipedia.org/wiki/%DB%8C%D9%88%D9%82%D8%A7",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.178132200",
+        "lastTimeCrawled": "2023-11-19T18:42:49.511127",
+        "favicon": "https://ban.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipédia",
         "url": "https://ban.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.178132200",
+        "lastTimeCrawled": "2023-11-19T18:42:49.669196900",
+        "favicon": "https://bn.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "যোগব্যায়াম - উইকিপিডিয়া",
         "url": "https://bn.wikipedia.org/wiki/%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.179135600",
+        "lastTimeCrawled": "2023-11-19T18:42:49.865679500",
+        "favicon": "https://zh-min-nan.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga \u2013 Wikipedia",
         "url": "https://zh-min-nan.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.180138800",
+        "lastTimeCrawled": "2023-11-19T18:42:50.025415800",
+        "favicon": "https://ba.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Йога \u2014 Башҡорт Википедияһы",
         "url": "https://ba.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.180138800",
+        "lastTimeCrawled": "2023-11-19T18:42:50.192123600",
+        "favicon": "https://be.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Ёга \u2014 Вікіпедыя",
         "url": "https://be.wikipedia.org/wiki/%D0%81%D0%B3%D0%B0",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.181155",
+        "lastTimeCrawled": "2023-11-19T18:42:50.333797900",
+        "favicon": "https://be-tarask.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Ёга \u2014 Вікіпэдыя",
         "url": "https://be-tarask.wikipedia.org/wiki/%D0%81%D0%B3%D0%B0",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.182205500",
+        "lastTimeCrawled": "2023-11-19T18:42:50.476180800",
+        "favicon": "https://bh.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "योग - विकिपीडिया",
         "url": "https://bh.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.182205500",
+        "lastTimeCrawled": "2023-11-19T18:42:50.637425100",
+        "favicon": "https://bcl.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipedia",
         "url": "https://bcl.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.183709",
+        "lastTimeCrawled": "2023-11-19T18:42:50.782209200",
+        "favicon": "https://bg.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Йога \u2013 Уикипедия",
         "url": "https://bg.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.184723600",
+        "lastTimeCrawled": "2023-11-19T18:42:50.958359600",
+        "favicon": "https://bo.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "ཡོ་ག - Wikipedia",
         "url": "https://bo.wikipedia.org/wiki/%E0%BD%A1%E0%BD%BC%E0%BC%8B%E0%BD%82",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.184723600",
+        "lastTimeCrawled": "2023-11-19T18:42:51.112253500",
+        "favicon": "https://bs.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Joga - Wikipedia",
         "url": "https://bs.wikipedia.org/wiki/Joga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.185727100",
+        "lastTimeCrawled": "2023-11-19T18:42:51.268722500",
+        "favicon": "https://br.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipedia",
         "url": "https://br.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.186770300",
+        "lastTimeCrawled": "2023-11-19T18:42:51.426365",
+        "favicon": "https://bxr.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Налжор \u2014 Wikipedia",
         "url": "https://bxr.wikipedia.org/wiki/%D0%9D%D0%B0%D0%BB%D0%B6%D0%BE%D1%80",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.186770300",
+        "lastTimeCrawled": "2023-11-19T18:42:51.571138300",
+        "favicon": "https://ca.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Ioga - Viquipèdia, l'enciclopèdia lliure",
         "url": "https://ca.wikipedia.org/wiki/Ioga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.195149900",
+        "lastTimeCrawled": "2023-11-19T18:42:51.738339500",
+        "favicon": "https://cs.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Jóga \u2013 Wikipedie",
         "url": "https://cs.wikipedia.org/wiki/J%C3%B3ga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.196218800",
+        "lastTimeCrawled": "2023-11-19T18:42:51.902439800",
+        "favicon": "https://cy.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Ioga - Wicipedia",
         "url": "https://cy.wikipedia.org/wiki/Ioga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.197266300",
+        "lastTimeCrawled": "2023-11-19T18:42:52.084501800",
+        "favicon": "https://de.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga \u2013 Wikipedia",
         "url": "https://de.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.197266300",
+        "lastTimeCrawled": "2023-11-19T18:42:52.247241600",
+        "favicon": "https://et.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Jooga \u2013 Vikipeedia",
         "url": "https://et.wikipedia.org/wiki/Jooga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.198269100",
+        "lastTimeCrawled": "2023-11-19T18:42:52.403118600",
+        "favicon": "https://el.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Γιόγκα - Βικιπαίδεια",
         "url": "https://el.wikipedia.org/wiki/%CE%93%CE%B9%CF%8C%CE%B3%CE%BA%CE%B1",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.199314600",
+        "lastTimeCrawled": "2023-11-19T18:42:52.581412700",
+        "favicon": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.199314600",
+        "lastTimeCrawled": "2023-11-19T18:42:52.893435700",
+        "favicon": "https://es.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipedia, la enciclopedia libre",
         "url": "https://es.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.200320400",
+        "lastTimeCrawled": "2023-11-19T18:42:53.069118400",
+        "favicon": "https://eo.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Jogo - Vikipedio",
         "url": "https://eo.wikipedia.org/wiki/Jogo",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.201323300",
+        "lastTimeCrawled": "2023-11-19T18:42:53.218760300",
+        "favicon": "https://eu.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipedia, entziklopedia askea.",
         "url": "https://eu.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.202326300",
+        "lastTimeCrawled": "2023-11-19T18:42:53.391608400",
+        "favicon": "https://fa.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "یوگا - ویکی\u200cپدیا، دانشنامهٔ آزاد",
         "url": "https://fa.wikipedia.org/wiki/%DB%8C%D9%88%DA%AF%D8%A7",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.202326300",
+        "lastTimeCrawled": "2023-11-19T18:42:53.566400200",
+        "favicon": "https://fr.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga \u2014 Wikipédia",
         "url": "https://fr.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.203828400",
+        "lastTimeCrawled": "2023-11-19T18:42:53.798497500",
+        "favicon": "https://ga.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Ióga - Vicipéid",
         "url": "https://ga.wikipedia.org/wiki/I%C3%B3ga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.203828400",
+        "lastTimeCrawled": "2023-11-19T18:42:53.948061400",
+        "favicon": "https://gl.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Ioga - Wikipedia, a enciclopedia libre",
         "url": "https://gl.wikipedia.org/wiki/Ioga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.204878100",
+        "lastTimeCrawled": "2023-11-19T18:42:54.096134200",
+        "favicon": "https://gu.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "યોગ (મનોશારીરીક જીવનશૈલી) - વિકિપીડિયા",
         "url": "https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%8B%E0%AA%97_(%E0%AA%AE%E0%AA%A8%E0%AB%8B%E0%AA%B6%E0%AA%BE%E0%AA%B0%E0%AB%80%E0%AA%B0%E0%AB%80%E0%AA%95_%E0%AA%9C%E0%AB%80%E0%AA%B5%E0%AA%A8%E0%AA%B6%E0%AB%88%E0%AA%B2%E0%AB%80)",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.205877700",
+        "lastTimeCrawled": "2023-11-19T18:42:54.285506400",
+        "favicon": "https://gom.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "योग - विकिपीडिया",
         "url": "https://gom.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.206877300",
+        "lastTimeCrawled": "2023-11-19T18:42:54.424698200",
+        "favicon": "https://ko.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "요가 - 위키백과, 우리 모두의 백과사전",
         "url": "https://ko.wikipedia.org/wiki/%EC%9A%94%EA%B0%80",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.207878400",
+        "lastTimeCrawled": "2023-11-19T18:42:54.617402100",
+        "favicon": "https://hy.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Յոգա - Վիքիպեդիա՝ ազատ հանրագիտարան",
         "url": "https://hy.wikipedia.org/wiki/%D5%85%D5%B8%D5%A3%D5%A1",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.208878600",
+        "lastTimeCrawled": "2023-11-19T18:42:54.847158200",
+        "favicon": "https://hi.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "योग - विकिपीडिया",
         "url": "https://hi.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.209878800",
+        "lastTimeCrawled": "2023-11-19T18:42:55.050329100",
+        "favicon": "https://hr.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Joga \u2013 Wikipedija",
         "url": "https://hr.wikipedia.org/wiki/Joga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.210878500",
+        "lastTimeCrawled": "2023-11-19T18:42:55.210225400",
+        "favicon": "https://ilo.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipedia, ti nawaya nga ensiklopedia",
         "url": "https://ilo.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.211878400",
+        "lastTimeCrawled": "2023-11-19T18:42:55.364063900",
+        "favicon": "https://id.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipedia bahasa Indonesia, ensiklopedia bebas",
         "url": "https://id.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.211878400",
+        "lastTimeCrawled": "2023-11-19T18:42:55.524036100",
+        "favicon": "https://ia.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipedia, le encyclopedia libere",
         "url": "https://ia.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.213381800",
+        "lastTimeCrawled": "2023-11-19T18:42:55.668514700",
+        "favicon": "https://it.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipedia",
         "url": "https://it.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.214394800",
+        "lastTimeCrawled": "2023-11-19T18:42:55.863995600",
+        "favicon": "https://he.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "יוגה \u2013 ויקיפדיה",
         "url": "https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%92%D7%94",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.215761300",
+        "lastTimeCrawled": "2023-11-19T18:42:56.027081500",
+        "favicon": "https://jv.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yoga - Wikipédia",
         "url": "https://jv.wikipedia.org/wiki/Yoga",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.216760300",
+        "lastTimeCrawled": "2023-11-19T18:42:56.169806",
+        "favicon": "https://kbp.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "Yogaa \u2014 Wikipediya",
         "url": "https://kbp.wikipedia.org/wiki/Yogaa",
         "content": "cats"
     },
     {
-        "lastTimeCrawled": "2023-11-14T20:03:32.217761300",
+        "lastTimeCrawled": "2023-11-19T18:42:56.303545700",
+        "favicon": "https://kn.wikipedia.org/static/favicon/wikipedia.ico",
         "rating": 5,
+        "page title": "ಯೋಗ - ವಿಕಿಪೀಡಿಯ",
         "url": "https://kn.wikipedia.org/wiki/%E0%B2%AF%E0%B3%8B%E0%B2%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.218761900",
-        "rating": 5,
-        "url": "https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%9D%E1%83%92%E1%83%90",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.219761800",
-        "rating": 5,
-        "url": "https://ks.wikipedia.org/wiki/%DB%8C%D9%88%DA%AF%D8%A7",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.220762100",
-        "rating": 5,
-        "url": "https://kk.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.221767700",
-        "rating": 5,
-        "url": "https://rw.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.222771100",
-        "rating": 5,
-        "url": "https://sw.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.223771300",
-        "rating": 5,
-        "url": "https://ky.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.224274600",
-        "rating": 5,
-        "url": "https://la.wikipedia.org/wiki/Ioga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.225277400",
-        "rating": 5,
-        "url": "https://lv.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.226293",
-        "rating": 5,
-        "url": "https://lt.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.227752700",
-        "rating": 5,
-        "url": "https://lmo.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.230805900",
-        "rating": 5,
-        "url": "https://hu.wikipedia.org/wiki/J%C3%B3ga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.231808900",
-        "rating": 5,
-        "url": "https://mai.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.232813",
-        "rating": 5,
-        "url": "https://mk.wikipedia.org/wiki/%D0%88%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.233813",
-        "rating": 5,
-        "url": "https://ml.wikipedia.org/wiki/%E0%B4%AF%E0%B5%8B%E0%B4%97%E0%B4%82",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.235234",
-        "rating": 5,
-        "url": "https://mr.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.236326700",
-        "rating": 5,
-        "url": "https://ms.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.237363200",
-        "rating": 5,
-        "url": "https://mwl.wikipedia.org/wiki/Ioga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.238373100",
-        "rating": 5,
-        "url": "https://my.wikipedia.org/wiki/%E1%80%9A%E1%80%B1%E1%80%AC%E1%80%82%E1%80%80%E1%80%BB%E1%80%84%E1%80%B7%E1%80%BA%E1%80%85%E1%80%89%E1%80%BA",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.239375300",
-        "rating": 5,
-        "url": "https://nl.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.240377500",
-        "rating": 5,
-        "url": "https://nds-nl.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.241392600",
-        "rating": 5,
-        "url": "https://ne.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.243396500",
-        "rating": 5,
-        "url": "https://new.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.244410100",
-        "rating": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A8%E3%83%BC%E3%82%AC",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.245413700",
-        "rating": 5,
-        "url": "https://ce.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.246443",
-        "rating": 5,
-        "url": "https://oc.wikipedia.org/wiki/I%C3%B2ga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.248450300",
-        "rating": 5,
-        "url": "https://or.wikipedia.org/wiki/%E0%AC%AF%E0%AD%8B%E0%AC%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.249483100",
-        "rating": 5,
-        "url": "https://uz.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.250485300",
-        "rating": 5,
-        "url": "https://pa.wikipedia.org/wiki/%E0%A8%AF%E0%A9%8B%E0%A8%97%E0%A8%BE%E0%A8%B8%E0%A8%A3",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.252857100",
-        "rating": 5,
-        "url": "https://pi.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.254577300",
-        "rating": 5,
-        "url": "https://pnb.wikipedia.org/wiki/%DB%8C%D9%88%DA%AF%D8%A7",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.255581400",
-        "rating": 5,
-        "url": "https://jam.wikipedia.org/wiki/Yuoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.257608500",
-        "rating": 5,
-        "url": "https://pms.wikipedia.org/wiki/J%C3%B2ga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.259615700",
-        "rating": 5,
-        "url": "https://pl.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.261620",
-        "rating": 5,
-        "url": "https://pt.wikipedia.org/wiki/Ioga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.263624600",
-        "rating": 5,
-        "url": "https://ro.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.265691700",
-        "rating": 5,
-        "url": "https://qu.wikipedia.org/wiki/Yuqa",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.267766400",
-        "rating": 5,
-        "url": "https://rue.wikipedia.org/wiki/%D0%99%D0%BE%D2%91%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.268768400",
-        "rating": 5,
-        "url": "https://ru.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.271811600",
-        "rating": 5,
-        "url": "https://sah.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.272813400",
-        "rating": 5,
-        "url": "https://sa.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%83",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.274845500",
-        "rating": 5,
-        "url": "https://sat.wikipedia.org/wiki/%E1%B1%AD%E1%B1%9A%E1%B1%9C%E1%B1%9F",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.277860700",
-        "rating": 5,
-        "url": "https://sco.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.279936100",
-        "rating": 5,
-        "url": "https://sq.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.281995100",
-        "rating": 5,
-        "url": "https://si.wikipedia.org/wiki/%E0%B6%BA%E0%B7%9D%E0%B6%9C",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.283498500",
-        "rating": 5,
-        "url": "https://simple.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.286533600",
-        "rating": 5,
-        "url": "https://sk.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.288541500",
-        "rating": 5,
-        "url": "https://sl.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.289546800",
-        "rating": 5,
-        "url": "https://ckb.wikipedia.org/wiki/%DB%8C%DB%86%DA%AF%D8%A7",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.291559300",
-        "rating": 5,
-        "url": "https://sr.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.293564900",
-        "rating": 5,
-        "url": "https://sh.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.295731",
-        "rating": 5,
-        "url": "https://fi.wikipedia.org/wiki/Jooga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.297948200",
-        "rating": 5,
-        "url": "https://tl.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.299954100",
-        "rating": 5,
-        "url": "https://ta.wikipedia.org/wiki/%E0%AE%AF%E0%AF%8B%E0%AE%95%E0%AE%95%E0%AF%8D_%E0%AE%95%E0%AE%B2%E0%AF%88",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.302008500",
-        "rating": 5,
-        "url": "https://tt.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.303511400",
-        "rating": 5,
-        "url": "https://te.wikipedia.org/wiki/%E0%B0%AF%E0%B1%8B%E0%B0%97%E0%B0%BE",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.305557500",
-        "rating": 5,
-        "url": "https://th.wikipedia.org/wiki/%E0%B9%82%E0%B8%A2%E0%B8%84%E0%B8%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.307583",
-        "rating": 5,
-        "url": "https://tg.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.309622300",
-        "rating": 5,
-        "url": "https://tcy.wikipedia.org/wiki/%E0%B2%AF%E0%B3%8B%E0%B2%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.311860600",
-        "rating": 5,
-        "url": "https://tr.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.314480500",
-        "rating": 5,
-        "url": "https://uk.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.316500400",
-        "rating": 5,
-        "url": "https://ur.wikipedia.org/wiki/%DB%8C%D9%88%DA%AF%D8%A7",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.318569700",
-        "rating": 5,
-        "url": "https://vi.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.320579400",
-        "rating": 5,
-        "url": "https://fiu-vro.wikipedia.org/wiki/Jooga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.321582700",
-        "rating": 5,
-        "url": "https://war.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.323663300",
-        "rating": 5,
-        "url": "https://wuu.wikipedia.org/wiki/%E7%91%9C%E4%BC%BD",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.325683300",
-        "rating": 5,
-        "url": "https://yi.wikipedia.org/wiki/%D7%99%D7%90%D7%92%D7%90",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.328716",
-        "rating": 5,
-        "url": "https://zh-yue.wikipedia.org/wiki/%E7%91%9C%E4%BC%BD",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.330815800",
-        "rating": 5,
-        "url": "https://bat-smg.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.332823900",
-        "rating": 5,
-        "url": "https://zh.wikipedia.org/wiki/%E7%91%9C%E4%BC%BD",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.333824200",
-        "rating": 5,
-        "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q9350#sitelinks-wikipedia",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.344467300",
-        "rating": 5,
-        "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q9350",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.382808900",
-        "rating": 5,
-        "url": "https://commons.wikimedia.org/wiki/Category:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.385907900",
-        "rating": 5,
-        "url": "https://www.wikidata.org/wiki/Q9350?uselang=nb#P373",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.387915100",
-        "rating": 5,
-        "url": "https://web.archive.org/web/20130502101259/http://nifab.no/behandlingsformer/flere/yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.389924200",
-        "rating": 5,
-        "url": "http://religionsoraklene.no",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.392305100",
-        "rating": 5,
-        "url": "http://religionsoraklene.no/hvordan-ble-yoga-moderne/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.396878700",
-        "rating": 5,
-        "url": "https://no.wikipedia.org/w/index.php?title=Mal:Hinduisme&amp;action=edit",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.435632300",
-        "rating": 5,
-        "url": "https://snl.no/yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.437918",
-        "rating": 5,
-        "url": "https://www.britannica.com/topic/Yoga-tantra-classification",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.439928",
-        "rating": 5,
-        "url": "https://www.universalis.fr/encyclopedie/yoga/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.442823700",
-        "rating": 5,
-        "url": "https://www.ne.se/uppslagsverk/encyklopedi/lång/yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.445861500",
-        "rating": 5,
-        "url": "https://d-nb.info/gnd/4067199-9",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.447909500",
-        "rating": 5,
-        "url": "https://id.loc.gov/authorities/sh85149174",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.451002",
-        "rating": 5,
-        "url": "https://catalogue.bnf.fr/ark:/12148/cb11933824d",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.454572600",
-        "rating": 5,
-        "url": "http://data.bnf.fr/ark:/12148/cb11933824d",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.457774900",
-        "rating": 5,
-        "url": "https://libris.kb.se/tr5769tc3d0d6rz",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.458782",
-        "rating": 5,
-        "url": "https://id.ndl.go.jp/auth/ndlna/00574263",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.461806",
-        "rating": 5,
-        "url": "https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ph114850",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.462813500",
-        "rating": 5,
-        "url": "https://datos.bne.es/resource/XX527235",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.465185400",
-        "rating": 5,
-        "url": "https://www.bbc.co.uk/things/380d6953-12df-40c6-b438-40fcbf1d2f52",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.467254200",
-        "rating": 5,
-        "url": "https://no.wikipedia.org/w/index.php?title=Yoga&amp;oldid=23466423",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.471338300",
-        "rating": 5,
-        "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.no",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.473850100",
-        "rating": 5,
-        "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.474868300",
-        "rating": 5,
-        "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.477890300",
-        "rating": 5,
-        "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.479904300",
-        "rating": 5,
-        "url": "https://developer.wikimedia.org",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.481925",
-        "rating": 5,
-        "url": "https://stats.wikimedia.org/#/no.wikipedia.org",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.483428400",
-        "rating": 5,
-        "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.486496800",
-        "rating": 5,
-        "url": "https://wikimediafoundation.org/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:32.487532300",
-        "rating": 5,
-        "url": "https://www.mediawiki.org/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:33.988778200",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:33.990842200",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/om-oss/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:33.992855100",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/stott-oss/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:33.995216800",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/samarbeid-med-oss/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:33.997672400",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/kontakt-oss/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:33.998676300",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/stott-oss/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.001692600",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/stott-oss/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.004200800",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/samarbeid-med-oss/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.005718700",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/events/event/julebord/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.007792400",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/events/event/julebord/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.009804500",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/08/25/styrket-kvinneandel-pa-wikipedia/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.011828300",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/08/25/styrket-kvinneandel-pa-wikipedia/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.013834800",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/08/25/styrket-kvinneandel-pa-wikipedia/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.015852800",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/30/rapport-fra-admintreffet/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.017901100",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/30/rapport-fra-admintreffet/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.019899900",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/30/rapport-fra-admintreffet/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.021901800",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/16/svartmetall-er-ein-del-av-norsk-kulturarv/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.024415600",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/16/svartmetall-er-ein-del-av-norsk-kulturarv/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.026418500",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/16/svartmetall-er-ein-del-av-norsk-kulturarv/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.028419300",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/04/flere-kvinner-gjor-wikipedia-bedre/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.030419600",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/04/flere-kvinner-gjor-wikipedia-bedre/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.032420",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/04/flere-kvinner-gjor-wikipedia-bedre/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.034926900",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/03/wikinobel-2023/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.036934400",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/03/wikinobel-2023/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.038991700",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/10/03/wikinobel-2023/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.041007800",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/09/21/wikipedia-vellykket-skrivekurs-for-kvinner/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.043514300",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/09/21/wikipedia-vellykket-skrivekurs-for-kvinner/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.045539100",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/09/21/wikipedia-vellykket-skrivekurs-for-kvinner/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.047681400",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/09/10/wikipedia-skrivekurs-for-kvinner/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.049693900",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/09/10/wikipedia-skrivekurs-for-kvinner/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.051698300",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/2023/09/10/wikipedia-skrivekurs-for-kvinner/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.055030600",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/nyheter-og-blogginnlegg/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.058076900",
-        "rating": 5,
-        "url": "https://www.facebook.com/WikimediaNorge",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.060084300",
-        "rating": 5,
-        "url": "https://www.instagram.com/wikimedianorge",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.062096600",
-        "rating": 5,
-        "url": "https://www.youtube.com/channel/UCD5DZY--KACoa8nUOtcLlSQ",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.064612800",
-        "rating": 5,
-        "url": "https://twitter.com/WikimediaNorge",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.066619700",
-        "rating": 5,
-        "url": "http://eepurl.com/hq3HEz",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.068625300",
-        "rating": 5,
-        "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.no",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.071697300",
-        "rating": 5,
-        "url": "http://no.wikimedia.org",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.073699700",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/personvern/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.075724300",
-        "rating": 5,
-        "url": "https://www.wikimedia.no/kontakt-oss/",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.261472200",
-        "rating": 5,
-        "url": "https://commons.wikimedia.org/w/index.php?title=Special%3AUploadWizard&amp;categories=Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.264698200",
-        "rating": 5,
-        "url": "https://en.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.266699100",
-        "rating": 5,
-        "url": "https://en.wikiquote.org/wiki/en:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.268699100",
-        "rating": 5,
-        "url": "https://en.wikibooks.org/wiki/en:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.271700100",
-        "rating": 5,
-        "url": "https://en.wikiversity.org/wiki/en:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.278204900",
-        "rating": 5,
-        "url": "https://www.wikidata.org/wiki/Q4202614",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.280204900",
-        "rating": 5,
-        "url": "https://www.wikidata.org/wiki/Q9350",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.282205900",
-        "rating": 5,
-        "url": "https://www.wikidata.org/wiki/Q9350",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.285721600",
-        "rating": 5,
-        "url": "https://d-nb.info/gnd/4067199-9",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.287994700",
-        "rating": 5,
-        "url": "https://id.loc.gov/authorities/sh85149174",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.291094400",
-        "rating": 5,
-        "url": "https://catalogue.bnf.fr/ark:/12148/cb11933824d",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.293596900",
-        "rating": 5,
-        "url": "https://id.ndl.go.jp/auth/ndlna/00574263",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.296615400",
-        "rating": 5,
-        "url": "https://thes.bncf.firenze.sbn.it/termine.php?id=5716",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.298069200",
-        "rating": 5,
-        "url": "https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ph114850",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.301676500",
-        "rating": 5,
-        "url": "https://datos.bne.es/resource/XX527235",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.303680500",
-        "rating": 5,
-        "url": "https://babelnet.org/synset?id=bn:00081926n&amp;lang=EN",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.307853500",
-        "rating": 5,
-        "url": "https://libris.kb.se/tr5769tc3d0d6rz",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.310882",
-        "rating": 5,
-        "url": "http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007531833805171",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.313387300",
-        "rating": 5,
-        "url": "https://reasonator.toolforge.org/?q=Q9350",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.316407600",
-        "rating": 5,
-        "url": "https://scholia.toolforge.org/Q9350",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.318413900",
-        "rating": 5,
-        "url": "https://wikidocumentaries-demo.wmcloud.org/Q9350",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.321449800",
-        "rating": 5,
-        "url": "https://petscan.wmflabs.org/?language=commons&amp;categories=Yoga&amp;project=wikimedia&amp;ns%5B6%5D=1",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.323452500",
-        "rating": 5,
-        "url": "https://glamtools.toolforge.org/glamorgan.html?&amp;category=Yoga&amp;depth=1&amp;month=last",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.325756",
-        "rating": 5,
-        "url": "https://wikimap.toolforge.org/?cat=Yoga&amp;subcats=true&amp;subcatdepth=1&amp;cluster=true",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.328776700",
-        "rating": 5,
-        "url": "https://locator-tool.toolforge.org/#/geolocate?category=Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.330872",
-        "rating": 5,
-        "url": "https://kmlexport.toolforge.org/?project=commons&amp;article=Category%3AYoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.334578",
-        "rating": 5,
-        "url": "https://www.wikidata.org/wiki/Q9350",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.337625200",
-        "rating": 5,
-        "url": "https://en.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.339635700",
-        "rating": 5,
-        "url": "https://af.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.342662100",
-        "rating": 5,
-        "url": "https://an.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.345793800",
-        "rating": 5,
-        "url": "https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D8%AC%D8%A7",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.347804700",
-        "rating": 5,
-        "url": "https://as.wikipedia.org/wiki/%E0%A6%AF%E0%A7%8B%E0%A6%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.350893300",
-        "rating": 5,
-        "url": "https://az.wikipedia.org/wiki/Yoqa",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.353399300",
-        "rating": 5,
-        "url": "https://ba.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.355417400",
-        "rating": 5,
-        "url": "https://be.wikipedia.org/wiki/%D0%81%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.358434300",
-        "rating": 5,
-        "url": "https://bn.wikipedia.org/wiki/%E0%A6%AF%E0%A7%8B%E0%A6%97_(%E0%A6%B9%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE)",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.361662500",
-        "rating": 5,
-        "url": "https://ca.wikipedia.org/wiki/Ioga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.363714200",
-        "rating": 5,
-        "url": "https://de.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.367096400",
-        "rating": 5,
-        "url": "https://el.wikipedia.org/wiki/%CE%93%CE%B9%CF%8C%CE%B3%CE%BA%CE%B1",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.369104400",
-        "rating": 5,
-        "url": "https://eo.wikipedia.org/wiki/Jogo",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.372124400",
-        "rating": 5,
-        "url": "https://es.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.374649400",
-        "rating": 5,
-        "url": "https://et.wikipedia.org/wiki/Jooga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.377665700",
-        "rating": 5,
-        "url": "https://fi.wikipedia.org/wiki/Jooga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.380673800",
-        "rating": 5,
-        "url": "https://fr.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.382786400",
-        "rating": 5,
-        "url": "https://ga.wikipedia.org/wiki/I%C3%B3ga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.385292400",
-        "rating": 5,
-        "url": "https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%8B%E0%AA%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.388388200",
-        "rating": 5,
-        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.391420900",
-        "rating": 5,
-        "url": "https://hy.wikipedia.org/wiki/%D5%85%D5%B8%D5%A3%D5%A1",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.393422600",
-        "rating": 5,
-        "url": "https://id.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.397158",
-        "rating": 5,
-        "url": "https://it.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.400172",
-        "rating": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A8%E3%83%BC%E3%82%AC",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.402194",
-        "rating": 5,
-        "url": "https://jv.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.405208800",
-        "rating": 5,
-        "url": "https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%9D%E1%83%92%E1%83%90",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.408237900",
-        "rating": 5,
-        "url": "https://kk.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.411237900",
-        "rating": 5,
-        "url": "https://kn.wikipedia.org/wiki/%E0%B2%AF%E0%B3%8B%E0%B2%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.414757100",
-        "rating": 5,
-        "url": "https://ko.wikipedia.org/wiki/%EC%9A%94%EA%B0%80",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.417758500",
-        "rating": 5,
-        "url": "https://ml.wikipedia.org/wiki/%E0%B4%AF%E0%B5%8B%E0%B4%97%E0%B4%82",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.420759100",
-        "rating": 5,
-        "url": "https://my.wikipedia.org/wiki/%E1%80%9A%E1%80%B1%E1%80%AC%E1%80%82%E1%80%80%E1%80%BB%E1%80%84%E1%80%B7%E1%80%BA%E1%80%85%E1%80%89%E1%80%BA",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.423760200",
-        "rating": 5,
-        "url": "https://nl.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.426821600",
-        "rating": 5,
-        "url": "https://pa.wikipedia.org/wiki/%E0%A8%AF%E0%A9%8B%E0%A8%97%E0%A8%BE%E0%A8%B8%E0%A8%A3",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.430169300",
-        "rating": 5,
-        "url": "https://pms.wikipedia.org/wiki/J%C3%B2ga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.432184200",
-        "rating": 5,
-        "url": "https://pt.wikipedia.org/wiki/Ioga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.435767400",
-        "rating": 5,
-        "url": "https://ru.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.438858400",
-        "rating": 5,
-        "url": "https://sa.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%83",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.440862300",
-        "rating": 5,
-        "url": "https://si.wikipedia.org/wiki/%E0%B6%BA%E0%B7%9D%E0%B6%9C",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.444384100",
-        "rating": 5,
-        "url": "https://sr.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.447488900",
-        "rating": 5,
-        "url": "https://sv.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.450571600",
-        "rating": 5,
-        "url": "https://ta.wikipedia.org/wiki/%E0%AE%AF%E0%AF%8B%E0%AE%95%E0%AE%95%E0%AF%8D_%E0%AE%95%E0%AE%B2%E0%AF%88",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.452613700",
-        "rating": 5,
-        "url": "https://te.wikipedia.org/wiki/%E0%B0%AF%E0%B1%8B%E0%B0%97%E0%B0%BE",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.456635800",
-        "rating": 5,
-        "url": "https://tg.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.458643",
-        "rating": 5,
-        "url": "https://th.wikipedia.org/wiki/%E0%B9%82%E0%B8%A2%E0%B8%84%E0%B8%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.461916100",
-        "rating": 5,
-        "url": "https://tr.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.465920500",
-        "rating": 5,
-        "url": "https://uk.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.468935900",
-        "rating": 5,
-        "url": "https://uz.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.471974100",
-        "rating": 5,
-        "url": "https://vi.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.474494700",
-        "rating": 5,
-        "url": "https://yi.wikipedia.org/wiki/%D7%99%D7%90%D7%92%D7%90",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.480658300",
-        "rating": 5,
-        "url": "https://zh.wikipedia.org/wiki/%E7%91%9C%E4%BC%BD",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.483670100",
-        "rating": 5,
-        "url": "https://zh-min-nan.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.488147500",
-        "rating": 5,
-        "url": "https://zh-yue.wikipedia.org/wiki/%E7%91%9C%E4%BC%BD",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.491262700",
-        "rating": 5,
-        "url": "https://commons.wikimedia.org/w/index.php?title=Category:Yoga&amp;action=edit",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.497902900",
-        "rating": 5,
-        "url": "https://en.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.518812400",
-        "rating": 5,
-        "url": "https://commons.wikimedia.org/w/index.php?title=Category:Yoga&amp;oldid=638051214",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.550881700",
-        "rating": 5,
-        "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q7216403",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.556414700",
-        "rating": 5,
-        "url": "https://en.wikibooks.org/wiki/Category:Book:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.559431200",
-        "rating": 5,
-        "url": "https://en.wikipedia.org/wiki/Category:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.562446800",
-        "rating": 5,
-        "url": "https://en.wikiquote.org/wiki/Category:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.565741",
-        "rating": 5,
-        "url": "https://en.wikisource.org/wiki/Category:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.569066400",
-        "rating": 5,
-        "url": "https://en.wiktionary.org/wiki/Category:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.572077800",
-        "rating": 5,
-        "url": "https://af.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.575599800",
-        "rating": 5,
-        "url": "https://als.wikipedia.org/wiki/Kategorie:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.578629300",
-        "rating": 5,
-        "url": "https://als.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.582664900",
-        "rating": 5,
-        "url": "https://an.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.585172300",
-        "rating": 5,
-        "url": "https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D8%AC%D8%A7",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.589240200",
-        "rating": 5,
-        "url": "https://as.wikipedia.org/wiki/%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%B8%E0%A6%A8",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.592249600",
-        "rating": 5,
-        "url": "https://ast.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.595798700",
-        "rating": 5,
-        "url": "https://awa.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.598813700",
-        "rating": 5,
-        "url": "https://az.wikipedia.org/wiki/Yoqa",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.601842400",
-        "rating": 5,
-        "url": "https://azb.wikipedia.org/wiki/%DB%8C%D9%88%D9%82%D8%A7",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.604850500",
-        "rating": 5,
-        "url": "https://ba.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.608880900",
-        "rating": 5,
-        "url": "https://ban.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.611901500",
-        "rating": 5,
-        "url": "https://bat-smg.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.615422400",
-        "rating": 5,
-        "url": "https://bcl.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.618424900",
-        "rating": 5,
-        "url": "https://be.wikipedia.org/wiki/%D0%81%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.621425",
-        "rating": 5,
-        "url": "https://be-tarask.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D1%8D%D0%B3%D0%BE%D1%80%D1%8B%D1%8F:%D0%81%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.624879",
-        "rating": 5,
-        "url": "https://be-tarask.wikipedia.org/wiki/%D0%81%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.628880800",
-        "rating": 5,
-        "url": "https://bg.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.631881100",
-        "rating": 5,
-        "url": "https://bh.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.634393400",
-        "rating": 5,
-        "url": "https://bn.wikipedia.org/wiki/%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.637876200",
-        "rating": 5,
-        "url": "https://bo.wikipedia.org/wiki/%E0%BD%A1%E0%BD%BC%E0%BC%8B%E0%BD%82",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.641873800",
-        "rating": 5,
-        "url": "https://br.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.646512900",
-        "rating": 5,
-        "url": "https://bs.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.649529500",
-        "rating": 5,
-        "url": "https://bxr.wikipedia.org/wiki/%D0%9D%D0%B0%D0%BB%D0%B6%D0%BE%D1%80",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.653543900",
-        "rating": 5,
-        "url": "https://ca.wikipedia.org/wiki/Ioga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.657072400",
-        "rating": 5,
-        "url": "https://ce.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.661092800",
-        "rating": 5,
-        "url": "https://ceb.wikipedia.org/wiki/Kategoriya:Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.664701900",
-        "rating": 5,
-        "url": "https://ckb.wikipedia.org/wiki/%DB%8C%DB%86%DA%AF%D8%A7",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.667721",
-        "rating": 5,
-        "url": "https://cs.wikipedia.org/wiki/J%C3%B3ga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.671758200",
-        "rating": 5,
-        "url": "https://cy.wikipedia.org/wiki/Ioga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.675916200",
-        "rating": 5,
-        "url": "https://da.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.679077",
-        "rating": 5,
-        "url": "https://de.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.683670100",
-        "rating": 5,
-        "url": "https://el.wikipedia.org/wiki/%CE%93%CE%B9%CF%8C%CE%B3%CE%BA%CE%B1",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.686706600",
-        "rating": 5,
-        "url": "https://en.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.690732",
-        "rating": 5,
-        "url": "https://eo.wikipedia.org/wiki/Jogo",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.695037700",
-        "rating": 5,
-        "url": "https://es.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.699193700",
-        "rating": 5,
-        "url": "https://et.wikipedia.org/wiki/Jooga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.702220600",
-        "rating": 5,
-        "url": "https://eu.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.706807600",
-        "rating": 5,
-        "url": "https://fa.wikipedia.org/wiki/%DB%8C%D9%88%DA%AF%D8%A7",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.709915",
-        "rating": 5,
-        "url": "https://fi.wikipedia.org/wiki/Jooga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.713704400",
-        "rating": 5,
-        "url": "https://fiu-vro.wikipedia.org/wiki/Jooga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.717810500",
-        "rating": 5,
-        "url": "https://fr.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.720820800",
-        "rating": 5,
-        "url": "https://ga.wikipedia.org/wiki/I%C3%B3ga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.724333500",
-        "rating": 5,
-        "url": "https://gl.wikipedia.org/wiki/Ioga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.728371",
-        "rating": 5,
-        "url": "https://gom.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.732403400",
-        "rating": 5,
-        "url": "https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%8B%E0%AA%97_(%E0%AA%AE%E0%AA%A8%E0%AB%8B%E0%AA%B6%E0%AA%BE%E0%AA%B0%E0%AB%80%E0%AA%B0%E0%AB%80%E0%AA%95_%E0%AA%9C%E0%AB%80%E0%AA%B5%E0%AA%A8%E0%AA%B6%E0%AB%88%E0%AA%B2%E0%AB%80)",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.735915600",
-        "rating": 5,
-        "url": "https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%92%D7%94",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.739966300",
-        "rating": 5,
-        "url": "https://hi.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.743506400",
-        "rating": 5,
-        "url": "https://hr.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.747532200",
-        "rating": 5,
-        "url": "https://hu.wikipedia.org/wiki/J%C3%B3ga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.751686200",
-        "rating": 5,
-        "url": "https://hy.wikipedia.org/wiki/%D5%85%D5%B8%D5%A3%D5%A1",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.754887100",
-        "rating": 5,
-        "url": "https://hyw.wikipedia.org/wiki/%D4%B5%D5%B8%D5%AF%D5%A1",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.758954600",
-        "rating": 5,
-        "url": "https://ia.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.762049200",
-        "rating": 5,
-        "url": "https://id.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.765822600",
-        "rating": 5,
-        "url": "https://ilo.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.770051800",
-        "rating": 5,
-        "url": "https://is.wikipedia.org/wiki/J%C3%B3ga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.773693400",
-        "rating": 5,
-        "url": "https://it.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.777730700",
-        "rating": 5,
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%A8%E3%83%BC%E3%82%AC",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.780759200",
-        "rating": 5,
-        "url": "https://jam.wikipedia.org/wiki/Yuoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.783806500",
-        "rating": 5,
-        "url": "https://jv.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.788697700",
-        "rating": 5,
-        "url": "https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%9D%E1%83%92%E1%83%90",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.792717200",
-        "rating": 5,
-        "url": "https://kbp.wikipedia.org/wiki/Yogaa",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.795922900",
-        "rating": 5,
-        "url": "https://kk.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.800040700",
-        "rating": 5,
-        "url": "https://kn.wikipedia.org/wiki/%E0%B2%AF%E0%B3%8B%E0%B2%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.803551200",
-        "rating": 5,
-        "url": "https://ko.wikipedia.org/wiki/%EC%9A%94%EA%B0%80",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.807838400",
-        "rating": 5,
-        "url": "https://ks.wikipedia.org/wiki/%DB%8C%D9%88%DA%AF%D8%A7",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.812080500",
-        "rating": 5,
-        "url": "https://ky.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.815770600",
-        "rating": 5,
-        "url": "https://la.wikipedia.org/wiki/Ioga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.818849600",
-        "rating": 5,
-        "url": "https://lmo.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.821972500",
-        "rating": 5,
-        "url": "https://lt.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.826508300",
-        "rating": 5,
-        "url": "https://lv.wikipedia.org/wiki/Joga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.830523200",
-        "rating": 5,
-        "url": "https://mai.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.836050800",
-        "rating": 5,
-        "url": "https://mk.wikipedia.org/wiki/%D0%88%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.840136700",
-        "rating": 5,
-        "url": "https://ml.wikipedia.org/wiki/%E0%B4%AF%E0%B5%8B%E0%B4%97%E0%B4%82",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.843660500",
-        "rating": 5,
-        "url": "https://mn.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%B8%D0%BB%D0%B0%D0%BB:%D0%99%D0%BE%D0%B3%D0%B0",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.847765800",
-        "rating": 5,
-        "url": "https://mr.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.853437700",
-        "rating": 5,
-        "url": "https://ms.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.858523700",
-        "rating": 5,
-        "url": "https://mwl.wikipedia.org/wiki/Ioga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.862529900",
-        "rating": 5,
-        "url": "https://my.wikipedia.org/wiki/%E1%80%9A%E1%80%B1%E1%80%AC%E1%80%82%E1%80%80%E1%80%BB%E1%80%84%E1%80%B7%E1%80%BA%E1%80%85%E1%80%89%E1%80%BA",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.867037100",
-        "rating": 5,
-        "url": "https://nds-nl.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.871038100",
-        "rating": 5,
-        "url": "https://ne.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.875736500",
-        "rating": 5,
-        "url": "https://new.wikipedia.org/wiki/%E0%A4%AF%E0%A5%8B%E0%A4%97",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.880042500",
-        "rating": 5,
-        "url": "https://nl.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.884691800",
-        "rating": 5,
-        "url": "https://nn.wikipedia.org/wiki/Yoga",
-        "content": "cats"
-    },
-    {
-        "lastTimeCrawled": "2023-11-14T20:03:34.888713700",
-        "rating": 5,
-        "url": "https://no.wikipedia.org/wiki/Yoga",
         "content": "cats"
     }
-]
+]]

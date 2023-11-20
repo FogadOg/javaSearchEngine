@@ -1,5 +1,6 @@
 package com.example.searchengine.components.crawler;
 
+import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;
 
 import java.io.BufferedReader;
@@ -23,13 +24,13 @@ public class Crawler {
 
     CrawlerService crawlerService;
 
+
     public Crawler(){
         this.urlQueue= new LinkedList<>(asList("https://no.wikipedia.org/wiki/Yoga"));
         this.urlsCrawled= new ArrayList<>();
         this.crawlerService=new CrawlerService();
 
     }
-
 
     public void crawl(){
         Crawler crawler= new Crawler();
@@ -41,7 +42,6 @@ public class Crawler {
             String requestUrl=this.urlQueue.remove();
 
             readWebpage(requestUrl);
-
 
         }
         System.out.println("queue empty");
@@ -74,36 +74,35 @@ public class Crawler {
     public void findUrlsInHtml(String webpage){
         Crawler crawler= new Crawler();
 
-        Integer breakingPoint=crawler.breakingPoint(2);
-
         //"<a\\s+[^>]*href\\s*=\\s*\"(https?://[^\\s/\"]+)\"[^>]*>|<a\\s+[^>]*href\\s*=\\s*'((https?://[^\\s/\']+))'[^>]*>"
 
         String regexPattern = "<a\\s+[^>]*href\\s*=\\s*\"([^\"]*)\"[^>]*>|<a\\s+[^>]*href\\s*=\\s*'([^']*)'[^>]*>";
 
         Pattern pattern = Pattern.compile(regexPattern);
 
-        Matcher matcher = pattern.matcher(webpage);
+        Matcher foundUrls = pattern.matcher(webpage);
 
-        while (matcher.find()) {
-            String url = matcher.group(1) != null ? matcher.group(1) : matcher.group(2);
-            boolean isUrlInJsonFile=this.crawlerService.checkIfPageInJsonFile("https://no.wikipedia.org/wiki/Yoga","data.json");
-            if(!isUrlInJsonFile){
-                if(url.startsWith("http")){
-                    this.crawlerService.addUrlDataToJsonFile("data.json", url, LocalDateTime.now(), "cats", 5);
+        addUrlFromPageToJsonFile(foundUrls);
 
+    }
 
-                    //System.out.println("Found URL: " + url);
+    private void addUrlFromPageToJsonFile(@NonNull Matcher foundUrls){
+        while (foundUrls.find()) {
+            String url = foundUrls.group(1) != null ? foundUrls.group(1) : foundUrls.group(2);
+            boolean isUrlInJsonFile = this.crawlerService.checkIfPageInJsonFile(url, "data.json");
+
+            if (!isUrlInJsonFile) {
+                if (url.startsWith("http")) {
+                    UrlDataJsonObject urlDataJsonObject= new UrlDataJsonObject("data.json", url, LocalDateTime.now(), "cats", 5);
+                    urlDataJsonObject.addUrlDataToJsonFile();
+
                     this.urlQueue.add(url);
                 }
 
             }
-
         }
 
-
     }
-
-
 
     private Integer breakingPoint(Integer breakingPoint){
         return breakingPoint-1;

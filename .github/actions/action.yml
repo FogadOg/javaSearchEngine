@@ -1,7 +1,0 @@
-name: 'push request script'
-description: 'An action that echoes a message'
-runs:
-  using: 'node12'
-  main: 'index.js'
-
-  

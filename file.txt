@@ -1,7 +1,0 @@
-ThnewWord modified workflow uses a matrix strategy where wordsToReplace newWord
-defined as a lt of words (word1, , word3). The workflow will run once for each word in the matrix, 
-replacing each specified word (word1, , word3) with newWord in the file.txt file.
-
-You can adjust the wordsToReplace matrix to include the words you want to replace in your file. 
-ThnewWord setup enables the workflow to iterate through each word in the matrix and perform 
-the replacement actions specified in the steps.

@@ -19,8 +19,14 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
     implementation 'com.googlecode.json-simple:json-simple:1.1.1'
     implementation 'org.json:json:20210307'
+
+    implementation 'org.jsoup:jsoup:1.16.2'
+
+    implementation 'net.sourceforge.htmlunit:htmlunit:2.60.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.2.1'
 }
 
 tasks.named('bootBuildImage') {
