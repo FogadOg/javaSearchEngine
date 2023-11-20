@@ -13,7 +13,9 @@ jobs:
     strategy:
       matrix:
         wordsToReplace:  
-          - ${{ split(github.event.inputs.wordsToReplace, ',') }}
+          - or
+          - it
+          - you
 
     steps:
       - name: Checkout code
