@@ -1,7 +1,6 @@
 package com.example.searchengine.controller;
 
 import com.example.searchengine.components.crawler.Crawler;
-import com.example.searchengine.components.search.Search;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -9,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class SearchPage {
     @GetMapping("/")
     public String home(){
-        Crawler crawler = new Crawler();
-        crawler.crawl();
+        //Crawler crawler = new Crawler();
+        //crawler.crawl();
 
         return "searchPage";
     }

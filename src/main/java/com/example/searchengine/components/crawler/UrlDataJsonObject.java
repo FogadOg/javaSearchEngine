@@ -97,7 +97,6 @@ public class UrlDataJsonObject {
     }
     private String getPageFaviconPath(){
         HtmlLink favicon = websidePage.getFirstByXPath("//link[@rel='icon' or @rel='shortcut icon']");
-        System.out.println(pageUrl+favicon.getHrefAttribute());
 
         if(favicon!=null){
             return favicon.getHrefAttribute();
