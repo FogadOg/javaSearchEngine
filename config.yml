@@ -13,14 +13,14 @@
 
 name: Replace Word in File with Git Push
 
-on:
+off:
   push:
     branches:
       - main
 
 jobs:
   replace-word:
-    runs-on: ubuntu-latest
+    runs-off: ubuntu-latest
 
     steps:
       - name: Checkout repository
