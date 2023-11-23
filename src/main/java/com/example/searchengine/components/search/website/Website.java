@@ -1,20 +1,25 @@
 package com.example.searchengine.components.search.website;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-
-@Entity
 public class Website {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
     private String url;
-    private String title;
+    private String pageTitle;
+    private String favicon;
+    private Long rating;
     private String content;
+    private String lastTimeCrawled;
+
+    public Website(String url, String pageTitle, String favicon, Long rating, String content, String lastTimeCrawled){
+        this.url=url;
+        this.pageTitle=pageTitle;
+        this.favicon=favicon;
+        this.rating=rating;
+        this.content=content;
+        this.lastTimeCrawled=lastTimeCrawled;
+    }
+
+
+
 
 }
 
