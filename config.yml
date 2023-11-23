@@ -1,0 +1,81 @@
+
+#if you what to call this github workflow script on a push request
+#you have to format your commit message according to this
+
+#git commit -m "[path of the file you what to change] replace [the word you want to change] [the new word]"
+
+#example: git commit -m "./congif.yml replace goodbye with hello"
+
+#for multipule words
+#example: git commit -m "./congif.yml replace goodbye,bye with hello"
+
+
+
+name: Replace Word in File with Git Push
+
+off:
+  push:
+    branches:
+      - main
+
+jobs:
+  replace-word:
+    runs-off: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Extract commit message
+        id: extract_message
+        run: |
+          COMMIT_MSG=$(git log --format=%B -n 1 ${{ github.sha }})
+          echo "::set-output name=message::${COMMIT_MSG}"
+
+      - name: Extract information from commit message
+        id: extract_info
+        run: |
+          MESSAGE="${{ steps.extract_message.outputs.message }}"
+              
+          
+          FILE=$(echo "$MESSAGE" | awk '{print $1}')  
+          REPLACE=$(echo "$MESSAGE" | awk '{print $2}') 
+          OLD_WORD=$(echo "$MESSAGE" | awk '{print $3}') 
+      
+          NEW_WORD=$(echo "$MESSAGE" | awk '{print $5}')
+          
+
+          echo "::set-output name=file::$FILE"
+          echo "::set-output name=old_word::$OLD_WORD"
+          echo "::set-output name=new_word::$NEW_WORD"
+ 
+          echo "::set-output name=replace::$REPLACE"
+          
+          
+          PUSH_COMMIT=$(git log -1 ${{ github.sha }})
+          AUTHOR_EMAIL=$(echo "$PUSH_COMMIT" | grep -oP '(?<=Author: ).*?<(.*?)>')
+          
+          EMAIL=$(echo "$AUTHOR_EMAIL" | sed -n 's/.*<\(.*\)>/\1/p')
+          echo "::set-output name=email::$EMAIL"
+          
+          
+
+      - name: Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}
+        if: ${{ steps.extract_info.outputs.replace == 'replace' }}
+        run: |
+          
+            IFS=',' read -ra OLD_WORDS <<< ${{ steps.extract_info.outputs.old_word }}  # Split words by comma
+  
+            for OLD_WORD in "${OLD_WORDS[@]}"; do
+            NEW_WORD="${{ steps.extract_info.outputs.new_word }}"  # Assuming you have extracted the new word similarly
+            
+            sed -i "s/$OLD_WORD/${{ steps.extract_info.outputs.new_word }}/g" ${{ steps.extract_info.outputs.file }}
+            done
+          
+            git config --global user.email ${{ steps.extract_info.outputs.email }}          
+            git config --global user.name ${{ github.actor }}
+          
+            git add .
+            git commit -m "Replace ${{ steps.extract_info.outputs.old_word }} with ${{ steps.extract_info.outputs.new_word }} in ${{ steps.extract_info.outputs.file }}"
+            git push
+   
