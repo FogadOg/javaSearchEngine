@@ -66,7 +66,7 @@ public class UrlDataJsonObject {
 
 
             newObject.put("lastTimeCrawled", lastTimeCrawled);
-            newObject.put("page title", getPagesTitle());
+            newObject.put("pageTitle", getPagesTitle());
             newObject.put("favicon", getRootUrl()+getPageFaviconPath());
             newObject.put("rating", rating);
             newObject.put("url", pageUrl);

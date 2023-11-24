@@ -13,12 +13,11 @@ import java.util.List;
 public class Search {
     public String filePath="data.json";
 
-    public List<Website> getAllWebsites(){
+    public JSONArray getAllWebsites(){
         JSONArray jsonArray = new JSONArray();
         JSONParser parser = new JSONParser();
 
         try{
-
             JSONArray a = (JSONArray) parser.parse(new FileReader(filePath));
 
             for (Object o : a)
@@ -27,7 +26,7 @@ public class Search {
 
                 JSONObject jsonObject = new JSONObject();
                 jsonObject.put("url", website.get("url"));
-                jsonObject.put("page title", website.get("page title"));
+                jsonObject.put("pageTitle", website.get("pageTitle"));
                 jsonObject.put("favicon", website.get("favicon"));
                 jsonObject.put("rating", website.get("rating"));
                 jsonObject.put("content", website.get("content"));
@@ -37,8 +36,6 @@ public class Search {
 
 
             }
-
-
 
         }catch (Exception e){
             e.printStackTrace();
