@@ -21,24 +21,16 @@ public class CrawlerService {
     public boolean checkIfPageInJsonFile(String url, String jsonFile){
         JSONParser jsonParser = new JSONParser();
 
-
         try{
             JSONArray jsonDataArray = (JSONArray) jsonParser.parse(new FileReader(jsonFile));
 
             for(Object urlData:jsonDataArray){
                 JSONObject urlDataObject=(JSONObject) urlData;
-
-
-
-
                 if(urlDataObject.get("url").equals(url)){
                     return true;
                 }
             }
             return false;
-
-
-
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
@@ -46,9 +38,7 @@ public class CrawlerService {
             e.printStackTrace();
         }
         return false;
-
     }
-
 
     public static void main(String[] args){
 

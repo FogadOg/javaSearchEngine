@@ -1,6 +1,7 @@
 package com.example.searchengine.components.crawler;
 
 import com.gargoylesoftware.htmlunit.html.*;
+import com.google.gson.JsonArray;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONTokener;
@@ -14,28 +15,24 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class UrlDataJsonObject {
     public String jsonFile;
     public String pageUrl;
-    public LocalDateTime lastTimeCrawled;
-    public String content;
-    public Integer rating;
+    public String rootUrl;
     public HtmlPage websidePage;
 
     public UrlDataJsonObject(String jsonFile,
-                             String pageUrl,
-                             LocalDateTime lastTimeCrawled,
-                             String content,
-                             Integer rating){
+                             String pageUrl){
 
         this.jsonFile=jsonFile;
         this.pageUrl=pageUrl;
-
-        this.lastTimeCrawled=lastTimeCrawled;
-        this.content=content;
-        this.rating=rating;
+        this.rootUrl=getRootUrl();
 
 
         this.websidePage = getHtmlContent();
@@ -62,15 +59,18 @@ public class UrlDataJsonObject {
 
             JSONObject newObject = new JSONObject();
 
+            UUID uuid=UUID.randomUUID();
 
 
-
-            newObject.put("lastTimeCrawled", lastTimeCrawled);
+            newObject.put("pageId", uuid);
+            newObject.put("lastTimeCrawled",  LocalDateTime.now());
             newObject.put("pageTitle", getPagesTitle());
-            newObject.put("favicon", getRootUrl()+getPageFaviconPath());
-            newObject.put("rating", rating);
+            newObject.put("pageName", getWebsiteName());
+            newObject.put("favicon", getPageFaviconPath());
+            newObject.put("rating", 5);
             newObject.put("url", pageUrl);
-            newObject.put("content", content);
+            newObject.put("content", getPageContent());
+            newObject.put("images", getPageImages());
 
             jsonArray.put(newObject);
 
@@ -84,9 +84,16 @@ public class UrlDataJsonObject {
         }
 
     }
+    private String getWebsiteName(){
+        Pattern websiteNamePattern = Pattern.compile("\\b(\\w+\\.[a-zA-Z]+)\\/\\b");
 
+        Matcher matcher = websiteNamePattern.matcher(pageUrl);
 
-
+        if(matcher.find()){
+            return matcher.group(1);
+        }
+        return getPagesTitle();
+    }
     private String getPagesTitle(){
         HtmlTitle title = ((HtmlTitle) websidePage.getFirstByXPath("//title"));
         if(title!=null){
@@ -99,12 +106,66 @@ public class UrlDataJsonObject {
         HtmlLink favicon = websidePage.getFirstByXPath("//link[@rel='icon' or @rel='shortcut icon']");
 
         if(favicon!=null){
-            return favicon.getHrefAttribute();
+            String faviconAttribute = favicon.getHrefAttribute();
+            if(faviconAttribute.contains("http")){
+                return faviconAttribute;
+            }
+
+            return rootUrl+favicon.getHrefAttribute();
         }
         return "";
     }
+    private JSONArray getPageContent(){
+        JSONArray pageContent=new JSONArray();
+
+        if (websidePage != null) {
+            List<?> paragraphs = websidePage.getByXPath("//p");
+
+            for (Object paragraph : paragraphs) {
+                if (paragraph instanceof com.gargoylesoftware.htmlunit.html.HtmlElement) {
+                    String paragraphText = ((com.gargoylesoftware.htmlunit.html.HtmlElement) paragraph).getTextContent().trim();
+                    if(!paragraphText.isEmpty()){
+                        pageContent.put(paragraphText);
+                    }
+                }
+            }
+        }
+
+        return pageContent;
 
 
+    }
+    private JSONArray getPageImages(){
+        JSONArray imageSources = new JSONArray();
+
+        if (websidePage != null) {
+            List<?> images = websidePage.getByXPath("//img");
+
+            for (Object image : images) {
+                JSONObject imageData= new JSONObject();
+                if (image instanceof com.gargoylesoftware.htmlunit.html.HtmlImage) {
+                    String srcTag = ((com.gargoylesoftware.htmlunit.html.HtmlImage) image).getSrcAttribute();
+                    String altTag = ((com.gargoylesoftware.htmlunit.html.HtmlImage) image).getAltAttribute();
+                    if (srcTag != null && !srcTag.isEmpty()) {
+                        if(!srcTag.contains(rootUrl)){
+                            imageData.put("src",rootUrl+srcTag);
+                            imageData.put("alt",altTag);
+                            imageSources.put(imageData);
+                        }else{
+                            imageData.put("src",srcTag);
+                            imageData.put("alt",altTag);
+                            imageSources.put(imageData);
+                        }
+
+                    }
+                }
+            }
+        }
+
+
+        return imageSources;
+
+    }
     private HtmlPage getHtmlContent(){
 
         WebClient client = new WebClient();

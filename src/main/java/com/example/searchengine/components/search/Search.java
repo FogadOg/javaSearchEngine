@@ -27,6 +27,7 @@ public class Search {
                 JSONObject jsonObject = new JSONObject();
                 jsonObject.put("url", website.get("url"));
                 jsonObject.put("pageTitle", website.get("pageTitle"));
+                jsonObject.put("pageName", website.get("pageName"));
                 jsonObject.put("favicon", website.get("favicon"));
                 jsonObject.put("rating", website.get("rating"));
                 jsonObject.put("content", website.get("content"));

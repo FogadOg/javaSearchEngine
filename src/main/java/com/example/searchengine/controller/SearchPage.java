@@ -2,6 +2,7 @@ package com.example.searchengine.controller;
 
 import com.example.searchengine.components.crawler.Crawler;
 import com.example.searchengine.components.search.Search;
+import com.google.gson.JsonArray;
 import org.json.simple.JSONArray;
 
 import org.springframework.stereotype.Controller;
@@ -16,12 +17,12 @@ public class SearchPage {
 
     @CrossOrigin
     @GetMapping("/")
-    public JSONArray home(){
-        //Crawler crawler = new Crawler();
-        //crawler.crawl();
-        Search search = new Search();
-        System.out.println(search.getAllWebsites().toString());
+    public void home(){
+        Crawler crawler = new Crawler();
+        crawler.crawl();
+        //Search search = new Search();
+        //System.out.println(search.getAllWebsites().toString());
 
-        return search.getAllWebsites();
+        //return search.getAllWebsites();
     }
 }
