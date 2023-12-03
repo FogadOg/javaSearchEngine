@@ -1,6 +1,5 @@
 package com.example.searchengine.components.search;
 
-import com.example.searchengine.components.search.website.Website;
 import org.json.JSONTokener;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -32,6 +31,7 @@ public class Search {
                 jsonObject.put("rating", website.get("rating"));
                 jsonObject.put("content", website.get("content"));
                 jsonObject.put("lastTimeCrawled", website.get("lastTimeCrawled"));
+                jsonObject.put("images", website.get("images"));
 
                 jsonArray.add(jsonObject);
 

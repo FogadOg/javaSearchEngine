@@ -17,12 +17,12 @@ public class SearchPage {
 
     @CrossOrigin
     @GetMapping("/")
-    public void home(){
+    public JSONArray home(){
         Crawler crawler = new Crawler();
         crawler.crawl();
-        //Search search = new Search();
-        //System.out.println(search.getAllWebsites().toString());
+        Search search = new Search();
+        System.out.println(search.getAllWebsites().toString());
 
-        //return search.getAllWebsites();
+        return search.getAllWebsites();
     }
 }
