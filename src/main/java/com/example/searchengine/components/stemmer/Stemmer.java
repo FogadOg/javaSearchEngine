@@ -24,21 +24,26 @@ public class Stemmer {
     }
 
     public String stemString(String string){
-        String stemmedString="";
+        StringBuilder stemmedString= new StringBuilder();
         String[] splitString=string.split(" ");
 
-        for (String word : splitString){
-            for(String suffix : suffixes){
+        for(String suffix : suffixes){
+            for (String word : splitString){
 
                 String stemmedWord=removeSuffix(word, suffix);
-                if(!stemmedWord.isEmpty()){
-                    stemmedString+=removePrefix(stemmedWord)+" ";
-                }
+                stemmedString.append(removePrefix(stemmedWord)).append(" ");
 
             }
         }
+        System.out.println("stemmedString: "+stemmedString.toString());
+        System.out.println(" ");
+        System.out.println("originalString: "+string);
+        System.out.println("____________________________________________________");
+        return stemmedString.toString();
+    }
 
-        return stemmedString;
+    private String stemWord(String Word){
+        return "";
     }
 
     private String removeSuffix(String word, String suffix){
@@ -47,8 +52,9 @@ public class Stemmer {
             if(lastCharsOfString.equals(suffix)){
                 return word.substring(0, word.length() - suffix.length());
             }
+
         }
-        return "";
+        return word;
     }
 
     private String removePrefix(String word){
@@ -61,7 +67,7 @@ public class Stemmer {
             }
         }
 
-        return "";
+        return word;
     }
 
 

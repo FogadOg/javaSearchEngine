@@ -118,7 +118,6 @@ public class UrlDataJsonObject {
     }
     private JSONArray getPageContent(){
         JSONArray pageContent=new JSONArray();
-        Stemmer stemmer = new Stemmer();
 
         if (websidePage != null) {
             List<?> paragraphs = websidePage.getByXPath("//p");
@@ -127,8 +126,10 @@ public class UrlDataJsonObject {
                 if (paragraph instanceof com.gargoylesoftware.htmlunit.html.HtmlElement) {
                     String paragraphText = ((com.gargoylesoftware.htmlunit.html.HtmlElement) paragraph).getTextContent().trim();
                     if(!paragraphText.isEmpty()){
-                        stemmedParagraph=stemmer.stemString(paragraphText)
-                        pageContent.put(stemmedParagraph);
+                        Stemmer stemmer = new Stemmer();
+
+                        String stemmedParagraph=stemmer.stemString(paragraphText);
+                        pageContent.put(paragraphText);
                     }
                 }
             }

@@ -19,15 +19,9 @@ public class SearchPage {
     @CrossOrigin
     @GetMapping("/")
     public void home(){
-        //Crawler crawler = new Crawler();
-        //crawler.crawl();
-        //Search search = new Search();
-        //System.out.println(search.getAllWebsites().toString());
+
 
         Stemmer stemmer = new Stemmer();
-        stemmer.stemString("autobiography");
-
-
-        //return search.getAllWebsites();
+        System.out.println(stemmer.stemString("Search the world's information, including webpages, images, videos and more"));
     }
 }
