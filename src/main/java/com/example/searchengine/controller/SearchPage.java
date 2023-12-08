@@ -2,6 +2,7 @@ package com.example.searchengine.controller;
 
 import com.example.searchengine.components.crawler.Crawler;
 import com.example.searchengine.components.search.Search;
+import com.example.searchengine.components.stemmer.Stemmer;
 import com.google.gson.JsonArray;
 import org.json.simple.JSONArray;
 
@@ -17,12 +18,16 @@ public class SearchPage {
 
     @CrossOrigin
     @GetMapping("/")
-    public JSONArray home(){
-        Crawler crawler = new Crawler();
-        crawler.crawl();
-        Search search = new Search();
-        System.out.println(search.getAllWebsites().toString());
+    public String home(){
+        //Crawler crawler = new Crawler();
+        //crawler.crawl();
+        //Search search = new Search();
+        //System.out.println(search.getAllWebsites().toString());
 
-        return search.getAllWebsites();
+        Stemmer stemmer = new Stemmer();
+        return stemmer.stemString("autobiography biography");
+
+
+        //return search.getAllWebsites();
     }
 }
