@@ -18,14 +18,14 @@ public class SearchPage {
 
     @CrossOrigin
     @GetMapping("/")
-    public String home(){
+    public void home(){
         //Crawler crawler = new Crawler();
         //crawler.crawl();
         //Search search = new Search();
         //System.out.println(search.getAllWebsites().toString());
 
         Stemmer stemmer = new Stemmer();
-        return stemmer.stemString("autobiography biography");
+        stemmer.stemString("autobiography");
 
 
         //return search.getAllWebsites();

@@ -1,5 +1,6 @@
 package com.example.searchengine.components.crawler;
 
+import com.example.searchengine.components.stemmer.Stemmer;
 import com.gargoylesoftware.htmlunit.html.*;
 import com.google.gson.JsonArray;
 import org.json.JSONArray;
@@ -117,6 +118,7 @@ public class UrlDataJsonObject {
     }
     private JSONArray getPageContent(){
         JSONArray pageContent=new JSONArray();
+        Stemmer stemmer = new Stemmer();
 
         if (websidePage != null) {
             List<?> paragraphs = websidePage.getByXPath("//p");
@@ -125,7 +127,8 @@ public class UrlDataJsonObject {
                 if (paragraph instanceof com.gargoylesoftware.htmlunit.html.HtmlElement) {
                     String paragraphText = ((com.gargoylesoftware.htmlunit.html.HtmlElement) paragraph).getTextContent().trim();
                     if(!paragraphText.isEmpty()){
-                        pageContent.put(paragraphText);
+                        stemmedParagraph=stemmer.stemString(paragraphText)
+                        pageContent.put(stemmedParagraph);
                     }
                 }
             }
