@@ -28,17 +28,14 @@ public class Stemmer {
         String[] splitString=string.split(" ");
 
         for(String suffix : suffixes){
-            for (String word : splitString){
-
-                String stemmedWord=removeSuffix(word, suffix);
-                stemmedString.append(removePrefix(stemmedWord)).append(" ");
-
-            }
         }
-        System.out.println("stemmedString: "+stemmedString.toString());
-        System.out.println(" ");
-        System.out.println("originalString: "+string);
-        System.out.println("____________________________________________________");
+
+        for (String word : splitString){
+
+            String stemmedWord=removeSuffix(word);
+            stemmedString.append(removePrefix(stemmedWord)).append(" ");
+
+        }
         return stemmedString.toString();
     }
 
@@ -46,11 +43,14 @@ public class Stemmer {
         return "";
     }
 
-    private String removeSuffix(String word, String suffix){
-        if (word.length()>suffix.length()){
-            String lastCharsOfString= word.substring(word.length() - suffix.length());
-            if(lastCharsOfString.equals(suffix)){
-                return word.substring(0, word.length() - suffix.length());
+    private String removeSuffix(String word){
+        for(String suffix : suffixes){
+            if (word.length()>suffix.length()){
+                String lastCharsOfString= word.substring(word.length() - suffix.length());
+                if(lastCharsOfString.equals(suffix)){
+                    return word.substring(0, word.length() - suffix.length());
+                }
+
             }
 
         }

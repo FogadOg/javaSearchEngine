@@ -18,10 +18,12 @@ public class SearchPage {
 
     @CrossOrigin
     @GetMapping("/")
-    public void home(){
+    public JSONArray home(){
+        Crawler crwaler=new Crawler();
+        crwaler.crawl();
 
+        Search search = new Search();
 
-        Stemmer stemmer = new Stemmer();
-        System.out.println(stemmer.stemString("Search the world's information, including webpages, images, videos and more"));
+        return search.getAllWebsites();
     }
 }

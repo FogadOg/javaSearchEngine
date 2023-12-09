@@ -27,6 +27,7 @@ public class UrlDataJsonObject {
     public String pageUrl;
     public String rootUrl;
     public HtmlPage websidePage;
+    public Stemmer stemmer;
 
     public UrlDataJsonObject(String jsonFile,
                              String pageUrl){
@@ -34,6 +35,7 @@ public class UrlDataJsonObject {
         this.jsonFile=jsonFile;
         this.pageUrl=pageUrl;
         this.rootUrl=getRootUrl();
+        this.stemmer = new Stemmer();
 
 
         this.websidePage = getHtmlContent();
@@ -126,7 +128,6 @@ public class UrlDataJsonObject {
                 if (paragraph instanceof com.gargoylesoftware.htmlunit.html.HtmlElement) {
                     String paragraphText = ((com.gargoylesoftware.htmlunit.html.HtmlElement) paragraph).getTextContent().trim();
                     if(!paragraphText.isEmpty()){
-                        Stemmer stemmer = new Stemmer();
 
                         String stemmedParagraph=stemmer.stemString(paragraphText);
                         pageContent.put(paragraphText);
@@ -142,6 +143,7 @@ public class UrlDataJsonObject {
     private JSONArray getPageImages(){
         JSONArray imageSources = new JSONArray();
 
+
         if (websidePage != null) {
             List<?> images = websidePage.getByXPath("//img");
 
@@ -153,11 +155,11 @@ public class UrlDataJsonObject {
                     if (srcTag != null && !srcTag.isEmpty()) {
                         if(!srcTag.contains(rootUrl)){
                             imageData.put("src",rootUrl+srcTag);
-                            imageData.put("alt",altTag);
+                            imageData.put("alt",stemmer(altTag));
                             imageSources.put(imageData);
                         }else{
                             imageData.put("src",srcTag);
-                            imageData.put("alt",altTag);
+                            imageData.put("alt",stemmer(altTag));
                             imageSources.put(imageData);
                         }
 
