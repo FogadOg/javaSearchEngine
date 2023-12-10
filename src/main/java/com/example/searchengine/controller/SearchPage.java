@@ -24,6 +24,6 @@ public class SearchPage {
 
         Search search = new Search();
 
-        return search.getAllWebsites();
+        return search.getAllWebsites("");
     }
 }

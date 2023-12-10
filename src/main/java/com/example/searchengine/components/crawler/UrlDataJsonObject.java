@@ -155,11 +155,11 @@ public class UrlDataJsonObject {
                     if (srcTag != null && !srcTag.isEmpty()) {
                         if(!srcTag.contains(rootUrl)){
                             imageData.put("src",rootUrl+srcTag);
-                            imageData.put("alt",stemmer(altTag));
+                            imageData.put("alt",stemmer.stemString(altTag));
                             imageSources.put(imageData);
                         }else{
                             imageData.put("src",srcTag);
-                            imageData.put("alt",stemmer(altTag));
+                            imageData.put("alt",stemmer.stemString(altTag));
                             imageSources.put(imageData);
                         }
 

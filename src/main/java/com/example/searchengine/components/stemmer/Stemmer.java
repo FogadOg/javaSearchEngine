@@ -31,8 +31,9 @@ public class Stemmer {
         }
 
         for (String word : splitString){
+            String wordWithOutSpecialChars =word.replaceAll("[\\-\\+\\.\\^:,]","");
 
-            String stemmedWord=removeSuffix(word);
+            String stemmedWord=removeSuffix(wordWithOutSpecialChars);
             stemmedString.append(removePrefix(stemmedWord)).append(" ");
 
         }

@@ -1,5 +1,6 @@
 package com.example.searchengine.components.search;
 
+import com.example.searchengine.components.stemmer.Stemmer;
 import org.json.JSONTokener;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -12,15 +13,26 @@ import java.util.List;
 public class Search {
     public String filePath="data.json";
 
-    public JSONArray getAllWebsites(){
+    public JSONArray getAllWebsites(String searchTerm){
+        Stemmer stemmer=new Stemmer();
+
+        String stemmedSearchTrem=stemmer.stemString(searchTerm);
+
+        return index();
+
+    }
+
+    private JSONArray index(){
         JSONArray jsonArray = new JSONArray();
         JSONParser parser = new JSONParser();
+
 
         try{
             JSONArray a = (JSONArray) parser.parse(new FileReader(filePath));
 
             for (Object o : a)
             {
+
                 JSONObject website = (JSONObject) o;
 
                 JSONObject jsonObject = new JSONObject();
@@ -41,8 +53,6 @@ public class Search {
             e.printStackTrace();
         }
         return jsonArray;
-
-
     }
 
 }

@@ -26,7 +26,11 @@ public class Crawler {
 
 
     public Crawler(){
-        this.urlQueue= new LinkedList<>(asList("https://en.wikipedia.org/wiki/Data_science"));
+        this.urlQueue= new LinkedList<>(asList(
+                "https://en.wikipedia.org/wiki/Data_science",
+                "https://en.wikipedia.org/wiki/Ancient_Egypt",
+                "https://en.wikipedia.org/wiki/Ancient_Rome"
+        ));
         this.urlsCrawled= new ArrayList<>();
         this.crawlerService=new CrawlerService();
 
