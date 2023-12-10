@@ -19,8 +19,8 @@ public class SearchPage {
     @CrossOrigin
     @GetMapping("/")
     public JSONArray home(){
-        Crawler crwaler=new Crawler();
-        crwaler.crawl();
+        //Crawler crwaler=new Crawler();
+        //crwaler.crawl();
 
         Search search = new Search();
 

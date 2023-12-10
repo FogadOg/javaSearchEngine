@@ -1,5 +1,6 @@
 package com.example.searchengine.components.search;
 
+import com.example.searchengine.components.nGram.NGram;
 import com.example.searchengine.components.stemmer.Stemmer;
 import org.json.JSONTokener;
 import org.json.simple.JSONArray;
@@ -25,7 +26,7 @@ public class Search {
     private JSONArray index(){
         JSONArray jsonArray = new JSONArray();
         JSONParser parser = new JSONParser();
-
+        NGram nGram=new NGram();
 
         try{
             JSONArray a = (JSONArray) parser.parse(new FileReader(filePath));
@@ -36,7 +37,10 @@ public class Search {
                 JSONObject website = (JSONObject) o;
 
                 JSONObject jsonObject = new JSONObject();
+
+
                 jsonObject.put("url", website.get("url"));
+                //System.out.println(nGram.getNGram(2,website.get("content")));
                 jsonObject.put("pageTitle", website.get("pageTitle"));
                 jsonObject.put("pageName", website.get("pageName"));
                 jsonObject.put("favicon", website.get("favicon"));
