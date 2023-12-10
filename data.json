@@ -1,6 +1,6 @@
 [
     {
-        "lastTimeCrawled": "2023-12-10T14:34:24.067588900",
+        "lastTimeCrawled": "2023-12-10T20:22:31.720634",
         "images": [
             {
                 "src": "https://donate.wikimedia.org/static/images/footer/wikimedia-button.png",
@@ -14,22 +14,245 @@
         "favicon": "https://donate.wikimedia.org/static/favicon/wmf.ico",
         "pageTitle": "Make your donation now - Wikimedia Foundation",
         "rating": 5,
-        "pageId": "d7191b8d-2108-42f4-a986-02de535ba016",
+        "pageId": "8fdd0e7a-eac4-4650-ad39-891b2e1b1675",
         "pageName": "wikimedia.org",
         "url": "https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en",
         "content": [
-            "Thank you for considering a donation to the Wikimedia Foundation, the nonprofit that hosts Wikipedia and other crucial free knowledge projects.",
-            "We invite you to reflect on the number of times you visited Wikipedia in the past year. If the knowledge you gained here was valuable, please join the 2% of readers who donate to the nonprofit that supports Wikipedia.",
-            "It is hard to know what to trust online these days. Wikipedia is different: not perfect, but also not here to make a profit or to push a particular perspective. It is written by everyone, together, because they want to help create a free repository of high-quality information.",
-            "If Wikipedia has given you useful knowledge this year, please give back. There are no small contributions: every edit counts, every donation counts.",
-            "Thank you.",
-            "Technology: Servers, bandwidth, maintenance, development. Wikipedia is one of the top 10 websites in the world, and it runs on a fraction of what other top websites spend.",
-            "People and Projects: The other top websites have thousands of employees. Wikimedia Foundation has about 700 staff and contractors to support a wide variety of projects, making your donation a great investment in a highly-efficient not-for-profit organization.",
-            "Tax deductibility information",
-            "We do not sell or trade your information to anyone. By donating, you agree to share your personal information with the Wikimedia Foundation, the nonprofit organization that hosts Wikipedia and other Wikimedia projects, and its service providers pursuant to our donor policy. Wikimedia Foundation and its service providers are located in the United States and in other countries whose privacy laws may not be equivalent to your own. For more information please read our donor policy.",
-            "For recurring donors, fixed monthly payments will be debited by the Wikimedia Foundation on the monthly anniversary of the first donation, until such time as you notify us to discontinue them. Donations initiated on the 29, 30, or 31 of the month will recur on the last day of the month for shorter months, as close to the original date as possible. For questions, please contact donate@wikimedia.org.",
-            "Monthly support is the best way to ensure that Wikipedia keeps thriving.",
-            "/* === Template:Styles/Default.css === */\n\n*,\n*:before,\n*:after {\n    -moz-box-sizing: border-box;\n    -webkit-box-sizing: border-box;\n    box-sizing: border-box;\n}\n\n/* Hide these until the required JavaScript fiddling has been done */\n#actual-form,\n.consider-amounts {\n    display: none;\n}\n\n#actual-form-loading {\n    text-align: center;\n    line-height: 1.2;\n}\n\n.error-nojs {\n    max-width: 300px;\n    color: #d33;\n}\n\n/* Hide default MediaWiki stuff we don't want */\n\n#mw-page-base, #mw-head-base,\n#mw-panel .portal,\n#mw-head, #catlinks,\n#firstHeading, #contentSub, #contentSub2, #siteSub,\n#jump-to-nav, .uls-tipsy {\n    display: none;\n}\n\n/* Re-add gradient background */\nbody {\n    background-image: linear-gradient(to bottom, #fff 40px, #f6f6f6 80px);\n    background-position: top;\n    background-repeat: repeat-x;\n    background-color: #f6f6f6;\n}\n\n#content {\n    background-color: transparent;\n    background-image: none;\n    border: 0;\n    padding-top: 32px;\n}\n\n/* Link colors for visibility */\n.mw-parser-output a,\n.mw-parser-output a.external,\n.mw-parser-output a.extiw {\n    color: #36c;\n}\n\n.mw-parser-output a:visited,\n.mw-parser-output a.external:visited,\n.mw-parser-output a.extiw:visited {\n    color: #6f4db3;\n}\n\n.lp-error {\n    color: #d33;\n    font-weight: 500;\n    font-size: 14px;\n}\n\n.amount-options .lp-error {\n    margin: 0 4px;\n}\n\n/* Prevent site logos from showing through modals (e.g. for monthly convert) */\n.vector-body {\n    position: inherit;\n}\n\nbody.modal-open {\n    overflow: hidden;\n    position: fixed;\n}\n\n/* --- Overall layout of the landing page --- */\n\n#main-wrapper {\n    width: 100%;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    gap: 24px;\n}\n\nbody.rtl #main-wrapper {\n    direction: rtl;\n}\n\n#form-wrapper {\n    width: 380px;\n    background-color: #fff;\n    border: 1px solid #a2a9b1;\n    border-radius: 2px;\n    padding: 24px;\n    color: #222;\n}\n\n#appeal-wrapper {\n    flex: 1 0 0;\n}\n\n/* --- Appeal --- */\n\n#appeal {\n    font-size: 16px;\n}\n\n#appeal h2,\n#appeal-head {\n    font-size: 21px;\n    padding-bottom: 10px;\n    border-bottom: 1px solid #a2a9b1;\n    margin-bottom: 21px;\n}\n\n.quote-wrapper {\n    padding: 140px 0;\n}\n\n/* --- Hide non-monthly capable payment methods on monthly forms --- */\n\n.form-monthly .not-monthly-capable {\n    display: none;\n}\n\n/* --- Form --- */\n\n#donate-form-wrapper fieldset {\n    width: 100%;\n    border: 0;\n    margin: 0 0 8px 0;\n    padding: 0;\n}\n\n.frequency-options ul,\n.amount-options ul {\n    display: flex;\n    margin: 0;\n    padding: 0;\n    list-style: none;\n}\n\n.frequency-options ul li,\n.amount-options ul li {\n    flex: 1 0 0;\n    padding: 4px;\n}\n\n/* --- Subheaders --- */\n\n#radiobuttons-table-header,\n#paymenttype-table-header {\n    display: block;\n    margin-bottom: 6px;\n    text-align: center;\n    font-weight: bold;\n}\n\n/* --- Commmon button styles --- */\n\n.frequency-options input[type=\"radio\"],\n.amount-options input[type=\"radio\"] {\n    position: absolute;\n    width: 1px;\n    height: 1px;\n    margin: -1px;\n    padding: 0;\n    overflow: hidden;\n    border: 0;\n    clip: rect(0 0 0 0);\n}\n\n.frb-btn,\n.payment-method-button {\n    display: flex;\n    justify-content: center;\n    align-content: center;\n    align-items: center;\n    flex-wrap: wrap;\n    height: 50px;\n    padding: 0 4px;\n    border-radius: 2px;\n    font-family: inherit;\n    font-weight: 500;\n    cursor: pointer;\n    transition: background-color 100ms, color 100ms, border-color 100ms, box-shadow 100ms;\n    background-color: #f8f9fa;\n    color: #222;\n    border: 1px solid #a2a9b1;\n}\n\n.frb-btn:hover {\n    background-color: #fff;\n    color: #444;\n    border-color: #a2a9b1;\n}\n\n.frb-btn:active {\n    background-color: #c8ccd1;\n    color: #000;\n    border-color: #72777d;\n    box-shadow: none;\n}\n\ninput[type=\"radio\"]:checked + .frb-btn {\n    background-color: #2a4b8d;\n    color: #fff;\n    border-color: #2a4b8d;\n}\n\n.frb-btn:focus,\n.payment-method-button:focus {\n    outline: 0;\n    border-color: #36c;\n    box-shadow: inset 0 0 0 1px #36c;\n}\n\ninput[type=\"radio\"]:focus + .frb-btn,\ninput[type=\"radio\"]:checked + .frb-btn:focus {\n    box-shadow: inset 0 0 0 1px #36c, inset 0 0 0 2px #fff;\n}\n\n.payment-method-button {\n    color: #36c;\n}\n\n.payment-method-button:hover {\n    background-color: #fff;\n    border-color: #447ff5;\n}\n\n.payment-method-button:active {\n    background-color: #eff3fa;\n    color: #2a4b8d;\n    border-color: #2a4b8d;\n    box-shadow: none;\n}\n\n/* --- Donation Amounts --- */\n\n.amount-options .frb-btn {\n    height: 60px;\n    font-size: 15px;\n    line-height: 1.2;\n    text-align: center;\n}\n\n/* Smaller font size for countries with v long amounts */\n.country-CO .amount-options .frb-btn,\n.country-CR .amount-options .frb-btn,\n.country-KR .amount-options .frb-btn,\n.country-PY .amount-options .frb-btn,\n.country-VN .amount-options .frb-btn {\n    font-size: 13px;\n}\n\n.input_amount_other .frb-btn span {\n    display: block;\n    font-size: 12px;\n    line-height: 1;\n    margin-bottom: 2px;\n    white-space: normal;\n    text-align: center;\n}\n\n.input_amount_other input {\n    display: block;\n    width: 100%;\n    border: 1px solid #a2a9b1;\n    color: #222;\n    padding: 2px;\n    border-radius: 2px;\n    direction: ltr;\n    text-align: center;\n    font-family: inherit;\n    font-size: 16px; /* must be >=16px or mobile Safari zooms in when selected */\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    appearance: none;\n    margin: 0 4px;\n}\n\n/* --- Opt-in and PTF input styles --- */\n\n.lp-radio-wrapper,\n.lp-checkbox-wrapper {\n    display: table;\n}\n\n.lp-radio,\n.lp-checkbox {\n    display: table-cell;\n    vertical-align: top;\n    margin: 7px 8px 8px 2px;\n    cursor: pointer;\n}\n\nbody.rtl .lp-radio,\nbody.rtl .lp-checkbox {\n    margin: 7px 2px 8px 8px;\n}\n\n.lp-radio-label,\n.lp-checkbox-label {\n    display: table-cell;\n    vertical-align: top;\n    padding: 4px 0;\n    white-space: normal;\n    font-size: 14px;\n    line-height: 18px;\n    font-weight: normal;\n    cursor: pointer;\n}\n\n.lp-radio-label:hover,\n.lp-radio:focus + .lp-radio-label,\n.lp-radio:hover + .lp-radio-label,\n.lp-checkbox-label:hover,\n.lp-checkbox:focus + .lp-checkbox-label,\n.lp-checkbox:hover + .lp-checkbox-label {\n    color: #36c;\n    text-decoration: none;\n}\n\n/* --- Opt-in --- */\n\n.optin-options {\n    padding: 0 4px !important;\n}\n\n.optin-options legend {\n    padding: 0;\n    font-size: inherit;\n    font-weight: bold;\n}\n\n.optin-options ul {\n    list-style: none;\n    margin: 0;\n}\n\n.optin-options li {\n    display: table;\n}\n\n.optin-smallprint {\n    clear: both;\n    font-size: 12px;\n    line-height: 14px;\n    margin-top: 8px;\n}\n\n.optin-no-prompt {\n    display: none;\n    margin: 0;\n    padding: 6px;\n    border: 2px solid #900;\n    border-radius: 2px;\n    font-size: 14px;\n    line-height: 18px;\n    font-weight: normal;\n}\n\n.optin-no-prompt.is-positive {\n    border-color: #14866d;\n    font-weight: bold;\n}\n\n.optin-no-prompt__yes { display: none; }\n.optin-no-prompt__no  { display: block; }\n\n.optin-no-prompt.is-positive .optin-no-prompt__yes { display: block; }\n.optin-no-prompt.is-positive .optin-no-prompt__no  { display: none; }\n\n/* --- PTF --- */\n.ptf {\n    display: none;\n    padding: 0 4px;\n}\n\n/* --- Payment method buttons --- */\n\n.payment-method-div {\n    padding: 4px 4px;\n}\n\n/* Hide extra empty <p> tags between buttons */\n.payment-method-div ~ p {\n    display: none;\n}\n\n.payment-method-button {\n    margin: 0;\n    width: 100%;\n    font-size: 15px;\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    appearance: none;\n    overflow: hidden;\n}\n\n/* --- Infobox (\"Where your donation goes\") --- */\n\n#infobox-wrapper {\n    font-size: 13px;\n    line-height: 1.4;\n    color: #54595d;\n    font-weight: normal;\n    padding: 8px 4px 0 4px;\n}\n\n#infobox-wrapper h2 {\n    font-size: 16px;\n    font-weight: bold;\n    color: inherit;\n    border: 0;\n    margin-bottom: 8px;\n}\n\n/* --- Privacy and links --- */\n\n#donate-footer {\n    width: 100%;\n    text-align: center;\n    line-height: 1.4;\n    padding: 24px 15% 8px;\n}\n\n#donate-footer > div {\n    margin-bottom: 16px;\n}\n\n.donate-smallprint,\n#donor-policy-block {\n    font-size: 12px;\n}\n\n.form-info-links,\n.form-info-links ul {\n    list-style: none;\n    margin: 0;\n    text-align: center;\n}\n\n.form-info-links li {\n    display: inline-block;\n}\n\n.form-info-links a.external {\n    padding: 14px !important;\n}\n\n/* --- Footer --- */\n\n.mw-footer {\n    display: none;\n}\n\n.payment-method-button svg {\n    margin: 0 4px;\n}\n\n/* Credit card logos.\n * Classes are added by https://donate.wikimedia.org/wiki/MediaWiki:DonationForm.js ---\n */\n.paymentmethod-cc svg {\n    display: none;\n    height: 26px;\n    border: 1px solid #c8ccd1;\n    border-radius: 4px;\n}\n\n.cctypes-vmad,\n.cctypes-vmaj,\n.cctypes-vmj,\n.cctypes-vma,\n.cctypes-vm,\n.cctypes-CBvma,\n.cctypes-vmar {\n    font-size: 0; /* Remove spacing between icons */\n}\n\n.cctypes-vmad  .cc-logo-visa,\n.cctypes-vmad  .cc-logo-mastercard,\n.cctypes-vmad  .cc-logo-amex,\n.cctypes-vmad  .cc-logo-discover,\n\n.cctypes-vmaj  .cc-logo-visa,\n.cctypes-vmaj  .cc-logo-mastercard,\n.cctypes-vmaj  .cc-logo-amex,\n.cctypes-vmaj  .cc-logo-jcb,\n\n.cctypes-vmj   .cc-logo-visa,\n.cctypes-vmj   .cc-logo-mastercard,\n.cctypes-vmj   .cc-logo-jcb,\n\n.cctypes-vma   .cc-logo-visa,\n.cctypes-vma   .cc-logo-mastercard,\n.cctypes-vma   .cc-logo-amex,\n\n.cctypes-vm    .cc-logo-visa,\n.cctypes-vm    .cc-logo-mastercard,\n\n.cctypes-CBvma .cc-logo-CB,\n.cctypes-CBvma .cc-logo-visa,\n.cctypes-CBvma .cc-logo-mastercard,\n.cctypes-CBvma .cc-logo-amex,\n\n.cctypes-vmar .cc-logo-visa,\n.cctypes-vmar .cc-logo-mastercard,\n.cctypes-vmar .cc-logo-amex,\n.cctypes-vmar .cc-logo-rupay {\n    display: inline-block !important;\n}\n\n.paymentmethod-cc .cc-logo-rupay {\n    border: 0;\n}\n\n/* Logos - WP on top, WMF horizontal below */\n#p-logo a {\n    /* Need explicit height for backgrounds for IE */\n    background: top 30% center/160px 24px url(https://donate.wikimedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg), top 70% center/160px 37px url(https://upload.wikimedia.org/wikipedia/donate/6/60/Wmf_logo_horiz_K.svg);\n    background-repeat: no-repeat;\n    margin-left: 8px;\n}\n\n/* Mobile styles */\n@media (max-width: 981px) {\n    \n    /* Text &amp; Logo layout */\n    #content {\n        margin: 0;\n        padding: 140px 24px 24px 24px;\n    }\n\n    #mw-panel, #p-logo, #p-logo a {\n        width: 100% !important;\n        height: 140px;\n        margin: 0;\n    }\n\n    #p-logo a {\n        margin-left: 0;\n    }\n\n    /* Hide appeal */\n    #appeal-wrapper {\n        display: none;\n    }\n\n    #form-wrapper {\n        padding: 16px;\n    }\n\n    /* Smallprint and links */\n    #donate-footer {\n        margin: 24px 0 0 0;\n        padding: 0;\n    }\n\n    /* Footer */\n    div#footer {\n        margin: 0;\n    }\n}\n\n@media (max-width: 721px) {\n    /* Stack appeal and form */\n    #appeal-wrapper {\n        flex-basis: 100%;\n        padding: 0;\n    }\n}\n\n@media (max-width: 501px) {\n    /* Appeal same width as form */\n    #appeal-wrapper {\n        max-width: 380px;\n        padding: 0;\n    }\n\n    #content {\n        padding: 140px 8px 8px 8px;\n    }\n\n}\n\n/* === end of Template:Styles/Default.css === */"
+            "Thank you f nsider a donat to the Wikimedia Foundat the profit that hosts Wikipedia and oth cruci fr knowledge jects ",
+            "We vite you to flect on the numb of times you visit Wikipedia in the past year If the knowledge you gain here was valu please join the 2% of aders who donate to the profit that supports Wikipedia ",
+            "It is hard to know what to trust online these days Wikipedia is different not perfect but also not here to make a fit or to push a particular perspect It is writt b everyone togeth because the w to help create a fr positor of highqual format ",
+            "If Wikipedia has giv you use knowledge this year please g back There are no small ntributions ever edit unts ever donat unts ",
+            "Thank you ",
+            "Technolog Servers bandwid maintenance velop Wikipedia is one of the top 10 websites in the world and it runs on a fract of what oth top websites spend ",
+            "People and Projects The oth top websites have thousands of employees Wikimedia Foundat has about 700 staff and ntractors to support a wide variet of jects mak your donat a great vest in a highlyefficient notforprofit organizat ",
+            "Tax ductibil format ",
+            "We do not sell or trade your format to anyone B donat you agr to share your person format wi the Wikimedia Foundat the profit organizat that hosts Wikipedia and oth Wikimedia jects and its service viders pursu to our don polic Wikimedia Foundat and its service viders are locat in the Unit States and in oth untries whose privac laws ma not be equivalent to your own F more format please ad our don polic ",
+            "F curr donors fix monthl payments will be bit b the Wikimedia Foundat on the monthl annivers of the first donat til such time as you notif us to continue them Donations itiat on the 29 30 or 31 of the mon will cur on the last da of the mon f short months as close to the origin date as poss F questions please ntact donate@wikimediaorg ",
+            "Monthl support is the best wa to sure that Wikipedia keeps thriv ",
+            "/* === TemplateStyles/Defaultcss === */\n\n*\n*before\n*aft {\n    mozboxsiz borderbox;\n    webkitboxsiz borderbox;\n    boxsiz borderbox;\n}\n\n/* Hide these til the quir JavaScript fiddl has be done */\n#actualform\nconsideramounts {\n    pla e;\n}\n\n#actualformload {\n    textalign center;\n    lineheight 12;\n}\n\nerrornojs {\n    maxwid 300px;\n    l #d33;\n}\n\n/* Hide fault MediaWiki stuff we don't w */\n\n#mwpagebase #mwheadbase\n#mwpanel portal\n#mwhead #catlinks\n#firstHead #contentSub #contentSub2 #siteSub\n#jumptonav ulstips {\n    pla e;\n}\n\n/* Readd gradient background */\nbod {\n    backgroundimage lineargradient(to bottom #fff 40px #f6f6f6 80px);\n    backgroundposit top;\n    backgroundrepeat peatx;\n    backgroundcol #f6f6f6;\n}\n\n#content {\n    backgroundcol parent;\n    backgroundimage e;\n    bord 0;\n    paddingtop 32px;\n}\n\n/* Link lors f visibil */\nmwparseroutput a\nmwparseroutput aexternal\nmwparseroutput aextiw {\n    l #36c;\n}\n\nmwparseroutput avisited\nmwparseroutput aexternalvisited\nmwparseroutput aextiwvisit {\n    l #6f4db3;\n}\n\nlperr {\n    l #d33;\n    fontweight 500;\n    fonts 14px;\n}\n\namountoptions lperr {\n    margin 0 4px;\n}\n\n/* Prevent site logos from show through modals (eg f monthl nvert) */\nvectorbod {\n    posit herit;\n}\n\nbodymodalop {\n    flow hidden;\n    posit fixed;\n}\n\n/*  Overall layout of the land page  */\n\n#mainwrapp {\n    wid 100%;\n    pla flex;\n    flexwrap wrap;\n    justifycontent center;\n    gap 24px;\n}\n\nbodyrtl #mainwrapp {\n    direct rtl;\n}\n\n#formwrapp {\n    wid 380px;\n    backgroundcol #fff;\n    bord 1px solid #a2a9b1;\n    borderradius 2px;\n    padd 24px;\n    l #222;\n}\n\n#appealwrapp {\n    flex 1 0 0;\n}\n\n/*  Appe  */\n\n#appe {\n    fonts 16px;\n}\n\n#appe h2\n#appealhead {\n    fonts 21px;\n    paddingbottom 10px;\n    borderbottom 1px solid #a2a9b1;\n    marginbottom 21px;\n}\n\nquotewrapp {\n    padd 140px 0;\n}\n\n/*  Hide monthl cap pay methods on monthl forms  */\n\nformmonthl notmonthlycap {\n    pla e;\n}\n\n/*  Form  */\n\n#donateformwrapp fieldset {\n    wid 100%;\n    bord 0;\n    margin 0 0 8px 0;\n    padd 0;\n}\n\nfrequencyoptions ul\namountoptions ul {\n    pla flex;\n    margin 0;\n    padd 0;\n    liststyle e;\n}\n\nfrequencyoptions ul li\namountoptions ul li {\n    flex 1 0 0;\n    padd 4px;\n}\n\n/*  Subheaders  */\n\n#radiobuttonstableheader\n#paymenttypetablehead {\n    pla block;\n    marginbottom 6px;\n    textalign center;\n    fontweight bold;\n}\n\n/*  Commmon button styles  */\n\nfrequencyoptions put[type=\"radio\"]\namountoptions put[type=\"radio\"] {\n    posit absolute;\n    wid 1px;\n    height 1px;\n    margin 1px;\n    padd 0;\n    flow hidden;\n    bord 0;\n    clip ct(0 0 0 0);\n}\n\nfrbbtn\npaymentmethodbutton {\n    pla flex;\n    justifycontent center;\n    aligncontent center;\n    alignitems center;\n    flexwrap wrap;\n    height 50px;\n    padd 0 4px;\n    borderradius 2px;\n    fontfamil herit;\n    fontweight 500;\n    curs pointer;\n    it backgroundcol 100ms l 100ms bordercol 100ms boxshadow 100ms;\n    backgroundcol #f8f9fa;\n    l #222;\n    bord 1px solid #a2a9b1;\n}\n\nfrbbtnhov {\n    backgroundcol #fff;\n    l #444;\n    bordercol #a2a9b1;\n}\n\nfrbbtnact {\n    backgroundcol #c8ccd1;\n    l #000;\n    bordercol #72777d;\n    boxshadow e;\n}\n\ninput[type=\"radio\"]check  frbbtn {\n    backgroundcol #2a4b8d;\n    l #fff;\n    bordercol #2a4b8d;\n}\n\nfrbbtnfocus\npaymentmethodbuttonfocus {\n    line 0;\n    bordercol #36c;\n    boxshadow set 0 0 0 1px #36c;\n}\n\ninput[type=\"radio\"]focus  frbbtn\ninput[type=\"radio\"]check  frbbtnfocus {\n    boxshadow set 0 0 0 1px #36c set 0 0 0 2px #fff;\n}\n\npaymentmethodbutton {\n    l #36c;\n}\n\npaymentmethodbuttonhov {\n    backgroundcol #fff;\n    bordercol #447ff5;\n}\n\npaymentmethodbuttonact {\n    backgroundcol #eff3fa;\n    l #2a4b8d;\n    bordercol #2a4b8d;\n    boxshadow e;\n}\n\n/*  Donat Amounts  */\n\namountoptions frbbtn {\n    height 60px;\n    fonts 15px;\n    lineheight 12;\n    textalign center;\n}\n\n/* Small font s f untries wi v long amounts */\ncountryCO amountoptions frbbtn\ncountryCR amountoptions frbbtn\ncountryKR amountoptions frbbtn\ncountryPY amountoptions frbbtn\ncountryVN amountoptions frbbtn {\n    fonts 13px;\n}\n\ninput_amount_oth frbbtn span {\n    pla block;\n    fonts 12px;\n    lineheight 1;\n    marginbottom 2px;\n    whitespace normal;\n    textalign center;\n}\n\ninput_amount_oth put {\n    pla block;\n    wid 100%;\n    bord 1px solid #a2a9b1;\n    l #222;\n    padd 2px;\n    borderradius 2px;\n    direct ltr;\n    textalign center;\n    fontfamil herit;\n    fonts 16px; /* must be >=16px or mobile Safari zooms in wh select */\n    webkitappearance e;\n    mozappearance e;\n    appearance e;\n    margin 0 4px;\n}\n\n/*  Optin and PTF put styles  */\n\nlpradiowrapper\nlpcheckboxwrapp {\n    pla table;\n}\n\nlpradio\nlpcheckbox {\n    pla tablecell;\n    verticalalign top;\n    margin 7px 8px 8px 2px;\n    curs pointer;\n}\n\nbodyrtl lpradio\nbodyrtl lpcheckbox {\n    margin 7px 2px 8px 8px;\n}\n\nlpradiolabel\nlpcheckboxlabel {\n    pla tablecell;\n    verticalalign top;\n    padd 4px 0;\n    whitespace normal;\n    fonts 14px;\n    lineheight 18px;\n    fontweight normal;\n    curs pointer;\n}\n\nlpradiolabelhover\nlpradiofocus  lpradiolabel\nlpradiohov  lpradiolabel\nlpcheckboxlabelhover\nlpcheckboxfocus  lpcheckboxlabel\nlpcheckboxhov  lpcheckboxlabel {\n    l #36c;\n    textdecorat e;\n}\n\n/*  Optin  */\n\noptinoptions {\n    padd 0 4px !important;\n}\n\noptinoptions legend {\n    padd 0;\n    fonts herit;\n    fontweight bold;\n}\n\noptinoptions ul {\n    liststyle e;\n    margin 0;\n}\n\noptinoptions li {\n    pla table;\n}\n\noptinsmallprint {\n    clear both;\n    fonts 12px;\n    lineheight 14px;\n    margintop 8px;\n}\n\noptinnoprompt {\n    pla e;\n    margin 0;\n    padd 6px;\n    bord 2px solid #900;\n    borderradius 2px;\n    fonts 14px;\n    lineheight 18px;\n    fontweight normal;\n}\n\noptinnopromptisposit {\n    bordercol #14866d;\n    fontweight bold;\n}\n\noptinnoprompt__yes { pla e; }\noptinnoprompt__no  { pla block; }\n\noptinnopromptisposit optinnoprompt__yes { pla block; }\noptinnopromptisposit optinnoprompt__no  { pla e; }\n\n/*  PTF  */\nptf {\n    pla e;\n    padd 0 4px;\n}\n\n/*  Pay method buttons  */\n\npaymentmethoddiv {\n    padd 4px 4px;\n}\n\n/* Hide tra empt <p> tags betwe buttons */\npaymentmethoddiv ~ p {\n    pla e;\n}\n\npaymentmethodbutton {\n    margin 0;\n    wid 100%;\n    fonts 15px;\n    webkitappearance e;\n    mozappearance e;\n    appearance e;\n    flow hidden;\n}\n\n/*  Infobox (\"Where your donat goes\")  */\n\n#infoboxwrapp {\n    fonts 13px;\n    lineheight 14;\n    l #54595d;\n    fontweight normal;\n    padd 8px 4px 0 4px;\n}\n\n#infoboxwrapp h2 {\n    fonts 16px;\n    fontweight bold;\n    l herit;\n    bord 0;\n    marginbottom 8px;\n}\n\n/*  Privac and links  */\n\n#donatefoot {\n    wid 100%;\n    textalign center;\n    lineheight 14;\n    padd 24px 15% 8px;\n}\n\n#donatefoot > div {\n    marginbottom 16px;\n}\n\ndonatesmallprint\n#donorpolicyblock {\n    fonts 12px;\n}\n\nforminfolinks\nforminfolinks ul {\n    liststyle e;\n    margin 0;\n    textalign center;\n}\n\nforminfolinks li {\n    pla lineblock;\n}\n\nforminfolinks aextern {\n    padd 14px !important;\n}\n\n/*  Foot  */\n\nmwfoot {\n    pla e;\n}\n\npaymentmethodbutton svg {\n    margin 0 4px;\n}\n\n/* Credit card logos\n * Classes are add b https//donatewikimediaorg/wiki/MediaWikiDonationFormjs \n */\npaymentmethodcc svg {\n    pla e;\n    height 26px;\n    bord 1px solid #c8ccd1;\n    borderradius 4px;\n}\n\ncctypesvmad\ncctypesvmaj\ncctypesvmj\ncctypesvma\ncctypesvm\ncctypesCBvma\ncctypesvmar {\n    fonts 0; /* Remove spac betwe icons */\n}\n\ncctypesvmad  cclogovisa\ncctypesvmad  cclogomastercard\ncctypesvmad  cclogoamex\ncctypesvmad  cclogodiscover\n\ncctypesvmaj  cclogovisa\ncctypesvmaj  cclogomastercard\ncctypesvmaj  cclogoamex\ncctypesvmaj  cclogojcb\n\ncctypesvmj   cclogovisa\ncctypesvmj   cclogomastercard\ncctypesvmj   cclogojcb\n\ncctypesvma   cclogovisa\ncctypesvma   cclogomastercard\ncctypesvma   cclogoamex\n\ncctypesvm    cclogovisa\ncctypesvm    cclogomastercard\n\ncctypesCBvma cclogoCB\ncctypesCBvma cclogovisa\ncctypesCBvma cclogomastercard\ncctypesCBvma cclogoamex\n\ncctypesvmar cclogovisa\ncctypesvmar cclogomastercard\ncctypesvmar cclogoamex\ncctypesvmar cclogorupa {\n    pla lineblock !important;\n}\n\npaymentmethodcc cclogorupa {\n    bord 0;\n}\n\n/* Logos  WP on top WMF horizont below */\n#plogo a {\n    /* Ne plicit height f backgrounds f IE */\n    background top 30% center/160px 24px url(https//donatewikimediaorg/static/images/mobile/copyright/wikipediawordmarkensvg) top 70% center/160px 37px url(https//uploadwikimediaorg/wikipedia/donate/6/60/Wmf_logo_horiz_Ksvg);\n    backgroundrepeat norepeat;\n    marginleft 8px;\n}\n\n/* Mobile styles */\n@media (maxwid 981px) {\n    \n    /* Text &amp; Logo layout */\n    #content {\n        margin 0;\n        padd 140px 24px 24px 24px;\n    }\n\n    #mwpanel #plogo #plogo a {\n        wid 100% !important;\n        height 140px;\n        margin 0;\n    }\n\n    #plogo a {\n        marginleft 0;\n    }\n\n    /* Hide appe */\n    #appealwrapp {\n        pla e;\n    }\n\n    #formwrapp {\n        padd 16px;\n    }\n\n    /* Smallprint and links */\n    #donatefoot {\n        margin 24px 0 0 0;\n        padd 0;\n    }\n\n    /* Foot */\n    div#foot {\n        margin 0;\n    }\n}\n\n@media (maxwid 721px) {\n    /* Stack appe and form */\n    #appealwrapp {\n        flexbasis 100%;\n        padd 0;\n    }\n}\n\n@media (maxwid 501px) {\n    /* Appe same wid as form */\n    #appealwrapp {\n        maxwid 380px;\n        padd 0;\n    }\n\n    #content {\n        padd 140px 8px 8px 8px;\n    }\n\n}\n\n/* === d of TemplateStyles/Defaultcss === */ "
+        ]
+    },
+    {
+        "lastTimeCrawled": "2023-12-10T20:22:31.951304300",
+        "images": [
+            {
+                "src": "https://ar.wikipedia.org/static/images/icons/wikipedia.png",
+                "alt": " "
+            },
+            {
+                "src": "https://ar.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-ar.svg",
+                "alt": "ويكيبيديا "
+            },
+            {
+                "src": "https://ar.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-ar.svg",
+                "alt": " "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/4/44/DataScienceDisciplines.png/260px-DataScienceDisciplines.png",
+                "alt": " "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Arbcom_ru_editing.svg/10px-Arbcom_ru_editing.svg.png",
+                "alt": "عدل القيمة على Wikidata "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Noun_Project_label_icon_1116097_cc_mirror.svg/10px-Noun_Project_label_icon_1116097_cc_mirror.svg.png",
+                "alt": "ترجم "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Arbcom_ru_editing.svg/10px-Arbcom_ru_editing.svg.png",
+                "alt": "عدل القيمة على Wikidata "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Arbcom_ru_editing.svg/10px-Arbcom_ru_editing.svg.png",
+                "alt": "عدل القيمة على Wikidata "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Test_Template_Info-Icon_-_Version_%282%29.svg/30px-Test_Template_Info-Icon_-_Version_%282%29.svg.png",
+                "alt": "حول القالب "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Data_visualization_process_v1.png/328px-Data_visualization_process_v1.png",
+                "alt": " "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/32px-Desktop_computer_clipart_-_Yellow_theme.svg.png",
+                "alt": "أيقونة بوابة "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/P_computing.svg/31px-P_computing.svg.png",
+                "alt": "أيقونة بوابة "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nuvola_apps_edu_mathematics-ar.svg/32px-Nuvola_apps_edu_mathematics-ar.svg.png",
+                "alt": "أيقونة بوابة "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Logo_proba_4.svg/32px-Logo_proba_4.svg.png",
+                "alt": "أيقونة بوابة "
+            },
+            {
+                "src": "https://ar.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png",
+                "alt": " "
+            },
+            {
+                "src": "https://ar.wikipedia.orghttps://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1",
+                "alt": " "
+            },
+            {
+                "src": "https://ar.wikipedia.org/static/images/footer/wikimedia-button.png",
+                "alt": "Wikimedia Foundat "
+            },
+            {
+                "src": "https://ar.wikipedia.org/static/images/footer/poweredby_mediawiki_88x31.png",
+                "alt": "Power b MediaWiki "
+            }
+        ],
+        "favicon": "https://ar.wikipedia.org/static/favicon/wikipedia.ico",
+        "pageTitle": "علم البيانات - ويكيبيديا",
+        "rating": 5,
+        "pageId": "0424cf74-9ab3-48b0-b573-9fe0c64dd517",
+        "pageName": "wikipedia.org",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%85_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA",
+        "content": [
+            "تعديل  تعديل مصدري  تعديل ويكي بيانات ",
+            "علم البيانات[3] (بالإنكليزية Data science) علم يغلب عليه تداخل الاختصاصات والذي يقوم على استخدام الأساليب العلمية، والمعالجات والخوارزميات والنظم لاستخراج المعرفة والأفكار من البيانات بشكليها، سواء مُهيكلة، أو غير مهيكلة، بشكل مشابه للتنقيب في البيانات كما يعتمد علم البيانات على تقنيات تعلم الآلة والذكاء الصناعي وبرامج معالجة البيانات الضخمة يُسمى الخبير بها عالم بيانات[3] (بالإنكليزية Data scientist) ",
+            "ويُعرف علم البيانات بأنه «مفهوم قائم على توحيد الإحصاء، وتحليل البيانات وتعلم الآلة والوسائل المرتبطة بهم من أجل فهم وتحليل ظاهرة فعلية باستخدام البيانات» ",
+            "وهو يقوم بتوظيف نظريات وأساليب مستمدة من حقول معرفية متعددة في سياق الرياضيات والإحصاء وعلم المعلومات وعلوم الحاسب ",
+            "يتصور جيم غراي الفائز بجائزة تورينج بأن علم البيانات «نموذج رابع» للعلوم (التجريبية والنظرية والحسابية والآن البيانات)، وأكد أن «كل شيء عن العلوم يتغير بسبب تأثير تكنولوجيا المعلومات» وطوفان البيانات[4][5] ",
+            "في عام 2012 حينما أطلقت مجلة بيزنس هارفارد ريفيو على علم البيانات \"بأنها الوظيفة الأكثر إثارة في القرن الحادي والعشرين، أصبح علم البيانات عبارة شائعة وتُستخدم الآن بصفة تبادلية مع المفاهيم السابقة مثل تحليل الأعمال، وذكاء الأعمال، والتحليل التنبؤي، والإحصاء حتى أن هانز روزلينج أعاد صياغة عبارة علم البيانات المثير، في وثائقي هيئة الإذاعة البريطانية عام 2011 في تلك المقولة \"أصبح الإحصاء الآن أكثر الموضوعات المحيطة بنا إثارة\" وأشار نيت سيلفر إلى أن علم البيانات قد جعل من الإحصاء أكثر إثارة وفي حالات عديدة أعُيد تسمية العديد من المناهج والحلول السابقة بعلم البيانات لكي تصبح أكثر جاذبية وفي حين تقدم بعض الجامعات حالياً شهادات في علم البيانات، غير أنه لا يوجد توافق في الآراء حول تعريف أو محتويات المناهج المناسبة ",
+            "مصطلح «علم البيانات» (الذي استخدم في الأصل بالتبادل مع \"Datalogy\") موجود لأكثر من ثلاثين عاما، وكان يستخدم في البداية كبديل عن علوم الكمبيوتر من قبل بيتر ناور في عام 1960 حيث في عام 1974، نشر بيتر ناور مسح موجز لأساليب الكمبيوتر، والذي استخدم مصطلح «علم البيانات» بحرية في دراسته لطرق معالجة البيانات المعاصرة التي تستخدم في مجموعة واسعة من التطبيقات ",
+            "على الرغم من أن كل من محللي وعلماء البيانات يتشاركون العديد من الأهداف والمهام إلا أنه هناك بعض الاختلافات ",
+            "هذه قائمة قصيرة بأهم المهام والأهداف التي يعمل عليها ",
+            "1التنبؤ بقيم معينة بناءً على بيانات قديمة ",
+            "\u2022 التنبؤ بإجمالي الربح الذي سوف تحصل عليه الشركة خلال الشهر القادم ",
+            "\u2022 التنبؤ بعدد المستخدمين الجدد للتطبيق في شهر معين ",
+            "2عمليات التصنيف | Classificat ",
+            "\u2022 تصنيف البريد الإلكتروني بأنه غير هام أو هام ",
+            "3بناء أنظمة التوصية | Recommendat Systems ",
+            "\u2022 عندما تقوم بعملية شراء لمنتج ما، سوف تلاحظ وجود قائمة تخبرك بمنتجات شبيه بالمنتج الذي اخترته ",
+            "\u2022 أنظمة التوصية في مواقع مشاهدة الأفلام ",
+            "4 الكشف عن الأنماط | Pattern Detect ",
+            "\u2022اكتشاف العلاقات بين البيانات الموجودة التي لا يمكن الكشف عنها بالطرق التقليدية ",
+            "5التحليل الاستكشافي للبيانات | Explorator Data Analysis ",
+            "\u2022إجراء بعض العمليات على البيانات لفهم طبيعتها والحصول على فكرة أولية عما تحتويه من معلومات ",
+            "6قياس جودة أداء الخوارزميات وتحسين نتائجها ",
+            "يهتم بشرح وفهم الماضي ",
+            "يركز على تحسين المستقبل ",
+            "(عدد المشتركين الجددإجمالي الربح الشهريعدد الأشخاص الذين يخرجون من الفيلم قبل نهايته) ",
+            "يحتوي مشاهد سيئة ",
+            "لا يحتوي مشاهد سيئة ",
+            "وفي حال كان عمر المشاهد غير مناسب فسيتم تنبيهه تلقائياً ",
+            "1الحصول على البيانات المتعلقة بالموضوع الذي تريد أن تكتشفه أو المشكلة المراد حلها ",
+            "2معالجة البيانات والتأكد من صحتها وخلوها من الأخطاء التي من الممكن أن تؤثر على النتائج ",
+            "3القيام بالتحليل الاستكشافي للبيانات للحصول على نظرة شاملة عن البيانات المتعامل معها ",
+            "4بناء، تطوير، وتطبيق الخوازميات والنماذج اللازمة لحل المشكلة والحصول على النتائج ",
+            "5عرض النتائج النهائية على أصحاب القرار ",
+            "يهتم هذا القسم في اكتشاف المعرفة داخل البيانات لتمكين أصحاب الأعمال من اتخاذ قرارات تحقق لهم فائدة أكبر ",
+            "حيث يعتمد بشكل كبير على علم الاحصاء (تحليل البيانات الكمي والنوعي) ",
+            "على سبيل المثال تطبيق موبايل لبيع الملابس يعمل على أجهزة الأيفون والاندرويد ",
+            "البيانات (Data) أظهرت البيانات أنه خلال الشهر الماضي تم استخدام التطبيق من قبل 5000 مستخدم ",
+            "التحليلات (Analytics) يمكن استخدام التحليلات لإيجاد عدد المستخدمين الذين استعملوا التطبيق من خلال الايفون ",
+            "فهم التحليلات (Insights) من الممكن اكتشاف أن مستخدمي الايفون هم أقل احتمالاً للشراء عبر التطبيق بنسبة 40% ",
+            "الخطوة التالية تتمثل بمعرفة السبب وراء انخفاض نسبة التعاملات باستخدام اجهزة الايفون مقارنة بباقي الأجهزة ",
+            "هل يمكن أن يتعلق هذا الأمر بصعوبة وتعقيد واجهة استخدام التطبيق في الايفون؟ ",
+            "فإذا كان الأمر صحيحاً، فإن جعل واجهة الاستخدام بسيطة أكثر، سوف يرفع من احتمال عملية شراء المنتجات عبر المستخدمين الذين يملكون أيفون ",
+            "يستخدم هذا القسم البيانات الموجودة لدى الشركة، كمدخلات إلى الخوارزميات والنماذج التي يقوم ببنائها \u201cعالم البيانات\u201d يعتمد هذا القسم بشكل كبير على معرفة الشخص بعلم الحاسوب وخوارزميات تعلم الآلة والذكاء الصناعي "
+        ]
+    },
+    {
+        "lastTimeCrawled": "2023-12-10T20:22:32.081056600",
+        "images": [
+            {
+                "src": "https://az.wikipedia.orghttps://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1",
+                "alt": " "
+            },
+            {
+                "src": "https://az.wikipedia.org/static/images/footer/wikimedia-button.png",
+                "alt": "Wikimedia Foundat "
+            },
+            {
+                "src": "https://az.wikipedia.org/static/images/footer/poweredby_mediawiki_88x31.png",
+                "alt": "Power b MediaWiki "
+            }
+        ],
+        "favicon": "https://az.wikipedia.org/static/favicon/wikipedia.ico",
+        "pageTitle": "Verilənlər elmi \u2014 Vikipediya",
+        "rating": 5,
+        "pageId": "c1f0a0df-3e5e-45d8-b67d-ee9835b4277f",
+        "pageName": "wikipedia.org",
+        "url": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi",
+        "content": [
+            "Verilənlər elmi (Data Science) formasiyanın alınması üsullarına sahib olmaqdır \u201cData science\u201d termin kimi k dəfə 1960cı lərdə kompüt elmlərinin pionerlərindən sayılan Pet Naur tərəfindən \u201cDatalog the science of data and of data cesses and its place in education\u201d adlı məruzəsində səsləndirilmiş [1] fənn kimi isə keçən əsrin 60cı lərindən   formalaşmağa başlamışdır Bu 1966cı də Elm və Texnika üçün Məlumat Komitəsinin (CODATA \u2013 Internation Council f science Committ on Data f Science and Technology) təsis edilməsinə təsadüf edir [2] 1974cü də Pet Naur \u201cConc Surve of Comput Methods in Swed and the Unit States\u201d kitabında verilənlərin müasir em metodlarının icmalını  vermiş və verilənlər haqqında elmi rəqəms verilənlərin həyat dövrünü (yarandığı andan başqa bilik sahələrinə təqdim olunmaq üçün edilən dəyişikliklərə qədər) öyrənən bir fənn kimi təyin  etmişdir Ancaq termin 1990cı lərdə geniş istifadə olunmağa başlamış və 2000ci lərin əvvəllərindən hamı tərəfindən qəbul edilmişdir 2001ci də Purdue Universitetinin fessoru  statistika verilənlərin vizuallaşdırılması maşın təlimi sahəsində tanınmış mütəxəssis Uilyam Klivlend (William S Cleveland) statistik tədqiqatların texniki aspektlərinin kişaf planı  (Data Science An Act Plan f Expand the Technic Areas of the Field of Statistics) adlı tədqiqatında diqqəti \u201cdata science\u201d fənninin tədrisi məsələsinə yönəltmişdir [3] O  planda \u201cdata science\u201di ayrıca akademik fənn kimi əli sürmüşdür Bu da \u201cdata scientist\u201d adlanan kadrların hazırlanmasına marağı stimullaşdırmışdır Təsadüfi yildir ki təxminən  əmin vaxtdan da CODATAnın \u201cData Science Journal\u201dı (2002ci dən) nəşr olunmağa başlanmışdır ",
+            "Verilənlər elmi ənənəvi formatikadan başlayaraq riyaziyyata qədər müxtəlif sahələr üzrə bacarıq və vərdiş tələb edir Bu elmin əsas məqsədi verilənlərdə qanunauyğunluqların  tapılması verilənlərdən ümumiləşdirilmış halda biliklərin aşkarlanmasıdır Mayk Lukides verilənlər haqqında elmi verilənləri yalnız formasiyaya yil həmçinin məhsula çevirdiyini  iddia edir [4] Bu sahədə vacib olan bacarıqlar adətən mütəxəssisə lazım olan ümumi fənlərlə formasiya texnologiyalarındakı təcrübələrin və riyazi statistika biliklərinin kəsişməsi \u2013 Venn diaqramı vasitəsilə izah olunur "
+        ]
+    },
+    {
+        "lastTimeCrawled": "2023-12-10T20:22:32.253338300",
+        "images": [
+            {
+                "src": "https://bn.wikipedia.org/static/images/icons/wikipedia.png",
+                "alt": " "
+            },
+            {
+                "src": "https://bn.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-bn.svg",
+                "alt": "উইকিপিডিয়া "
+            },
+            {
+                "src": "https://bn.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-bn.svg",
+                "alt": "একটি মুক্ত বিশ্বকোষ "
+            },
+            {
+                "src": "https://bn.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/4/44/DataScienceDisciplines.png/220px-DataScienceDisciplines.png",
+                "alt": " "
+            },
+            {
+                "src": "https://bn.wikipedia.orghttps://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1",
+                "alt": " "
+            },
+            {
+                "src": "https://bn.wikipedia.org/static/images/footer/wikimedia-button.png",
+                "alt": "Wikimedia Foundat "
+            },
+            {
+                "src": "https://bn.wikipedia.org/static/images/footer/poweredby_mediawiki_88x31.png",
+                "alt": "Power b MediaWiki "
+            }
+        ],
+        "favicon": "https://bn.wikipedia.org/static/favicon/wikipedia.ico",
+        "pageTitle": "উপাত্ত বিজ্ঞান - উইকিপিডিয়া",
+        "rating": 5,
+        "pageId": "ca7e2359-8e1c-4753-81ce-7dab7e628966",
+        "pageName": "wikipedia.org",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%89%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%A4_%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8",
+        "content": [
+            "উপাত্তবিজ্ঞান (ইংরেজি Data Science) হচ্ছে একটি বহুবিষয়ী ক্ষেত্র যেখানে বিভিন্ন গঠিত ও অগঠিত উপাত্ত বিশ্লেষণে ও সেখান থেকে জ্ঞান আহরণে  বৈজ্ঞানিক পদ্ধতি প্রক্রিয়া অ্যালগরিদম ও   বিভিন্ন সিস্টেম ব্যবহার করা হয়।[১][২] উপাত্তবিজ্ঞান ডাটা মাইনিং গভীর শিক্ষণ ও বড় উপাত্ত বিষয়গুলোর সাথে সম্পর্কিত। ",
+            "উপাত্তবিজ্ঞান হচ্ছে এমন একটি ধারণা যাতে আসল তথ্যসহ মূল ঘটনা বিশ্লেষণের জন্য পরিসংখ্যান তথ্য বিশ্লেষণ মেশিন লার্নিং ডোমেইন জ্ঞান সহ অন্যান্য বিষয় একীভূত করা হয়।[৩] উপাত্ত বিজ্ঞান গণিত পরিসংখ্যান কম্পিউটার বিজ্ঞান ও তথ্য বিজ্ঞানের সূত্র তত্ত্ব ও পদ্ধতি ব্যবহার করে। ট্যুরিং পুরস্কার বিজয়ী বিজ্ঞানী জিম গ্রে উপাত্ত বিজ্ঞানকে বিজ্ঞানের ৪র্থ পর্যায় বলে আখ্যা দিয়েছেন। গবেষণামূলক তত্ত্বীয় ও কম্পুটেশনাল বিজ্ঞানের পর উপাত্তভিত্তিক বিজ্ঞান হচ্ছে বর্তমানে বিজ্ঞানের নতুন পর্যায়।  তাঁর মতে বিজ্ঞানের ব্যপারে প্রায় সবকিছুই পালটে গেছে তথ্যপ্রযুক্তির প্রভাব ও তথ্য বিস্ফোরণের ফলে।[৪] ",
+            "১৯৬২ সালে বিজ্ঞানী জন টাকি 'উপাত্ত বিশ্লেষণ' নামক একটি নতুন বিষয়ের ধারণা দেন। [৫]<\n১৯৯২ সালের দিকে ফ্রান্সের মন্টেপিলার বিশ্ববিদ্যালয়ে একটি পরিসংখ্যান সিম্পোজিয়ামে অংশগ্রহণকারীরা সবাই একমত হন যে পরিসংখ্যানের  প্রতিষ্ঠিত সূত্র ও তত্ত্ব ও কম্পিউটার বিজ্ঞানেেের  সমন্বয়ে উপাত্ত বিশ্লেষণের একটি নতুন ক্ষেত্র প্রতিষ্ঠিত হতে যাচ্ছে। 'উপাত্ত বিজ্ঞান' পরিভাষা ব্যবহার শুরু হয় ১৯৭৪ সালে যখন পিটার নাউর  এটিকে কম্পিউটার বিজ্ঞানের একটি বিকল্প পরিভাষা হিসেবে ব্যবহারের প্রস্তাব করেন।[৬] ",
+            "১৯৯৬ সালে আন্তর্জাতিক শ্রেণিবিন্যাসকরণ ফাউন্ডেশনের একটি সভায় উপাত্তবিজ্ঞানকে আলোচনার একটি বিষয় হিসেবে রাখা হয়। [৭] ",
+            "১৯৯৮ সালে চিকিও হায়াশি উপাত্ত বিজ্ঞানকে নতু্ন উদীয়মান  ক্ষেত্র বলে আখ্যা দেন।[৮] ",
+            "আধুনিক ডিসিপ্লিন হিসেবে উপাত্ত বিজ্ঞানকে পরিচিতি করানোর পথিকৃত উইলিয়াম এস ক্লিভল্যান্ড। [৯] ",
+            "২০০১ সালের একটি গবেষণাপত্রে তিনি উল্লেখ করেন যে পরিসংখ্যানকে আরও বিস্তৃত হওয়া দরকার। ২০০২ সাল থেকে ডাটা সায়েন্স জার্নাল প্রকাশিত হচ্ছে।[১০] ",
+            "২০১৪ সালে আমেরিকার পরিসংখ্যান এসোসিয়েশান তাদের ডাটা মাইনিং বিভাগের নাম পরিবর্তন করে  পরিসাংখ্যনিক শিক্ষণ ও ডাটা সায়েন্স বিভাগ নামকরণ করে। \nডাটা সায়েন্টিস্ট বা উপাত্ত বিজ্ঞানীী নামকরণেেের কৃতিত্ব ডিজে প্যাটেল ও জেফ হ্যামারবেকারের। তারা ২০০৮ সালে এই শব্দ প্রথমবারের মত ব্যবহার করেন।[১১] ",
+            "উপাত্ত বিজ্ঞানের আসল সংজ্ঞা কেউ আজো দিতে পারে নি। কারো কারো মতে \nএটি একটি বাজওয়ার্ড মাত্র। ",
+            "উপাত্তবিজ্ঞান একটি বহুবিষয়ী ক্ষেত্র। এর মূল লক্ষ্য হচ্ছে উপাত্ত সেট সমূহ থেকে বড় আকারের ডাটা (বিগ ডাটা দেখুন) এর ভিত্তিতে জ্ঞান আহরণ।[১২] ",
+            "উপাত্ত বিজ্ঞান গবেষণার প্রয়োজনে পরিসংখ্যানগণিত কম্পিউটার বিজ্ঞান তথ্য ভিজুয়্যালাইজেশন গ্রাফিক ডিজাইন ব্যবহার করা হয়।[১৩][১৪] ",
+            "ন্যাট সিলভার সহ আরও অনেক পরিসংখ্যানবিদের মতে উপাত্ত বিজ্ঞান পরিসংখ্যানের একটি ভিন্ন রূপ মাত্র।[১৫]\nঅন্যদের মতে উপাত্ত বিজ্ঞান পরিসংখ্যান  থেকে আলাদা যেহেতু এটি ডিজিটাল উপাত্ত নিয়ে কাজ করে।[১৬]\nবসন্ত ধরের মতে উপাত্ত বিজ্ঞান পরিমাণগত ও গুণগত উভয় ধরনের উপাত্ত (যেমন ছবি)  নিয়েই কাজ করে অন্যদিকে পরিসংখ্যান শুধুমাত্র পরিমাণগত উপাত্ত নিয়ে কাজ করে।[১৭]\nতবে অনেক উপাত্ত বিজ্ঞানীর মতে উপাত্ত বিজ্ঞান পরিসংখ্যান থেকে আলাদা হলেও পরিসংখ্যানের সাথে এর সম্বন্ধ আছে। কেউ কেউ উপাত্ত বিজ্ঞানকে পরিসংখ্যানের একটি ফলিত শাখা হিসেবে গণ্য করেন। ",
+            "আমেরিকাতে ২০১৬২০১৯ সময়কালে উপাত্তবিজ্ঞানীর ক্যারিয়ার ১ম সেরা ও ২০২০ সালে ৩য় সেরা ক্যারিয়ার হিসেবে বিবেচিত হয়েছে।[১৮] ",
+            "উপাত্তবিজ্ঞানের ক্যারিয়ারে স্নাতকসহ পিএইচডি ডিগ্রীর প্রয়োজন পড়ে। পরবর্তীতে এন্ট্রি লেভেল চাকরির জন্য আবেদন করতে হয়। অনেকে পরে বিশেষায়িত ক্ষেত্রে চলে যান।[১৯] ",
+            "১মেশিন লার্নিং সায়েন্টিস্ট।\n২ডাটা এনালিস্ট।\n৩ডাটা আর্কিটেক্ট\n৪ডাটা কনসালট্যান্ট।[২০]\n৫এপ্লিকেশনস আর্কিটেক্ট।[২১] ",
+            "১ ক্লাস্টারিং(গুচ্ছকরণ) ",
+            "২ডাইমেনশনালিটি রিডাকশন (মাত্রা হ্রাসকরণ) ",
+            "৩মেশিন লার্নিং(যন্ত্র শিক্ষণ) ",
+            "উপাত্ত বিজ্ঞানে অনেক প্রোগ্রামিং ভাষা ব্যবহার হয়।যেমনঃ ",
+            "১পাইথন ",
+            "২ আর ",
+            "৩পাইটর্চ। ",
+            "৪গুগল টেনসরফ্লো। ",
+            "৫জুপিটার নোটবুক। ",
+            "৬টেবিলইউ। ",
+            "৭এপাচি হাডুপ। ",
+            "বিগ ডাটা খুব দ্রুতই ছোট বড় বিভিন্ন কোম্পানির জন্য অত্যন্ত গুরুত্বপূর্ণ হয়ে উঠছে। প্রাপ্যতা ও ব্যাখ্যার কারণে বিগ ডাটা পুরোনো ব্যবসার মডেল বদলিয়ে নতুন করে ফেলেছে। শুধুমাত্র ২০১৫ সাল থেকে ২০২০ সালে ডাটার/উপাত্তের উপর নির্ভরকারী ব্যবসার মূলধন ২০১৫ সালে $৩৩৩ মিলিয়ন ডলার থেকে বেড়ে ২০২০ সালে $১২ ট্রিলিয়ন ডলার হয়েছে। উপাত্ত বিজ্ঞানী বা ডাটা সায়েন্টিস্টরা বর্তমানে বিভিন্ন ধরনের ব্যবসায়ের বিস্তারে বড় ভূমিকা রাখছেন। যতদিন বিগ ডাটা আছে তত দিন ডাটা সায়েন্স ভুমিকা পালন করবে।[২২] "
         ]
     }
 ]

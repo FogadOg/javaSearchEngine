@@ -130,7 +130,7 @@ public class UrlDataJsonObject {
                     if(!paragraphText.isEmpty()){
 
                         String stemmedParagraph=stemmer.stemString(paragraphText);
-                        pageContent.put(paragraphText);
+                        pageContent.put(stemmedParagraph);
                     }
                 }
             }

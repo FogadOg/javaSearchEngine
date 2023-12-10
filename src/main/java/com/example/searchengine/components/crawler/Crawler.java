@@ -27,9 +27,9 @@ public class Crawler {
 
     public Crawler(){
         this.urlQueue= new LinkedList<>(asList(
-                "https://en.wikipedia.org/wiki/Data_science",
-                "https://en.wikipedia.org/wiki/Ancient_Egypt",
-                "https://en.wikipedia.org/wiki/Ancient_Rome"
+                "https://en.wikipedia.org/wiki/Data_science"
+                //"https://en.wikipedia.org/wiki/Ancient_Egypt",
+                //"https://en.wikipedia.org/wiki/Ancient_Rome"
         ));
         this.urlsCrawled= new ArrayList<>();
         this.crawlerService=new CrawlerService();
@@ -108,12 +108,6 @@ public class Crawler {
 
     }
 
-    private Integer breakingPoint(Integer breakingPoint){
-        return breakingPoint-1;
-    }
-
-    public static void main(String[] args){
-    }
 }
 
 
