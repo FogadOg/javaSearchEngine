@@ -9,6 +9,7 @@ import org.json.simple.JSONArray;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -17,13 +18,16 @@ import java.util.List;
 public class SearchPage {
 
     @CrossOrigin
-    @GetMapping("/")
-    public JSONArray home(){
-        //Crawler crwaler=new Crawler();
-        //crwaler.crawl();
+    @GetMapping("/crawl")
+    public void home(){
+        Crawler crwaler=new Crawler();
+        crwaler.crawl();
 
+    }
+    @GetMapping("/search/{searchTerm}")
+    public JSONArray search(@PathVariable String searchTerm){
         Search search = new Search();
 
-        return search.getAllWebsites("you for");
+        return search.getAllWebsites(searchTerm);
     }
 }

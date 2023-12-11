@@ -254,5 +254,400 @@
             "৭এপাচি হাডুপ। ",
             "বিগ ডাটা খুব দ্রুতই ছোট বড় বিভিন্ন কোম্পানির জন্য অত্যন্ত গুরুত্বপূর্ণ হয়ে উঠছে। প্রাপ্যতা ও ব্যাখ্যার কারণে বিগ ডাটা পুরোনো ব্যবসার মডেল বদলিয়ে নতুন করে ফেলেছে। শুধুমাত্র ২০১৫ সাল থেকে ২০২০ সালে ডাটার/উপাত্তের উপর নির্ভরকারী ব্যবসার মূলধন ২০১৫ সালে $৩৩৩ মিলিয়ন ডলার থেকে বেড়ে ২০২০ সালে $১২ ট্রিলিয়ন ডলার হয়েছে। উপাত্ত বিজ্ঞানী বা ডাটা সায়েন্টিস্টরা বর্তমানে বিভিন্ন ধরনের ব্যবসায়ের বিস্তারে বড় ভূমিকা রাখছেন। যতদিন বিগ ডাটা আছে তত দিন ডাটা সায়েন্স ভুমিকা পালন করবে।[২২] "
         ]
+    },
+    {
+        "lastTimeCrawled": "2023-12-11T11:13:36.089848800",
+        "images": [
+            {
+                "src": "https://bg.wikipedia.org/static/images/icons/wikipedia.png",
+                "alt": " "
+            },
+            {
+                "src": "https://bg.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-bg.svg",
+                "alt": "Уикипедия "
+            },
+            {
+                "src": "https://bg.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-bg.svg",
+                "alt": "Свободната енциклопедия "
+            },
+            {
+                "src": "https://bg.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Question_book-4.svg/40px-Question_book-4.svg.png",
+                "alt": " "
+            },
+            {
+                "src": "https://bg.wikipedia.orghttps://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1",
+                "alt": " "
+            },
+            {
+                "src": "https://bg.wikipedia.org/static/images/footer/wikimedia-button.png",
+                "alt": "Wikimedia Foundat "
+            },
+            {
+                "src": "https://bg.wikipedia.org/static/images/footer/poweredby_mediawiki_88x31.png",
+                "alt": "Power b MediaWiki "
+            }
+        ],
+        "favicon": "https://bg.wikipedia.org/static/favicon/wikipedia.ico",
+        "pageTitle": "Наука за данните \u2013 Уикипедия",
+        "rating": 5,
+        "pageId": "12d8c964-d063-4293-940f-49b38800c5f3",
+        "pageName": "wikipedia.org",
+        "url": "https://bg.wikipedia.org/wiki/%D0%9D%D0%B0%D1%83%D0%BA%D0%B0_%D0%B7%D0%B0_%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%D1%82%D0%B5",
+        "content": [
+            "Науката за данните или дейта сайънс (на английски data science) е интердисциплинарна сфера която използва научни методи процеси алгоритми и системи за извличане на знания и изводи от структурирани и неструктурирани данни[1][2] Дейта сайънс е свързана с извличане на данни машинно обучение и боравене с големите данни ",
+            "Дейта сайънс е \u201eпонятие обединяващо статистика анализ на данните и свързаните с това методи\u201c с цел \u201eразбиране и анализиране на събития\u201c свързани с данни[3] Науката използва адаптирани техники и теории от сферите на математиката статистиката компютърната наука домейн знанието и информационната наука Джим Грей представя дейта сайънс като \u201eчетвърта парадигма\u201c на науката (емпирична теоретична компютърна и сега водена от данни) и твърди че \u201eвсичко в науката се променя заради въздействието на информационните технологии\u201c и потопа от данни[4][5] ",
+            "Науката за данни включва и е близка до много други сфери (интердисциплинарна) Тя се фокусира върху извличането на знания от набори данни обикновено в голям размер Сферата включва анализ подготовка на данните за анализ и презентиране на откритията които информират организационни решения на високо ниво Като такава включва умения от компютърната наука математиката статистиката информационната визуализация графичния дизайн комплексните системи комуникацията и бизнеса Статистикът Нейтън Яу базирайки се на Бен Фрай свързва дейта сайънс с взаимодействието между човек и компютър потребителите трябва да могат лесно на манипулират и изследват данните През 2015 г Американската Асоциация по Статистика определя управлението на база данни статистиката и машинното обучение и разпределени и паралелни системи като три възникващи основни професионални сфери ",
+            "Много статистици в това число Нейт Силвър твърдят че дейта сайънс не е нова сфера а поскоро друго име за статистиката Други твърдят че дейта сайънс се различава от статистиката защото се фокусира върху проблеми и техники строго отличителни за дигиталните данни Васант Дхар обяснява че статистиката подчертава количествени данни и описание докато дейта сайънс се занимава с количествени и качествени данни (напр образи) като набляга на прогнозиране (предсказване) и действие Според Андрю Гелман от Колумбийския университет и ученият Винсент Гранвил статистиката е несъществена част от дейта сайънс Професор Дейвид Донохо от Станфордския университет твърди че дейта сайънс не се разграничава от статистиката по размера на базата данни или по използването на изчислителна техника и че голям брой магистърски програми рекламират погрешно техните обучения по програмите за анализиране и статистика като основи на курса за дейта сайънс Донохо определя дейта сайънс като приложна сфера отделяща се от традиционната статистика В заключение дейта сайънс може да се определи като приложен клон на статистиката "
+        ]
+    },
+    {
+        "lastTimeCrawled": "2023-12-11T11:13:36.762810600",
+        "images": [
+            {
+                "src": "https://ca.wikipedia.org/static/images/icons/wikipedia.png",
+                "alt": " "
+            },
+            {
+                "src": "https://ca.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-ca.svg",
+                "alt": "Viquipèdia "
+            },
+            {
+                "src": "https://ca.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-ca.svg",
+                "alt": "l'Enciclopèdia Lliure "
+            },
+            {
+                "src": "https://ca.wikipedia.orghttps://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1",
+                "alt": " "
+            },
+            {
+                "src": "https://ca.wikipedia.org/static/images/footer/wikimedia-button.png",
+                "alt": "Wikimedia Foundat "
+            },
+            {
+                "src": "https://ca.wikipedia.org/static/images/footer/poweredby_mediawiki_88x31.png",
+                "alt": "Power b MediaWiki "
+            }
+        ],
+        "favicon": "https://ca.wikipedia.org/static/favicon/wikipedia.ico",
+        "pageTitle": "Ciència de les dades - Viquipèdia, l'enciclopèdia lliure",
+        "rating": 5,
+        "pageId": "2813f240-40a5-4fd3-a8b8-96b5076b7abc",
+        "pageName": "wikipedia.org",
+        "url": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades",
+        "content": [
+            "La ciència de les dades (també neguda m a ciència de dades o data science en anglès)[1] és un camp terdisciplinari de mètodes científics cessos i sistemes p treure formació i neixe a partir de dades Fent servir dades estructurades o sesctructurades (veure Mineria de dades) la ciència de les dades és un camp de la ciència que eix l'estadística la formàtica i altres camps l neixe amb l'objectiu fin d'entendre i modelar un fenomen[2] Dins d'aquesta àrea podem trobar altres camps m l'aprenentatge màt l'aprenentatge fund la classificació l'anàlisi p clústers la mineria de dades les bases de dades o la visualització de dades[3] ",
+            "La ciència de les dades és a nova metodologia focalitzada en nvertir dades en accions Així lloc de basar la sa de cisions en la tuïció aquest camp ofereix eines p optimitzar la sa de cisions mitjanç el neixe i l'anàlisi ls sultats La ciència de dades és a eina p formar no p plicar ",
+            "General els passos a seguir en aquests cessos és ferse a gunta tindre les dades cessarles (netejarles agruparles seleccionarles) analitzarles i final ndre a cisió i actuar "
+        ]
+    },
+    {
+        "lastTimeCrawled": "2023-12-11T11:13:37.023889100",
+        "images": [
+            {
+                "src": "https://cs.wikipedia.org/static/images/icons/wikipedia.png",
+                "alt": " "
+            },
+            {
+                "src": "https://cs.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-cs.svg",
+                "alt": "Wikipedie "
+            },
+            {
+                "src": "https://cs.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-cs.svg",
+                "alt": "Wikipedie Otevřená cyklopedie "
+            },
+            {
+                "src": "https://cs.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png",
+                "alt": "Logo Wikimedia Commons "
+            },
+            {
+                "src": "https://cs.wikipedia.orghttps://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1",
+                "alt": " "
+            },
+            {
+                "src": "https://cs.wikipedia.org/static/images/footer/wikimedia-button.png",
+                "alt": "Wikimedia Foundat "
+            },
+            {
+                "src": "https://cs.wikipedia.org/static/images/footer/poweredby_mediawiki_88x31.png",
+                "alt": "Power b MediaWiki "
+            }
+        ],
+        "favicon": "https://cs.wikipedia.org/static/favicon/wikipedia.ico",
+        "pageTitle": "Data science \u2013 Wikipedie",
+        "rating": 5,
+        "pageId": "9e9ed6d7-aebd-4d5e-99da-0483ccd7b791",
+        "pageName": "wikipedia.org",
+        "url": "https://cs.wikipedia.org/wiki/Data_science",
+        "content": [
+            "Data science neboli datová věda je terdisciplinární ob který využívá vědecké metod ces algoritm a systém pro získávání znalostí a poznatků z dat v různých podobách jak strukturovaných tak nestrukturovaných[1][2] podobně jako data min ",
+            "Data science \"sjednocuje statistiku analýzu dat strojové učení a související metody\" s cílem \"pochopit a analyzovat skutečné jevy\" na základě dat[3] Využívá technik a teorie čerpané z mnoha lastí matematik statistik formatik a matematické formatik ",
+            "Nositel Turingov cen Jim Gra si data science představov jako \u201ečtvrté digma\u201c věd (empirické teoretické výpočetní a nyní založené na datech) a tvrdil že \u201evšechno ve vědě se mění v důsledku vlivu formačních technologií\u201c a záplav dat[4][5] ",
+            "V roce 2012 kd Harvard Busi Review nazv data science \"nejvíce sex zaměstnáním 21 století\"[6] se tento termín st módním slovem To je nyní často používáno zaměnitelně se staršími pojm jako busi analytics[7] busi telligence diktivní modelování data min a statistika Dokonce i myšlenka že datová věda je sex frázuje Hanse Roslinga který v dokumentu BBC 2011[8] hlásil \"Statistika je nyní nejvíce sex téma které tu máme\"[9] Nate Silv označil datovou vědu za sex termín pro statistiku[10] V mnoha případech jsou nyní dřívější přístup a řešení jednoduše přejmenováván jako data science ab byl atraktivnější ž může způsobit že termín se \"zředí [] za hranici užitečnosti\"[11] I když mnohé iverzitní gram nyní nabízejí titul v oru datové věd neexistuje konsensus o její finici nebo o sahu učebních osnov[7] K kreditaci data science přispívá mnoho jektů v lasti datové věd a velkých dat které nedokázal poskytnout užitečné výsledk často v důsledku špatného řízení a využívání zdrojů[12][13][14][15] ",
+            "Termín datová věda se jevov v různých souvislostech už sítk let ale až donedávna se neustálil Dříve byl používán jako onymum formatik Peterem Naurem v roce 1960 Naur později představil termín \"datalogy\"[16] V roce 1974 vyd Naur knihu Conc Surve of Comput Methods (Stručný přehl počítačových metod) kde volně využív termín data science v přehledu současných metod zpracování dat používaných v široké škále aplikací ",
+            "V roce 1996 se členové Mezinárodní federace klasifikačních společností (Federat of Classificat Societies IFCS) sešli v Kóbe na konferenci konané každé dva rok Zde se poprvé termín data science jevil v názvu konference (Data Science classificat and lat methods \u2013 Věda o datech klasifikace a související metody)[17] poté co byl zaved v neformální kusi Chikiem Hayashim[3] ",
+            "V listopadu 1997 přednesl C F Jeff Wu augurační přednášku nazvanou \"Statistics = Data Science?\"[18] u příležitosti jmenování fesorem Michiganské iverzity[19] V přednášce charakterizov statistickou práci jako trojici sběru dat modelování či analýz dat a rozhodování Na závěr uvedl moderní použití termínu data science mimo kontext formatik a navrhl přejmenování statistik na data science a statistiků na data scientist datové vědce[18] Později přednášku \"Statistics = Data Science\"? zopakov roku 1998 jako první ze svých Mahalanobisovských přednášek[20] ",
+            "V roce 2001 William S Cleveland uvedl datovou vědu jako nezávislou ciplínu která rozšiřuje last statistik tak ab zahrnovala \"pokrok v lasti výpočetní technik s daty\" Myšlenku uveřejnil v článku \"Data Science An Act Plan f Expand the Technic Areas of the Field of Statistics\" (\"Data Science akční plán rozšiřování technických lastí statistiky\") který byl publikován ve svazku 69 č 1 dubnového vydání Internation Statistic Review / Revue Internationale de Statistique z dubna 2001[21] Cleveland zde stanovil šest lastí o kterých věřil že zahrnují data science disciplinární bádání model a metod pro zpracování dat výpočt s dat pedagogika hodnocení výzkumných nástrojů a teorie ",
+            "V dubnu 2002 zahájila Mezinárodní rada pro vědu (Internation Council f Science ICSU) a její Výb pro data pro vědu a technologii (Committ on Data f Science and Technolog CODATA)[22] vydávání časopisu Data Science Journal[23] zaměřeného na otázk jako je popis datových systémů na ternetu aplikace a právní otázky[24] Krátce poté v lednu 2003 Columbijská iverzita začala publikovat časopis Journ of Data Science[25] který poskytl platformu všem datovým pracovníkům ab zentovali své názor a vyměňovali si nápad Časopis byl z velké části věnován aplikaci statistických metod a kvantitativního výzkumu Národní vědecká rada (Nation Science Board) vydala v roce 2005 text \"Longliv Digit Data Collections Enabl Research and Educat in the 21st Century\" (\"Dlouhodobý sběr digitálních dat umožnění výzkumu a vzdělávání v 21 století\") finující datové vědce jako \"informační a počítačové vědce databázové a softwarové tvůrce a gramátor pert jednotlivých ciplín kurátor a odborní anotátor knihovník archiváře a další kteří mají zásadní význam pro úspěšné řízení sběru digitálních dat\" jejichž hlavní činností je\" vádět tvůrčí výzkum a analýzu\"[26] ",
+            "Okolo roku 2007 Jim Gra představil \u201evědu řízenou daty\u201c jako \u201ečtvrté digma\u201c věd které využívá počítačovou analýzu velkých dat jako základní vědeckou metodu[4][5] a přál si \u201emít svět v němž veškerá vědecká literatura je online a všechn vědecké údaje jsou online a vzájemně spolupracují\"[27] ",
+            "V článku z roku 2012 Harvard Busi Review \"Data Scientist The Sexiest Job of the 21st Century\" (\"Data Scientist Nejvíce sex povolání 21 století\"[6] DJ Patil tvrdí že tento termín vytvořili v roce 2008 s Jeffem Hammerbacherem ab finovali svou práci v LinkedIn a Facebooku Tvrdí že datový vědec je \"nové plemeno\" a že \"nedostatek datových vědců se v některých sektorech stává vážným omezením\" a popisuje mnohem více podnikatelsk orientované role ",
+            "V roce 2013 byla založena pracovní skupina IEEE pro data science a pokročilou analýzu (IEEE Task Force on Data Science and Advanc Analytics)[28] V roce 2013 byla v Lucembursku zorganizována první Evropská konference o data science (European Conference on Data Analysis ECDA) která zřídila Evropskou asociaci pro datovou vědu (EuADS) První mezinárodní konference IEEE Internation Conference on Data Science and Advanc Analytics se konala v roce 2014[29] V tomtéž roce sekce American Statistic Associat (Amerického statistického sdružení) věnovaná statistickému učení a data miningu přejmenovala svůj časopis na \"Statistic Analysis and Data Min The ASA Data Science Journal\" a v roce 2016 změnila svůj název na \"Statistic Learn and Data Science\"[30] V roce 2015 začalo nakladatelství Spring vydávat časopis Internation Journ on Data Science a Analytics[31] mající za úkol publikov originální díla o datové vědě analýze velkých dat V září 2015 přidala Gesellschaft für Klassifikat (GfKl) ke jménu společnosti \"Data Science Society\"[32] ",
+            "Popularita pojmu \"data science\" v podnikatelském i akademickém středí prudce narostla ž ukazuje nárůst nabídek práce pro datové vědce[33] Nicméně mnoho kritických akademických pracovníků a novinářů nevidí žádný rozdíl mezi datovou vědou a statistikou Gil Press v časop Forbes uvedl že data science je \"buzzword\" bez jasné finice a jednoduše nahradil \u201eobchodní analýzu\u201c v kontextech jako jsou graduální studijní gramy[7] V rámci otázek a odpovědi po své plenární přednášce na konferenci American Statistic Associat aplikovaný statistik Nate Silv řekl \"Myslím že datový vědec je sex termín pro statistika  Statistika je odvětví věd Data scientist je lehce nadbytečný a lidé b neměli opouštět termín statistik\"[10] Stejně tak v podnikatelském sektoru řada výzkumníků a analytiků uvádí že samotní data scientisté zdaleka nestačí dát podnikům skutečnou konkurenční výhodu[34] a považují je za pouze jednu ze čtyř velkých skupin fesí potřebných k tomu ab podnik efektivně využíval velká data; jsou to analytici data scientisté vývojáři velkých dat a ženýři velkých dat[35] ",
+            "Na tuto kritiku přišla řada akcí V článku ve Wall Street Journ v roce 2014 Irv WladawskyBerg porovnává nadšení nad data science s úsvitem počítačové věd Argumentuje že data science stejně jako jakákoli jiná terdisciplinární last využívá metodik a praktik z celé akademické i komerční sfér ale pak je přetvoří do nové ciplín Uvádí ostré kritik kteří v minulosti útočili na formatiku nyní uznávanou akademickou ciplínou[36] Podobně Vas Dhar z New York Univers stejně jako řada dalších akademických zastánců datové vědy[36] v sinci 2013 konkrétněji argumentov že se data science liší od stávající praxe analýz dat ve všech orech která se zaměřuje pouze na vysvětlení datových souborů Data science hledá uplatnitelné a konzistentní pravidelnosti v datech vhodné diktivní využití[1] Tento praktický ženýrský cíl vyděluje datovou vědu mimo rámec tradiční analytik Nyní lze data hledat a využívat i v těch ciplínách a aplikovaných orech které nemají spolehlivé teorie jako jsou zdravotnictví a společenské věd a mohl b zde být na základě těchto dat vytvořen silné diktivní modely[1] ",
+            "V podobném duchu se v září 2015 vyjádřil fes ze Stanfordu David Donoho Přitom odmítl tři zjednodušující a zavádějící finice data science jež bývají předmětem kritiky[37] Za prvé se podle Donoha datová věda nedá ztotožnit s velkými dat neboť velikost datového souboru není kritériem pro rozlišování mezi datovou vědou a statistikou[37] Za druhé datová věda není finována výpočetními schopnostmi zpracování velkých souborů dat neboť tyto možnosti jsou již ecně používán pro analýz ve všech orech[37] Za třetí datová věda je silně aplikovaný ob v němž akademické gram v současné době dostatečně nepřipravují dorost tože řada absolventských gramů zavádějícím způsobem zeruje svou analytickou a statistickou výuku jako podstatu kurikula pro datovou vědu[37][38] Donoho jakožto statistik spolu s mnoha koleg jeho oru podporuje rozšíření rozsahu učiva adeptů datové vědy[37] Také John Chambers žádá statistik ab přijali kluzivní koncepci učení z dat[39] a William Cleveland požaduje ab se upřednostňovalo vytváření dikcí nad vysvětlujícími teoriemi[21] Společnou vizí těchto statistiků je stále sáhlejší aplikovaný ob které přerůstá hranice tradiční statistik ",
+            "Budoucnost datové věd vidí Donoho v neustále rostoucím středí otevřené věd kde jsou datové soubor využívané akademickými publikacemi přístupné všem výzkumníkům[37] Americký národní zdravotní ústav již oznámil plán na zvýšení produkovatelnosti a průhlednosti výzkumných údajů[40] Některé velké odborné časopis již následují tento trend[41][42] Tímto způsobem budoucnost datové věd nej překračuje hranice statistické teorie co do rozsahu a metodologie ale data science znamená výzvu současným akademickým a výzkumným digmatům[37] Jak dodává Donoho \"rozsah a dopad datové věd se v nadcházejících setiletích bude nadále rozšiřovat neboť vědecká data i data o samotné vědě se stanou všeobecně dostupnými\"[37] ",
+            "V tomto článku byl použit překlad textu z článku Data science na anglické Wikipedii "
+        ]
+    },
+    {
+        "lastTimeCrawled": "2023-12-11T11:13:37.626620900",
+        "images": [
+            {
+                "src": "https://de.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Qsicon_Quelle.svg/24px-Qsicon_Quelle.svg.png",
+                "alt": " "
+            },
+            {
+                "src": "https://de.wikipedia.orghttps://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1",
+                "alt": " "
+            },
+            {
+                "src": "https://de.wikipedia.org/static/images/footer/wikimedia-button.png",
+                "alt": "Wikimedia Foundat "
+            },
+            {
+                "src": "https://de.wikipedia.org/static/images/footer/poweredby_mediawiki_88x31.png",
+                "alt": "Power b MediaWiki "
+            }
+        ],
+        "favicon": "https://de.wikipedia.org/static/favicon/wikipedia.ico",
+        "pageTitle": "Data Science \u2013 Wikipedia",
+        "rating": 5,
+        "pageId": "0dfbf4c0-8b0a-40b6-83d2-09b12b1355a2",
+        "pageName": "wikipedia.org",
+        "url": "https://de.wikipedia.org/wiki/Data_Science",
+        "content": [
+            "Data Science (von glisch data \u201eDaten\u201c d science \u201eWissenschaft\u201c im Deutsch auch Datenwissenschaft) bezeichnet generell die Extrakt von Wiss aus Dat um daraus zu lernen[1][2] ",
+            "Data Science ist ein terdisziplinäres Wissenschaftsfeld welches wissenschaftlich fundierte Method Prozesse Algorithm d Systeme zur Extrakt von Erkenntniss Mustern d Schlüss sowohl aus strukturiert als auch strukturiert Dat ermöglicht[3][4] ",
+            "Erweitert um die zentrale Bedeutung d Datenerfassung ser Welt (siehe auch DIKWPyramide nach Kellerhe d Tierney[5]) d die Visualisierung gewonnen Informationen[6] beschäftigt sich Data Science mit d \u201eexakt digital Erfassung Analyse d Visualisierung vergangen aktuell sowie zukünftig Phänomene ser al Welt um datengetrieb d Prozess d Wissensgenerierung als bestmögliche Entscheidungsbasis für menschliches Handeln zu optimieren\u201c[7] ",
+            "D Begriff \u201eData Science\u201c istiert seit üb 40 Jahr d wurde ursprünglich als Ersatz für d Begriff \u201eInformatik\u201c von Pet Naur im Jahr 1960 verwendet 1974 veröffentlichte Naur in d Conc Surve of Comput Methods eine Umfrage üb die zeitgenössische Datenverarbeitung in welch d Begriff \u201eData Science\u201c frei verwendet wurde ",
+            "1996 traf sich die Mitglied d Internation Federat of Classificat Societies (IFCS) in Kobe für ihre zweijährliche Konferenz Bei dies Konferenz war zum erst M d Begriff \u201eData Science\u201c im Titel d Konferenz thalten[8] ",
+            "Die moderne Definit von Data Science wurde erstmals im Rahm s zweit japanischfranzösisch Statistiksymposiums an d Universität Montpellier II (Frankreich) im Jahr 1992 tworfen[9] Die Teilnehm würdigt die Entstehung ein neu Disziplin mit einem besonder Fokus auf Dat aus verschieden Herkünft Dimension Typ d Struktur Sie prägt die Kontur dies neu Wissenschaft die auf etabliert Konzept d Prinzipi d Statistik d Datenanalyse basiert t weitgehend Nutzung d zunehmend Macht d Computerwerkzeuge ",
+            "Im Novemb 1997 gab C F Jeff Wu d Eröffnungsvortrag mit m Titel \u201eStatistik = Datenwissenschaft?\u201c[10] für seine Ernennung zum H C Carv Profess of Statistics an d Univers of Michigan[11] In diesem Vortrag charakterisierte er die statistische Arbeit als eine Trilogie von Datenerfassung Datenmodellierung d analyse d die Entscheidungsfindung Abschließend rief er d Begriff \u201eDatenwissenschaft\u201c s Leb d befürwortete dass die Statistik in \u201eDatenwissenschaft\u201c d Statistik in \u201eDatenwissenschaftler\u201c umbenannt werden[10] Spät präsentierte er ein Vortrag mit m Titel \u201eStatistik = Datenwissenschaft?\u201c als erst von sein MahalanobisMemorialVorträgen[12] Diese Vorträge ehr Prasanta Chandra Mahalanobis ein disch Wissenschaftl Statistik d Gründ s \u201eIndian Statistic Instituts\u201c ",
+            "2001 führte William S Cleveland die Datenwissenschaft als eigenständige Disziplin in seinem Artikel \u201eData Science An Act Plan f Expand the Technic Areas of the Field of Statistics\u201c ein In seinem Bericht stellte Cleveland sechs für ihn umfassende Gebiete d Datenwissenschaft v disziplinäre Untersuchung Modelle d Method für Dat Rechn mit Dat Pädagogik WerkzeugBewertung d Theorie ",
+            "Im April 2002 veröffentlichte d ternationale Rat für Wissenschaft Ausschuss für die Dat für Wissenschaft d Theorie das Data Science Journal[13] welche sich auf die Problematik wie die Beschreibung von Datensystem ihre Veröffentlichung im Internet Anwendung d gesetzlich Problem konzentrierte[14] ",
+            "Kurz darauf begann die Columbia Univers 2003 die Zeitschrift \u201eThe Journ of Data Science\u201c[15] zu veröffentlich welche eine Plattform für alle Datenanbiet zur Verfügung stellte um ihre Ansicht d Ide zum Austausch zu präsentier Die Zeitschrift wurde größtenteils d Anwendung von statistisch Method d d quantitativ Forschung gewidmet ",
+            "2005 veröffentlichte das Nation Science Board d Bericht \u201eLongliv Digit Data Collections Enabl Research and Educat in the 21st Century\u201c in welchem t m Begriff Data Scientists verschiedene Expert aufgeführt werd die von tscheidend Bedeutung für das erfolgreiche Manage digital Dat sind Genannt werd t anderem Informatik Datenbankexpert Programmier Domänenexpert Bibliothekare Archivare sowie Expert im Bereich Software Engineer Als Teil d Verantwortlichkeit von Data Scientists wird sbesondere die Entwicklung novativ Konzepte in d Bereich Datenbanktechnologie d Informationswissenschaft betont Hierunt fall auch Method d Informationsvisualisierung Datenanalyse d Wissensentdeckung in Datenbanken[16] ",
+            "D Studiengang Data Science verwendet Technik d Theori aus d Fächern Mathematik Statistik d Informationstechnologie einschließlich d Signalverarbeitung verwendet Wahrscheinlichkeitsmodelle s maschinell Lernens s statistisch Lernens d Programmierung d Datentechnik d Mustererkennung d Prognostik d Modellierung von Unsicherheit d d Datenlagerung ",
+            "Im utsch Sprachraum biet verschiedene Hochschul auf Data Science spezialisierte Studiengänge an D Schwerpunkt liegt dabei auf Masterstudiengäng zwisch werd ab auch Bachelorstudiengänge angebot Darüb hinaus gibt es spezialisierte Weiterbildungsangebote sowie berufsbegleitende Studiengänge ",
+            "Bachelorstudiengänge Die Technische Universität Dortmund bietet seit m Wintersemest 2002/2003 d Bachelorstudiengang Datenanalyse d Datenmanage an[17] Die PhilippsUniversität Marburg d die Universität Stuttgart biet ab m Wintersemest 2016/2017 die utschlandweit erst Bachelorstudiengänge mit m Nam Data Science an[18][19] Die Technische Hochschule OWL in Lemgo bietet d Bachelorstudiengang Data Science an d auch als Duales Studium absolviert werd kann[20] Die Univers of Appli Sciences Europe BiTS d BTK bietet d BachelorStudiengang Digit Busi & Data Science an[21] Die GeorgAugustUniversität Götting bietet ab m Wintersemest 2018/2019 die Bachelorstudiengänge Angewandte Data Science d Mathematic Data Science an[22][23] An d Westsächsisch Hochschule Zwickau wird ab m Wintersemest 2018/2019 erstmals in d neu Bundesländern ein Bachelorstudiengang Data Science angebot Die ebenfalls in Sachs gelegene Hochschule Mittweida hat zeitgleich eine gleichnamige Vertiefungsrichtung in ihrem Bachelorstudiengang Wirtschaftsingenieurwes eingeführt[24] An d Hochschule Stralsund ist Data Science seit 2015 ein wesentlich Bestandteil d Lehre im Studiengang Wirtschaftsinformatik[25] Die Hochschule Hannov bietet ab Wintersemest 2021/22 d Studiengang Angewandte Mathematik d Data Science an[26] Die Technische Hochschule Augsburg bietet seit m Wintersemest 2022/2023 d Bachelorstudiengang Data Science an[27] Die Universität Regensburg bietet ab m Wintersemest 2023/2024 d Bachelorstudiengang Data Science an[28] Verschiedene Universität im nicht utschsprachig Raum biet auch online Data Science Courses an[29] ",
+            "Masterstudiengänge Die PhilippsUniversität Marburg bietet neb m Bachelorstudiengang auch ein Masterstudiengang Data Science an[19] Ebenso bietet die GeorgAugustUniversität Götting neb ihr Bachelorstudiengäng ein Masterstudiengang Angewandte Data Science an[30] An d Hochschule für Technik d Wirtschaft Berlin wird ab m Wintersemest 2016/17 ein Studiengang angebot d sich gemeinsam mit m Projekt Manage diesem Schwerpunkt widmet[31] Die Hochschule Darmstadt bietet ab m Wintersemest 2016/2017 ein Masterstudiengang Data Science an d gemeinsam von d Fachbereich Informatik sowie Mathematik d Naturwissenschaft betrieb wird[32] An d LudwigMaximiliansUniversität Münch wird ein Masterstudiengang Data Science angeboten[33] d vom Elitenetzwerk Bayern gefördert wird[34] An d Leuphana Universität Lüneburg wird d Masterstudiengang Manage & Data Science angeboten[35] Die Universität Linz bietet ein Wirtschaftsinformatikstudium mit Schwerpunkt auf Busi Intelligence & Data Science an[36] An d Technisch Universität Dortmund wurde seit m Wintersemest 2002/2003 das Masterstudium Datenwissenschaft angeboten[37] d mit Auslauf dieses Studienganges ein Masterstudium Data Science eingerichtet An d OttovonGuerickeUniversität Magdeburg gibt es das Masterstudium Data and Knowledge Engineering[38] An d FriedrichSchillerUniversität Jena wird das Masterstudium Computation and Data Science gelehrt[39] An d Berlin Hochschule für Technik (ehemalige Beu Hochschule für Technik Berlin) gibt es d glischsprachig Mast in Data Science mit m Ausbildungsziel Data Science bzw Data Engineering[40] Die Paris Lodron Universität Salzburg bietet als erste österreichische Universität ab Wintersemest 2016 das viersemestrige Masterstudium Data Science an[41][42] 2016 präsentierte die Universität Mannheim d Studiengang Data Science als ihr neuest Zuwachs Seit m Wintersemest 2017/2018 wird an d Hochschule für Technik Wirtschaft d Medi Offenburg im Masterstudiengang Informatik d Schwerpunkt Data Science & Analytics angeboten[43] Die TU Chemnitz bietet seit m Wintersemest 2018/19 ein Masterstudiengang Data Science an getrag von d Fakultät Mathematik d Informatik mit Schwerpunkt auf d mathematisch Grundlag von Big Data d statistischem Lernen[44] Die RWTH Aach bietet ein glischsprachig Masterstudiengang Data Science an[45] Die NORDAKADEMIE bietet ab April 2021 ein Masterstudiengang Appli Data Science an[46] An d Universität Leipzig wird seit m Sommersemest 2020 d Studiengang Data Science angeboten[47] In d Deutschschweiz bietet das IBAW die Ausbildung als Nachdiplomkurs an d Abschluss «Data Science NDK HF» kann berufsbegleitend erworb werden[48] Die Jacobs Univers Brem bietet ab m Herbstsemest 2021/21 ein glischsprachig Studiengang \u201eData Science f Societ and Business\u201c an[49] Ein weiter berufsbegleitend Masterstudiengang in Data Science and Busi Analytics bietet die Hochschule d Medi Stuttgart an[50] Außerdem bietet das FraunhoferInstitut für Intelligente Analyse d Informationssysteme (IAIS) Schulung für Data Scientists an[51] Die EMC Academ Alliance bietet ein Curriculum Data Science and Big Data Analytics an Die Technische Hochschule Brandenburg bietet gemeinsam mit m AWW e V ein weiterbildend Zertifikatskurs \u201eData Science\u201c an[52] Die Fachhochschule Südwestfal bietet d berufsbegleitend Masterstudiengang Studiengang Data Science an[53] Die Internation Univers of Appli Sciences bietet ein Masterstudiengang Data Science an[54] Das Institut Wirtschaftsinformatik d Data Science d FH Joanneum in Graz bietet d Masterstudiengang \u201eData Science and Artifici Intelligence\u201c an[55] Die Universität Regensburg pl spätestens zum Wintersemest 2026/2027 d Masterstudiengang Data Science einzurichten[56] ",
+            "Person die im Bereich Data Science arbeit werd als Data Scientist bzw Datenwissenschaftl bezeichnet wobei meist speziellere od Spezialisierung ander übergeordnet Berufsbezeichnung üblich sind (z B Statistik Informatiker) ",
+            "Weltweit besteht ein Mangel an Expert in m Bereich d Data Science[57][58] ",
+            "Ein Data Scientist sollte überzeugend d kreativ sein ab auch ein gewisses Kommunikationstalent mitbring um sich mit verschieden Eben ein Organisat austausch zu könn Er ist das Bindegli d d Vermittl zwisch all Eben eines Unternehmens d nimmt somit die Rolle s \u201eÜbersetzers\u201c ein dem er die Ergebnisse für die einzeln Fachabteilung genauso verständlich aufbereitet wie für das Top Manage Zudem sollte ein Data Scientist aufgeschloss genug sein um neue Analysetools d novat Analyseverfahr zu erforsch d zu nutz Unvoreingenomm sollte ein Data Scientist nach ander Ansätz such woll d m neue Frag stell Zusätzlich setzt dies Beruf ein gewisses Koordinationstalent voraus nicht zuletzt weil bestimmte Aufgab wie zum Beispiel die Beschaffung d Dat an andere Mitarbeit legiert werd könn Kontrolle d Steuerung sollt jedoch m in d Hand s Data Scientist bleiben[59] ",
+            "Die Aufgabe eines Data Scientist ist es aus groß Datenmeng Information zu generier d Handlungsempfehlung abzuleit die das Unternehm befähig effizient zu arbeit Dazu bedient er sich novativ Analysetools d twickelt Abfrag die aus übersichtlich Datenmeng wertvolle Information stillier Anschließend werd Hypothes abgeleitet welche statistisch überprüft d für das Manage als Entscheidungsgrundlage aufbereitet werd ",
+            "In all Wirtschaftszweig werd heute große Datenmeng ausgewertet D Mangel an Data Scientists macht es für Unternehm schwierig die Dat richtig zu nutz d konkret Erkenntnisse daraus zu zieh Dat werd als das \u201eneue Gold\u201c gehandelt Zudem ist d Markt an Spezialist die mit Datenarchitektur d Datenmodell umgeh könn fast nicht istent[60] ",
+            "Auch in d Logistikbranche werd zukünftig m mehr Data Scientists gesucht ",
+            "Eine weitere Branche ist die Gesundheitsbranche Durch die genaue Analyse von Dat aus einem Krankenhausaufenthalt könnt dividualisierte Behandlung (Personalisierte Medizin) durch Ähnlichkeitsanalys von Patientendat abgeleitet d Medikationspläne optimiert werd ",
+            "In d Handelsbranche kann das Kaufverhalt d Mensch analysiert werd um im weiter Verlauf die Ursach für Retour herauszuarbeit So kann die Anzahl an Warenrücksendung duziert werd "
+        ]
+    },
+    {
+        "lastTimeCrawled": "2023-12-11T11:13:38.176094400",
+        "images": [
+            {
+                "src": "https://et.wikipedia.org/static/images/icons/wikipedia.png",
+                "alt": " "
+            },
+            {
+                "src": "https://et.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-et.svg",
+                "alt": "Vikipeedia "
+            },
+            {
+                "src": "https://et.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-et.svg",
+                "alt": " "
+            },
+            {
+                "src": "https://et.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Emblem-important.svg/35px-Emblem-important.svg.png",
+                "alt": " "
+            },
+            {
+                "src": "https://et.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/4/45/PIA23792-1600x1200%281%29.jpg/220px-PIA23792-1600x1200%281%29.jpg",
+                "alt": " "
+            },
+            {
+                "src": "https://et.wikipedia.orghttps://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1",
+                "alt": " "
+            },
+            {
+                "src": "https://et.wikipedia.org/static/images/footer/wikimedia-button.png",
+                "alt": "Wikimedia Foundat "
+            },
+            {
+                "src": "https://et.wikipedia.org/static/images/footer/poweredby_mediawiki_88x31.png",
+                "alt": "Power b MediaWiki "
+            }
+        ],
+        "favicon": "https://et.wikipedia.org/static/favicon/wikipedia.ico",
+        "pageTitle": "Andmeteadus \u2013 Vikipeedia",
+        "rating": 5,
+        "pageId": "ace47892-a10d-4f51-97ef-95b7dbfe5383",
+        "pageName": "wikipedia.org",
+        "url": "https://et.wikipedia.org/wiki/Andmeteadus",
+        "content": [
+            "Andmeteadus on terdistsiplinaarne valdkond milles kasutatakse mitmeid tehnikaid ja lähenemisi et saada teadmisi ja sügavamat arusaamist struktureeritud ja struktureerimata andmetest[1][2] Andmeteadus on seotud andmekaeve ja suurandmetega[2] ",
+            "Andmeteadus ühendab statistika andmete analüüsi ja nendega seotud meetodid \"mõistmaks analüüsimaks tegelikke nähtusi\" andmete abil[3] Andmeteadus kasutab matemaatika statistika formaatika valdkondlike teadmiste ja foteaduste valdkondadest pärinevaid tehnikaid ja teooriaid Turingi auhinna võitja Jim Gra kujutab andmeteadust ette teaduse \"neljanda digmana\" (empiiril teoreetil arvutusliku ja nüüd andmetest juhitavana) n väitis et \"kõik teaduses on fotehnoloogia mõju tõttu muutumas\" ja rääkis andmete üleküllusest[4][5] ",
+            "Kuigi mitm uurijad on püüdnud andmeteadust fineerida puudub sellel üks kindel ja üldtunnustatud määratlus[6] ",
+            "Seejuures ollakse üksmeelel et andmeteadus tegeleb suurandmetest väärtuslike mustrite tuvastam ja kaevandamisega andmete muutmisega formatsiooniks ja teadmisteks[6] Andmeteadus hõlmab kõiki tegevusi mis aitavad andmete põhj kasulikke otsuseid teha Andmeteadus ei ole eraldi eesmärk \u2013 s on kogum meetodeid mis aitab juba seatud eesmärke paremini saavutada kasutades selleks andmeid[2] ",
+            "Statistikud koos Nate Silveriga on väitnud et andmeteadus pole eraldiseisev valdkond ja teda võib pidada uueks statistika nimetuseks[12] Leidub arvamusi et andmeteadus erineb statistikast kuna keskendub bleemidele ja meetoditele mis on ainuomas vaid digitaalsel kujul esinevatele andmetele[13] Stanfordi fess David Donoho arvates ei erista andmeteadust statistikast andmekogumite suurus ja masinarvutuste kasutamine Tema hinnangul nimetavad paljud ülikoolide oma õppekavade analüüsi ja statistika õppeaineid andmeteadusena klaami eesmärgil Tema kirjelduses on andmeteadus rakendusvaldkond mis on välja kasvanud traditsioonilisest statistikast[14] Kokkuvõtvalt võib andmeteadust pidada rakendusstatistika haruks ",
+            "Autorite IlYeol Songi ja Yongjun Su hinnangul peaks andmeteadlane oma töös läbima kaheksa etappi[15] ",
+            "mõistmine ",
+            "Hüpoteesi sõnastamine Ressursside (inimes andm töövahendid) hindamine ",
+            "Andmeteadust rakendatakse aina rohkem paljudes valdkondades sealhulgas äris majanduses tööstuses hariduses füüsikas tervishoius põllumajanduses poliitikas juhtimises turunduses pordikorralduses linnaplaneerimises kosmoseteaduses ja sotsioloogias[6] Enim on suurandmete kasutamisest kasu saanud näiteks jaemüük kommunikatsioon nõustamine tervishoid lennutransport ehitus toiduainetetööstus tootmine tööstusvahendid tööstus klienditeenindus finantsteenus kirjastamine ja logistika[16] ",
+            "Andmeteaduse rakendusvaldkonnad on näiteks ",
+            "Andmeteadlane otsib suurtest andmekogumitest mustreid ja seoseid kasutades mitmesuguseid vahendeid tehnikaid ja kriitilist mõtlemist et pakkuda aalse eluga seotud andmekesksele bleemidele kasulikke lahendusi[18] Andmeteadlase elukutset on peetud üheks 21 sajandi kõige olulisemaks[19] Ameerika Ühendriikide tööotsinguporta Glassdo tunnistas andmeteadlase 2018 aast parimaks ametiks[20] Andmeteadlas vajavad komplekssete bleemide lahendamiseks laiapõhjalisi teadmisi ja oskusi mitmetest valdkondadest näiteks matemaatika ja statistika arvutiteadus ja foteadus Andmeteadus on tihedalt seotud tõenäosusmudelite andmekaeve andmete visualiseerim ja käsitletava valdkonna teadmistega[6] ",
+            "Andmeteadlasele vajalikud oskus ",
+            "Tartu Ülikooli arvutiteaduse stituut avas 2020 aasta sügisel andmeteaduse eestikeelse magistriõppekava Andmeteaduse üliõpilastel on Tartu Ülikoolis võimalik valida kolme õppesuuna vahel "
+        ]
+    },
+    {
+        "lastTimeCrawled": "2023-12-11T11:13:38.694961200",
+        "images": [
+            {
+                "src": "https://el.wikipedia.org/static/images/icons/wikipedia.png",
+                "alt": " "
+            },
+            {
+                "src": "https://el.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-el.svg",
+                "alt": "Βικιπαίδεια "
+            },
+            {
+                "src": "https://el.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-el.svg",
+                "alt": "Η Ελεύθερη Εγκυκλοπαίδεια "
+            },
+            {
+                "src": "https://el.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Data_scientist_Venn_diagram.png/220px-Data_scientist_Venn_diagram.png",
+                "alt": "Διάγραμμα Venn των δεξιοτήτων του επιστήμονα δεδομένων "
+            },
+            {
+                "src": "https://el.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Data_Science_storytelling.jpg/220px-Data_Science_storytelling.jpg",
+                "alt": " "
+            },
+            {
+                "src": "https://el.wikipedia.orghttps://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1",
+                "alt": " "
+            },
+            {
+                "src": "https://el.wikipedia.org/static/images/footer/wikimedia-button.png",
+                "alt": "Wikimedia Foundat "
+            },
+            {
+                "src": "https://el.wikipedia.org/static/images/footer/poweredby_mediawiki_88x31.png",
+                "alt": "Power b MediaWiki "
+            }
+        ],
+        "favicon": "https://el.wikipedia.org/static/favicon/wikipedia.ico",
+        "pageTitle": "Επιστήμη δεδομένων - Βικιπαίδεια",
+        "rating": 5,
+        "pageId": "4a013c6d-e3b4-45df-b6c2-a5dae8256c44",
+        "pageName": "wikipedia.org",
+        "url": "https://el.wikipedia.org/wiki/%CE%95%CF%80%CE%B9%CF%83%CF%84%CE%AE%CE%BC%CE%B7_%CE%B4%CE%B5%CE%B4%CE%BF%CE%BC%CE%AD%CE%BD%CF%89%CE%BD",
+        "content": [
+            "Η επιστήμη των Δεδομένων είναι ένα διεπιστημονικό πεδίο του οποίου αντικείμενο είναι η εξαγωγή της γνώσης από αδόμητα ή δομημένα δεδομένα[1][2] Αποτελεί τη συνέχεια επιστημών όπως η στατιστική η ανάλυση προγνωστικών (predict analytics) η μηχανική μάθηση (machine learning) και η εξόρυξη δεδομένων (data mining)\nΜε τις τεχνολογικές προόδους τις δύο τελευταίες δεκαετίες σε συνδυασμό εν μέρη με την έκρηξη του διαδικτύου έχει προκύψει μια νέα μορφή ανάλυσης δεδομένων ",
+            "Ο ορισμός του ακριβή ρόλου ενός επιστήμονα δεδομένων περιλαμβάνει ένα συγκεκριμένο υπόβαθρο σε κάποιους επιστημονικούς τομείς αλλά και ένα σύνολο ικανοτήτων που δεν έχουν προσδιοριστεί απολύτως καθώς η συγκεκριμένη επιστήμη αποτελεί το συνδυασμό περισσότερων από τους συνήθεις τομείς έρευνας\nΕν γένει ένας επιστήμονας δεδομένων χρησιμοποιεί τις τρέχουσες υπολογιστικές τεχνικές για την ανάλυση δεδομένων Οι εκάστοτε ερευνητές όπως οι στατιστικολογοί οι φυσικοί οι βιολόγοι και οι οικονομολόγοι από πάντα αναζητούσαν τη πληροφορία στους αντίστοιχους τομείς έρευνάς τους πλέον όμως η σφαίρα της πληροφορίας έχει αλλάξει ως εκ τούτου απαιτείται ένα νέο σύνολο δεξιοτήτων για την αποδοτικότερη ανάλυση των δεδομένων που λαμβάνονται Παράλληλα παρατηρείται εκθετική αύξηση της υπολογιστικής ισχύος η οποία παρέχει νέες μεθόδους για να επεξεργαστούν οι συνεχώς αυξανόμενες ποσότητες δεδομένων που συλλέγονται κάθε δευτερόλεπτο της ημέρας ",
+            "Συνεπώς κάθε επιστήμονας δεδομένων θα πρέπει να επενδύσει χρόνο να εξοικειωθεί με υπολογιστικές τεχνικές οι οποίες διαχειρίζονται τον όγκο δεδομένων και τη πολυπλοκότητα των δεδομένων σήμερα Πέρα από τις μαθηματικές και τις στατιστικές γνώσεις οι υπόλοιπες δεξιότητες ενός επιστήμονα δεδομένων δεν  αφορούν έναν μόνο συγκεκριμένο τομέα ",
+            "Η επιστήμη των δεδομένων κάνει εκτεταμένη χρήση τεχνικών και θεωριών από διάφορους τομείς όπως τα μαθηματικά η έρευνα η επιστήμη της πληροφορίας και η επιστήμη των υπολογιστών Στην πρακτική προσέγγιση  περιλαμβάνει την ανάλυση σημάτων τα προγνωστικά μοντέλα τη μηχανική μάθηση τη στατιστική την εξόρυξη δεδομένων τις βάσεις δεδομένων τον προγραμματισμό αλλά και τέλος την τεχνητή νοημοσύνη Οι μέθοδοι διαχείρισης των μεγάλων δεδομένων (big data) έχουν πιθανώς το μεγαλύτερο ενδιαφέρον της συγκεκριμένης επιστήμης παρόλο που οι μέθοδοι που χρησιμοποιούνται στην επιστήμη δεδομένων δεν αφορούν αποκλειστικά μεγάλους όγκους δεδομένων ",
+            "Η επιστήμη δεδομένων είναι ένας επιστημονικός κλάδος που σχετίζεται με τις διαδικασίες και τα συστήματα μέσω των οποίων εξάγεται η γνώση ή επεξεργάζονται τα ίδια τα στοιχεία που προέκυψαν από τα δεδομένα σε διάφορες μορφές (είτε δομημένα είτε αδόμητα) και αποτελεί συνέχεια επιστημονικών κλάδων όπως η ανάλυση δεδομένων η στατιστική η εξόρυξη δεδομένων και η ανάλυση των προβλέψεων ",
+            "Ειδικότερα η επιστήμη δεδομένων προέκυψε από το συνδυασμό σημαντικών εξελίξεων σε δυο υποπεριοχές της πληροφορικής κατά τελευταία 15 χρόνια Πρώτον τη σημαντική πρόοδο που σημειώθηκε σε αλγορίθμους και τεχνικές μηχανικής μάθησης και γενικότερα τεχνικές τεχνητής νοημοσύνης βασισμένες σε στατιστικές αρχές Δεύτερον  στην περιοχή της διαχείρισης δεδομένων που οδήγησαν μέσω νέων αλγορίθμων αρχιτεκτονικών και συστημάτων σε τάξεις μεγέθους βελτίωση της ταχύτητας επεξεργασίας τεράστιων ετερογενών συνεχών μεταβαλλόμενων όγκων δεδομένων Οι σύγχρονες επεξεργαστικές δυνατότητες συνδυασμένες με τον όγκο των δεδομένων δημιούργησαν ένα ενάρετο κύκλο ανάπτυξης υπολογιστικών τεχνικών που στηρίζονται στην επαναληπτική βελτίωσητη προβλέψεων και τέλος τη λήψη αποφάσεων ",
+            "Οι δεξιότητες ενός επιστήμονα δεδομένων είναι οι παρακάτω όπως αυτές έχουν αναλυθεί από τον Drew Conwa [3] και φαίνονται στην εικόνα 1 ",
+            "Ο Steph Few είπε «Οι αριθμοί έχουν πάντα μια σημαντική ιστορία να διηγηθούν απλά βασίζονται στο πόσο πειστικά εσύ θα τα παρουσιάσεις» Γεννάται λοιπόν και η ανάγκη για την κατάλληλη ικανότητα της αποδοτικής οπτικοποίησης των αποτελεσμάτων της έρευνας των δεδομένων η οποία παρουσιάστηκε από το Forbes στο άρθρο με τίτλο \"Data Storytell The Essenti Data Science Skill Everyone Needs\" [5]  Όπως φαίνεται και στην Εικόνα 2 ",
+            "για τη αποδοτικότερη από άποψη της τελικής επιρροής των ακροατών παρουσίαση των στατιστικών απαιτείται η κατάλληλη αφήγηση (narrative) η οπτικοποίηση των αποτελεσμάτων(visuals) και τα ίδια τα δεδομένα(data) Όταν τελικά συνδυαστούν αυτά τα τρία στοιχεία τότε μπορεί να παρουσιαστεί μια «ιστορία» η οποία θα επηρεάσει όπως ο αφηγητής θέλει τους ακροατές του και θα οδηγήσει στην επιθυμητή αλλαγή "
+        ]
+    },
+    {
+        "lastTimeCrawled": "2023-12-11T11:13:39.432575500",
+        "images": [
+            {
+                "src": "https://es.wikipedia.org/static/images/icons/wikipedia.png",
+                "alt": " "
+            },
+            {
+                "src": "https://es.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg",
+                "alt": "Wikipedia "
+            },
+            {
+                "src": "https://es.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-es.svg",
+                "alt": "La ciclopedia libre "
+            },
+            {
+                "src": "https://es.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/4/45/PIA23792-1600x1200%281%29.jpg/220px-PIA23792-1600x1200%281%29.jpg",
+                "alt": " "
+            },
+            {
+                "src": "https://es.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png",
+                "alt": "Wd "
+            },
+            {
+                "src": "https://es.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png",
+                "alt": "Commonscat "
+            },
+            {
+                "src": "https://es.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png",
+                "alt": "Wd "
+            },
+            {
+                "src": "https://es.wikipedia.org//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png",
+                "alt": "Commonscat "
+            },
+            {
+                "src": "https://es.wikipedia.orghttps://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1",
+                "alt": " "
+            },
+            {
+                "src": "https://es.wikipedia.org/static/images/footer/wikimedia-button.png",
+                "alt": "Wikimedia Foundat "
+            },
+            {
+                "src": "https://es.wikipedia.org/static/images/footer/poweredby_mediawiki_88x31.png",
+                "alt": "Power b MediaWiki "
+            }
+        ],
+        "favicon": "https://es.wikipedia.org/static/favicon/wikipedia.ico",
+        "pageTitle": "Ciencia de datos - Wikipedia, la enciclopedia libre",
+        "rating": 5,
+        "pageId": "de198bde-a846-4554-ac38-d715ac16f46a",
+        "pageName": "wikipedia.org",
+        "url": "https://es.wikipedia.org/wiki/Ciencia_de_datos",
+        "content": [
+            "La ciencia de datos es un campo académico terdisciplinario que utiliza estadística mputación científica métodos cesos algoritmos y sistemas científicos para ten (recolectar o traer) tratar analizar y sentar formes a partir de datos ruidosos estructurados y no estructurados[1]\u200b La ciencia de datos es facética y puede scribirse mo a ciencia un digma de vestigación un método de vestigación a ciplina un flujo de trabajo o a fesión[2]\u200b ",
+            "La ciencia de datos tegra el nocimiento l dominio de la aplicación yacente (p ejemplo economía aplicada vestigación de mercados finanzas vestigación de operaciones medicina tecnologías de la formación ciencias naturales)[3]\u200b n la estadística el análisis de datos la formática y sus métodos lacionados para mprend y analizar fenómenos \"reales\" n datos[4]\u200b Utiliza técnicas y teorías traídas de muchos campos ntro l ntexto de las matemáticas las estadísticas las ciencias de la mputación las ciencias de la formación y el nocimiento l dominio[5]\u200b Sin embargo la ciencia de datos es diferente de la formática la estadística y la ciencia de la formación El ganad l mio Tur Jim Gra aginó la ciencia de datos mo un \"cuarto digma\" de la ciencia (empírico teórico mputacion y ahora basado en datos) y afirmó que \"todo sobre la ciencia está cambiando bido al pacto de la tecnología de la formación\" y la avalancha de datos[6]\u200b[7]\u200b ",
+            "Un científico de datos es el fesion que mediante la escritura y aplicación de código de gramación y nocimientos en estadística trabaja en la colección de datos la limpieza de datos la ploración de datos la modelación de datos visualización de datos la plementación de soluciones de aprendizaje mático y en la terpretación de sultados[8]\u200b Los científicos de datos vien de diferentes fesiones o backgrounds matemáticos genieros economistas actuarios físicos químicos y en algunas ocasiones de campos que pudieran parec mu tantes mo la medicina ",
+            "En 1962 John W Tuke cedió al término \u201cCiencia de Datos\u201d en su artículo \u201cThe Future of Data Analysis\u201d al plicar a evolución de la estadística matemática En este finió p primera vez el análisis de datos mo \u201cProcedimientos para analizar datos técnicas para terpretar los sultados de dichos cedimientos formas de planificar la copilación de datos para hac su análisis más fácil más ciso o acertado y toda la maquinaria y los sultados de las estadísticas matemáticas que se aplican al análisis de datos\u201d[9]\u200b En 1977 publicó \u201cExplorator Data Analysis\u201d argumentando que era necesario pon más énfasis en el uso de datos para sugerir hipótesis que bar en modelos estadísticos ",
+            "La ciencia de datos ha sultado para muchos a ciplina de ciente creación pero en la alidad este ncepto lo utilizó p primera vez el científico danés Pet Naur en la década de los sesenta mo sustituto de las ciencias mputacionales En 1974 publicó el libro Conc Surve of Comput Methods\n[10]\u200b\ndonde utiliza ampliamente el ncepto ciencia de datos lo que permitió a utilización más libre en el mundo académico ",
+            "En 1977 el Internation Associat f Statistic Comput (IASC) es establecido mo a sección l Internation Statistic Institute (ISI) \u201cEs la ión de la IASC lacionar la metodología estadística tradicion tecnología mputacion moderna y el nocimiento de pertos l tema para nvertir datos en formación y nocimiento\"[11]\u200b ",
+            "En 1996 el término \u2018Ciencia de Datos\u2019 fue utilizado p primera vez en a nferencia llamada \"Ciencia de datos clasificación y métodos lacionados\" que tuvo lugar en a unión de miembros de la \u2018Internation Federat of Classificat Societies\u2019 (IFCS) n sede en Kobe Japón[11]\u200b En 1997 CF Jeff Wu dio a charla llamada \"Statistics = Data Science?\" donde scribió al trabajo estadístico mo a logía nformada p colección de datos análisis y modelado de datos y la toma de cisiones haciendo la petición de que la estadística fuese nombrada mo ciencia de datos y los estadísticos mo científicos de datos[12]\u200b ",
+            "En 2001 William S Cleveland trodujo a la ciencia de datos mo a ciplina dependiente tendiendo el campo de la estadística para cluir los avances en mputación n datos en su artículo \"Data science an act plan f pand the technic areas of the field of statistics\" Cleveland estableció seis áreas técnicas que en su opinión nformarían al campo de la ciencia de datos vestigaciones disciplinarias modelos y métodos para datos mputación n datos pedagogía evaluación de herramientas y teoría[13]\u200b ",
+            "En abril l 2002 el \u2018Internation Council f Science Committ on Data f Science and Technology\u2019 (CODATA) empezó la publicación l Data Science Journal[14]\u200b focada en blemas mo la scripción de sistemas de datos su publicación en Internet sus aplicaciones y sus blemas legales Poco spués en ero l 2003 la Universidad de Columbia empezó a publicar The Journ of Data Science[15]\u200b la cu ofreció a plataforma para que todos los fesionales de datos sentaran sus perspectivas e tercambiaran ideas ",
+            "En 2005 The Nation Science Board publicó \"LongLiv Digit Data Collections Enabl Research and Educat in the 21st Century\" finiendo a los científicos de datos mo \"científicos de mputación e formación gramadores de bases de datos y software y pertos ciplinarios [] que son cruciales para la gestión itosa de a lección digit de datos cuya actividad primaria es alizar vestigación creativa y análisis\"[16]\u200b ",
+            "Fue en el 2008 que Jeff Hammerbach y DJ Patil lo utilizaron para finir sus pios trabajos alizados en Facebook y LinkedIn spectivamente[17]\u200b ",
+            "En 2009 los vestigadores Yangyong Zhu y Yun Xiong l \u2018Research Cent f Dataolog and Data Science\u2019 publicaron \u201cIntroduct to Dataolog and Data Science\u201d en donde manifiestan que \u201ca diferencia de las ciencias naturales y las ciencias sociales Datología y Ciencia de Datos toman datos en la r y su jeto de estudio\u201d[11]\u200b ",
+            "En 2013 fue lanzado el \u2018IEEE Task Force on Data Science and Advanc Analytics\u2019[18]\u200b mientras que la primera nferencia ternacion de \u2018IEEE Internation Conference on Data Science and Advanc Analytics\u2019 fue lanzada en el 2014[19]\u200b En 2015 el Internation Journ on Data Science and Analytics fue lanzado p Spring para publicar trabajos originales en ciencia de datos y analítica de big data[20]\u200b ",
+            "Para s científico de datos ist diferentes formas de adquirir el nocimiento necesario Las iversidades están empezando a ofrec cursos y diplomados y algunas maestrías y doctorados en ciencia de datos ",
+            "IBM Network Skills ofrece un Certificado Profesion en Ciencia de Datos que tiene un sto (pero se puede pedir ayuda económica para cursarlo gratuitamente) el cu está mpuesto p 9 cursos y tiene a duración de 10 meses Más formación en https//wwwcourseraorg/professionalcertificates/certificadoprofesionaldecienciadedatosdeibm ",
+            "La Universidad Peruana de Ciencias Aplicadas a través de su Escuela de Postgrado también ofrece Cursos de Ciencia de Datos Son cursos rtos en la modalidad online y virtu tribuidos en sus categorías Flex Courses de 6 horas académicas y Cursos Especializados de 24 horas ",
+            "En septiembre de 1994 BusinessWeek publicó el artículo \u201cMarket de base de datos\u201d manifestando que las empresas copilan a gran cantidad de formación sobre los clientes la cu es analizada para decir la babilidad de que mpre un ducto Afirman que se utiliza ese nocimiento para elaborar un mensaje de market calibrado n cisión para que el dividuo busque nseguirlo Asimismo plican que en los ochenta un tusiasmo vocado p la pagación de los lectores de códigos de barras terminó en a cepción generalizada pues muchas empresas fueron abrumadas p la gran cantidad de datos para lograr hac algo útil n la formación de sus clientes Sin embargo muchas empresas cre que no ha más medio que safiar la frontera market y bases de datos para sarrollar más las tecnologías necesarias[21]\u200b ",
+            "En 2014 empresa sueca de música en stream Spotif mpra The Echo Nest a mpañía especializada en ciencia de datos musicales Esta ahora es la cargada de almacenar y analizar la formación de sus 170 millones de usuarios[22]\u200b Con ayuda de dicha empresa en 2015 Spotif lanzó un servicio de música personalizada llamado Discov Weekl que semanalmente comienda a sus usuarios a selección de canciones que podría teresarles p medio de algoritmos y análisis de los datos de la música escuchada y el histori de búsqueda de la semana pasada El servicio cibió a buena cepción generalizada[23]\u200b y actualmente figura un fuerte punto de venta ante la mpetencia de la empresa[24]\u200b ",
+            "Netflix la empresa norteamericana de ntenido media en stream ofrece a sus más de 120 millones de usuarios a plataforma capaz de analizar mediante algoritmos las stumbres de nsumo de los usuarios para diferenciar los ntenidos que estos buscan y lograr terminar qué nuevos ntenidos les pued teresar Todd Yellin vicepresidente de ducto en Netflix plicó que algunos de los datos almacenados pued tenderse sde la hora l día se nectan sus usuarios cuánto tiempo pasan ntro de la plataforma su lista de ntenidos cientemente vistos (para analizar cluso el ord específico de estos) Toda la formación que se almacena es utilizada específicamente para s analizada aprend l usuario y pod darle comendaciones acertadas[25]\u200b ",
+            "En América Latina el Banco Interamericano de Desarrollo (BID) ha sarrollado estudios ploratorios en los que se analiza la ciencia de datos en la plementación y eño de políticas públicas en la gión tomando casos en países mo Argentina y Brasil sentando comendaciones para su plementación y mantenimiento ",
+            "Estas van sde temas mo movilidad urbana sosten ciudades teligentes seguridad piedad de datos y privacidad Entre las sugerencias sentadas en las vestigaciones está la de lograr a \u201cinteligencia l val público la cu \u201ctiene la potencialidad de s un mponente estratégico para la toma de cisiones y el eño plementación y evaluación de políticas públicas\u201d Otra de ellas es la capacidad para lograr sde este campo a mejora de ndición de cuentas de los gobiernos ante la ciudadanía y mov un avance en cuanto a la curaduría de datos en las stituciones públicas[26]\u200b ",
+            "Textualmente Big Data (o macrodatos) se fiere a ormes volúmenes de datos que no pued cesarse de manera efectiva n las aplicaciones tradicionales que actualmente se aplican[27]\u200b De acuerdo n la guía de Amazon Web Service se nsidera al Big Data mo a lección nsider de datos n dificultades para almacenarse en bases de datos tradicionales y también para cesarse en servidores estándar y para analizarse n aplicaciones habituales ",
+            "El término se suele lacionar n ciencia de datos pues esa suele s su fuente de formación para análisis; La ciencia de datos logra analizar los grandes njuntos de datos sordenados e completos para llegar a hallazgos que pulsan cisiones sobre operaciones y ductos ",
+            "Las personas que se dican a la ciencia de datos se les noce mo científico de datos de acuerdo n el yecto Mast in Data Science fine al científico de datos mo a mezcla de estadísticos mputólogos y pensadores creativos n las siguientes habilidades ",
+            "El ceso que sigue un científico de datos para spond cuestiones que se le plantean se puede sumir en estos pasos ",
+            "El doct en estadística Nathan Yau cisó lo siguiente el científico de datos es un estadístico que bería aprend terfaces de gramación de aplicaciones (API) bases de datos y tracción de datos; es un eñad que berá aprend a gramar; y es un mputólogo que berá sab analizar y contrar datos n significado[29]\u200b ",
+            "En la tesis doctor de Benjamin Fr plicó que el ceso para mprend mej a los datos menzaba n a serie de números y el jetivo de spond guntas sobre los datos en cada fase l ceso que él pone (adquirir analizar filtrar tra presentar finar e teractuar) se quiere de diferentes foques especializados que aport a a mej mprensión de los datos Entre los foques que menciona Fr están genieros en sistemas matemáticos estadísticos eñadores gráficos especialistas en visualización de la formación y especialistas en teracciones hombremáquina mej nocidos p sus siglas en glés \u201cHCI\u201d (HumanComput Interaction) Además Fr afirmó que ntar n diferentes foques especializados lejos de solv el blema de tendimiento de datos se nvierte en parte l blema ya que cada especialización nduce de manera aislada el blema y el camino hacia la solución se puede perd algo en cada ición l ceso[30]\u200b ",
+            "Drew Conwa en su página web plica n la ayuda de un diagrama de Venn las principales habilidades que le dan vida y forma a la ciencia de datos así mo sus laciones de njuntos ",
+            "La ciencia de datos ha brado cientemente mucha portancia en nuestro acontec mo ciplina o fesión emergente (científico de datos) y se ha vuelto en foco de atención de cada vez más organizaciones a nivel mundi t mo lo señaló el economista en jefe de Google H Varian  \u201cEl trabajo más sex en los próximos 10 años será s estadístico\u201d palabras sobre las que flexionó Thomas H Davenport para publicar en el 2012 su artículo Data Scientist The Sexiest Job of the 21st Century\n[31]\u200b\ndonde scribe el perfil que be ten el científico de datos mo el híbrido de un hack de datos un analista un municad y un nsejero nfi mbinación tremadamente poderosa y poco mún Davenport también señala que el científico de datos no se siente cómodo mo se dice loquialmente \u201ccon la rrea rta\u201d es cir be ten la libertad de perimentar y plorar posibilidades Además Davenport en el mo artículo senta un cálogo de cómo contrar el científico de datos que la organización necesita (v página 74 l artículo) ",
+            "El forme que publicó \u201cMcKinsey\u201d[32]\u200b\n el 2011 estimó que para el mundo de grandes datos en el que vivimos espera que la manda p talento perto en análisis de datos podría alcanzar de los 440 000 a 490 000 puestos de trabajo para el 2018[cita requerida] ",
+            "Entre los tos tecnológicos a los que nos frentamos stacamos "
+        ]
     }
 ]
