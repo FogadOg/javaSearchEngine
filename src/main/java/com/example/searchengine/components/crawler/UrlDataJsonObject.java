@@ -19,6 +19,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.UUID;
 import java.util.regex.Matcher;
@@ -58,6 +59,7 @@ public class UrlDataJsonObject {
     }
 
     public void addUrlDataToJsonFile(){
+
         try {
             FileReader fileReader = new FileReader(jsonFile);
             JSONTokener tokener = new JSONTokener(fileReader);
@@ -75,13 +77,14 @@ public class UrlDataJsonObject {
             newObject.put("pageTitle", getPagesTitle());
             newObject.put("pageName", getWebsiteName());
             newObject.put("favicon", getPageFaviconPath());
-            System.out.println("pageResponseTime: "+pageResponseTime);
             newObject.put("rating", initialRating-pageResponseTime);
             newObject.put("url", pageUrl);
             newObject.put("content", getPageContent());
             newObject.put("images", getPageImages());
 
             jsonArray.put(newObject);
+
+            jsonArray=sortJsonFile(jsonArray);
 
             FileWriter fileWriter = new FileWriter(jsonFile);
             fileWriter.write(jsonArray.toString(4));
@@ -93,6 +96,19 @@ public class UrlDataJsonObject {
         }
 
     }
+    private JSONArray sortJsonFile(JSONArray jsonArray){
+
+        List<JSONObject> jsonList = new ArrayList<>();
+        for (int i = 0; i < jsonArray.length(); i++) {
+            jsonList.add(jsonArray.getJSONObject(i));
+        }
+
+        jsonList.sort((o1, o2) -> Integer.compare(o2.getInt("rating"), o1.getInt("rating")));
+
+        jsonArray = new JSONArray(jsonList);
+        return jsonArray;
+    }
+
     private String getWebsiteName(){
         Pattern websiteNamePattern = Pattern.compile("\\b(\\w+\\.[a-zA-Z]+)\\/\\b");
 
