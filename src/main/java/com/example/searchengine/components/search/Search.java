@@ -9,6 +9,7 @@ import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Search {
@@ -64,6 +65,19 @@ public class Search {
             e.printStackTrace();
         }
         return jsonArray;
+    }
+
+    private void orderJsonArray(JSONArray jsonArray){
+        jsonArray.sort(new Comparator<JSONObject>() {
+            @Override
+            public int compare(JSONObject o1, JSONObject o2) {
+                long rating1 = (long) o1.get("rating");
+                long rating2 = (long) o2.get("rating");
+                // Sort in descending order (highest to lowest)
+                return Long.compare(rating2, rating1);
+            }
+        });
+        System.out.println(jsonArray.toJSONString());
     }
 
 }

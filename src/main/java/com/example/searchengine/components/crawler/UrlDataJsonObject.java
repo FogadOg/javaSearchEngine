@@ -15,6 +15,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
+import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +26,7 @@ import java.util.regex.Pattern;
 
 public class UrlDataJsonObject {
     public String jsonFile;
+    public Integer pageResponseTime;
     public String pageUrl;
     public String rootUrl;
     public HtmlPage websidePage;
@@ -64,13 +67,16 @@ public class UrlDataJsonObject {
 
             UUID uuid=UUID.randomUUID();
 
+            Integer initialRating=1000;
+
 
             newObject.put("pageId", uuid);
             newObject.put("lastTimeCrawled",  LocalDateTime.now());
             newObject.put("pageTitle", getPagesTitle());
             newObject.put("pageName", getWebsiteName());
             newObject.put("favicon", getPageFaviconPath());
-            newObject.put("rating", 5);
+            System.out.println("pageResponseTime: "+pageResponseTime);
+            newObject.put("rating", initialRating-pageResponseTime);
             newObject.put("url", pageUrl);
             newObject.put("content", getPageContent());
             newObject.put("images", getPageImages());
@@ -100,7 +106,7 @@ public class UrlDataJsonObject {
     private String getPagesTitle(){
         HtmlTitle title = ((HtmlTitle) websidePage.getFirstByXPath("//title"));
         if(title!=null){
-            return title.asNormalizedText();
+            return stemmer.stemString(title.asNormalizedText());
         }
         return "";
 
@@ -180,7 +186,14 @@ public class UrlDataJsonObject {
 
         HtmlPage page=null;
         try{
+            Instant beforeRequest=Instant.now();
             page = client.getPage(pageUrl);
+            Instant afterRequest=Instant.now();
+
+            pageResponseTime= Duration.between(beforeRequest, afterRequest).toMillisPart();
+
+
+
         }catch (IOException e){
             e.printStackTrace();
             return page;
