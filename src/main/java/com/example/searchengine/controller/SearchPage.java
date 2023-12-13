@@ -24,6 +24,7 @@ public class SearchPage {
         crwaler.crawl();
 
     }
+    @CrossOrigin
     @GetMapping("/search/{searchTerm}")
     public JSONArray search(@PathVariable String searchTerm){
         Search search = new Search();

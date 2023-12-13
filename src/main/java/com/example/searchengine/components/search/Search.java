@@ -46,7 +46,6 @@ public class Search {
                 Integer websiteRating=Integer.parseInt(website.get("rating").toString());
 
 
-                //int websiteRating= website.get("rating");
                 jsonObject.put("url", website.get("url"));
 
                 jsonObject.put("pageTitle", website.get("pageTitle"));
@@ -67,17 +66,6 @@ public class Search {
         return jsonArray;
     }
 
-    private void orderJsonArray(JSONArray jsonArray){
-        jsonArray.sort(new Comparator<JSONObject>() {
-            @Override
-            public int compare(JSONObject o1, JSONObject o2) {
-                long rating1 = (long) o1.get("rating");
-                long rating2 = (long) o2.get("rating");
-                // Sort in descending order (highest to lowest)
-                return Long.compare(rating2, rating1);
-            }
-        });
-        System.out.println(jsonArray.toJSONString());
-    }
+
 
 }

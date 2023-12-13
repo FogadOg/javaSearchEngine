@@ -62,25 +62,26 @@ public class UrlDataJsonObject {
 
         try {
             FileReader fileReader = new FileReader(jsonFile);
-            JSONTokener tokener = new JSONTokener(fileReader);
+           JSONTokener tokener = new JSONTokener(fileReader);
             JSONArray jsonArray = new JSONArray(tokener);
-
             JSONObject newObject = new JSONObject();
 
             UUID uuid=UUID.randomUUID();
 
-            Integer initialRating=1000;
 
+            JSONArray numberOfwebsiteImages=getPageImages();
 
             newObject.put("pageId", uuid);
             newObject.put("lastTimeCrawled",  LocalDateTime.now());
             newObject.put("pageTitle", getPagesTitle());
             newObject.put("pageName", getWebsiteName());
             newObject.put("favicon", getPageFaviconPath());
-            newObject.put("rating", initialRating-pageResponseTime);
+            Rating rating = new Rating(pageResponseTime,numberOfwebsiteImages);
+            newObject.put("rating", rating.getPageRating());
             newObject.put("url", pageUrl);
             newObject.put("content", getPageContent());
-            newObject.put("images", getPageImages());
+            newObject.put("images", numberOfwebsiteImages);
+
 
             jsonArray.put(newObject);
 
