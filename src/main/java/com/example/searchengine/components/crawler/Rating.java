@@ -24,7 +24,7 @@ public class Rating {
         Integer badAltAttributes=0;
         for(int i =0; i<numberOfwebsiteImages.length();i++){
             JSONObject imageData=numberOfwebsiteImages.getJSONObject(i);
-            
+
             if(imageData.get("alt").toString().isBlank()){
                 badAltAttributes+=1;
             }
