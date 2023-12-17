@@ -31,4 +31,11 @@ public class SearchPage {
 
         return search.getAllWebsites(searchTerm);
     }
+    @CrossOrigin
+    @GetMapping("/images/{searchTerm}")
+    public JSONArray searchImages(@PathVariable String searchTerm){
+        Search search = new Search();
+
+        return search.getAllImages(searchTerm);
+    }
 }

@@ -15,16 +15,16 @@ import java.util.List;
 public class Search {
     public String filePath="data.json";
 
-    public JSONArray getAllWebsites(String searchTerm){
-        Stemmer stemmer=new Stemmer();
+    public Stemmer stemmer=new Stemmer();
 
+    public JSONArray getAllWebsites(String searchTerm){
         String stemmedSearchTrem=stemmer.stemString(searchTerm);
 
-        return index(stemmedSearchTrem);
+        return searchForRelevantWebsites(stemmedSearchTrem);
 
     }
 
-    private JSONArray index(String stemmedSearchTrem){
+    private JSONArray searchForRelevantWebsites(String stemmedSearchTrem){
         JSONArray jsonArray = new JSONArray();
         JSONParser parser = new JSONParser();
 
@@ -76,6 +76,50 @@ public class Search {
             nGramPoints+=nGram.matchNGrams(contentNGram, searchNGram);
         }
         return nGramPoints;
+    }
+
+    public JSONArray getAllImages(String searchTerm){
+        String stemmedSearchTrem=stemmer.stemString(searchTerm);
+
+        return searchForRelevantImages(stemmedSearchTrem);
+
+    }
+
+    private JSONArray searchForRelevantImages(String stemmedSearchTrem){
+        JSONArray proccessedImages = new JSONArray();
+        JSONParser parser = new JSONParser();
+
+        try{
+            JSONArray a = (JSONArray) parser.parse(new FileReader(filePath));
+
+            for (Object o : a)
+            {
+
+                JSONObject website = (JSONObject) o;
+
+                JSONObject jsonObject = new JSONObject();
+
+                JSONArray imagesArray = (JSONArray) website.get("images");
+
+
+                for(Object image: imagesArray){
+                    Integer rating=rateImage();
+                    System.out.println("image: "+image);
+                }
+
+            }
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return proccessedImages;
+    }
+
+    private Integer rateImage(){
+        Integer initialRating=0;
+
+
+        return initialRating;
     }
 
 
