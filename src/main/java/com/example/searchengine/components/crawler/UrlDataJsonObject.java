@@ -24,6 +24,9 @@ import java.util.List;
 import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.net.URISyntaxException;
+import java.net.MalformedURLException;
+import java.net.HttpURLConnection;
 
 public class UrlDataJsonObject {
     public String jsonFile;
@@ -163,37 +166,59 @@ public class UrlDataJsonObject {
 
 
     }
-    private JSONArray getPageImages(){
+    private JSONArray getPageImages() {
         JSONArray imageSources = new JSONArray();
-
 
         if (websidePage != null) {
             List<?> images = websidePage.getByXPath("//img");
 
             for (Object image : images) {
-                JSONObject imageData= new JSONObject();
+                JSONObject imageData = new JSONObject();
                 if (image instanceof com.gargoylesoftware.htmlunit.html.HtmlImage) {
                     String srcTag = ((com.gargoylesoftware.htmlunit.html.HtmlImage) image).getSrcAttribute();
                     String altTag = ((com.gargoylesoftware.htmlunit.html.HtmlImage) image).getAltAttribute();
                     if (srcTag != null && !srcTag.isEmpty()) {
-                        if(!srcTag.contains(rootUrl)){
-                            imageData.put("src",rootUrl+srcTag);
-                            imageData.put("alt",stemmer.stemString(altTag));
-                            imageSources.put(imageData);
-                        }else{
-                            imageData.put("src",srcTag);
-                            imageData.put("alt",stemmer.stemString(altTag));
-                            imageSources.put(imageData);
+                        try {
+                            if (!srcTag.contains(rootUrl)) {
+                                if (isValidImageUrl(rootUrl + srcTag)) {
+                                    imageData.put("src", rootUrl + srcTag);
+                                    imageData.put("alt", stemmer.stemString(altTag));
+                                    imageSources.put(imageData);
+                                }
+                            } else {
+                                if (isValidImageUrl(srcTag)) {
+                                    imageData.put("src", srcTag);
+                                    imageData.put("alt", stemmer.stemString(altTag));
+                                    imageSources.put(imageData);
+                                }
+                            }
+                        } catch (IOException | URISyntaxException e) {
+                            // Handle the exception or log it
+                            // Maybe skip adding the invalid URL to imageSources
+                            System.err.println("Invalid URL: " + e.getMessage());
                         }
-
                     }
                 }
             }
         }
-
-
         return imageSources;
+    }
 
+    private boolean isValidImageUrl(String imageUrl) throws IOException, URISyntaxException {
+        try {
+            URL url = new URL(imageUrl);
+            url.toURI();
+
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setRequestMethod("HEAD");
+            int responseCode = connection.getResponseCode();
+
+            return (responseCode == HttpURLConnection.HTTP_OK);
+        } catch (MalformedURLException e) {
+            return false;
+        } catch (IOException e) {
+            return false;
+        }
     }
     private HtmlPage getHtmlContent(){
 
