@@ -1,7 +1,9 @@
 package com.example.searchengine.controller;
 
 import com.example.searchengine.components.crawler.Crawler;
+import com.example.searchengine.components.search.ImageSearch;
 import com.example.searchengine.components.search.Search;
+import com.example.searchengine.components.search.WebsiteSearch;
 import com.example.searchengine.components.stemmer.Stemmer;
 import com.google.gson.JsonArray;
 import org.json.simple.JSONArray;
@@ -27,15 +29,15 @@ public class SearchPage {
     @CrossOrigin
     @GetMapping("/search/{searchTerm}")
     public JSONArray search(@PathVariable String searchTerm){
-        Search search = new Search();
+        WebsiteSearch websiteSearch = new WebsiteSearch();
 
-        return search.getAllWebsites(searchTerm);
+        return websiteSearch.getAllWebsites(searchTerm);
     }
     @CrossOrigin
     @GetMapping("/images/{searchTerm}")
     public JSONArray searchImages(@PathVariable String searchTerm){
-        Search search = new Search();
+        ImageSearch imageSearch = new ImageSearch();
 
-        return search.getAllImages(searchTerm);
+        return imageSearch.getAllImages(searchTerm);
     }
 }
