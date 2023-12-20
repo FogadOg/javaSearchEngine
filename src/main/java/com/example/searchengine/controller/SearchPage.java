@@ -19,21 +19,21 @@ import java.util.List;
 @RestController
 public class SearchPage {
 
-    @CrossOrigin
+    @CrossOrigin(origins = "http://127.0.0.1:3000")
     @GetMapping("/crawl")
     public void home(){
         Crawler crwaler=new Crawler();
         crwaler.crawl();
 
     }
-    @CrossOrigin
+    @CrossOrigin(origins = "http://127.0.0.1:3000")
     @GetMapping("/search/{searchTerm}")
     public JSONArray search(@PathVariable String searchTerm){
         WebsiteSearch websiteSearch = new WebsiteSearch();
 
         return websiteSearch.getAllWebsites(searchTerm);
     }
-    @CrossOrigin
+    @CrossOrigin(origins = "http://127.0.0.1:3000")
     @GetMapping("/images/{searchTerm}")
     public JSONArray searchImages(@PathVariable String searchTerm){
         ImageSearch imageSearch = new ImageSearch();

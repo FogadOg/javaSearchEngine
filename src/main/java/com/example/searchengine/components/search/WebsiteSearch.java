@@ -6,6 +6,8 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
+import java.time.Duration;
+import java.time.Instant;
 
 public class WebsiteSearch extends Search{
 
@@ -22,6 +24,8 @@ public class WebsiteSearch extends Search{
     private JSONArray searchForRelevantWebsites(String stemmedSearchTrem){
         JSONArray jsonArray = new JSONArray();
         JSONParser parser = new JSONParser();
+
+        Instant beforeRequest=Instant.now();
 
         try{
             JSONArray a = (JSONArray) parser.parse(new FileReader(filePath));
@@ -47,7 +51,6 @@ public class WebsiteSearch extends Search{
                 jsonObject.put("favicon", website.get("favicon"));
                 jsonObject.put("rating", websiteRating+nGramPoints);
                 jsonObject.put("lastTimeCrawled", website.get("lastTimeCrawled"));
-                jsonObject.put("images", website.get("images"));
 
                 jsonArray.add(jsonObject);
 
@@ -57,6 +60,15 @@ public class WebsiteSearch extends Search{
         }catch (Exception e){
             e.printStackTrace();
         }
+        JSONObject searchTimeObject = new JSONObject();
+
+        Instant afterRequest=Instant.now();
+
+        Integer pageResponseTime= Duration.between(beforeRequest, afterRequest).toMillisPart();
+        searchTimeObject.put("searchTime",String.format(
+                "%1$s search hits in %2$s milliseconds", jsonArray.size(),pageResponseTime
+        ));
+        jsonArray.add(searchTimeObject);
         return jsonArray;
     }
 
