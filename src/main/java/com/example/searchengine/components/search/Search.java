@@ -1,15 +1,7 @@
 package com.example.searchengine.components.search;
 
-import com.example.searchengine.components.nGram.NGram;
-import com.example.searchengine.components.stemmer.Stemmer;
-import org.json.JSONTokener;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
+import com.example.searchengine.components.NGram;
 
-import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class Search {

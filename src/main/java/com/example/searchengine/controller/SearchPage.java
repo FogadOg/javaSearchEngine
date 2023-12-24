@@ -1,6 +1,7 @@
 package com.example.searchengine.controller;
 
 import com.example.searchengine.components.crawler.Crawler;
+import com.example.searchengine.components.indexing.Indexing;
 import com.example.searchengine.components.search.ImageSearch;
 import com.example.searchengine.components.search.Search;
 import com.example.searchengine.components.search.WebsiteSearch;
@@ -29,6 +30,8 @@ public class SearchPage {
     @CrossOrigin(origins = "http://127.0.0.1:3000")
     @GetMapping("/search/{searchTerm}")
     public JSONArray search(@PathVariable String searchTerm){
+        String message=String.format("POST to path 'search/%1$s'",searchTerm);
+        System.out.println(message);
         WebsiteSearch websiteSearch = new WebsiteSearch();
 
         return websiteSearch.getAllWebsites(searchTerm);
@@ -39,5 +42,12 @@ public class SearchPage {
         ImageSearch imageSearch = new ImageSearch();
 
         return imageSearch.getAllImages(searchTerm);
+    }
+    @CrossOrigin(origins = "http://127.0.0.1:3000")
+    @GetMapping("/index")
+    public void testingIndexer(){
+
+        Indexing indexer = new Indexing();
+        indexer.main();
     }
 }

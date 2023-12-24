@@ -1,15 +1,14 @@
 package com.example.searchengine.components.crawler;
 
 import com.example.searchengine.components.stemmer.Stemmer;
+import com.example.searchengine.components.Rating;
 import com.gargoylesoftware.htmlunit.html.*;
-import com.google.gson.JsonArray;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
 import com.gargoylesoftware.htmlunit.WebClient;
 
-import javax.swing.text.Document;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -19,13 +18,11 @@ import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.net.URISyntaxException;
-import java.net.MalformedURLException;
 import java.net.HttpURLConnection;
 
 public class UrlDataJsonObject {

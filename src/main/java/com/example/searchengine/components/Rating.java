@@ -1,4 +1,4 @@
-package com.example.searchengine.components.crawler;
+package com.example.searchengine.components;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

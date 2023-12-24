@@ -1,4 +1,4 @@
-package com.example.searchengine.components.nGram;
+package com.example.searchengine.components;
 
 import java.util.ArrayList;
 import java.util.Arrays;
