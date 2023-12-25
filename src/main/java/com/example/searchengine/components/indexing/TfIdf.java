@@ -3,7 +3,6 @@ package com.example.searchengine.components.indexing;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.List;
-
 public class TfIdf {
 
     public Float tf(String term, Hashtable<String, Integer> documentTermCount){
@@ -19,12 +18,26 @@ public class TfIdf {
 
         return termFrequency;
     }
-    public void idf(String term, Hashtable<String, Integer> documentTermCount){
-        
+    public Integer idf(String term){
+        Integer documentsWithTerm=countDocumentWithTerm(term);
+        Integer numberOfDocument=10;
+
+        return (Integer) (int) Math.log(documentsWithTerm*numberOfDocument);
+
     }
 
-    public void tfIdf(){
+    private Integer countDocumentWithTerm(String term){
 
+
+        return 1;
+    }
+
+    public Float tfIdf(String term, Hashtable<String, Integer> documentTermCount){
+        Float tf = tf(term, documentTermCount);
+
+        Integer idf = idf(term);
+
+        return tf*idf;
     }
 
     public Hashtable<String, Integer> countTerms(List<String> terms){
