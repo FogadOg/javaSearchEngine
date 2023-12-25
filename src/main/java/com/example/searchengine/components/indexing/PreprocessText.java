@@ -13,7 +13,7 @@ public class PreprocessText {
     }
 
     public List<String> process(String text){
-        String textWithoutPunctuation=removePunctuation(text);
+        String textWithoutPunctuation=removePunctuation(text).toLowerCase();
         String[] splitString=textWithoutPunctuation.split(" ");
 
         List<String> processedString=new ArrayList<>();
