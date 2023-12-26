@@ -1,10 +1,15 @@
 package com.example.searchengine.components.indexing;
 
+import com.google.gson.*;
+import org.json.JSONException;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
-import java.io.FileReader;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Enumeration;
@@ -45,7 +50,7 @@ public class TfIdf {
     private Integer countDocumentWithTerm(String term){
         JSONParser parser = new JSONParser();
 
-        Integer termAccurance=0;
+        int termAccurance=0;
 
         try{
             JSONArray websites = (JSONArray) parser.parse(new FileReader("data.json"));
@@ -61,7 +66,6 @@ public class TfIdf {
         }catch (Exception e){
             e.printStackTrace();
         }
-        System.out.println("termAccurance: "+termAccurance);
         return termAccurance;
     }
 
@@ -85,13 +89,12 @@ public class TfIdf {
     }
 
     public Float tfIdf(String term, Hashtable<String, Integer> documentTermCount){
-
         Float tf = tf(term, documentTermCount);
-
         Integer idf = idf(term);
 
         return tf*idf;
     }
+
 
     public Hashtable<String, Integer> countTerms(List<String> terms){
         Hashtable<String, Integer> termFrequency = new Hashtable<>();
@@ -107,4 +110,5 @@ public class TfIdf {
 
         return termFrequency;
     }
+
 }
