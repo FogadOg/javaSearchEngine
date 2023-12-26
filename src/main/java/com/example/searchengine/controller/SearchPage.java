@@ -43,11 +43,4 @@ public class SearchPage {
 
         return imageSearch.getAllImages(searchTerm);
     }
-    @CrossOrigin(origins = "http://127.0.0.1:3000")
-    @GetMapping("/index")
-    public void testingIndexer(){
-
-        Indexing indexer = new Indexing();
-        indexer.main();
-    }
 }

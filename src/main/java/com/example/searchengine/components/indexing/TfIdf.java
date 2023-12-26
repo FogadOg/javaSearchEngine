@@ -32,16 +32,16 @@ public class TfIdf {
             termsSum += values.nextElement();
         }
 
-        if(documentTermCount.get(term)==null){
-            return (float) 0/termsSum;
+        if(documentTermCount.get(term)==null) return (float) 0/termsSum;
 
-        }
+
 
         return (float) documentTermCount.get(term)/termsSum;
     }
+
     public Integer idf(String term){
         Integer documentsWithTerm=countDocumentWithTerm(term);
-        Integer numberOfDocument=10;
+        Integer numberOfDocument=getNumberOfDocuments();
 
         return (Integer) (int) Math.log(documentsWithTerm*numberOfDocument);
 
@@ -53,9 +53,8 @@ public class TfIdf {
         int termAccurance=0;
 
         try{
-            JSONArray websites = (JSONArray) parser.parse(new FileReader("data.json"));
-
-            for (Object websiteData : websites)
+            JSONArray documents = (JSONArray) parser.parse(new FileReader("data.json"));
+            for (Object websiteData : documents)
             {
                 JSONObject website = (JSONObject) websiteData;
                 termAccurance+=isTermPresent(term, website);
@@ -67,6 +66,21 @@ public class TfIdf {
             e.printStackTrace();
         }
         return termAccurance;
+    }
+
+    private Integer getNumberOfDocuments(){
+        JSONParser parser = new JSONParser();
+
+        int numberOfDocument=0;
+
+        try{
+            JSONArray documents = (JSONArray) parser.parse(new FileReader("data.json"));
+            numberOfDocument+=documents.size();
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return numberOfDocument;
     }
 
     private Integer isTermPresent(String term,JSONObject website){
@@ -100,12 +114,15 @@ public class TfIdf {
         Hashtable<String, Integer> termFrequency = new Hashtable<>();
 
         for (String term : terms) {
-            if (!termFrequency.containsKey(term)) {
-                termFrequency.put(term, 1);
-            } else {
-                int currentTermFrequency = termFrequency.get(term);
-                termFrequency.put(term, currentTermFrequency + 1);
+            if(!term.equals("")){
+                if (!termFrequency.containsKey(term)) {
+                    termFrequency.put(term, 1);
+                } else {
+                    int currentTermFrequency = termFrequency.get(term);
+                    termFrequency.put(term, currentTermFrequency + 1);
+                }
             }
+
         }
 
         return termFrequency;
