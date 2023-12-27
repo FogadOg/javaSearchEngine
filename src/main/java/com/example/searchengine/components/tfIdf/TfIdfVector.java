@@ -1,11 +1,11 @@
-package com.example.searchengine.components.indexing;
+package com.example.searchengine.components.tfIdf;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class TfIdfVector {
 
-    public List<Float> vectorValues=new ArrayList<>();
+    private final List<Float> vectorValues=new ArrayList<>();
 
     public TfIdfVector multiplyVectors(TfIdfVector vector2){
         TfIdfVector resultVector=new TfIdfVector();
@@ -26,6 +26,10 @@ public class TfIdfVector {
 
         return resultVector;
 
+    }
+
+    public List<Float> getVector(){
+        return vectorValues;
     }
 
     public void addToVector(Float value){

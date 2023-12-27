@@ -89,7 +89,7 @@ public class TfIdf {
         for(Object p: websiteContent){
             String text = (String) p;
 
-            List<String> terms=preprocesser.process(text);
+            List<String> terms=preprocesser.processForIndexing(text);
 
             for(String termInDocument: terms){
                 if (termInDocument.trim().equals(term)){
@@ -114,7 +114,7 @@ public class TfIdf {
         Hashtable<String, Integer> termFrequency = new Hashtable<>();
 
         for (String term : terms) {
-            if(!term.equals("")){
+            if(!term.isEmpty()){
                 if (!termFrequency.containsKey(term)) {
                     termFrequency.put(term, 1);
                 } else {
@@ -126,6 +126,15 @@ public class TfIdf {
         }
 
         return termFrequency;
+    }
+
+    private void tfIdfVector(List<String> termsVector, Hashtable<String, Integer> overallTremFrequancy){
+
+        for(String term: termsVector){
+            Float tfIdf = tfIdf(term, overallTremFrequancy);
+        }
+
+
     }
 
 }
