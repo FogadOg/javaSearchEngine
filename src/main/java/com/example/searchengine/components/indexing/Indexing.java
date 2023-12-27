@@ -16,16 +16,12 @@ import java.util.Hashtable;
 import java.util.List;
 
 public class Indexing {
-    public void main(){
-        mapDocument(
-                "data Removing stopwords depends on case: You can remove in cases cases cases cases cases cases cases cases cases cases like Text classification like Email filtering, Organizing corporate documents, or Sentiment Analysis etc.. You should avoid stopwords removal when doing Text summarization or building Ques-Answer engine, or in language modelling..",
-                "5",
-                .05
-        );
-
-
+    public String jsonFilePath;
+    public Indexing(String jsonFilePath){
+        this.jsonFilePath=jsonFilePath;
 
     }
+
     public void mapDocument(String documentText,String documentId, Double termThreshHold){
         TfIdf tfIdf = new TfIdf();
         PreprocessText preprocesser= new PreprocessText();
@@ -44,7 +40,7 @@ public class Indexing {
     private void addDocument(Float tfIdfScore, Double termThreshHold, String term, String documentId){
         if(tfIdfScore>=termThreshHold){
             try {
-                FileReader reader = new FileReader("indexMap.json");
+                FileReader reader = new FileReader(jsonFilePath);
                 JsonArray jsonArray = JsonParser.parseReader(reader).getAsJsonArray();
 
                 JsonObject targetObject = findObjectWithKey(jsonArray, term);
@@ -64,7 +60,7 @@ public class Indexing {
                         array.add(newObject);
 
                         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-                        FileWriter writer = new FileWriter("indexMap.json");
+                        FileWriter writer = new FileWriter(jsonFilePath);
                         gson.toJson(jsonArray, writer);
                         writer.close();
                     }
@@ -110,7 +106,7 @@ public class Indexing {
 
 
         // Write the JSON array back to the file
-        writeJsonToFile(newObject, "indexMap.json");
+        writeJsonToFile(newObject, jsonFilePath);
 
     }
     private static void writeJsonToFile(JSONObject jsonObject, String fileName) {
@@ -143,5 +139,32 @@ public class Indexing {
         }
     }
 
+    public JSONArray getTermMaping(String term){
+        JSONParser parser = new JSONParser();
+        JSONArray emptyArray=new JSONArray();
+        try {
+            FileReader reader = new FileReader(jsonFilePath);
+            JsonArray jsonArray = JsonParser.parseReader(reader).getAsJsonArray();
+
+            JsonObject targetObject = findObjectWithKey(jsonArray, term);
+
+            if (targetObject != null) {
+                JSONArray termArray = (JSONArray) parser.parse(String.valueOf(targetObject.get(term)));
+                return termArray;
+
+
+            }else{
+                return emptyArray;
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
+            throw new RuntimeException(e);
+        }
+        return emptyArray;
+
+
+    }
 
 }

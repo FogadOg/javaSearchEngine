@@ -16,10 +16,10 @@ import java.io.IOException;
 @RestController
 
 public class IndexerController {
+    public Indexing indexer = new Indexing("indexMap.json");
     @CrossOrigin(origins = "http://127.0.0.1:3000")
     @GetMapping("/index")
     public void runIndexer() {
-        Indexing indexer = new Indexing();
         JSONParser jsonParser = new JSONParser();
 
         try {
@@ -55,6 +55,12 @@ public class IndexerController {
     @GetMapping("/index/view")
     public void viewIndexing(){
 
+
+    }
+    @CrossOrigin(origins = "http://127.0.0.1:3000")
+    @GetMapping("/index/tester")
+    public void indexTester(){
+        System.out.println(indexer.getTermMaping("estas"));
 
     }
 }
