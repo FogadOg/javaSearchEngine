@@ -3,14 +3,10 @@ package com.example.searchengine.components.crawler;
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.net.URI;
-import java.net.URL;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.time.LocalDateTime;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -23,6 +19,7 @@ public class Crawler {
     public List<String> urlsCrawled;
 
     CrawlerService crawlerService;
+
 
 
     public Crawler(){

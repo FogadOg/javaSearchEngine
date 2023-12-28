@@ -31,7 +31,6 @@ public class UrlDataJsonObject {
     public String pageUrl;
     public String rootUrl;
     public HtmlPage websidePage;
-    public Stemmer stemmer;
 
     public UrlDataJsonObject(String jsonFile,
                              String pageUrl){
@@ -39,7 +38,6 @@ public class UrlDataJsonObject {
         this.jsonFile=jsonFile;
         this.pageUrl=pageUrl;
         this.rootUrl=getRootUrl();
-        this.stemmer = new Stemmer();
 
 
         this.websidePage = getHtmlContent();
@@ -123,7 +121,7 @@ public class UrlDataJsonObject {
     private String getPagesTitle(){
         HtmlTitle title = ((HtmlTitle) websidePage.getFirstByXPath("//title"));
         if(title!=null){
-            return stemmer.stemString(title.asNormalizedText());
+            return title.asNormalizedText();
         }
         return "";
 
@@ -152,8 +150,7 @@ public class UrlDataJsonObject {
                     String paragraphText = ((com.gargoylesoftware.htmlunit.html.HtmlElement) paragraph).getTextContent().trim();
                     if(!paragraphText.isEmpty()){
 
-                        String stemmedParagraph=stemmer.stemString(paragraphText);
-                        pageContent.put(stemmedParagraph);
+                        pageContent.put(paragraphText);
                     }
                 }
             }
@@ -179,13 +176,13 @@ public class UrlDataJsonObject {
                             if (!srcTag.contains(rootUrl)) {
                                 if (isValidImageUrl(rootUrl + srcTag)) {
                                     imageData.put("src", rootUrl + srcTag);
-                                    imageData.put("alt", stemmer.stemString(altTag));
+                                    imageData.put("alt", altTag);
                                     imageSources.put(imageData);
                                 }
                             } else {
                                 if (isValidImageUrl(srcTag)) {
                                     imageData.put("src", srcTag);
-                                    imageData.put("alt", stemmer.stemString(altTag));
+                                    imageData.put("alt", altTag);
                                     imageSources.put(imageData);
                                 }
                             }

@@ -14,15 +14,10 @@ public class WebsiteSearch extends Search{
 
     public JSONArray getAllWebsites(String searchQuery){
 
-        searchForRelevantWebsites(searchQuery);
-
-        return new JSONArray();
-
-    }
-
-    private void searchForRelevantWebsites(String searchQuery){
         JsonFileService jsonFileService=new JsonFileService();
         Indexing indexer= new Indexing("indexMap.json");
+        JSONArray relevantWebsites=new JSONArray();
+
         PreprocessText processer = new PreprocessText();
 
         List<String> querys=processer.processForIndexing(searchQuery);
@@ -38,17 +33,16 @@ public class WebsiteSearch extends Search{
 
                 if(object!=null){
                     String content=jsonFileService.objectToString(object.get("content"));
-                    System.out.println("similarity: "+getSimilarityOfSearchAndWebsite(searchQuery,content));
+                    if(getSimilarityOfSearchAndWebsite(searchQuery,content)>=0.9){
+                        relevantWebsites.add(object);
+                    }
 
 
                 }
             }
         }
 
-
-
-
+        return relevantWebsites;
 
     }
-
 }
