@@ -1,5 +1,6 @@
 package com.example.searchengine.components.indexing;
 
+import com.example.searchengine.components.tfIdf.TfIdfVector;
 import com.google.gson.*;
 import org.json.JSONException;
 import org.json.simple.JSONArray;
@@ -128,11 +129,15 @@ public class TfIdf {
         return termFrequency;
     }
 
-    private void tfIdfVector(List<String> termsVector, Hashtable<String, Integer> overallTremFrequancy){
+    public TfIdfVector tfIdfVector(List<String> termsVector, Hashtable<String, Integer> overallTremFrequancy){
+        TfIdfVector vector=new TfIdfVector();
 
         for(String term: termsVector){
             Float tfIdf = tfIdf(term, overallTremFrequancy);
+            vector.addToVector(tfIdf);
         }
+
+        return vector;
 
 
     }
