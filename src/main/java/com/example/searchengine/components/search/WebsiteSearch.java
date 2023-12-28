@@ -1,36 +1,54 @@
 package com.example.searchengine.components.search;
 
 import com.example.searchengine.components.JsonFileService;
-import com.example.searchengine.components.stemmer.Stemmer;
+import com.example.searchengine.components.indexing.Indexing;
+import com.example.searchengine.components.indexing.PreprocessText;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 
-import java.io.FileReader;
-import java.time.Duration;
-import java.time.Instant;
+import java.util.List;
 
 public class WebsiteSearch extends Search{
 
     public String filePath="data.json";
 
-    public JSONArray getAllWebsites(String searchTerm){
+    public JSONArray getAllWebsites(String searchQuery){
 
-        return searchForRelevantWebsites(searchTerm);
+        searchForRelevantWebsites(searchQuery);
+
+        return new JSONArray();
 
     }
 
-    private JSONArray searchForRelevantWebsites(String searchTrem){
+    private void searchForRelevantWebsites(String searchQuery){
         JsonFileService jsonFileService=new JsonFileService();
+        Indexing indexer= new Indexing("indexMap.json");
+        PreprocessText processer = new PreprocessText();
 
-        JSONArray jsonArray=jsonFileService.readJsonFile(filePath);
+        List<String> querys=processer.processForIndexing(searchQuery);
 
-        Object object=jsonFileService.findObject(jsonArray, "url");
+        for(String query: querys){
+            JSONArray indexMappingArray=indexer.getTermMaping(query);
 
-        System.out.println("object: "+object);
-        //String content=jsonFileService.objectToString(object.get);
+            for(Object website: indexMappingArray){
+                JSONObject websiteObject=(JSONObject) website;
+                String url=websiteObject.get("id").toString();
+                JSONArray jsonArray=jsonFileService.readJsonFile(filePath);
+                JSONObject object=(JSONObject) jsonFileService.findObject(jsonArray, url);
 
-        return jsonArray;
+                if(object!=null){
+                    String content=jsonFileService.objectToString(object.get("content"));
+                    System.out.println("similarity: "+getSimilarityOfSearchAndWebsite(searchQuery,content));
+
+
+                }
+            }
+        }
+
+
+
+
+
     }
 
 }

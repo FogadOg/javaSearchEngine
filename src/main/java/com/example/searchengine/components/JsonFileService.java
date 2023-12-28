@@ -27,9 +27,10 @@ public class JsonFileService {
         }
         return emptyJSONArray;
     }
-    public JSONObject findObject(JSONArray jsonDataArray, String url){
+    public Object findObject(JSONArray jsonDataArray, String url){
         for (Object obj : jsonDataArray) {
             JSONObject website = (JSONObject) obj;
+
             String websiteUrl = (String) website.get("url");
 
             if (websiteUrl.equals(url)) {

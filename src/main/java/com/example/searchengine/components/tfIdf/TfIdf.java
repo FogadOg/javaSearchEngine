@@ -142,4 +142,12 @@ public class TfIdf {
 
     }
 
+    public TfIdfVector getVector(String searchQuery, String document){
+        List<String> splitSearchQuery=preprocesser.processForIndexing(searchQuery);
+        Hashtable<String, Integer> termFrequancy=countTerms(preprocesser.processForIndexing(document));
+
+        return tfIdfVector(splitSearchQuery,termFrequancy);
+
+    }
+
 }
