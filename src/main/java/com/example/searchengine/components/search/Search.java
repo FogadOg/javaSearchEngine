@@ -1,10 +1,17 @@
 package com.example.searchengine.components.search;
 
 import com.example.searchengine.components.NGram;
+import com.example.searchengine.components.indexing.PreprocessText;
+import com.example.searchengine.components.indexing.TfIdf;
+import com.example.searchengine.components.tfIdf.TfIdfVector;
 
+import java.util.Hashtable;
 import java.util.List;
 
 public class Search {
+
+    public TfIdf tfIdf=new TfIdf();
+    public PreprocessText preprocessText=new PreprocessText();
 
     public Integer checkForNGramRepet(int[] nGrams, String stemmedSearchTrem, String content){
         Integer nGramPoints=0;
@@ -18,6 +25,20 @@ public class Search {
         }
         return nGramPoints;
     }
+
+
+
+    public Double getSimilarityOfSearchAndWebsite(String searchQuery, String textToMatchWith){
+
+        TfIdfVector v1=tfIdf.getVector(searchQuery,searchQuery);
+        TfIdfVector v2=tfIdf.getVector(searchQuery,textToMatchWith);
+
+
+        return v1.cosineSimilarity(v2);
+
+    }
+
+
 
 
 
