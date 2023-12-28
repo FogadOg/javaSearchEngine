@@ -1,5 +1,5 @@
 package com.example.searchengine.components.indexing;
-
+import com.example.searchengine.components.indexing.TfIdf;
 import com.google.gson.*;
 import org.apache.xpath.operations.Bool;
 import org.json.simple.JSONArray;
@@ -26,7 +26,7 @@ public class Indexing {
         TfIdf tfIdf = new TfIdf();
         PreprocessText preprocesser= new PreprocessText();
 
-        List<String> termsList=preprocesser.process(documentText);
+        List<String> termsList=preprocesser.processForIndexing(documentText);
         Hashtable<String, Integer> tremFrequancy = tfIdf.countTerms(termsList);
 
         for(String term: termsList){

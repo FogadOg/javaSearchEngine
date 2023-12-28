@@ -12,7 +12,7 @@ public class PreprocessText {
         };
     }
 
-    public List<String> process(String text){
+    public List<String> processForIndexing(String text){
         String textWithoutPunctuation=removePunctuation(text).toLowerCase();
         String[] splitString=textWithoutPunctuation.split(" ");
 

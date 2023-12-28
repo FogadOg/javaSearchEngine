@@ -1,5 +1,6 @@
 package com.example.searchengine.components.search;
 
+import com.example.searchengine.components.JsonFileService;
 import com.example.searchengine.components.stemmer.Stemmer;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -13,62 +14,22 @@ public class WebsiteSearch extends Search{
 
     public String filePath="data.json";
 
-    public Stemmer stemmer=new Stemmer();
     public JSONArray getAllWebsites(String searchTerm){
-        String stemmedSearchTrem=stemmer.stemString(searchTerm);
 
-        return searchForRelevantWebsites(stemmedSearchTrem);
+        return searchForRelevantWebsites(searchTerm);
 
     }
 
-    private JSONArray searchForRelevantWebsites(String stemmedSearchTrem){
-        JSONArray jsonArray = new JSONArray();
-        JSONParser parser = new JSONParser();
+    private JSONArray searchForRelevantWebsites(String searchTrem){
+        JsonFileService jsonFileService=new JsonFileService();
 
-        Instant beforeRequest=Instant.now();
+        JSONArray jsonArray=jsonFileService.readJsonFile(filePath);
 
-        try{
-            JSONArray a = (JSONArray) parser.parse(new FileReader(filePath));
+        Object object=jsonFileService.findObject(jsonArray, "url");
 
-            for (Object o : a)
-            {
+        System.out.println("object: "+object);
+        //String content=jsonFileService.objectToString(object.get);
 
-                JSONObject website = (JSONObject) o;
-
-                JSONObject jsonObject = new JSONObject();
-
-                int[] nGrams={1,2,3,4,5};
-                Integer nGramPoints=checkForNGramRepet(nGrams,stemmedSearchTrem,website.get("content").toString());
-
-
-                Integer websiteRating=Integer.parseInt(website.get("rating").toString());
-
-
-                jsonObject.put("url", website.get("url"));
-
-                jsonObject.put("pageTitle", website.get("pageTitle"));
-                jsonObject.put("pageName", website.get("pageName"));
-                jsonObject.put("favicon", website.get("favicon"));
-                jsonObject.put("rating", websiteRating+nGramPoints);
-                jsonObject.put("lastTimeCrawled", website.get("lastTimeCrawled"));
-
-                jsonArray.add(jsonObject);
-
-
-            }
-
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        JSONObject searchTimeObject = new JSONObject();
-
-        Instant afterRequest=Instant.now();
-
-        Integer pageResponseTime= Duration.between(beforeRequest, afterRequest).toMillisPart();
-        searchTimeObject.put("searchTime",String.format(
-                "%1$s search hits in %2$s milliseconds", jsonArray.size(),pageResponseTime
-        ));
-        jsonArray.add(searchTimeObject);
         return jsonArray;
     }
 
