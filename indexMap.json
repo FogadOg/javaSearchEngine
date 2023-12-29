@@ -1,131 +1,597 @@
 [
   {
-    "datumscienco": [
+    "new": [
       {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://dx.doi.org/10.1145/2500499"
+      },
+      {
+        "id": "https://dx.doi.org/10.1145%2F2500499"
       }
     ]
   },
   {
-    "angle data": [
+    "data": [
       {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://dx.doi.org/10.1145/2500499"
+      },
+      {
+        "id": "https://dx.doi.org/10.1145%2F2500499"
+      },
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      },
+      {
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
+      },
+      {
+        "id": "https://zh-yue.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E7%A7%91%E5%AD%B8"
+      },
+      {
+        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+      },
+      {
+        "id": "https://en.wikipedia.org/wiki/Data_science"
+      }
+    ]
+  },
+  {
+    "knowledge": [
+      {
+        "id": "https://dx.doi.org/10.1145/2500499"
+      },
+      {
+        "id": "https://wikimediafoundation.org/"
+      },
+      {
+        "id": "https://dx.doi.org/10.1145%2F2500499"
+      },
+      {
+        "id": "https://en.wikipedia.org/wiki/Data_science"
+      }
+    ]
+  },
+  {
+    "models": [
+      {
+        "id": "https://dx.doi.org/10.1145/2500499"
+      },
+      {
+        "id": "https://dx.doi.org/10.1145%2F2500499"
       }
     ]
   },
   {
     "science": [
       {
+        "id": "https://dx.doi.org/10.1145/2500499"
+      },
+      {
+        "id": "https://dx.doi.org/10.1145%2F2500499"
+      },
+      {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
       },
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
+      },
+      {
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       },
       {
         "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
       },
       {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
+        "id": "https://en.wikipedia.org/wiki/Data_science"
       }
     ]
   },
   {
-    "estas": [
+    "article": [
       {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://dx.doi.org/10.1145/2500499"
+      },
+      {
+        "id": "https://dx.doi.org/10.1145%2F2500499"
       }
     ]
   },
   {
-    "terfaka": [
+    "machine": [
       {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://dx.doi.org/10.1145/2500499"
+      },
+      {
+        "id": "https://dx.doi.org/10.1145%2F2500499"
       }
     ]
   },
   {
-    "areo": [
+    "learning": [
       {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://dx.doi.org/10.1145/2500499"
+      },
+      {
+        "id": "https://dx.doi.org/10.1145%2F2500499"
+      },
+      {
+        "id": "https://en.wikipedia.org/wiki/Data_science"
       }
     ]
   },
   {
-    "diĉita": [
+    "theory": [
       {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://dx.doi.org/10.1145/2500499"
+      },
+      {
+        "id": "https://dx.doi.org/10.1145%2F2500499"
+      }
+    ]
+  },
+  {
+    "big": [
+      {
+        "id": "https://dx.doi.org/10.1145/2500499"
+      },
+      {
+        "id": "https://dx.doi.org/10.1145%2F2500499"
+      }
+    ]
+  },
+  {
+    "computing": [
+      {
+        "id": "https://dx.doi.org/10.1145/2500499"
+      },
+      {
+        "id": "https://dx.doi.org/10.1145%2F2500499"
+      }
+    ]
+  },
+  {
+    "nonprofit": [
+      {
+        "id": "https://wikimediafoundation.org/"
+      }
+    ]
+  },
+  {
+    "wikimedia": [
+      {
+        "id": "https://wikimediafoundation.org/"
+      }
+    ]
+  },
+  {
+    "foundation": [
+      {
+        "id": "https://wikimediafoundation.org/"
+      }
+    ]
+  },
+  {
+    "free": [
+      {
+        "id": "https://wikimediafoundation.org/"
+      },
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "wikipedia": [
+      {
+        "id": "https://wikimediafoundation.org/"
+      }
+    ]
+  },
+  {
+    "volunteers": [
+      {
+        "id": "https://wikimediafoundation.org/"
+      }
+    ]
+  },
+  {
+    "projects": [
+      {
+        "id": "https://wikimediafoundation.org/"
+      }
+    ]
+  },
+  {
+    "use": [
+      {
+        "id": "https://wikimediafoundation.org/"
+      },
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "information": [
+      {
+        "id": "https://wikimediafoundation.org/"
+      },
+      {
+        "id": "https://en.wikipedia.org/wiki/Data_science"
+      }
+    ]
+  },
+  {
+    "privacy": [
+      {
+        "id": "https://wikimediafoundation.org/"
+      }
+    ]
+  },
+  {
+    "global": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
+      },
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "openly": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
+      }
+    ]
+  },
+  {
+    "licensed": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
+      },
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "open": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
+      },
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "help": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
+      },
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "commons": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
+      },
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "work": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
+      },
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      },
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "이": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
+      }
+    ]
+  },
+  {
+    "아무런": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
+      }
+    ]
+  },
+  {
+    "professor": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "hans": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "rosling": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "statistics": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      },
+      {
+        "id": "https://en.wikipedia.org/wiki/Data_science"
+      }
+    ]
+  },
+  {
+    "history": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "mathematically": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "world": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "lectures": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "explores": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "huge": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "quantities": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "story": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "200": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "film": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "street": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "house": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "ne": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
       }
     ]
   },
   {
     "al": [
       {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      },
+      {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+      },
+      {
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
   {
     "la": [
       {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      },
+      {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
       },
       {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
+      }
+    ]
+  },
+  {
+    "permesilo": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "por": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
       },
       {
-        "id": "https://it.wikipedia.org/wiki/Scienza_dei_dati"
-      }
-    ]
-  },
-  {
-    "studo": [
-      {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "kaj": [
+      },
       {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "analizo": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
   {
     "de": [
       {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      },
+      {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
       },
       {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
   {
-    "ekonomiaj": [
+    "aŭ": [
       {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
       }
     ]
   },
   {
-    "financaj": [
+    "uzo": [
       {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
       }
     ]
   },
   {
-    "sociaj": [
+    "estas": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      },
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+      },
+      {
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
+      }
+    ]
+  },
+  {
+    "el": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "kaj": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      },
+      {
+        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+      },
+      {
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
+      }
+    ]
+  },
+  {
+    "legal": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "tools": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "데이터": [
+      {
+        "id": "https://ko.wikipedia.org/w/index.php?title\u003d%ED%8B%80:%EB%8D%B0%EC%9D%B4%ED%84%B0\u0026amp;action\u003dedit"
+      }
+    ]
+  },
+  {
+    "관련": [
+      {
+        "id": "https://ko.wikipedia.org/w/index.php?title\u003d%ED%8B%80:%EB%8D%B0%EC%9D%B4%ED%84%B0\u0026amp;action\u003dedit"
+      }
+    ]
+  },
+  {
+    "주제를": [
+      {
+        "id": "https://ko.wikipedia.org/w/index.php?title\u003d%ED%8B%80:%EB%8D%B0%EC%9D%B4%ED%84%B0\u0026amp;action\u003dedit"
+      }
+    ]
+  },
+  {
+    "위한": [
+      {
+        "id": "https://ko.wikipedia.org/w/index.php?title\u003d%ED%8B%80:%EB%8D%B0%EC%9D%B4%ED%84%B0\u0026amp;action\u003dedit"
+      }
+    ]
+  },
+  {
+    "둘러보기": [
+      {
+        "id": "https://ko.wikipedia.org/w/index.php?title\u003d%ED%8B%80:%EB%8D%B0%EC%9D%B4%ED%84%B0\u0026amp;action\u003dedit"
+      }
+    ]
+  },
+  {
+    "상자": [
+      {
+        "id": "https://ko.wikipedia.org/w/index.php?title\u003d%ED%8B%80:%EB%8D%B0%EC%9D%B4%ED%84%B0\u0026amp;action\u003dedit"
       }
     ]
   },
@@ -133,114 +599,9 @@
     "datumoj": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "strukturitaj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "nestrukturitaj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "celante": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "ĉerpi": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "sciaron": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "tekti": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "normojn": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "kajaŭ": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "akiri": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "komprenojn": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "p": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
       },
       {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "eblaj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "cidadoj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "datuma": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "scienco": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -248,34 +609,9 @@
     "kiel": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "fako": [
+      },
       {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "ekzistas": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "ekde": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "antaŭ": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -283,6 +619,9 @@
     "30": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+      },
+      {
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -290,33 +629,9 @@
     "jaroj": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "s": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
       },
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "ĝi": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "akiris": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -324,6 +639,9 @@
     "pli": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+      },
+      {
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -333,14 +651,7 @@
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
       },
       {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "eminenteco": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -350,112 +661,7 @@
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
       },
       {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "lastaj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "pro": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "faktoroj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "apero": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "popularigado": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "grandaj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "datumbazoj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "volviĝo": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "areoj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "maŝina": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "lernado": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "datumsciencistoj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "povas": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "labori": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "privata": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -463,1211 +669,420 @@
     "sektoro": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "ekzemple": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "formante": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "grandajn": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "kvantojn": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "krudaj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "komercajn": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "formojn": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "helpante": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "treprenojn": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "cidado": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "atingi": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "bonajn": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "zultojn": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "aŭ": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "iversitato": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "terfakaj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "kvantaj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "esploristoj": [
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      }
-    ]
-  },
-  {
-    "အချက်အလက်သိပ္ပံပညာ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အင်္ဂလိပ်": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "data": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
       },
       {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      },
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "ဒိန်းမတ်ကွန်ပျူတာသိပ္ပံပညာရှင်၊": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ကွန်ပျူတာသိပ္ပံလောကအတွက်": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "နိုဘယ်လ်ဆုလို": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ဂုဏ်သိက္ခာကြီးမားလှတဲ့": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "တားရင်းဆုရှင်": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ပီတာနော": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "pet": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "naur": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "25": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "octob": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "1928": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "–": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "3": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "janu": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "2016": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "က၊": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ကွန်ပျူတာသိပ္ပံ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ဆိုတဲ့စကားလုံးကို": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အစားထိုးဖို့ဆိုတဲ့ရည်ရွယ်ချက်နဲ့": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "၁၉၆၀": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "လောက်ကတည်းက": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "စတင်သုံးစွဲခဲ့တာပါ။": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အချက်အလက်သိပ္ပံ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ဆိုတဲ့ဝေါဟာရကို": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အချက်အလက်ဗေဒ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "datalogy": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ဆိုတဲ့စကားလုံးနဲ့": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အပြန်အလှန်ဖလှယ်ပြီး": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "စတင်အသုံးပြုခဲ့ကြပါတယ်။": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "၁၉၇၄": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "မှာ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ရေးသားထုတ်ဝေခဲ့တဲ့": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ကွန်ပျူတာနည်းလမ်းများအား": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "တိကျစွာ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "တိုင်းတာစစ်ဆေးလေ့လာသုံးသပ်ခြင်း": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "conc": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "surve": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "comput": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "methods": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "ဆိုတဲ့စာအုပ်မှာ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အချက်အလက်သိပ္ပံဆိုတဲ့စကားလုံးကို": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "တရားဝင်": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ကျယ်ကျယ်ပြန့်ပြန့်": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "သီးသီးသန့်သန့်": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "စတင်သုံးစွဲခဲ့ပါတယ်။": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ညီလာခံခေါင်းစဉ်ကြီးတစ်ခုထဲမှာ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ပထမဆုံးအကြိမ်အဖြစ်": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ထည့်သွင်းအသုံးပြုခဲ့တာကတော့": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အပြည်ပြည်ဆိုင်ရာ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အမျိုးအစားခွဲခြားခြင်းပညာရပ်ဆိုင်ရာအသင်းများအဖွဲ့ချုပ်": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "internation": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "federat": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "classificat": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "societies": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ifcs": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "က": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "1996": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ခုနှစ်မှာ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ဂျပန်နိုင်ငံ၊": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ကိုဘေး": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "kobe": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "မြို့": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ကျင်းပခဲ့တဲ့": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "နှင့်": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အမျိုးအစားခွဲခြားခြင်းပညာတို့နှင့်ဆိုင်သော": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "နည်းလမ်းများ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "lat": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ဆိုတဲ့": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ညီလာခံကြီးမှာပါ။": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အဲဒီနောက်": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
   {
-    "၂၀၀၁": [
+    "datatiede": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "ခုနှစ်မှာ၊": [
+    "engl": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "အမေရိကန်နိုင်ငံ": [
+    "erilaisten": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "အင်ဒီယားနားပြည်နယ်": [
+    "aineistojen": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "ပါဂျူးတက္ကသိုလ်ရဲ့": [
+    "analysointimenetelmiä": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "ကွန်ပျူတာသိပ္ပံပါမောက္ခ": [
+    "käsittelevä": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "နဲ့": [
+    "tieteenala1\ndatatiede": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "စာရင်းအင်းပညာပါမောက္ခ": [
+    "koostuu": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "ဝီလီယံ": [
+    "tietojenkäsittelytieteen": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "အက်စ်": [
+    "ja": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "ကလိဗ်လန်း": [
+    "tilastotieteen": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "william": [
+    "yliopistossa": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "cleveland": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "၁၉၄၃": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "ခု": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "မွေးဖွား": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "တိုးတက်ချဲ့ထွင်ထားတဲ့": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "စာရင်းအင်းပညာကို": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အဆင့်မြင့်တွက်ချက်ခြင်းပညာရပ်နဲ့ပေါင်းစည်းပြီး": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      }
-    ]
-  },
-  {
-    "အချက်အလက်သိပ္ပံပညာကို": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "သီးခြားပညာရပ်": [
+    "datatieteen": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "သီးသန့်ဘာသာရပ်တစ်ခုအဖြစ်": [
+    "käyttökohteisiin": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "ခုနှစ်၊": [
+    "kuuluu": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "ဧပြီလထုတ်": [
+    "selvittäminen": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "စာရင်းအင်းပညာသုံးသပ်ချက်": [
+    "voiko": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "statistic": [
+    "ongelmaan": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "review": [
+    "vastata": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "အတွဲ၆၉၊": [
+    "olemassa": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "အမှတ်၁": [
+    "olevalla": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "စာစောင်မှာ": [
+    "tiedolla": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "act": [
+    "eikä": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "plan": [
+    "kohdistu": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "f": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
+    "niinkään": [
       {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "expand": [
+    "tiedon": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "technic": [
+    "määrään": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "areas": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
+    "tai": [
       {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "field": [
+    "käytettäviin": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "statistics": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
+    "työkaluihin3": [
       {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "ဆိုတဲ့ဆောင်းပါးနဲ့စတင်မိတ်ဆက်ခဲ့ပါတယ်။": [
+    "eräät": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "၂၀၀၂": [
+    "suosituimmat": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "ခုနှစ်": [
+    "menetelmät": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "ဧပြီလမှာ": [
+    "tulevat": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "အပြည်ပြည်ဆိုင်ရာသိပ္ပံကောင်စီ": [
+    "ei": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "ရဲ့": [
+    "ole": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "အချက်အလက်သိပ္ပံနှင့်နည်းပညာကော်မတီ": [
+    "sama": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "council": [
+    "kuin": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "committ": [
-      {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
-      },
+    "informaatiotutkimus": [
       {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
       }
     ]
   },
   {
-    "technolog": [
+    "數據科學sou3": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://zh-yue.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E7%A7%91%E5%AD%B8"
       }
     ]
   },
   {
-    "codataက": [
+    "geoi3": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://zh-yue.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E7%A7%91%E5%AD%B8"
       }
     ]
   },
   {
-    "အချက်အလက်သိပ္ပံပညာဂျာနယ်": [
+    "fo1": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://zh-yue.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E7%A7%91%E5%AD%B8"
       }
     ]
   },
   {
-    "ကိုစတင်ထုတ်ဝေခဲ့ပါတယ်။": [
+    "hok6（data": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://zh-yue.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E7%A7%91%E5%AD%B8"
       }
     ]
   },
   {
-    "လျှပ်စစ်နှင့်": [
+    "science）係一個跨學科科學領域，重點研究運用科學方法同各種演算法，由有結構或者冇結構嘅": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://zh-yue.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E7%A7%91%E5%AD%B8"
       }
     ]
   },
   {
-    "အီလက်ထရောနစ်အင်ဂျင်နီယာသိပ္ပံ": [
+    "khoa": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "ieeeက": [
+    "học": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "၂၀၁၃": [
+    "dữ": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "အဆင့်မြင့်": [
+    "liệu": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "သရုပ်ခွဲဆန်းစစ်လေ့လာမှုပညာ": [
+    "là": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "advanc": [
+    "một": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "analytics": [
+    "các": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "လုပ်ငန်းအဖွဲ့": [
+    "và": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "ကိုစတင်ဖွဲ့စည်းခဲ့ပြီး": [
+    "thống": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "၂၀၁၄": [
+    "ở": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "အချက်အလက်သိပ္ပံပညာနဲ့ဆိုင်တဲ့": [
+    "kê": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "ညီလာခံကြီးကို": [
+    "thuật": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "ပထမဆုံးအကြိမ်ကျင်းပခဲ့ပါတယ်။": [
+    "lý": [
       {
-        "id": "https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
-    "verilənlər": [
+    "nhà": [
       {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
+        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
       }
     ]
   },
   {
     "elmi": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "formasiyanın": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "alınması": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "üsullarına": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "sahib": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "olmaqdır": [
       {
         "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
       }
@@ -1681,20 +1096,6 @@
     ]
   },
   {
-    "science”": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "termin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
     "kimi": [
       {
         "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
@@ -1702,178 +1103,14 @@
     ]
   },
   {
-    "k": [
+    "peter": [
       {
         "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
       }
     ]
   },
   {
-    "dəfə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "1960cı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "lərdə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "kompüt": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "elmlərinin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "pionerlərindən": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "sayılan": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "tərəfindən": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "“datalog": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "cesses": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "place": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "education”": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "adlı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "məruzəsində": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "səsləndirilmiş": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "1": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      },
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "fənn": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "isə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "keçən": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "əsrin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "60cı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "lərindən": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "formalaşmağa": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "başlamışdır": [
+    "naur": [
       {
         "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
       }
@@ -1887,27 +1124,6 @@
     ]
   },
   {
-    "1966cı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "də": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "elm": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
     "və": [
       {
         "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
@@ -1915,2462 +1131,37 @@
     ]
   },
   {
-    "texnika": [
+    "–": [
       {
         "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
       }
     ]
   },
   {
-    "üçün": [
+    "insights": [
       {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "məlumat": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "komitəsinin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "codata": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "technology": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "təsis": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "edilməsinə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "təsadüf": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "edir": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "2": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "1974cü": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "“conc": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "swed": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "unit": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "states”": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "kitabında": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "verilənlərin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "müasir": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "em": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "metodlarının": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "icmalını": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "vermiş": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "haqqında": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "rəqəms": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "həyat": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "dövrünü": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "yarandığı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "andan": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "başqa": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "bilik": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "sahələrinə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "təqdim": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "olunmaq": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "edilən": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "dəyişikliklərə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "qədər": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "öyrənən": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "bir": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "təyin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "etmişdir": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "ancaq": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "1990cı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "geniş": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "istifadə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "olunmağa": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "başlamış": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "2000ci": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "lərin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "əvvəllərindən": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "hamı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "qəbul": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "edilmişdir": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "2001ci": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "purdue": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "universitetinin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "fessoru": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "statistika": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "vizuallaşdırılması": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "maşın": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "təlimi": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "sahəsində": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "tanınmış": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "mütəxəssis": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "uilyam": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "klivlend": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "statistik": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "tədqiqatların": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "texniki": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "aspektlərinin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "kişaf": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "planı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "tədqiqatında": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "diqqəti": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "fənninin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "tədrisi": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "məsələsinə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "yönəltmişdir": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "o": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      },
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "planda": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "science”i": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "ayrıca": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "akademik": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "əli": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "sürmüşdür": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "scientist”": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "adlanan": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "kadrların": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "hazırlanmasına": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "marağı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "stimullaşdırmışdır": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "təsadüfi": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "yildir": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "ki": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "təxminən": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "əmin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "vaxtdan": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "codatanın": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "journal”ı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "2002ci": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "dən": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "nəşr": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "başlanmışdır": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "ənənəvi": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "formatikadan": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "başlayaraq": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "riyaziyyata": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "müxtəlif": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "sahələr": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "üzrə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "bacarıq": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "vərdiş": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "tələb": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "elmin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "əsas": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "məqsədi": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "verilənlərdə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "qanunauyğunluqların": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "tapılması": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "verilənlərdən": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "ümumiləşdirilmış": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "halda": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "biliklərin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "aşkarlanmasıdır": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "mayk": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "lukides": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "verilənləri": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "yalnız": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "formasiyaya": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "yil": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "həmçinin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "məhsula": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "çevirdiyini": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "iddia": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "4": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "sahədə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "vacib": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "olan": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "bacarıqlar": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "adətən": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "mütəxəssisə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "lazım": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "ümumi": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "fənlərlə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "formasiya": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "texnologiyalarındakı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "təcrübələrin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "riyazi": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "biliklərinin": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "kəsişməsi": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "venn": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "diaqramı": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "vasitəsilə": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "izah": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "olunur": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "ciència": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "les": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "dades": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "també": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "neguda": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "m": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "anglès1": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "és": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "un": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "camp": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "terdisciplinari": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "mètodes": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "científics": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "cessos": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "sistemes": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "treure": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "formació": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "neixe": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "partir": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "fent": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "servir": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "estructurades": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "sesctructurades": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "veure": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "mineria": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "que": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "eix": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "lestadística": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "formàtica": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "altres": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "camps": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "l": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "amb": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "lobjectiu": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "fin": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "dentendre": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "modelar": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "fenomen2": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "dins": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "daquesta": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "àrea": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "podem": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "trobar": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "laprenentatge": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "màt": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "fund": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "classificació": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "lanàlisi": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "clústers": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "bases": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "visualització": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "dades3": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "nova": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "metodologia": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "focalitzada": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "nvertir": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "accions": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "així": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "lloc": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "basar": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "sa": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "cisions": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "tuïció": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "aquest": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "ofereix": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "eines": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "optimitzar": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "mitjanç": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "el": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "ls": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "sultats": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "eina": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "formar": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "plicar": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "general": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "els": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "passos": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "seguir": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "aquests": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "ferse": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "gunta": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "tindre": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "cessarles": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "netejarles": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "agruparles": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "seleccionarles": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "analitzarles": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "final": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "ndre": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "cisió": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "actuar": [
-      {
-        "id": "https://ca.wikipedia.org/wiki/Ci%C3%A8ncia_de_les_dades"
-      }
-    ]
-  },
-  {
-    "inzululwazi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "yemininingo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "iwumkhakha": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "wongqandavu": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "woqeqesho": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "oluxubile": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "olusebenzisa": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "izibalomininingo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ukucikiza": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "kwenzululwazi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "dlelasu": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "yenzululwazi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "idludlungu": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ikholezima": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "nezimiso": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ukugqoba": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ulwazi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "nemininingo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "gahleliwe2": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ibuye": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ididiyele": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "isidlangala": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "solwazi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "kusuka": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "kwezinye": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "izidlangala": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "esikhona": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "isb": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "zululwazi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "yemvelo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ubuchwepheshe": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "bokwaziswa": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "nezokwelapha3": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "inxaminingi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "futhi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "gachaziswa": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "njengenzululwazi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "isifaniselo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "socwaningo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "uqeqesho": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "nobungcwepheshi4": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "iyisicabango": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "sokubumba": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "isihlaziyo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "niningo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "kanye": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "nemikhakha": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ehlobene": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ukuze": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "kuqondwe": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "kuhlaziywe": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "izimongotho": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "zangempela": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ngokusebenzisa": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ininingo5": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "isebenzisa": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ubuchule": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "nemibono": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "egqotshwe": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "emikhakheni": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "eminingi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "esemongweni": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "womchazazibalo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "yesicikizi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "yokwaziswa": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "nesidlangala": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "solwazi6": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "nokho": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ihlukile": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "kunenzulululwazi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "nenzululwazi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "owahlomula": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ngomhlumulo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "katur": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ujim": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "gra": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "wakhanyanga": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "njengesifaniselo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "sesine": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "senzululwazi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "manje": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "wagomela": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ngokuthi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "yonke": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ephathelene": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "isiyaguquka": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ngenxa": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "yegalelo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "lobuchwepheshe": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "nozamcolo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "wemininingo78": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "usomniningo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "uyingcwepheshi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ekhanda": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "umkitizo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "wokuhlelelisa": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "bese": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "iwuxubanisa": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "nolwazi": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "lwezibalomniningo": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "adale": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
-      }
-    ]
-  },
-  {
-    "ubuhlakani": [
-      {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
+        "id": "https://en.wikipedia.org/wiki/Data_science"
       }
     ]
   },
   {
-    "ngemininingo9": [
+    "analysis": [
       {
-        "id": "https://zu.wikipedia.org/wiki/INzululwazi_yeMininingo"
+        "id": "https://en.wikipedia.org/wiki/Data_science"
       }
     ]
   },
   {
-    "scienza": [
+    "statistical": [
       {
-        "id": "https://it.wikipedia.org/wiki/Scienza_dei_dati"
+        "id": "https://en.wikipedia.org/wiki/Data_science"
       }
     ]
   },
   {
-    "dati": [
+    "field": [
       {
-        "id": "https://it.wikipedia.org/wiki/Scienza_dei_dati"
+        "id": "https://en.wikipedia.org/wiki/Data_science"
       }
     ]
   }

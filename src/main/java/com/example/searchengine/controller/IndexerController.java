@@ -1,5 +1,6 @@
 package com.example.searchengine.controller;
 
+import com.example.searchengine.components.JsonFileService;
 import com.example.searchengine.components.indexing.Indexing;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -16,18 +17,18 @@ import java.io.IOException;
 @RestController
 
 public class IndexerController {
-    public Indexing indexer = new Indexing("indexMap.json");
+    Indexing indexer = new Indexing("indexMap.json");
+    JsonFileService jsonFileService=new JsonFileService();
+
     @CrossOrigin(origins = "http://127.0.0.1:3000")
     @GetMapping("/index")
     public void runIndexer() {
-        JSONParser jsonParser = new JSONParser();
 
-        try {
-            JSONArray jsonDataArray = (JSONArray) jsonParser.parse(new FileReader("data.json"));
+            JSONArray jsonDataArray = jsonFileService.readJsonFile("data.json");
 
             for (Object urlData : jsonDataArray) {
                 JSONObject urlDataObject = (JSONObject) urlData;
-
+                System.out.println("indexing: "+urlDataObject.get("url"));
                 Object contentObject = urlDataObject.get("content");
 
                 if (contentObject instanceof JSONArray contentArray) {
@@ -41,20 +42,16 @@ public class IndexerController {
                     indexer.mapDocument(
                             joinedString,
                             urlDataObject.get("url").toString(),
-                            0.0005
+                            .05
                     );
                 }
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (ParseException | IOException e) {
-            e.printStackTrace();
-        }
+
     }
     @CrossOrigin(origins = "http://127.0.0.1:3000")
-    @GetMapping("/index/view")
-    public void viewIndexing(){
-
+    @GetMapping("/index/data")
+    public JSONArray viewIndexing(){
+        return jsonFileService.readJsonFile("indexMap.json");
 
     }
     @CrossOrigin(origins = "http://127.0.0.1:3000")
