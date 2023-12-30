@@ -1,37 +1,33 @@
 package com.example.searchengine.components;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-import org.springframework.stereotype.Service;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
-@Service
+
 public class JsonFileService {
 
-
-    public JSONArray readJsonFile(String filePath){
-        JSONParser jsonParser = new JSONParser();
-        JSONArray emptyJSONArray= new JSONArray();
+    public JSONArray readJsonFile(String filePath) {
+        JSONArray emptyJSONArray = new JSONArray();
 
         try {
-            return (JSONArray) jsonParser.parse(new FileReader(filePath));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (ParseException | IOException e) {
+            String content = new String(Files.readAllBytes(Paths.get(filePath)));
+            return new JSONArray(content);
+        } catch (IOException | JSONException e) {
             e.printStackTrace();
         }
         return emptyJSONArray;
     }
-    public Object findObject(JSONArray jsonDataArray, String url){
-        for (Object obj : jsonDataArray) {
-            JSONObject website = (JSONObject) obj;
 
-            String websiteUrl = (String) website.get("url");
+    public JSONObject findObject(JSONArray jsonDataArray, String url) {
+        for (int i = 0; i < jsonDataArray.length(); i++) {
+            JSONObject website = jsonDataArray.getJSONObject(i);
+            String websiteUrl = website.getString("url");
 
             if (websiteUrl.equals(url)) {
                 return website;
@@ -40,10 +36,7 @@ public class JsonFileService {
         return null;
     }
 
-    public String objectToString(Object object){
-        String turnToString=object.toString();
-        String removeTwoLastAndFirstChars=turnToString.substring(2, turnToString.length()-2);
-        return removeTwoLastAndFirstChars.trim();
-
+    public String objectToString(JSONObject object) {
+        return object.toString();
     }
 }
