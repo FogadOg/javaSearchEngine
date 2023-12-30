@@ -1,9 +1,10 @@
 package com.example.searchengine.components.indexing;
+import com.example.searchengine.components.JsonFileService;
 import com.example.searchengine.components.indexing.TfIdf;
 import com.google.gson.*;
 import org.apache.xpath.operations.Bool;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
@@ -17,6 +18,8 @@ import java.util.List;
 
 public class Indexing {
     public String jsonFilePath;
+
+    JsonFileService jsonFileService = new JsonFileService();
     public Indexing(String jsonFilePath){
         this.jsonFilePath=jsonFilePath;
 
@@ -127,11 +130,11 @@ public class Indexing {
             }
 
             // Add the new object to the existing JSON array
-            jsonArray.add(jsonObject);
+            jsonArray.put(jsonObject);
 
             // Write the updated JSON array back to the file
             try (FileWriter file = new FileWriter(fileName)) {
-                file.write(jsonArray.toJSONString());
+                file.write(jsonArray.toString());
                 file.flush();
             }
         } catch (IOException | ParseException e) {
@@ -140,31 +143,23 @@ public class Indexing {
     }
 
     public JSONArray getTermMaping(String term){
-        JSONParser parser = new JSONParser();
-        JSONArray emptyArray=new JSONArray();
-        try {
-            FileReader reader = new FileReader(jsonFilePath);
-            JsonArray jsonArray = JsonParser.parseReader(reader).getAsJsonArray();
+        JSONArray returnJsonArray = new JSONArray();
 
-            JsonObject targetObject = findObjectWithKey(jsonArray, term);
+        JSONArray jsonArray = jsonFileService.readJsonFile("indexMap.json");
 
-            if (targetObject != null) {
-                JSONArray termArray = (JSONArray) parser.parse(String.valueOf(targetObject.get(term)));
-                return termArray;
+        for (int i = 0; i < jsonArray.length(); i++) {
+            JSONObject jsonObject = jsonArray.getJSONObject(i);
 
+            if (jsonObject.has(term)) {
+                JSONArray termJsonArray = jsonObject.getJSONArray(term);
 
-            }else{
-                return emptyArray;
+                for (int j = 0; j < termJsonArray.length(); j++) {
+                    returnJsonArray.put(termJsonArray.get(j));
+                }
             }
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
-            throw new RuntimeException(e);
         }
-        return emptyArray;
 
-
+        return returnJsonArray;
     }
 
 }
