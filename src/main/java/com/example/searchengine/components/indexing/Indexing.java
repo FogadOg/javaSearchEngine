@@ -59,7 +59,7 @@ public class Indexing {
                         JsonArray array = targetObject.getAsJsonArray(term);
 
                         JsonObject newObject = new JsonObject();
-                        newObject.addProperty("id", documentId); // Replace this with your object structure
+                        newObject.addProperty("id", documentId);
 
                         array.add(newObject);
 
@@ -107,7 +107,7 @@ public class Indexing {
         JSONArray array=new JSONArray();
         newObject.put(term, array);
         
-        JsonFileService.writeJsonToFile(newObject, jsonFilePath);
+        JsonFileService.appendObjectToFile(newObject, jsonFilePath);
 
     }
 

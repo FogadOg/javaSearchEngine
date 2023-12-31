@@ -41,7 +41,7 @@ public class IndexerController {
                     indexer.mapDocument(
                             joinedString,
                             urlDataObject.get("url").toString(),
-                            .05
+                            .3
                     );
                 }
             }
