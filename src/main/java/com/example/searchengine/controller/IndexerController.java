@@ -8,6 +8,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.FileNotFoundException;
@@ -54,9 +55,9 @@ public class IndexerController {
 
     }
     @CrossOrigin(origins = "http://127.0.0.1:3000")
-    @GetMapping("/index/tester")
-    public void indexTester(){
-        System.out.println(indexer.getTermMapping("estas"));
+    @GetMapping("/index/{term}")
+    public JSONArray indexTester(@PathVariable String term){
+        return indexer.getTermMapping(term);
 
     }
 }
