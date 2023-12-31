@@ -27,13 +27,14 @@ public class Indexing {
 
     public void mapDocument(String documentText,String documentId, Double termThreshHold){
         TfIdf tfIdf = new TfIdf();
-        PreprocessText preprocesser= new PreprocessText();
+        PreprocessText preprocessor= new PreprocessText();
 
-        List<String> termsList=preprocesser.processForIndexing(documentText);
-        Hashtable<String, Integer> tremFrequancy = tfIdf.countTerms(termsList);
+        List<String> termsList=preprocessor.processForIndexing(documentText);
+        Hashtable<String, Integer> termFrequancy = tfIdf.countTerms(termsList);
 
+        System.out.println("indexing: "+documentId);
         for(String term: termsList){
-            Float tfIdfScore=tfIdf.tfIdf(term,tremFrequancy);
+            Float tfIdfScore=tfIdf.tfIdf(term,termFrequancy);
             addDocument(tfIdfScore, termThreshHold, term, documentId);
 
         }
@@ -51,7 +52,7 @@ public class Indexing {
                 if (targetObject != null) {
                     JsonArray termArray = (JsonArray) targetObject.get(term);
 
-                    Boolean isDocumentPresent=isDocumentAllReadyAssociatedWithTrem(documentId, termArray);
+                    Boolean isDocumentPresent=isDocumentAllReadyAssociatedWithTerm(documentId, termArray);
 
 
                     if(!isDocumentPresent){
@@ -79,7 +80,7 @@ public class Indexing {
         }
     }
 
-    private Boolean isDocumentAllReadyAssociatedWithTrem(String documentId,JsonArray termArray){
+    private Boolean isDocumentAllReadyAssociatedWithTerm(String documentId,JsonArray termArray){
         for(JsonElement object: termArray){
             JsonObject jsonObject = object.getAsJsonObject();
 
@@ -105,13 +106,12 @@ public class Indexing {
         JSONObject newObject = new JSONObject();
         JSONArray array=new JSONArray();
         newObject.put(term, array);
-
-
-        JsonFileService.appendObjectToFile(newObject, jsonFilePath);
+        
+        JsonFileService.writeJsonToFile(newObject, jsonFilePath);
 
     }
 
-    public JSONArray getTermMaping(String term){
+    public JSONArray getTermMapping(String term){
         JSONArray returnJsonArray = new JSONArray();
 
         JSONArray jsonArray = jsonFileService.readJsonFile("indexMap.json");

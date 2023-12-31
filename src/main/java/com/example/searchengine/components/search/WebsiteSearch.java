@@ -23,7 +23,7 @@ public class WebsiteSearch extends Search{
         List<String> querys=processer.processForIndexing(searchQuery);
 
         for(String query: querys){
-            JSONArray indexMappingArray=indexer.getTermMaping(query);
+            JSONArray indexMappingArray=indexer.getTermMapping(query);
             //System.out.println("indexMappingArray: "+indexMappingArray);
 
             for(Object website: indexMappingArray){

@@ -43,7 +43,6 @@ public class JsonFileService {
         try {
             JSONParser parser = new JSONParser();
 
-            // Read the existing JSON array from the file
             JSONArray jsonArray;
             try (FileReader reader = new FileReader(fileName)) {
                 Object obj = parser.parse(reader);
@@ -53,13 +52,11 @@ public class JsonFileService {
                     jsonArray = new JSONArray();
                 }
             } catch (FileNotFoundException e) {
-                jsonArray = new JSONArray(); // Create a new array if the file doesn't exist
+                jsonArray = new JSONArray();
             }
 
-            // Append the new object to the existing JSON array
             jsonArray.put(jsonObject);
 
-            // Write the entire updated JSON array back to the file
             try (FileWriter file = new FileWriter(fileName)) {
                 file.write(jsonArray.toString());
                 file.flush();
@@ -74,17 +71,14 @@ public class JsonFileService {
             JSONArray jsonArray;
 
             try {
-                // Read the existing JSON array from the file
                 String fileContent = new String(Files.readAllBytes(Paths.get(filePath)));
                 jsonArray = new JSONArray(fileContent);
             } catch (IOException | JSONException e) {
-                jsonArray = new JSONArray(); // Create a new array if the file doesn't exist or is invalid JSON
+                jsonArray = new JSONArray();
             }
 
-            // Append the new object to the existing JSON array
             jsonArray.put(jsonObject);
 
-            // Write the updated JSON array back to the file
             try (FileWriter file = new FileWriter(filePath)) {
                 file.write(jsonArray.toString());
                 file.flush();

@@ -28,7 +28,6 @@ public class IndexerController {
 
             for (Object urlData : jsonDataArray) {
                 JSONObject urlDataObject = (JSONObject) urlData;
-                System.out.println("indexing: "+urlDataObject.get("url"));
                 Object contentObject = urlDataObject.get("content");
 
                 if (contentObject instanceof JSONArray contentArray) {
@@ -57,7 +56,7 @@ public class IndexerController {
     @CrossOrigin(origins = "http://127.0.0.1:3000")
     @GetMapping("/index/tester")
     public void indexTester(){
-        System.out.println(indexer.getTermMaping("estas"));
+        System.out.println(indexer.getTermMapping("estas"));
 
     }
 }
