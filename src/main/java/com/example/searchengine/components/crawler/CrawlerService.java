@@ -3,8 +3,8 @@ package com.example.searchengine.components.crawler;
 
 
 import com.example.searchengine.components.JsonFileService;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import org.springframework.stereotype.Service;
 

@@ -1,317 +1,5 @@
 [
   {
-    "new": [
-      {
-        "id": "https://dx.doi.org/10.1145/2500499"
-      },
-      {
-        "id": "https://dx.doi.org/10.1145%2F2500499"
-      }
-    ]
-  },
-  {
-    "data": [
-      {
-        "id": "https://dx.doi.org/10.1145/2500499"
-      },
-      {
-        "id": "https://dx.doi.org/10.1145%2F2500499"
-      },
-      {
-        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
-      },
-      {
-        "id": "https://fi.wikipedia.org/wiki/Datatiede"
-      },
-      {
-        "id": "https://zh-yue.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E7%A7%91%E5%AD%B8"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      },
-      {
-        "id": "https://en.wikipedia.org/wiki/Data_science"
-      }
-    ]
-  },
-  {
-    "knowledge": [
-      {
-        "id": "https://dx.doi.org/10.1145/2500499"
-      },
-      {
-        "id": "https://wikimediafoundation.org/"
-      },
-      {
-        "id": "https://dx.doi.org/10.1145%2F2500499"
-      },
-      {
-        "id": "https://en.wikipedia.org/wiki/Data_science"
-      }
-    ]
-  },
-  {
-    "models": [
-      {
-        "id": "https://dx.doi.org/10.1145/2500499"
-      },
-      {
-        "id": "https://dx.doi.org/10.1145%2F2500499"
-      }
-    ]
-  },
-  {
-    "science": [
-      {
-        "id": "https://dx.doi.org/10.1145/2500499"
-      },
-      {
-        "id": "https://dx.doi.org/10.1145%2F2500499"
-      },
-      {
-        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://fi.wikipedia.org/wiki/Datatiede"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
-      },
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      },
-      {
-        "id": "https://en.wikipedia.org/wiki/Data_science"
-      }
-    ]
-  },
-  {
-    "article": [
-      {
-        "id": "https://dx.doi.org/10.1145/2500499"
-      },
-      {
-        "id": "https://dx.doi.org/10.1145%2F2500499"
-      }
-    ]
-  },
-  {
-    "machine": [
-      {
-        "id": "https://dx.doi.org/10.1145/2500499"
-      },
-      {
-        "id": "https://dx.doi.org/10.1145%2F2500499"
-      }
-    ]
-  },
-  {
-    "learning": [
-      {
-        "id": "https://dx.doi.org/10.1145/2500499"
-      },
-      {
-        "id": "https://dx.doi.org/10.1145%2F2500499"
-      },
-      {
-        "id": "https://en.wikipedia.org/wiki/Data_science"
-      }
-    ]
-  },
-  {
-    "theory": [
-      {
-        "id": "https://dx.doi.org/10.1145/2500499"
-      },
-      {
-        "id": "https://dx.doi.org/10.1145%2F2500499"
-      }
-    ]
-  },
-  {
-    "big": [
-      {
-        "id": "https://dx.doi.org/10.1145/2500499"
-      },
-      {
-        "id": "https://dx.doi.org/10.1145%2F2500499"
-      }
-    ]
-  },
-  {
-    "computing": [
-      {
-        "id": "https://dx.doi.org/10.1145/2500499"
-      },
-      {
-        "id": "https://dx.doi.org/10.1145%2F2500499"
-      }
-    ]
-  },
-  {
-    "nonprofit": [
-      {
-        "id": "https://wikimediafoundation.org/"
-      }
-    ]
-  },
-  {
-    "wikimedia": [
-      {
-        "id": "https://wikimediafoundation.org/"
-      }
-    ]
-  },
-  {
-    "foundation": [
-      {
-        "id": "https://wikimediafoundation.org/"
-      }
-    ]
-  },
-  {
-    "free": [
-      {
-        "id": "https://wikimediafoundation.org/"
-      },
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
-      }
-    ]
-  },
-  {
-    "wikipedia": [
-      {
-        "id": "https://wikimediafoundation.org/"
-      }
-    ]
-  },
-  {
-    "volunteers": [
-      {
-        "id": "https://wikimediafoundation.org/"
-      }
-    ]
-  },
-  {
-    "projects": [
-      {
-        "id": "https://wikimediafoundation.org/"
-      }
-    ]
-  },
-  {
-    "use": [
-      {
-        "id": "https://wikimediafoundation.org/"
-      },
-      {
-        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
-      }
-    ]
-  },
-  {
-    "information": [
-      {
-        "id": "https://wikimediafoundation.org/"
-      },
-      {
-        "id": "https://en.wikipedia.org/wiki/Data_science"
-      }
-    ]
-  },
-  {
-    "privacy": [
-      {
-        "id": "https://wikimediafoundation.org/"
-      }
-    ]
-  },
-  {
-    "global": [
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
-      },
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
-      }
-    ]
-  },
-  {
-    "openly": [
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
-      }
-    ]
-  },
-  {
-    "licensed": [
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
-      },
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
-      }
-    ]
-  },
-  {
-    "open": [
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
-      },
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
-      }
-    ]
-  },
-  {
-    "help": [
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
-      },
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
-      }
-    ]
-  },
-  {
-    "commons": [
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
-      },
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
-      }
-    ]
-  },
-  {
-    "work": [
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
-      },
-      {
-        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
-      },
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
-      }
-    ]
-  },
-  {
-    "이": [
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
-      }
-    ]
-  },
-  {
-    "아무런": [
-      {
-        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko"
-      }
-    ]
-  },
-  {
     "professor": [
       {
         "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
@@ -336,9 +24,6 @@
     "statistics": [
       {
         "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
-      },
-      {
-        "id": "https://en.wikipedia.org/wiki/Data_science"
       }
     ]
   },
@@ -346,6 +31,16 @@
     "history": [
       {
         "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "work": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      },
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
       }
     ]
   },
@@ -378,6 +73,13 @@
     ]
   },
   {
+    "use": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
     "huge": [
       {
         "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
@@ -388,6 +90,19 @@
     "quantities": [
       {
         "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      }
+    ]
+  },
+  {
+    "data": [
+      {
+        "id": "https://www.bbc.co.uk/programmes/b00wgq0l"
+      },
+      {
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
+      },
+      {
+        "id": "https://zh-yue.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E7%A7%91%E5%AD%B8"
       }
     ]
   },
@@ -427,6 +142,41 @@
     ]
   },
   {
+    "global": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "licensed": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "open": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "help": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "commons": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
     "ne": [
       {
         "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
@@ -440,9 +190,6 @@
       },
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -453,9 +200,6 @@
       },
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -473,9 +217,6 @@
       },
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -486,9 +227,6 @@
       },
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -513,9 +251,6 @@
       },
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -533,9 +268,6 @@
       },
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -548,6 +280,13 @@
   },
   {
     "tools": [
+      {
+        "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
+      }
+    ]
+  },
+  {
+    "free": [
       {
         "id": "https://creativecommons.org/licenses/by-sa/4.0/deed.eo"
       }
@@ -596,12 +335,19 @@
     ]
   },
   {
-    "datumoj": [
+    "science": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
       },
       {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
+        "id": "https://fi.wikipedia.org/wiki/Datatiede"
+      }
+    ]
+  },
+  {
+    "datumoj": [
+      {
+        "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
       }
     ]
   },
@@ -609,9 +355,6 @@
     "kiel": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -619,9 +362,6 @@
     "30": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -629,9 +369,6 @@
     "jaroj": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -639,9 +376,6 @@
     "pli": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -649,9 +383,6 @@
     "da": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -659,9 +390,6 @@
     "en": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -669,9 +397,6 @@
     "sektoro": [
       {
         "id": "https://eo.wikipedia.org/wiki/Datum-scienco"
-      },
-      {
-        "id": "https://eo.wikipedia.org/w/index.php?title\u003dDatum-scienco\u0026amp;oldid\u003d8275531"
       }
     ]
   },
@@ -1015,153 +740,6 @@
     "là": [
       {
         "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
-      }
-    ]
-  },
-  {
-    "một": [
-      {
-        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
-      }
-    ]
-  },
-  {
-    "các": [
-      {
-        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
-      }
-    ]
-  },
-  {
-    "và": [
-      {
-        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
-      }
-    ]
-  },
-  {
-    "thống": [
-      {
-        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
-      }
-    ]
-  },
-  {
-    "ở": [
-      {
-        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
-      }
-    ]
-  },
-  {
-    "kê": [
-      {
-        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
-      }
-    ]
-  },
-  {
-    "thuật": [
-      {
-        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
-      }
-    ]
-  },
-  {
-    "lý": [
-      {
-        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
-      }
-    ]
-  },
-  {
-    "nhà": [
-      {
-        "id": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_d%E1%BB%AF_li%E1%BB%87u"
-      }
-    ]
-  },
-  {
-    "elmi": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "“data": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "kimi": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "peter": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "naur": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "bu": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "və": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "–": [
-      {
-        "id": "https://az.wikipedia.org/wiki/Veril%C9%99nl%C9%99r_elmi"
-      }
-    ]
-  },
-  {
-    "insights": [
-      {
-        "id": "https://en.wikipedia.org/wiki/Data_science"
-      }
-    ]
-  },
-  {
-    "analysis": [
-      {
-        "id": "https://en.wikipedia.org/wiki/Data_science"
-      }
-    ]
-  },
-  {
-    "statistical": [
-      {
-        "id": "https://en.wikipedia.org/wiki/Data_science"
-      }
-    ]
-  },
-  {
-    "field": [
-      {
-        "id": "https://en.wikipedia.org/wiki/Data_science"
       }
     ]
   }

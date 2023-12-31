@@ -102,44 +102,13 @@ public class Indexing {
     }
 
     private void addTermToIndexMap(String term){
-        // Create a new JSON object to add
         JSONObject newObject = new JSONObject();
         JSONArray array=new JSONArray();
         newObject.put(term, array);
 
 
-        // Write the JSON array back to the file
-        writeJsonToFile(newObject, jsonFilePath);
+        JsonFileService.appendObjectToFile(newObject, jsonFilePath);
 
-    }
-    private static void writeJsonToFile(JSONObject jsonObject, String fileName) {
-        try {
-            JSONParser parser = new JSONParser();
-
-            // Read the existing JSON array from the file
-            JSONArray jsonArray;
-            try (FileReader reader = new FileReader(fileName)) {
-                Object obj = parser.parse(reader);
-                if (obj instanceof JSONArray) {
-                    jsonArray = (JSONArray) obj;
-                } else {
-                    jsonArray = new JSONArray();
-                }
-            } catch (FileNotFoundException e) {
-                jsonArray = new JSONArray(); // Create a new array if the file doesn't exist
-            }
-
-            // Add the new object to the existing JSON array
-            jsonArray.put(jsonObject);
-
-            // Write the updated JSON array back to the file
-            try (FileWriter file = new FileWriter(fileName)) {
-                file.write(jsonArray.toString());
-                file.flush();
-            }
-        } catch (IOException | ParseException e) {
-            e.printStackTrace();
-        }
     }
 
     public JSONArray getTermMaping(String term){

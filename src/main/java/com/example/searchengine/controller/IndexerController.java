@@ -2,8 +2,8 @@ package com.example.searchengine.controller;
 
 import com.example.searchengine.components.JsonFileService;
 import com.example.searchengine.components.indexing.Indexing;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.springframework.web.bind.annotation.CrossOrigin;

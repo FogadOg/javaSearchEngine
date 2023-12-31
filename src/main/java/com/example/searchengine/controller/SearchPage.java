@@ -3,7 +3,7 @@ package com.example.searchengine.controller;
 import com.example.searchengine.components.crawler.Crawler;
 import com.example.searchengine.components.search.ImageSearch;
 import com.example.searchengine.components.search.WebsiteSearch;
-import org.json.simple.JSONArray;
+import org.json.JSONArray;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,13 +28,10 @@ public class SearchPage {
         System.out.println(message);
         WebsiteSearch websiteSearch = new WebsiteSearch();
 
-        return websiteSearch.getAllWebsites(searchTerm);
-    }
-    @CrossOrigin(origins = "http://127.0.0.1:3000")
-    @GetMapping("/images/{searchTerm}")
-    public JSONArray searchImages(@PathVariable String searchTerm){
-        ImageSearch imageSearch = new ImageSearch();
+        JSONArray array= websiteSearch.getAllWebsites(searchTerm);
+        System.out.println("array: "+array);
 
-        return imageSearch.getAllImages(searchTerm);
+        return array;
     }
+
 }
