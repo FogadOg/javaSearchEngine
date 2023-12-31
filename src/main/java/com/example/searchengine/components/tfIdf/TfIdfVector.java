@@ -6,7 +6,7 @@ import java.util.List;
 
 public class TfIdfVector {
 
-    private final List<Float> vectorValues=new ArrayList<>();
+    private final List<Double> vectorValues=new ArrayList<>();
 
     public TfIdfVector multiplyVectors(TfIdfVector otherVector){
         TfIdfVector resultVector=new TfIdfVector();
@@ -20,7 +20,7 @@ public class TfIdfVector {
         }
 
         for(int i=0;i<vector1Size;i++){
-            Float sum= vectorValues.get(i) * otherVector.vectorValues.get(i);
+            Double sum= vectorValues.get(i) * otherVector.vectorValues.get(i);
 
             resultVector.addToVector(sum);
         }
@@ -28,10 +28,10 @@ public class TfIdfVector {
         return resultVector;
 
     }
-    public void addToVector(Float value){
+    public void addToVector(Double value){
         vectorValues.add(value);
     }
-    public List<Float> getVector(){
+    public List<Double> getVector(){
         return vectorValues;
     }
 

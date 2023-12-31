@@ -34,14 +34,13 @@ public class Indexing {
 
         System.out.println("indexing: "+documentId);
         for(String term: termsList){
-            Float tfIdfScore=tfIdf.tfIdf(term,termFrequancy);
+            Double tfIdfScore=tfIdf.tfIdf(term,termFrequancy);
             addDocument(tfIdfScore, termThreshHold, term, documentId);
-
         }
 
     }
 
-    private void addDocument(Float tfIdfScore, Double termThreshHold, String term, String documentId){
+    private void addDocument(Double tfIdfScore, Double termThreshHold, String term, String documentId){
         if(tfIdfScore>=termThreshHold){
             try {
                 FileReader reader = new FileReader(jsonFilePath);

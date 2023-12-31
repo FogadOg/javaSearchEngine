@@ -23,7 +23,7 @@ public class TfIdf {
 
     public PreprocessText preprocesser= new PreprocessText();
 
-    public Float tf(String term, Hashtable<String, Integer> documentTermCount){
+    public Double tf(String term, Hashtable<String, Integer> documentTermCount){
 
 
 
@@ -33,11 +33,11 @@ public class TfIdf {
             termsSum += values.nextElement();
         }
 
-        if(documentTermCount.get(term)==null) return (float) 0/termsSum;
+        if(documentTermCount.get(term)==null) return (double) 0/termsSum;
 
 
 
-        return (float) documentTermCount.get(term)/termsSum;
+        return (double) documentTermCount.get(term)/termsSum;
     }
 
     public Integer idf(String term){
@@ -103,8 +103,8 @@ public class TfIdf {
         return 0;
     }
 
-    public Float tfIdf(String term, Hashtable<String, Integer> documentTermCount){
-        Float tf = tf(term, documentTermCount);
+    public Double tfIdf(String term, Hashtable<String, Integer> documentTermCount){
+        Double tf = tf(term, documentTermCount);
         Integer idf = idf(term);
 
         return tf*idf;
@@ -133,7 +133,7 @@ public class TfIdf {
         TfIdfVector vector=new TfIdfVector();
 
         for(String term: termsVector){
-            Float tfIdf = tfIdf(term, overallTremFrequancy);
+            Double tfIdf = tfIdf(term, overallTremFrequancy);
             vector.addToVector(tfIdf);
         }
 
