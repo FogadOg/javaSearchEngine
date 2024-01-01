@@ -31,6 +31,10 @@ public class PreprocessText {
         return processedString;
     }
 
+    public String processString(String text){
+        return removePunctuation(text);
+    }
+
     private String removePunctuation(String text){
         return text.replaceAll("\\p{Punct}", "");
     }
