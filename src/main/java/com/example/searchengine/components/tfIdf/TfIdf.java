@@ -1,27 +1,21 @@
 package com.example.searchengine.components.indexing;
 
+import com.example.searchengine.components.JsonFileService;
 import com.example.searchengine.components.tfIdf.TfIdfVector;
-import com.google.gson.*;
-import org.json.JSONException;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.time.Duration;
-import java.time.Instant;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.List;
 
-import static org.apache.coyote.http11.Constants.a;
-
 public class TfIdf {
 
-    public PreprocessText preprocesser= new PreprocessText();
+    public PreprocessText preprocessor = new PreprocessText();
+
+    public JsonFileService jsonFileService=new JsonFileService();
 
     public Double tf(String term, Hashtable<String, Integer> documentTermCount){
 
@@ -49,23 +43,15 @@ public class TfIdf {
     }
 
     private Integer countDocumentWithTerm(String term){
-        JSONParser parser = new JSONParser();
-
         int termAccurance=0;
 
-        try{
-            JSONArray documents = (JSONArray) parser.parse(new FileReader("data.json"));
-            for (Object websiteData : documents)
-            {
-                JSONObject website = (JSONObject) websiteData;
-                termAccurance+=isTermPresent(term, website);
+        JSONArray documents = jsonFileService.readJsonFile("data.json");
 
-
-            }
-
-        }catch (Exception e){
-            e.printStackTrace();
+        for (Object websiteData : documents){
+            JSONObject website = (JSONObject) websiteData;
+            termAccurance+=isTermPresent(term, website);
         }
+
         return termAccurance;
     }
 
@@ -73,7 +59,7 @@ public class TfIdf {
         JSONArray websiteContent= (JSONArray) website.get("content");
 
         String text = websiteContent.toString();
-        String processedText=preprocesser.processString(text);
+        String processedText= preprocessor.processString(text);
 
         if (processedText.contains(term)){
             return 1;
@@ -83,18 +69,7 @@ public class TfIdf {
     }
 
     private Integer getNumberOfDocuments() {
-        JSONParser parser = new JSONParser();
-
-        int numberOfDocument=0;
-
-        try{
-            JSONArray documents = (JSONArray) parser.parse(new FileReader("data.json"));
-            numberOfDocument+=documents.size();
-
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        return numberOfDocument;
+        return jsonFileService.readJsonFile("data.json").length();
     }
 
     public Double tfIdf(String term, Hashtable<String, Integer> documentTermCount){
@@ -123,11 +98,11 @@ public class TfIdf {
         return termFrequency;
     }
 
-    public TfIdfVector tfIdfVector(List<String> termsVector, Hashtable<String, Integer> overallTremFrequancy){
+    public TfIdfVector tfIdfVector(List<String> termsVector, Hashtable<String, Integer> overallTermFrequency){
         TfIdfVector vector=new TfIdfVector();
 
         for(String term: termsVector){
-            Double tfIdf = tfIdf(term, overallTremFrequancy);
+            Double tfIdf = tfIdf(term, overallTermFrequency);
             vector.addToVector(tfIdf);
         }
 
@@ -136,11 +111,11 @@ public class TfIdf {
 
     }
 
-    public TfIdfVector getVector(String documet1, String document2){
-        List<String> splitSearchQuery=preprocesser.processForIndexing(documet1);
-        Hashtable<String, Integer> termFrequancy=countTerms(preprocesser.processForIndexing(document2));
+    public TfIdfVector getVector(String document1, String document2){
+        List<String> splitSearchQuery= preprocessor.processForIndexing(document1);
+        Hashtable<String, Integer> termFrequency=countTerms(preprocessor.processForIndexing(document2));
 
-        return tfIdfVector(splitSearchQuery,termFrequancy);
+        return tfIdfVector(splitSearchQuery,termFrequency);
 
     }
 
