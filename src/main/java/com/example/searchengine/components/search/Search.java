@@ -28,7 +28,7 @@ public class Search {
 
 
 
-    public Double getSimilarityOfSearchAndWebsite(String searchQuery, String textToMatchWith){
+    public Double calculateTextsSimilarity(String searchQuery, String textToMatchWith){
 
         TfIdfVector v1=tfIdf.getVector(searchQuery,searchQuery);
         TfIdfVector v2=tfIdf.getVector(searchQuery,textToMatchWith);

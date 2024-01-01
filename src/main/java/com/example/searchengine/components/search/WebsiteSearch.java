@@ -1,6 +1,7 @@
 package com.example.searchengine.components.search;
 
 import com.example.searchengine.components.JsonFileService;
+import com.example.searchengine.components.WebsiteService;
 import com.example.searchengine.components.indexing.Indexing;
 import com.example.searchengine.components.indexing.PreprocessText;
 import org.json.JSONArray;
@@ -12,19 +13,19 @@ public class WebsiteSearch extends Search{
 
     public String filePath="data.json";
 
+    JsonFileService jsonFileService=new JsonFileService();
+    Indexing indexer= new Indexing("indexMap.json");
+    JSONArray relevantWebsites=new JSONArray();
+    PreprocessText processor = new PreprocessText();
+
+    WebsiteService websiteService=new WebsiteService();
+
     public JSONArray getAllWebsites(String searchQuery){
 
-        JsonFileService jsonFileService=new JsonFileService();
-        Indexing indexer= new Indexing("indexMap.json");
-        JSONArray relevantWebsites=new JSONArray();
+        List<String> queryList= processor.processForIndexing(searchQuery);
 
-        PreprocessText processer = new PreprocessText();
-
-        List<String> querys=processer.processForIndexing(searchQuery);
-
-        for(String query: querys){
+        for(String query: queryList){
             JSONArray indexMappingArray=indexer.getTermMapping(query);
-            //System.out.println("indexMappingArray: "+indexMappingArray);
 
             for(Object website: indexMappingArray){
                 if (website instanceof JSONObject) {
@@ -32,14 +33,11 @@ public class WebsiteSearch extends Search{
                     String url=websiteObject.get("id").toString();
                     JSONArray jsonArray=jsonFileService.readJsonFile(filePath);
                     JSONObject object=jsonFileService.findObject(jsonArray, url);
-                    System.out.println("object: "+object);
-
                     if(object!=null) {
-                        String content = jsonFileService.objectToString((JSONObject) object.get("content"));
-                        if (getSimilarityOfSearchAndWebsite(searchQuery, content) >= 0.000) {
-                            System.out.println("object added: " + object);
-
-                            relevantWebsites.put(object);
+                        String content = object.get("content").toString();
+                        if (calculateTextsSimilarity(searchQuery, content) >= 0.000) {
+                            String newContent=getMostRelevantString((JSONArray) object.get("content"),searchQuery);
+                            relevantWebsites.put(websiteService.replaceField(object,"content",newContent));
                         }
                     }
                 }
@@ -48,5 +46,20 @@ public class WebsiteSearch extends Search{
 
         return relevantWebsites;
 
+    }
+
+    private String getMostRelevantString(JSONArray jsonArray, String searchQuery){
+        String content="";
+        int currentHighScore=0;
+        for(Object contentString: jsonArray){
+
+            if(calculateTextsSimilarity(searchQuery, contentString.toString())>currentHighScore){
+                content=contentString.toString();
+
+            }
+        }
+
+
+        return content;
     }
 }
