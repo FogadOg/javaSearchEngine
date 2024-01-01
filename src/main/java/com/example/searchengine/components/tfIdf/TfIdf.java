@@ -69,7 +69,20 @@ public class TfIdf {
         return termAccurance;
     }
 
-    private Integer getNumberOfDocuments(){
+    private Integer isTermPresent(String term,JSONObject website){
+        JSONArray websiteContent= (JSONArray) website.get("content");
+
+        String text = websiteContent.toString();
+        String processedText=preprocesser.processString(text);
+
+        if (processedText.contains(term)){
+            return 1;
+        }
+
+        return 0;
+    }
+
+    private Integer getNumberOfDocuments() {
         JSONParser parser = new JSONParser();
 
         int numberOfDocument=0;
@@ -82,25 +95,6 @@ public class TfIdf {
             e.printStackTrace();
         }
         return numberOfDocument;
-    }
-
-    private Integer isTermPresent(String term,JSONObject website){
-        JSONArray websiteContent= (JSONArray) website.get("content");
-
-        for(Object p: websiteContent){
-            String text = (String) p;
-
-            List<String> terms=preprocesser.processForIndexing(text);
-
-            for(String termInDocument: terms){
-                if (termInDocument.trim().equals(term)){
-                    return 1;
-                }
-
-            }
-
-        }
-        return 0;
     }
 
     public Double tfIdf(String term, Hashtable<String, Integer> documentTermCount){
