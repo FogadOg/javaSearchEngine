@@ -103,6 +103,25 @@ public class JsonFileService {
         }
     }
 
+    public static void writeJsonToFileObject(JSONObject jsonObject, String fileName) {
+        try {
+            JSONParser parser = new JSONParser();
+
+            try (FileReader reader = new FileReader(fileName)) {
+            } catch (FileNotFoundException e) {
+                jsonObject = new JSONObject();
+            }
+
+
+            try (FileWriter file = new FileWriter(fileName)) {
+                file.write(jsonObject.toString());
+                file.flush();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     public String objectToString(JSONObject object) {
         return object.toString();
