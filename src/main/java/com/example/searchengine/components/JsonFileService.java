@@ -27,6 +27,17 @@ public class JsonFileService {
         }
         return emptyJSONArray;
     }
+    public JSONObject readJsonFileObject(String filePath) {
+        JSONObject emptyJSONObject = new JSONObject();
+
+        try {
+            String content = new String(Files.readAllBytes(Paths.get(filePath)));
+            return new JSONObject(content);
+        } catch (IOException | JSONException e) {
+            e.printStackTrace();
+        }
+        return emptyJSONObject;
+    }
 
 
     public JSONObject findObject(JSONArray jsonDataArray, String url) {
