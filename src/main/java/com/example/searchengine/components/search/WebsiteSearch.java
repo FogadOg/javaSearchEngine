@@ -7,6 +7,9 @@ import com.example.searchengine.components.indexing.PreprocessText;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.time.Duration;
+import java.time.Instant;
+import java.util.Date;
 import java.util.List;
 
 public class WebsiteSearch extends Search{
@@ -21,28 +24,32 @@ public class WebsiteSearch extends Search{
     WebsiteService websiteService=new WebsiteService();
 
     public JSONArray getAllWebsites(String searchQuery){
-
+        Instant start=Instant.now();
         List<String> queryList= processor.processForIndexing(searchQuery);
 
         for(String query: queryList){
             JSONArray indexMappingArray=indexer.getTermMapping(query);
 
             for(Object website: indexMappingArray){
-                if (website instanceof JSONObject) {
-                    JSONObject websiteObject=(JSONObject) website;
-                    String url=websiteObject.get("id").toString();
+                if (website instanceof JSONObject websiteObject) {
+                    String id=websiteObject.get("id").toString();
                     JSONArray jsonArray=jsonFileService.readJsonFile(filePath);
-                    JSONObject object=jsonFileService.findObject(jsonArray, url);
+                    JSONObject object=jsonFileService.getObject(jsonArray, Integer.valueOf(id));
+
                     if(object!=null) {
-                        String content = object.get("content").toString();
-                        if (calculateTextsSimilarity(searchQuery, content) >= 0.000) {
-                            String newContent=getMostRelevantString((JSONArray) object.get("content"),searchQuery);
-                            relevantWebsites.put(websiteService.replaceField(object,"content",newContent));
-                        }
+                        System.out.println("start");
+                        String newContent=getMostRelevantString((JSONArray) object.get("content"),searchQuery);
+                        System.out.println("middle");
+
+                        relevantWebsites.put(websiteService.replaceField(object,"content",newContent));
+                        System.out.println("end");
+
                     }
                 }
             }
         }
+        Instant end=Instant.now();
+        System.out.println("response time: "+ Duration.between(start,end).toMillis());
 
         return relevantWebsites;
 

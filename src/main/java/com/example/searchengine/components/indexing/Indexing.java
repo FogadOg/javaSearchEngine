@@ -30,11 +30,11 @@ public class Indexing {
         PreprocessText preprocessor= new PreprocessText();
 
         List<String> termsList=preprocessor.processForIndexing(documentText);
-        Hashtable<String, Integer> termFrequancy = tfIdf.countTerms(termsList);
+        Hashtable<String, Integer> termFrequency = tfIdf.countTerms(termsList);
 
         System.out.println("indexing: "+documentId);
         for(String term: termsList){
-            Double tfIdfScore=tfIdf.tfIdf(term,termFrequancy);
+            Double tfIdfScore=tfIdf.tfIdf(term,termFrequency);
             addDocument(tfIdfScore, termThreshHold, term, documentId);
         }
 

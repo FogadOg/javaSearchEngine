@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.time.Instant;
 
 
 @Service
@@ -38,6 +39,9 @@ public class JsonFileService {
             }
         }
         return null;
+    }
+    public JSONObject getObject(JSONArray jsonDataArray, Integer index) {
+        return jsonDataArray.getJSONObject(index);
     }
     public static void writeJsonToFile(JSONObject jsonObject, String fileName) {
         try {

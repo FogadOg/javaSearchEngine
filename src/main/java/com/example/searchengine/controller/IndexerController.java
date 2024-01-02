@@ -27,8 +27,8 @@ public class IndexerController {
 
             JSONArray jsonDataArray = jsonFileService.readJsonFile("data.json");
 
-            for (Object urlData : jsonDataArray) {
-                JSONObject urlDataObject = (JSONObject) urlData;
+            for (Integer index=0;index<jsonDataArray.length();index++) {
+                JSONObject urlDataObject = (JSONObject) jsonDataArray.get(index);
                 Object contentObject = urlDataObject.get("content");
 
                 if (contentObject instanceof JSONArray contentArray) {
@@ -41,7 +41,7 @@ public class IndexerController {
 
                     indexer.mapDocument(
                             joinedString,
-                            urlDataObject.get("url").toString(),
+                            index.toString(),
                             .3
                     );
                 }

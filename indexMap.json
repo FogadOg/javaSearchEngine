@@ -2,80 +2,66 @@
   {
     "data": [
       {
-        "id": "https://www.geeksforgeeks.org/mathematical-algorithms/?ref\u003doutind"
+        "id": "0"
       },
       {
-        "id": "https://www.geeksforgeeks.org/mathematical-algorithms/?ref\u003doutind"
+        "id": "0"
       }
     ]
   },
   {
     "mathematical": [
       {
-        "id": "https://www.geeksforgeeks.org/mathematical-algorithms/?ref\u003doutind"
+        "id": "0"
       }
     ]
   },
   {
     "design": [
       {
-        "id": "https://www.geeksforgeeks.org/system-design-tutorial/?ref\u003doutind"
+        "id": "1"
       }
     ]
   },
   {
     "process": [
       {
-        "id": "https://www.geeksforgeeks.org/system-design-tutorial/?ref\u003doutind"
+        "id": "1"
       }
     ]
   },
   {
     "important": [
       {
-        "id": "https://www.geeksforgeeks.org/system-design-tutorial/?ref\u003doutind"
-      }
-    ]
-  },
-  {
-    "avl": [
-      {
-        "id": "https://www.geeksforgeeks.org/introduction-to-avl-tree/?ref\u003doutind"
+        "id": "1"
       }
     ]
   },
   {
     "tree": [
       {
-        "id": "https://www.geeksforgeeks.org/introduction-to-avl-tree/?ref\u003doutind"
+        "id": "2"
       }
     ]
   },
   {
     "left": [
       {
-        "id": "https://www.geeksforgeeks.org/introduction-to-avl-tree/?ref\u003doutind"
+        "id": "2"
       }
     ]
   },
   {
     "right": [
       {
-        "id": "https://www.geeksforgeeks.org/introduction-to-avl-tree/?ref\u003doutind"
+        "id": "2"
       }
     ]
   },
   {
     "node": [
       {
-        "id": "https://www.geeksforgeeks.org/introduction-to-avl-tree/?ref\u003doutind"
-      }
-    ]
-  },
-  {
-    "subtree": [
-      {
-        "id": "https://www.geeksforgeeks.org/introduction-to-avl-tree/?ref\u003doutind"
+        "id": "2"
       }
     ]
   }
