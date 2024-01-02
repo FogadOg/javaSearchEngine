@@ -7,22 +7,32 @@ import org.springframework.stereotype.Service;
 
 import org.json.JSONObject;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 @Service
 public class TfIdfService {
-    JsonFileService jsonFileService=new JsonFileService();
-    PreprocessText preprocessText=new PreprocessText();
+    static JsonFileService jsonFileService=new JsonFileService();
+    static PreprocessText preprocessText=new PreprocessText();
 
-    public void incrementIdfCount(String text){
+    public static void incrementIdfCount(String text){
         String[] stringList=text.split(" ");
+        Set<String> removeDuplicates=new HashSet<>(Arrays.asList(stringList));
 
-        for(String string: stringList){
-            String term = preprocessText.processString(string);
+        String[] x=removeDuplicates.toArray(new String[0]);
+
+
+        for(String string: x){
+            System.out.println("string: "+string);
+            java.lang.String term = preprocessText.processString(java.lang.String.valueOf(string));
             updateKey(term);
         }
 
     }
 
-    private void updateKey(String term){
+    private static void updateKey(String term){
         JSONObject jsonObject=jsonFileService.readJsonFileObject("idf.Json");
         Integer idfCount=getTermIdf(term);
         jsonObject.put(term, idfCount+1);
@@ -31,7 +41,7 @@ public class TfIdfService {
 
     }
 
-    public Integer getTermIdf(String term){
+    public static Integer getTermIdf(String term){
         JSONObject jsonObject=jsonFileService.readJsonFileObject("idf.Json");
         try {
             return jsonObject.getInt(term);
