@@ -42,7 +42,7 @@ public class IndexerController {
                     indexer.mapDocument(
                             joinedString,
                             index.toString(),
-                            .3
+                            .2
                     );
                 }
             }

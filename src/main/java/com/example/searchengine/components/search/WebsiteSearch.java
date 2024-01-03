@@ -37,12 +37,8 @@ public class WebsiteSearch extends Search{
                     JSONObject object=jsonFileService.getObject(jsonArray, Integer.valueOf(id));
 
                     if(object!=null) {
-                        System.out.println("start");
                         String newContent=getMostRelevantString((JSONArray) object.get("content"),searchQuery);
-                        System.out.println("middle");
-
                         relevantWebsites.put(websiteService.replaceField(object,"content",newContent));
-                        System.out.println("end");
 
                     }
                 }

@@ -32,7 +32,7 @@ public class PreprocessText {
     }
 
     public String processString(String text){
-        return removePunctuation(text);
+        return removePunctuation(text).toLowerCase();
     }
 
     private String removePunctuation(String text){

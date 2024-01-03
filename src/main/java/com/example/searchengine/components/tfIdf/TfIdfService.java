@@ -14,25 +14,23 @@ import java.util.Set;
 
 @Service
 public class TfIdfService {
-    static JsonFileService jsonFileService=new JsonFileService();
-    static PreprocessText preprocessText=new PreprocessText();
+    JsonFileService jsonFileService=new JsonFileService();
+    PreprocessText preprocessText=new PreprocessText();
 
-    public static void incrementIdfCount(String text){
+    public void incrementIdfCount(String text){
         String[] stringList=text.split(" ");
         Set<String> removeDuplicates=new HashSet<>(Arrays.asList(stringList));
 
-        String[] x=removeDuplicates.toArray(new String[0]);
+        String[] stringListWithOutDuplicates=removeDuplicates.toArray(new String[0]);
 
-
-        for(String string: x){
-            System.out.println("string: "+string);
+        for(String string: stringListWithOutDuplicates){
             java.lang.String term = preprocessText.processString(java.lang.String.valueOf(string));
             updateKey(term);
         }
 
     }
 
-    private static void updateKey(String term){
+    private void updateKey(String term){
         JSONObject jsonObject=jsonFileService.readJsonFileObject("idf.Json");
         Integer idfCount=getTermIdf(term);
         jsonObject.put(term, idfCount+1);
@@ -41,7 +39,7 @@ public class TfIdfService {
 
     }
 
-    public static Integer getTermIdf(String term){
+    public Integer getTermIdf(String term){
         JSONObject jsonObject=jsonFileService.readJsonFileObject("idf.Json");
         try {
             return jsonObject.getInt(term);

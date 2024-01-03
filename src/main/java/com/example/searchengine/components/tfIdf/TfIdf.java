@@ -1,6 +1,7 @@
 package com.example.searchengine.components.indexing;
 
 import com.example.searchengine.components.JsonFileService;
+import com.example.searchengine.components.tfIdf.TfIdfService;
 import com.example.searchengine.components.tfIdf.TfIdfVector;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -17,9 +18,9 @@ public class TfIdf {
 
     public JsonFileService jsonFileService=new JsonFileService();
 
+    TfIdfService tfIdfService = new TfIdfService();
+
     public Double tf(String term, Hashtable<String, Integer> documentTermCount){
-
-
 
         int termsSum = 0;
         Enumeration<Integer> values = documentTermCount.elements();
@@ -35,38 +36,13 @@ public class TfIdf {
     }
 
     public Integer idf(String term){
-        Integer documentsWithTerm=countDocumentWithTerm(term);
+        Integer documentsWithTerm=tfIdfService.getTermIdf(term);
         Integer numberOfDocument=getNumberOfDocuments();
 
         return (Integer) (int) Math.log(documentsWithTerm*numberOfDocument);
 
     }
 
-    private Integer countDocumentWithTerm(String term){
-        int termAccurance=0;
-
-        JSONArray documents = jsonFileService.readJsonFile("data.json");
-
-        for (Object websiteData : documents){
-            JSONObject website = (JSONObject) websiteData;
-            termAccurance+=isTermPresent(term, website);
-        }
-
-        return termAccurance;
-    }
-
-    private Integer isTermPresent(String term,JSONObject website){
-        JSONArray websiteContent= (JSONArray) website.get("content");
-
-        String text = websiteContent.toString();
-        String processedText= preprocessor.processString(text);
-
-        if (processedText.contains(term)){
-            return 1;
-        }
-
-        return 0;
-    }
 
     private Integer getNumberOfDocuments() {
         return jsonFileService.readJsonFile("data.json").length();
