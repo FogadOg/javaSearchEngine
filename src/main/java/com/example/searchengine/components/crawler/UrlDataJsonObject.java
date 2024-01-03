@@ -2,6 +2,7 @@ package com.example.searchengine.components.crawler;
 
 import com.example.searchengine.components.stemmer.Stemmer;
 import com.example.searchengine.components.Rating;
+import com.example.searchengine.components.tfIdf.TfIdfService;
 import com.gargoylesoftware.htmlunit.html.*;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -60,14 +61,19 @@ public class UrlDataJsonObject {
 
         try {
             FileReader fileReader = new FileReader(jsonFile);
-           JSONTokener tokener = new JSONTokener(fileReader);
+            JSONTokener tokener = new JSONTokener(fileReader);
             JSONArray jsonArray = new JSONArray(tokener);
             JSONObject newObject = new JSONObject();
+
+            TfIdfService tfIdfService=new TfIdfService();
 
             UUID uuid=UUID.randomUUID();
 
 
             JSONArray numberOfwebsiteImages=getPageImages();
+
+            JSONArray content=getPageContent();
+            tfIdfService.incrementIdfCount(content.toString());
 
             newObject.put("pageId", uuid);
             newObject.put("lastTimeCrawled",  LocalDateTime.now());
@@ -77,7 +83,7 @@ public class UrlDataJsonObject {
             Rating rating = new Rating(pageResponseTime,numberOfwebsiteImages);
             newObject.put("rating", rating.getPageRating());
             newObject.put("url", pageUrl);
-            newObject.put("content", getPageContent());
+            newObject.put("content", content);
             newObject.put("images", numberOfwebsiteImages);
 
 
