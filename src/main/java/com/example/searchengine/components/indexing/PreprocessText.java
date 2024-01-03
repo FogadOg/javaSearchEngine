@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PreprocessText {
-    public String[] stopWords;
+    public static String[] stopWords;
 
     public PreprocessText(){
         stopWords = new String[]{
@@ -17,18 +17,14 @@ public class PreprocessText {
 
     public List<String> processForIndexing(String text){
         String textWithoutPunctuation=removePunctuation(text).toLowerCase();
-        String[] splitString=textWithoutPunctuation.split(" ");
+        String processedString = null;
 
-        List<String> processedString=new ArrayList<>();
-
-
-        for(int i=0; splitString.length>i;i++){
-            if(!isStopWord(splitString[i])){
-                processedString.add(splitString[i]);
-            }
+        for (String stopWord : stopWords) {
+            processedString=textWithoutPunctuation.replaceAll(stopWord,"");
         }
 
-        return processedString;
+        assert processedString != null;
+        return List.of(processedString.split(" "));
     }
 
     public String processString(String text){
