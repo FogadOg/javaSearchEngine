@@ -91,7 +91,7 @@ public class Indexing {
         return false;
     }
 
-    private static JsonObject findObjectWithKey(JsonArray jsonArray, String keyToFind) {
+    private JsonObject findObjectWithKey(JsonArray jsonArray, String keyToFind) {
         for (int i = 0; i < jsonArray.size(); i++) {
             JsonObject obj = jsonArray.get(i).getAsJsonObject();
             if (obj.has(keyToFind)) {
@@ -105,7 +105,7 @@ public class Indexing {
         JSONObject newObject = new JSONObject();
         JSONArray array=new JSONArray();
         newObject.put(term, array);
-        
+
         JsonFileService.appendObjectToFile(newObject, jsonFilePath);
 
     }
