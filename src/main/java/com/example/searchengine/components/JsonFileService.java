@@ -38,8 +38,6 @@ public class JsonFileService {
         }
         return emptyJSONObject;
     }
-
-
     public JSONObject findObject(JSONArray jsonDataArray, String url) {
         for (int i = 0; i < jsonDataArray.length(); i++) {
             JSONObject website = jsonDataArray.getJSONObject(i);
@@ -54,7 +52,7 @@ public class JsonFileService {
     public JSONObject getObject(JSONArray jsonDataArray, Integer index) {
         return jsonDataArray.getJSONObject(index);
     }
-    public static void writeJsonToFile(JSONObject jsonObject, String fileName) {
+    public void writeJsonToFile(JSONObject jsonObject, String fileName) {
         try {
             JSONParser parser = new JSONParser();
 
@@ -80,8 +78,7 @@ public class JsonFileService {
             e.printStackTrace();
         }
     }
-
-    public static void appendObjectToFile(JSONObject jsonObject,String filePath) {
+    public static void appendObjectToFile(JSONObject jsonObject, String filePath) {
         try {
             JSONArray jsonArray;
 
@@ -121,8 +118,6 @@ public class JsonFileService {
             e.printStackTrace();
         }
     }
-
-
     public String objectToString(JSONObject object) {
         return object.toString();
     }
