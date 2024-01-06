@@ -1,31 +1,37 @@
 package com.example.searchengine.components;
 
+import com.example.searchengine.components.Website;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.List;
 
 public class Rating {
-    public Website website;
+    private final Website website;
     public Rating(Website website){
         this.website=website;
 
     }
     public Integer getPageRating(){
-        return 0;
+
+        int responseTimeSqrt=(int) Math.sqrt(website.pageResponseTime);
+
+        return presentOfGoodImages()*responseTimeSqrt;
     }
 
-    private Integer checkImageQuality(JSONArray images){
-        int badAltAttributes=0;
+    private Integer presentOfGoodImages(){
+        int goodAltAttributes=0;
+        JSONArray images=website.pageImages;
+
         for(int i = 0; i< images.length(); i++){
             JSONObject imageData= images.getJSONObject(i);
 
             if(imageData.get("alt").toString().isBlank()){
-                badAltAttributes+=1;
+                goodAltAttributes+=1;
             }
         }
 
-        return badAltAttributes;
+        return (goodAltAttributes/images.length())*100;
     }
 
 }
