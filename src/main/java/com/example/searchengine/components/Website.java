@@ -25,18 +25,29 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Website {
+    private final HtmlPage websitePage;
     public String pageUrl;
-    public HtmlPage websitePage;
     public String rootUrl;
     public Integer pageResponseTime;
+
     public JSONArray content;
+    public JSONArray pageImages;
+    public String pageTitle;
+    public String pageName;
+    public String favicon;
 
     public Website(String pageUrl){
         this.pageUrl = pageUrl;
 
         this.rootUrl=getRootUrl();
         this.websitePage = getHtmlContent();
+
+
         this.content=getPageContent();
+        this.pageImages=getPageImages();
+        this.pageTitle=getPagesTitle();
+        this.pageName=getWebsiteName();
+        this.favicon=getPageFaviconPath();
     }
     private String getRootUrl(){
         String rootUrl = "";
@@ -171,17 +182,19 @@ public class Website {
     }
     private HtmlPage getHtmlContent(){
 
-        WebClient client = new WebClient();
-        client.getOptions().setCssEnabled(false);
-        client.getOptions().setJavaScriptEnabled(false);
 
         HtmlPage page=null;
         try{
+
+            WebClient client = new WebClient();
+            client.getOptions().setCssEnabled(false);
+            client.getOptions().setJavaScriptEnabled(false);
+
             Instant beforeRequest=Instant.now();
             page = client.getPage(pageUrl);
             Instant afterRequest=Instant.now();
 
-            pageResponseTime= Duration.between(beforeRequest, afterRequest).toMillisPart();
+            pageResponseTime= getPageResponseTime(beforeRequest, afterRequest);
 
 
 
@@ -197,6 +210,10 @@ public class Website {
 
     }
 
+    public Integer getPageResponseTime(Instant beforeRequest, Instant afterRequest){
+        return Duration.between(beforeRequest, afterRequest).toMillisPart();
+    }
+
     public JSONObject getWebsiteData(Integer rating){
         JSONObject newObject = new JSONObject();
 
@@ -204,19 +221,18 @@ public class Website {
 
         UUID uuid=UUID.randomUUID();
 
-        JSONArray websiteImages=getPageImages();
 
         tfIdfService.incrementIdfCount(content.toString());
 
         newObject.put("pageId", uuid);
         newObject.put("lastTimeCrawled",  LocalDateTime.now());
-        newObject.put("pageTitle", getPagesTitle());
-        newObject.put("pageName", getWebsiteName());
-        newObject.put("favicon", getPageFaviconPath());
+        newObject.put("pageTitle", pageTitle);
+        newObject.put("pageName", pageName);
+        newObject.put("favicon", favicon);
         newObject.put("rating", rating);
         newObject.put("url", pageUrl);
         newObject.put("content", content);
-        newObject.put("images", websiteImages);
+        newObject.put("images", pageImages);
 
         return newObject;
     }
