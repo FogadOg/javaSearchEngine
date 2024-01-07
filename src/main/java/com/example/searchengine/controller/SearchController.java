@@ -4,7 +4,6 @@ import com.example.searchengine.components.crawler.Crawler;
 import com.example.searchengine.components.search.WebsiteSearch;
 import org.json.JSONArray;
 
-import org.json.JSONObject;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class SearchPage {
+public class SearchController {
 
     @CrossOrigin(origins = "http://127.0.0.1:3000")
     @GetMapping("/crawl")
