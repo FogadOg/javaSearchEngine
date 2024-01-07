@@ -8,23 +8,93 @@ public class PreprocessText {
 
     public PreprocessText(){
         stopWords = new String[]{
-                "call", "upon", "still", "nevertheless", "down", "every", "forty", "'re", "always", "whole", "side", "n't", "now", "however", "an", "show", "least", "give", "below", "did", "sometimes", "which", "'s", "nowhere", "per", "hereupon", "yours", "she", "moreover", "eight", "somewhere", "within", "whereby", "few", "has", "so", "have", "for", "noone", "top", "were", "those", "thence", "eleven", "after", "no", "’ll", "others", "ourselves", "themselves", "though", "that", "nor", "just", "’s", "before", "had", "toward", "another", "should", "herself", "and", "these", "such", "elsewhere", "further", "next", "indeed", "bottom", "anyone", "his", "each", "then", "both", "became", "third", "whom", "'ve", "mine", "take", "many", "anywhere", "to", "well", "thereafter", "besides", "almost", "front", "fifteen", "towards", "none", "be", "herein", "two", "using", "whatever", "please", "perhaps", "full", "ca", "we", "latterly", "here", "therefore", "us", "how", "was", "made", "the", "or", "may", "’re", "'ve", "anyway", "amongst", "used", "ever", "of", "there", "than", "why", "really", "whither", "in", "only", "wherein", "last", "under", "own", "therein", "go", "seems", "'m", "wherever", "either", "someone", "up", "doing", "on", "rather", "ours", "again", "same", "over", "'s", "latter", "during", "done", "'re", "put", "'m", "much", "neither", "among", "seemed", "into", "once", "my", "otherwise", "part", "everywhere", "never", "myself", "must", "will", "am", "can", "else", "although", "as", "beyond", "are", "too", "becomes", "does", "a", "everyone", "but", "some", "regarding", "‘ll", "against", "throughout", "yourselves", "him", "'d", "it", "himself", "whether", "move", "’m", "hereafter", "re", "while", "whoever", "your", "first", "amount", "twelve", "serious", "other", "any", "off", "seeming", "four", "itself", "nothing", "beforehand", "make", "out", "very", "already", "various", "until", "hers", "they", "not", "them", "where", "would", "since", "everything", "at", "together", "yet", "more", "six", "back", "with", "thereupon", "becoming", "around", "due", "keep", "somehow", "n‘t", "across", "all", "when", "i", "empty", "nine", "five", "get", "see", "been", "name", "between", "hence", "ten", "several", "from", "whereupon", "through", "hereby", "'ll", "alone", "something", "formerly", "without", "above", "onto", "except", "enough", "become", "behind", "’d", "its", "most", "n’t", "might", "whereas", "anything", "if", "her", "via", "fifty", "is", "thereby", "twenty", "often", "whereafter", "their", "also", "anyhow", "cannot", "our", "could", "because", "who", "beside", "by", "whence", "being", "meanwhile", "this", "afterwards", "whenever", "mostly", "what", "one", "nobody", "seem", "less", "do", "'d", "say", "thus", "unless", "along", "yourself", "former", "thru", "he", "hundred", "three", "sixty", "me", "sometime", "whose", "you", "quite", "’ve", "about", "even",
-                "i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "you're", "you've", "you'll", "you'd", "your", "yours", "yourself", "yourselves", "he", "him", "his", "himself", "she", "she's", "her", "hers", "herself", "it", "it's", "its", "itself", "they", "them", "their", "theirs", "themselves", "what", "which", "who", "whom", "this", "that", "that'll", "these", "those", "am", "is", "are", "was", "were", "be", "been", "being", "have", "has", "had", "having", "do", "does", "did", "doing", "a", "an", "the", "and", "but", "if", "or", "because", "as", "until", "while", "of", "at", "by", "for", "with", "about", "against", "between", "into", "through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", "under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very", "s", "t", "can", "will", "just", "don", "don't", "should", "should've", "now", "d", "ll", "m", "o", "re", "ve", "y", "ain", "aren", "aren't", "couldn", "couldn't", "didn", "didn't", "doesn", "doesn't", "hadn", "hadn't", "hasn", "hasn't", "haven", "haven't", "isn", "isn't", "ma", "mightn", "mightn't", "mustn", "mustn't", "needn", "needn't", "shan", "shan't", "shouldn", "shouldn't", "wasn", "wasn't", "weren", "weren't", "won", "won't", "wouldn", "wouldn't",
-                "those", "on", "own", "’ve", "yourselves", "around", "between", "four", "been", "alone", "off", "am", "then", "other", "can", "regarding", "hereafter", "front", "too", "used", "wherein", "‘ll", "doing", "everything", "up", "onto", "never", "either", "how", "before", "anyway", "since", "through", "amount", "now", "he", "was", "have", "into", "because", "not", "therefore", "they", "n’t", "even", "whom", "it", "see", "somewhere", "thereupon", "nothing", "whereas", "much", "whenever", "seem", "until", "whereby", "at", "also", "some", "last", "than", "get", "already", "our", "once", "will", "noone", "'m", "that", "what", "thus", "no", "myself", "out", "next", "whatever", "although", "though", "which", "would", "therein", "nor", "somehow", "whereupon", "besides", "whoever", "ourselves", "few", "did", "third", "anything", "twelve", "against", "while", "twenty", "if", "however", "herself", "when", "may", "ours", "six", "done", "seems", "else", "call", "perhaps", "had", "nevertheless", "where", "otherwise", "still", "within", "its", "for", "together", "elsewhere", "throughout", "of", "others", "show", "’s", "anywhere", "anyhow", "as", "are", "the", "hence", "something", "hereby", "nowhere", "latterly", "say", "does", "neither", "his", "go", "forty", "put", "their", "by", "namely", "could", "five", "unless", "itself", "is", "nine", "whereafter", "down", "bottom", "thereby", "such", "both", "she", "become", "whole", "who", "yourself", "every", "thru", "except", "very", "several", "among", "being", "be", "mine", "further", "n‘t", "here", "during", "why", "with", "just", "'s", "becomes", "’ll", "about", "a", "using", "seeming", "'d", "'ll", "'re", "due", "wherever", "beforehand", "fifty", "becoming", "might", "amongst", "my", "empty", "thence", "thereafter", "almost", "least", "someone", "often", "from", "keep", "him", "or", "‘m", "top", "her", "nobody", "sometime", "across", "‘s", "’re", "hundred", "only", "via", "name", "eight", "three", "back", "to", "all", "became", "move", "me", "we", "formerly", "so", "i", "whence", "under", "always", "himself", "in", "herein", "more", "after", "themselves", "you", "them", "above", "sixty", "hasnt", "your", "made", "indeed", "most", "everywhere", "fifteen", "but", "must", "along", "beside", "hers", "side", "former", "full", "anyone", "has", "yours", "whose", "behind", "please", "amoungst", "mill", "ten", "seemed", "sometimes", "should", "over", "take", "each", "don", "same", "rather", "really", "latter", "and", "hereupon", "part", "per", "eleven", "ever", "enough", "again", "us", "yet", "moreover", "mostly", "one", "meanwhile", "whither", "there", "toward", "give", "system", "do", "quite", "an", "these", "everyone", "towards", "this", "bill", "cannot", "un", "afterwards", "beyond", "were", "whether", "well", "another", "below", "first", "upon", "any", "none", "many", "various", "serious", "re", "two", "less", "couldnt"
-
+                "x", "y", "your", "yours", "yourself", "yourselves", "you", "yond", "yonder", "yon",
+                "ye", "yet", "z", "zillion", "j", "u", "umpteen", "usually", "us", "username", "uponed",
+                "upons", "uponing", "upon", "ups", "upping", "upped", "up", "unto", "until", "unless",
+                "unlike", "unliker", "unlikest", "under", "underneath", "use", "used", "usedest", "r",
+                "rath", "rather", "rathest", "rathe", "re", "relate", "related", "relatively", "regarding",
+                "really", "res", "respecting", "respectively", "q", "quite", "que", "qua", "n", "neither",
+                "neaths", "neath", "nethe", "nethermost", "necessary", "necessariest", "necessarier", "never",
+                "nevertheless", "nigh", "nighest", "nigher", "nine", "noone", "nobody", "nobodies", "nowhere",
+                "nowheres", "no", "noes", "nor", "nos", "no-one", "none", "not", "notwithstanding", "nothings",
+                "nothing", "nathless", "natheless", "t", "ten", "tills", "till", "tilled", "tilling", "to",
+                "towards", "toward", "towardest", "towarder", "together", "too", "thy", "thyself", "thus",
+                "than", "that", "those", "thou", "though", "thous", "thouses", "thoroughest", "thorougher",
+                "thorough", "thoroughly", "thru", "thruer", "thruest", "thro", "through", "throughout",
+                "throughest", "througher", "thine", "this", "thises", "they", "thee", "the", "then", "thence",
+                "thenest", "thener", "them", "themselves", "these", "therer", "there", "thereby", "therest",
+                "thereafter", "therein", "thereupon", "therefore", "their", "theirs", "thing", "things",
+                "three", "two", "o", "oh", "owt", "owning", "owned", "own", "owns", "others", "other",
+                "otherwise", "otherwisest", "otherwiser", "of", "often", "oftener", "oftenest", "off",
+                "offs", "offest", "one", "ought", "oughts", "our", "ours", "ourselves", "ourself", "out",
+                "outest", "outed", "outwith", "outs", "outside", "over", "overallest", "overaller", "overalls",
+                "overall", "overs", "or", "orer", "orest", "on", "oneself", "onest", "ons", "onto", "a",
+                "atween", "at", "athwart", "atop", "afore", "afterward", "afterwards", "after", "afterest",
+                "afterer", "ain", "an", "any", "anything", "anybody", "anyone", "anyhow", "anywhere", "anent",
+                "anear", "and", "andor", "another", "around", "ares", "are", "aest", "aer", "against", "again",
+                "accordingly", "abaft", "abafter", "abaftest", "abovest", "above", "abover", "abouter", "aboutest",
+                "about", "aid", "amidst", "amid", "among", "amongst", "apartest", "aparter", "apart", "appeared",
+                "appears", "appear", "appearing", "appropriating", "appropriate", "appropriatest", "appropriates",
+                "appropriater", "appropriated", "already", "always", "also", "along", "alongside", "although", "almost",
+                "all", "allest", "aller", "allyou", "alls", "albeit", "awfully", "as", "aside", "aslant", "ases",
+                "astrider", "astride", "astridest", "astraddlest", "astraddler", "astraddle", "availablest",
+                "availabler", "available", "aughts", "aught", "vs", "v", "variousest", "variouser", "various",
+                "via", "vis-a-vis", "vis-a-viser", "vis-a-visest", "viz", "very", "veriest", "verier", "versus",
+                "k", "g", "go", "gone", "good", "got", "gotta", "gotten", "get", "gets", "getting", "b", "by",
+                "byandby", "by-and-by", "bist", "both", "but", "buts", "be", "beyond", "because", "became",
+                "becomes", "become", "becoming", "becomings", "becominger", "becomingest", "behind", "behinds",
+                "before", "beforehand", "beforehandest", "beforehander", "bettered", "betters", "better", "bettering",
+                "betwixt", "between", "beneath", "been", "below", "besides", "beside", "m", "my", "myself", "mucher",
+                "muchest", "much", "must", "musts", "musths", "musth", "main", "make", "mayest", "many", "mauger",
+                "maugre", "me", "meanwhiles", "meanwhile", "mostly", "most", "moreover", "more", "might", "mights",
+                "midst", "midsts", "h", "huh", "humph", "he", "hers", "herself", "her", "hereby", "herein", "hereafters",
+                "hereafter", "hereupon", "hence", "hadst", "had", "having", "haves", "have", "has", "hast", "hardly",
+                "hae", "hath", "him", "himself", "hither", "hitherest", "hitherer", "his", "how-do-you-do", "however",
+                "how", "howbeit", "howdoyoudo", "hoos", "hoo", "w", "woulded", "woulding", "would", "woulds", "was",
+                "wast", "we", "wert", "were", "with", "withal", "without", "within", "why", "what", "whatever",
+                "whateverer", "whateverest", "whatsoeverer", "whatsoeverest", "whatsoever", "whence", "whencesoever",
+                "whenever", "whensoever", "when", "whenas", "whether", "wheen", "whereto", "whereupon", "wherever",
+                "whereon", "whereof", "where", "whereby", "wherewithal", "wherewith", "whereinto", "wherein",
+                "whereafter", "whereas", "wheresoever", "wherefrom", "which", "whichever", "whichsoever", "whilst",
+                "while", "whiles", "whithersoever", "whither", "whoever", "whosoever", "whoso", "whose", "whomever",
+                "s", "syne", "syn", "shalling", "shall", "shalled", "shalls", "shoulding", "should", "shoulded",
+                "shoulds", "she", "sayyid", "sayid", "said", "saider", "saidest", "same", "samest", "sames", "samer",
+                "saved", "sans", "sanses", "sanserifs", "sanserif", "so", "soer", "soest", "sobeit", "someone", "somebody",
+                "somehow", "some", "somewhere", "somewhat", "something", "sometimest", "sometimes", "sometimer", "sometime",
+                "several", "severaler", "severalest", "serious", "seriousest", "seriouser", "senza", "send", "sent", "seem",
+                "seems", "seemed", "seemingest", "seeminger", "seemings", "seven", "summat", "sups", "sup", "supping", "supped",
+                "such", "since", "sine", "sines", "sith", "six", "stop", "stopped", "p", "plaintiff", "plenty", "plenties",
+                "please", "pleased", "pleases", "per", "perhaps", "particulars", "particularly", "particular", "particularest",
+                "particularer", "pro", "providing", "provides", "provided", "provide", "probably", "l", "layabout", "layabouts",
+                "latter", "latterest", "latterer", "latterly", "latters", "lots", "lotting", "lotted", "lot", "lest", "less",
+                "ie", "ifs", "if", "i", "info", "information", "itself", "its", "it", "is", "idem", "idemer", "idemest",
+                "immediate", "immediately", "immediatest", "immediater", "in", "inwards", "inwardest", "inwarder", "inward",
+                "inasmuch", "into", "instead", "insofar", "indicates", "indicated", "indicate", "indicating", "indeed", "inc",
+                "f", "fact", "facts", "fs", "figupon", "figupons", "figuponing", "figuponed", "few", "fewer", "fewest", "frae",
+                "from", "failing", "failings", "five", "furthers", "furtherer", "furthered", "furtherest", "further", "furthering",
+                "furthermore", "fourscore", "followthrough", "for", "forwhy", "fornenst", "formerly", "former", "formerer",
+                "formerest", "formers", "forbye", "forby", "fore", "forever", "forer", "fores", "four", "d", "ddays", "dday",
+                "do", "doing", "doings", "doe", "does", "doth", "downwarder", "downwardest", "downward", "downwards", "downs",
+                "done", "doner", "dones", "donest", "dos", "dost", "did", "differentest", "differenter", "different", "describing",
+                "describe", "describes", "described", "despiting", "despites", "despited", "despite", "during", "c", "cum", "circa",
+                "chez", "cer", "certain", "certainest", "certainer", "cest", "canst", "cannot", "cant", "cants", "canting", "cantest",
+                "canted", "co", "could", "couldst", "comeon", "comeons", "come-ons", "come-on", "concerning", "concerninger", "concerningest",
+                "consequently", "considering", "e", "eg", "eight", "either", "even", "evens", "evenser", "evensest", "evened", "evenest",
+                "ever", "everyone", "everything", "everybody", "everywhere", "every", "ere", "each", "et", "etc", "elsewhere", "else",
+                "ex", "excepted", "excepts", "except", "excepting", "exes", "enough", "further", "fourteen", "u", "y", "or", "ll", "m",
+                "re", "ve", "s", "t", "d", "ll", "m", "o", "re", "ve", "y", "ain", "aren", "aren't", "couldn", "couldn't", "didn",
+                "didn't", "doesn", "doesn't", "hadn", "hadn't", "hasn", "hasn't", "haven", "haven't"
         };
     }
 
     public List<String> processForIndexing(String text){
-        String textWithoutPunctuation=removePunctuation(text).toLowerCase();
-        String processedString = null;
+        String textWithoutPunctuation = removePunctuation(text).toLowerCase();
 
         for (String stopWord : stopWords) {
-            processedString=textWithoutPunctuation.replaceAll(stopWord,"");
+            textWithoutPunctuation = textWithoutPunctuation.replaceAll("\\b" + stopWord + "\\b", "");
         }
 
-        assert processedString != null;
-        return List.of(processedString.split(" "));
+        return List.of(textWithoutPunctuation.split(" "));
     }
 
     public String processString(String text){
