@@ -1,13 +1,12 @@
 package com.example.searchengine.components.tfIdf;
 
-import com.example.searchengine.components.JsonFileService;
-import com.example.searchengine.components.indexing.PreprocessText;
+import com.example.searchengine.components.services.JsonFileService;
+import com.example.searchengine.components.textProcessers.PreprocessText;
 import org.json.JSONException;
 import org.springframework.stereotype.Service;
 
 import org.json.JSONObject;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;

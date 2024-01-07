@@ -1,4 +1,4 @@
-package com.example.searchengine.components.stemmer;
+package com.example.searchengine.components.textProcessers;
 
 import java.util.ArrayList;
 import java.util.Arrays;

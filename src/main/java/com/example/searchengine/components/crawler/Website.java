@@ -1,4 +1,4 @@
-package com.example.searchengine.components;
+package com.example.searchengine.components.crawler;
 
 import com.example.searchengine.components.tfIdf.TfIdfService;
 import com.gargoylesoftware.htmlunit.WebClient;

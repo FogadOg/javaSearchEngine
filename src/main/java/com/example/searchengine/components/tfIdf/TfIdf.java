@@ -1,13 +1,10 @@
 package com.example.searchengine.components.indexing;
 
-import com.example.searchengine.components.JsonFileService;
+import com.example.searchengine.components.services.JsonFileService;
+import com.example.searchengine.components.textProcessers.PreprocessText;
 import com.example.searchengine.components.tfIdf.TfIdfService;
 import com.example.searchengine.components.tfIdf.TfIdfVector;
-import org.json.JSONArray;
-import org.json.JSONObject;
-import org.json.simple.parser.JSONParser;
 
-import java.io.*;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.List;

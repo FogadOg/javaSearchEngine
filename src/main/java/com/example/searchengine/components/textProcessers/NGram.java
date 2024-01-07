@@ -1,4 +1,4 @@
-package com.example.searchengine.components;
+package com.example.searchengine.components.textProcessers;
 
 import java.util.ArrayList;
 import java.util.Arrays;

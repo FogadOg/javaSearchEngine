@@ -2,7 +2,7 @@ package com.example.searchengine.components.crawler;
 
 
 
-import com.example.searchengine.components.JsonFileService;
+import com.example.searchengine.components.services.JsonFileService;
 import org.json.JSONArray;
 import org.json.JSONObject;
 

@@ -1,10 +1,8 @@
-package com.example.searchengine.components;
+package com.example.searchengine.components.crawler;
 
-import com.example.searchengine.components.Website;
+import com.example.searchengine.components.crawler.Website;
 import org.json.JSONArray;
 import org.json.JSONObject;
-
-import java.util.List;
 
 public class Rating {
     private final Website website;

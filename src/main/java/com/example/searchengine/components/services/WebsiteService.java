@@ -1,4 +1,4 @@
-package com.example.searchengine.components;
+package com.example.searchengine.components.services;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

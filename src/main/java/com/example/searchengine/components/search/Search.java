@@ -1,11 +1,10 @@
 package com.example.searchengine.components.search;
 
-import com.example.searchengine.components.NGram;
-import com.example.searchengine.components.indexing.PreprocessText;
+import com.example.searchengine.components.textProcessers.NGram;
+import com.example.searchengine.components.textProcessers.PreprocessText;
 import com.example.searchengine.components.indexing.TfIdf;
 import com.example.searchengine.components.tfIdf.TfIdfVector;
 
-import java.util.Hashtable;
 import java.util.List;
 
 public class Search {

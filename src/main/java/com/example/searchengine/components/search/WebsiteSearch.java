@@ -1,15 +1,14 @@
 package com.example.searchengine.components.search;
 
-import com.example.searchengine.components.JsonFileService;
-import com.example.searchengine.components.WebsiteService;
-import com.example.searchengine.components.indexing.Indexing;
-import com.example.searchengine.components.indexing.PreprocessText;
+import com.example.searchengine.components.services.JsonFileService;
+import com.example.searchengine.components.services.WebsiteService;
+import com.example.searchengine.components.Indexing;
+import com.example.searchengine.components.textProcessers.PreprocessText;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.time.Duration;
 import java.time.Instant;
-import java.util.Date;
 import java.util.List;
 
 public class WebsiteSearch extends Search{

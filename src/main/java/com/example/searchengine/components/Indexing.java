@@ -1,18 +1,14 @@
-package com.example.searchengine.components.indexing;
-import com.example.searchengine.components.JsonFileService;
+package com.example.searchengine.components;
+import com.example.searchengine.components.services.JsonFileService;
+import com.example.searchengine.components.textProcessers.PreprocessText;
 import com.example.searchengine.components.indexing.TfIdf;
+
 import com.google.gson.*;
-import org.apache.xpath.operations.Bool;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Dictionary;
 import java.util.Hashtable;
 import java.util.List;
 
