@@ -24,14 +24,12 @@ public class Crawler {
 
     public Crawler(){
         this.urlQueue= new LinkedList<>(asList(
+                "https://www.ibm.com/topics/machine-learning",
                 "https://www.geeksforgeeks.org/data-structures/",
-                "https://en.wikipedia.org/wiki/Data_structure",
+                "https://www.ibm.com/topics/natural-language-processing",
+                "https://pytorch.org",
+                "https://www.nvidia.com/en-us/glossary/pytorch/"
 
-                "https://www.history.com/topics/ancient-egypt/ancient-egypt",
-                "https://www.britannica.com/place/ancient-Egypt",
-
-                "https://www.history.com/topics/ancient-rome/ancient-rome",
-                "https://www.britannica.com/place/ancient-Rome"
         ));
         this.urlsCrawled= new ArrayList<>();
         this.crawlerService=new CrawlerService();
@@ -42,11 +40,7 @@ public class Crawler {
         Crawler crawler= new Crawler();
 
         while(!this.urlQueue.isEmpty()){
-            if (this.urlQueue.size()==2000) {
-                break;
-            }
             String requestUrl=this.urlQueue.remove();
-
             readWebpage(requestUrl);
 
         }
@@ -57,14 +51,11 @@ public class Crawler {
 
     private void readWebpage(String requestUrl){
         try{
-
             HttpClient client = HttpClient.newHttpClient();
-
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create(requestUrl))
                     .GET()
                     .build();
-
             HttpResponse<String> response = client.send(request,
                     HttpResponse.BodyHandlers.ofString());
 
@@ -78,36 +69,34 @@ public class Crawler {
     }
 
     public void findUrlsInHtml(String webpage){
-        Crawler crawler= new Crawler();
-
-        //"<a\\s+[^>]*href\\s*=\\s*\"(https?://[^\\s/\"]+)\"[^>]*>|<a\\s+[^>]*href\\s*=\\s*'((https?://[^\\s/\']+))'[^>]*>"
 
         String regexPattern = "<a\\s+[^>]*href\\s*=\\s*\"([^\"]*)\"[^>]*>|<a\\s+[^>]*href\\s*=\\s*'([^']*)'[^>]*>";
-
         Pattern pattern = Pattern.compile(regexPattern);
-
         Matcher foundUrls = pattern.matcher(webpage);
-
-        addUrlFromPageToJsonFile(foundUrls);
+        findUrls(foundUrls);
 
     }
 
-    private void addUrlFromPageToJsonFile(@NonNull Matcher foundUrls){
+    private void findUrls(@NonNull Matcher foundUrls){
         while (foundUrls.find()) {
             String url = foundUrls.group(1) != null ? foundUrls.group(1) : foundUrls.group(2);
             boolean isUrlInJsonFile = this.crawlerService.checkIfPageInJsonFile(url, "data.json");
 
             if (!isUrlInJsonFile) {
                 if (url.startsWith("http")) {
-                    UrlDataJsonObject urlDataJsonObject= new UrlDataJsonObject("data.json", url);
-                    urlDataJsonObject.addUrlDataToJsonFile();
-
-                    this.urlQueue.add(url);
+                    addUrl(url);
                 }
 
             }
         }
 
+    }
+
+    private void addUrl(String url){
+
+        UrlDataJsonObject urlDataJsonObject= new UrlDataJsonObject("data.json", url);
+        urlDataJsonObject.addUrlDataToJsonFile();
+        this.urlQueue.add(url);
     }
 
 }
