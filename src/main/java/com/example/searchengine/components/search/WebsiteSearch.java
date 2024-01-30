@@ -6,7 +6,7 @@ import com.example.searchengine.components.Indexing;
 import com.example.searchengine.components.textProcessers.PreprocessText;
 import org.json.JSONArray;
 import org.json.JSONObject;
-
+import java.lang.Math;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.List;
@@ -35,6 +35,10 @@ public class WebsiteSearch extends Search{
                     JSONArray jsonArray=jsonFileService.readJsonFile(filePath);
                     JSONObject object=jsonFileService.getObject(jsonArray, Integer.valueOf(id));
 
+                    System.out.println("1: "+object.get("rating"));
+                    calculateRatingRelativeToBackLink(object,id);
+                    System.out.println("2: "+object.get("rating"));
+
                     if(object!=null) {
                         String newContent=getMostRelevantString((JSONArray) object.get("content"),searchQuery);
                         relevantWebsites.put(websiteService.replaceField(object,"content",newContent));
@@ -44,24 +48,32 @@ public class WebsiteSearch extends Search{
             }
         }
         Instant end=Instant.now();
-        System.out.println("response time: "+ Duration.between(start,end).toMillis());
+        System.out.println("response time: "+ Duration.between(start,end).toMillis()+"ms");
 
         return relevantWebsites;
 
     }
 
+    private void calculateRatingRelativeToBackLink(JSONObject object,String url){
+        Integer backLinkAmount=jsonFileService.getKeyValue(url,"backLinkCount.json");
+        double result = Math.sqrt(backLinkAmount);
+
+        Integer rating =(Integer) object.get("rating");
+        object.put("rating",rating*result);
+    }
+
     private String getMostRelevantString(JSONArray jsonArray, String searchQuery){
-        String content="";
-        int currentHighScore=0;
-        for(Object contentString: jsonArray){
+        //String content="";
+        //int currentHighScore=0;
+        //for(Object contentString: jsonArray){
 
-            if(calculateTextsSimilarity(searchQuery, contentString.toString())>currentHighScore){
-                content=contentString.toString();
+        //    if(calculateTextsSimilarity(searchQuery, contentString.toString())>currentHighScore){
+        //        content=contentString.toString();
 
-            }
-        }
+        //    }
+        // }
 
 
-        return content;
+        return jsonArray.get(0).toString();
     }
 }
