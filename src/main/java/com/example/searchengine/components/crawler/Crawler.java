@@ -80,23 +80,19 @@ public class Crawler {
     private void findUrls(@NonNull Matcher foundUrls){
         while (foundUrls.find()) {
             String url = foundUrls.group(1) != null ? foundUrls.group(1) : foundUrls.group(2);
+            this.crawlerService.incrementBackLinkCount(url);
             boolean isUrlInJsonFile = this.crawlerService.checkIfPageInJsonFile(url, "data.json");
 
             if (!isUrlInJsonFile) {
                 if (url.startsWith("http")) {
-                    addUrl(url);
+                    this.crawlerService.addPageToJson(url);
+                    this.urlQueue.add(url);
+
                 }
 
             }
         }
 
-    }
-
-    private void addUrl(String url){
-
-        UrlDataJsonObject urlDataJsonObject= new UrlDataJsonObject("data.json", url);
-        urlDataJsonObject.addUrlDataToJsonFile();
-        this.urlQueue.add(url);
     }
 
 }

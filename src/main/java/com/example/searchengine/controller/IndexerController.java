@@ -35,7 +35,7 @@ public class IndexerController {
                     indexer.mapDocument(
                             joinedString,
                             Integer.toString(index),
-                            .2
+                            .05
                     );
                 }
             }

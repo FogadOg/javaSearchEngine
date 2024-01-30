@@ -99,7 +99,6 @@ public class JsonFileService {
             e.printStackTrace();
         }
     }
-
     public static void writeJsonToFileObject(JSONObject jsonObject, String fileName) {
         try {
             JSONParser parser = new JSONParser();
@@ -120,5 +119,13 @@ public class JsonFileService {
     }
     public String objectToString(JSONObject object) {
         return object.toString();
+    }
+    public Integer getKeyValue(String key,String filePath){
+        JSONObject jsonObject=readJsonFileObject(filePath);
+        try {
+            return jsonObject.getInt(key);
+        } catch (JSONException e) {
+            return 0;
+        }
     }
 }

@@ -98,7 +98,7 @@ public class PreprocessText {
     }
 
     public String processString(String text){
-        return removePunctuation(text).toLowerCase();
+        return removePunctuation(text).toLowerCase().replaceAll("[^a-zA-Z]", "");
     }
 
     private String removePunctuation(String text){

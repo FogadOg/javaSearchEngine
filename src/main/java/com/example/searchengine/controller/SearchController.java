@@ -41,8 +41,8 @@ public class SearchController {
         WebsiteSearch websiteSearch = new WebsiteSearch();
         JSONArray websites= websiteSearch.getAllWebsites(searchTerm);
 
-        ImageSearch imageSearch = new ImageSearch(websites);
-        JSONArray relevantImages = imageSearch.search(searchTerm);
+        ImageSearch imageSearch = new ImageSearch(websites, searchTerm);
+        JSONArray relevantImages = imageSearch.search();
 
         return ResponseEntity.ok(relevantImages.toString());
     }
